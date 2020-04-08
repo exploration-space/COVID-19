@@ -1,0 +1,48 @@
+{
+  "name": "lexical-cartography",
+  "version": "1.0.0",
+  "description": "This visualization represents a map of individuals starting from their documents. It is based on the idea that authors can be described using their documents and that the vocabulary that authors share is an efficient way to draw a space. Individuals that make use of the same terms are situated nearby, beyond any social distance. The result is a continuo lexical space composed of individuals and terms.",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodighiero/AIUCD2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodighiero/Lexical-Cartography/issues"
+  },
+  "homepage": "https://github.com/rodighiero/Lexical-Cartography#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "css-loader": "^3.5.0",
+    "csv-parser": "^2.3.2",
+    "file-loader": "^6.0.0",
+    "franc-min": "^5.0.0",
+    "fs": "0.0.2",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.0.4",
+    "js-combinatorics": "^0.5.5",
+    "mini-css-extract-plugin": "^0.9.0",
+    "natural": "^0.6.3",
+    "remove-accents": "^0.4.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "stopword": "^1.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "d3": "^5.15.1"
+  }
+}

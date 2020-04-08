@@ -1,0 +1,87 @@
+/******************************************************************************
+     * Basic elements
+******************************************************************************/
+
+* {
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	user-select: none;
+	-khtml-user-select: none;
+	-o-user-select: none
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+	color: rgb(255,255,255);
+	overflow: hidden;
+	margin: 0;
+}
+
+canvas {
+	top: 0;
+	left: 0;
+	display: block;
+	position: absolute;
+}
+
+a {
+	color: rgb(255,255,255);
+}
+
+/******************************************************************************
+	 * Containers		
+******************************************************************************/
+
+#focus, #title, #searchWrapper, #warning {
+	position: absolute;
+	border: none;
+	padding: 10px;
+}
+#focus {
+	background-color: rgba(255,255,255,.1);
+	left: 0;
+	top: 10;
+}
+
+#title {
+	background-color: rgba(255,255,255,.1);
+	right: 0;
+	bottom: 10;
+	width: 40%;
+}
+
+#searchWrapper {
+	background-color: rgba(255,255,255,.1);
+	right: 0;
+	top: 10;
+	display: none;
+}
+
+#warning {
+	left: 0;
+	bottom: 0;
+}
+
+h1 {
+	font-size: 150%;
+	margin: 5px 0;
+}
+
+h2 {
+	font-size: 100%;
+	margin: 5px 0;
+}
+
+p {
+	font-size: 70%;
+	margin: 5px 0;
+	line-height: 1.4;
+}
+
+.inverted {
+	background-color: white;
+	color: black;
+}

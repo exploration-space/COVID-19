@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartography of AIUCD2020 Conference in Milan</title>
+</head>
+
+<body>
+
+    <canvas id='background'></canvas>
+    <canvas id='visualization'></canvas>
+    <div id='focus'></div>
+    <div id='title'>
+        <h1>Cartography of COVID-19</h1>
+        <p>
+            by <a href="https://dariorodighiero.com">Dario Rodighiero</a> (MIT)
+        </p>
+        <p>
+            This data visualization aims to show the map of the most active researchers of COVID-19,
+            based on the <a href="https://pages.semanticscholar.org/coronavirus-research">COVID-19 Open Research Dataset (CORD-19)</a>,
+            provided by the <a href="https://allenai.org/">Allen Institute for AI</a>.
+            Their position is calculated according to their lexical distance, which means that two close authors make use of the same vocabulary.
+            I believe that lexical distance can be an alternative, more democartic distance, contrary to citation analysis.
+            More information about the visual method is available reading <a href="https://doi.org/10.5281/zenodo.3611341">Mapping as a Contemporary Instrument for Orientation in Conferences</a>.
+        </p>
+    </div>
+    <div id='warning'>
+        <p><span class='inverted'>&nbsp;TESTED ON GOOGLE CHROME&nbsp;</span></p>
+    </div>
+
+    <div id='searchWrapper'>
+        <h2>Look for a scholar</h2>
+        <input id='searchField' type='text' placeholder="Type name">
+        <div id='searchResults' type='text' />
+    </div>
+
+</body>
+
+</html>
