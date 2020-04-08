@@ -32,11 +32,10 @@ const analysis = authors => {
 
     // Singularize
     const inflector = new natural.NounInflector()
-    const safeList = ['sars', 'mers', 'savs', 'trans', 'recsars', 'facs']
+    const safeList = ['sars', 'savs', 'trans', 'recsars', 'facs']
     authors.forEach((author, i) => {
         // console.log('Singularizing author #', i)
         author.tokens = author.tokens.map(t => {
-            // if (t == 'viruses') console.log(safeList.includes(t) && (t.length > 3))
             if ((safeList.includes(t) && t.length > 3) || /us$/.test(t) || /is$/.test(t) ) {
                 return t
             } else {
@@ -96,7 +95,7 @@ const analysis = authors => {
         const t1 = p1.tokens, t2 = p2.tokens
         const tokens = Object.keys(p1.tokens).filter(n => Object.keys(p2.tokens).includes(n))
         maxCommonTokens = maxCommonTokens > tokens.length ? maxCommonTokens : tokens.length
-        // console.log('#' + i--, '|', tokens.length, 'terms between', p2.name, 'and', p1.name)
+        console.log('#' + i--, '|', tokens.length, 'terms between', p2.name, 'and', p1.name)
 
         tokens.forEach(token => {
 
