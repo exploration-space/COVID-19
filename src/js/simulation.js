@@ -21,7 +21,7 @@ export default () => {
 
     const simulation = d3.forceSimulation()
         .force('charge', d3.forceManyBody()
-            .strength(-900)
+            .strength(-1500)
             // .distanceMin(s.distance)
             // .distanceMax(400)
         )
