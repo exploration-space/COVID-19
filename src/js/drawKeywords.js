@@ -73,7 +73,7 @@ export default () => {
 
             tokens.forEach(([key, value]) => {
 
-                s.context.font = `normal 300 ${value * .06}pt Helvetica`
+                s.context.font = `normal 300 ${value * .04}pt Helvetica`
                 s.context.fillText(key, x, y)
 
                 const width = s.context.measureText(key).width * 1.1

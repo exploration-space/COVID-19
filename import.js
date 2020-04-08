@@ -73,7 +73,7 @@ const parse = (records) => {
 
     // Shorten list
 
-    const min = 30
+    const min = 20
     const abridged = authors.reduce((array, author) => {
         if (author.docs > min) array.push(author)
         return array
