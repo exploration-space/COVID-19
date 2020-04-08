@@ -12,13 +12,17 @@ const _computeDensityData = () => {
     const x = extX[0]
     const y = extY[0]
 
+
+    const sumValues = obj => Object.values(obj).reduce((a, b) => a + b)
+
     s.densityData = d3.contourDensity()
         .x(d => d.x - x)
         .y(d => d.y - y)
-        .weight(d => d.docs)
+        // .weight(d => d.docs)
+        .weight(d => sumValues(d.tokens))
         .size([width, height])
-        .cellSize(1) // Crispness (1 = best resolution)
-        .bandwidth(25) // Expansion of reliefs (40 = high simplification)
+        .cellSize(10) // Crispness (1 = best resolution)
+        .bandwidth(40) // Expansion
         .thresholds(10) // Indicative number of levels
         (s.nodes)
 

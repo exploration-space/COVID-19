@@ -16,6 +16,15 @@ fs.readFile(__dirname + '/data/authors.json', (err, json) => {
 
 const analysis = authors => {
 
+    // Reduce authors
+
+    const min = 30
+    authors = authors.reduce((array, author, i) => {
+        console.log('Filtering author #', i)
+		if (author.docs >= min ) array.push(author)
+        return array
+    }, [])
+
     // Tokenizer
     const tokenizer = new natural.WordTokenizer()
     authors.forEach((author, i) => {
@@ -56,7 +65,7 @@ const analysis = authors => {
 
     // Reduction and shaping
 
-    const slice = 20
+    const slice = 10
     const peaks = 1000
     authors.forEach((item, i) => {
         console.log('Reducing for author #', i)
@@ -86,16 +95,19 @@ const analysis = authors => {
 
     const pairs = combinatorics.bigCombination(authors, 2)
     const links = []
-    let i = pairs.length
     let maxCommonTokens = 0
 
-    pairs.forEach(pair => {
+    pairs.forEach((pair, i) => {
 
+        const min = 3
         const p1 = pair[0], p2 = pair[1]
         const t1 = p1.tokens, t2 = p2.tokens
         const tokens = Object.keys(p1.tokens).filter(n => Object.keys(p2.tokens).includes(n))
+        
+        if (tokens.length < min) return
+        
         maxCommonTokens = maxCommonTokens > tokens.length ? maxCommonTokens : tokens.length
-        console.log('#' + i--, '|', tokens.length, 'terms between', p2.name, 'and', p1.name)
+        console.log('#', i, '|', tokens.length, 'terms between', p2.name, 'and', p1.name)
 
         tokens.forEach(token => {
 
@@ -120,7 +132,7 @@ const analysis = authors => {
 
     // Normalizing 
 
-    const factor = .8
+    const factor = 1
     const maxLinkValue = links.reduce((max, link) => max > link.value ? max : link.value, 0)
     const minLinkValue = links.reduce((min, link) => min < link.value ? min : link.value, 100000)
     links.forEach(link => link.value = link.value / maxLinkValue * factor)
