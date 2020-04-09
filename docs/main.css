@@ -36,29 +36,33 @@ a {
 ******************************************************************************/
 
 #focus, #title, #searchWrapper, #warning {
-	background-color: rgba(255,255,255,.1);
 	position: absolute;
 	border: none;
 	padding: 10px;
 }
 #focus {
+	background-color: rgba(255,255,255,.1);
 	left: 0;
 	top: 10;
 }
 
 #title {
+	background-color: rgba(255,255,255,.1);
 	right: 0;
 	bottom: 10;
+	width: 40%;
 }
 
 #searchWrapper {
+	background-color: rgba(255,255,255,.1);
 	right: 0;
 	top: 10;
+	display: none;
 }
 
 #warning {
 	left: 0;
-	bottom: 10;
+	bottom: 0;
 }
 
 h1 {
@@ -75,4 +79,9 @@ p {
 	font-size: 70%;
 	margin: 5px 0;
 	line-height: 1.4;
+}
+
+.inverted {
+	background-color: white;
+	color: black;
 }

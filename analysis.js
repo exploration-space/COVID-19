@@ -18,7 +18,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const min = 20
+    const min = 10
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
 		if (author.docs >= min ) array.push(author)
