@@ -1,4 +1,5 @@
 import * as d3 from 'd3'
+import * as reuse from 'd3-force-reuse'
 import {
     s
 } from './state'
@@ -20,20 +21,26 @@ export default () => {
     //
 
     const simulation = d3.forceSimulation()
-        // .force('charge', d3.forceManyBody()
-        //     .strength(-20)
-        //     // .distanceMin(s.distance)
-        //     // .distanceMax(400)
-        // )
-        .force('collide', d3.forceCollide()
-            .radius(s.distance)
-            .strength(.3)
-            .iterations(5)
+        .force('charge', reuse.forceManyBodyReuse()
+            .strength(-3)
+            .distanceMin(.1)
+            .distanceMax(10000)
+            // .theta(10)
         )
+        // .force('charge', d3.forceManyBody()
+        //     .strength(-1)
+        // //     // .distanceMin(s.distance)
+        // //     // .distanceMax(400)
+        // )
+        // .force('collide', d3.forceCollide()
+        //     .radius(s.distance)
+        // //     .strength(.1)
+        // // // //     .iterations(3)
+        // )
         .force('center', d3.forceCenter(s.screen.width / 2, s.screen.height / 2))
         .force('link', d3.forceLink()
             .id(d => d.id)
-            .strength(d => d.value)
+            .strength(d => d.value * .5)
         )
     // .alphaDecay(.005)
     // .alpha(0.1)
@@ -63,7 +70,7 @@ export default () => {
         s.end = true
     }
 
-    
+
     //
     // Refresh on resize
     //

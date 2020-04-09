@@ -11,16 +11,17 @@ export let s = {
     screen: {},
 
     colors: {
-        gradientA: d3.rgb(110, 118, 106),
-        gradientB: d3.rgb(25, 27, 24),
-        contours: d3.rgb(256, 256, 256, .1),
+        gradientA: d3.rgb(64, 64, 64),
+        gradientB: d3.rgb(0, 0, 0),
+        contours: d3.rgb(216, 169, 21),
         keywords: d3.rgb(256, 256, 256, .2),
-        nodes: d3.rgb(216, 169, 21), // Giallo Cattolica
+        nodes: d3.rgb(200, 200, 200), // Grigio
+        // nodes: d3.rgb(216, 169, 21), // Giallo Cattolica
         // nodes: d3.rgb(216, 21, 21), // Rosso Coronavirus
     },
 
     style: {
-        fontNodes: `normal 2pt Helvetica`
+        fontNodes: `normal 3pt Helvetica`
     },
 
     setVariables: () => {
@@ -67,7 +68,9 @@ export let s = {
         s.backgroud = d3.select('#background')
         s.bgContext = document.querySelector('#background').getContext('2d', { alpha: false })
         // s.gradient = s.bgContext.createLinearGradient(0, 0, s.screen.width / 2, 0)
-        s.gradient = s.bgContext.createRadialGradient(s.screen.height / 2, s.screen.width / 2, 0, s.screen.height / 2, s.screen.width / 2, s.screen.width / 2)
+        s.gradient = s.bgContext.createRadialGradient(
+            s.screen.width / 2, s.screen.height / 2, 0,
+            s.screen.width / 2, s.screen.height / 2, s.screen.width / 2)
 
     },
 
