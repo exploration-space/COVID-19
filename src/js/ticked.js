@@ -37,7 +37,7 @@ export default () => {
 
     contours()
     // keywords()
-    // nodes()
+    nodes()
 
 
     s.context.restore()

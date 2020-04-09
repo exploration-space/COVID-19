@@ -20,10 +20,6 @@ export let s = {
         // nodes: d3.rgb(216, 21, 21), // Rosso Coronavirus
     },
 
-    style: {
-        fontNodes: `normal 1pt Helvetica`
-    },
-
     setVariables: () => {
 
         s.linkExtent = [

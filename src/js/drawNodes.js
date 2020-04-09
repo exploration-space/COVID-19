@@ -13,23 +13,25 @@ export default () => {
         return 0
     }
 
+    const fontSize = 1
+    const lineHeight = 2
+    
     s.context.beginPath()
     s.context.fillStyle = s.colors.nodes
-    s.context.font = s.style.fontNodes
+    s.context.font = `normal ${fontSize}pt Helvetica`
     s.context.textAlign = 'center'
 
     s.nodes.forEach(node => {
 
         const name = node.name,
             x = Math.floor(node.x),
-            y = Math.floor(node.y)
-
-        s.context.fillText(name, x, y)
-
-        // // const i = middleSpace(name[0])
-        // drawName(name.slice(0, i), name.slice(i + 1))
-        // s.context.fillText(name[0].slice(0, i), x, y - shift / 2)
-        // s.context.fillText(name[0].slice(i + 1), x, y + shift / 2)
+            y = Math.floor(node.y),
+            docs = node.docs
+        const i = middleSpace(name)
+        
+        s.context.fillText(name.slice(0, i), x, y - lineHeight)
+        s.context.fillText(name.slice(i + 1), x, y)
+        s.context.fillText(`(${docs})`, x, y + lineHeight)
 
         // s.context.beginPath()
         // s.context.arc(x, y, 1, 0, 2 * Math.PI)
