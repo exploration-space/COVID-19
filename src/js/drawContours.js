@@ -21,9 +21,9 @@ const _computeDensityData = () => {
         // .weight(d => d.docs)
         .weight(d => sumValues(d.tokens))
         .size([width, height])
-        .cellSize(10) // Crispness (1 = best resolution)
-        .bandwidth(40) // Expansion
-        .thresholds(10) // Indicative number of levels
+        .cellSize(15) // Crispness (1 = best resolution)
+        .bandwidth(30) // Expansion
+        .thresholds(30) // Indicative number of levels
         (s.nodes)
 
     s.densityData.forEach(d => d.coordinates = d.coordinates
@@ -45,8 +45,8 @@ export default () => {
     s.densityData
         .forEach((level, i) => {
             s.geoPath(level)
-            // s.context.lineWidth = 1
-            s.context.lineWidth = .1 + (.15 * i)
+            s.context.lineWidth = 2
+            // s.context.lineWidth = .1 + (.15 * i)
         })
 
     s.context.stroke()

@@ -20,7 +20,7 @@ export let s = {
     },
 
     style: {
-        fontNodes: `normal 1pt Helvetica`
+        fontNodes: `normal 2pt Helvetica`
     },
 
     setVariables: () => {
