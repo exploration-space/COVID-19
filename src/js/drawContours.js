@@ -16,8 +16,8 @@ const _computeDensityData = () => {
     const sumValues = obj => Object.values(obj).reduce((a, b) => a + b)
 
     s.densityData = d3.contourDensity()
-        .x(d => d.x - x)
-        .y(d => d.y - y)
+        .x(d => Math.floor(d.x - x))
+        .y(d => Math.floor(d.y - y))
         // .weight(d => d.docs)
         .weight(d => sumValues(d.tokens))
         .size([width, height])
@@ -28,7 +28,7 @@ const _computeDensityData = () => {
 
     s.densityData.forEach(d => d.coordinates = d.coordinates
         .map(d => d.map(d => d.map(
-            d => [(d[0] + x), (d[1] + y)]
+            d => [Math.floor((d[0] + x)), Math.floor((d[1] + y))]
         )))
     )
 }
@@ -36,8 +36,8 @@ const _computeDensityData = () => {
 
 export default () => {
 
-    if (s.end && !s.densityData.length) _computeDensityData()
-    // _computeDensityData()
+    // if (s.end && !s.densityData.length) _computeDensityData()
+    _computeDensityData()
 
     s.context.beginPath()
     s.context.strokeStyle = s.colors.contours

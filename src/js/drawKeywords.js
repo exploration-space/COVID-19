@@ -43,8 +43,8 @@ export default () => {
 
         if (d_min < distance && distance < d_max) {
 
-            const x = deltaX / 2 + (link.source.x < link.target.x ? link.source.x : link.target.x)
-            const y = deltaY / 2 + (link.source.y < link.target.y ? link.source.y : link.target.y)
+            const x = Math.floor(deltaX / 2 + (link.source.x < link.target.x ? link.source.x : link.target.x))
+            const y = Math.floor(deltaY / 2 + (link.source.y < link.target.y ? link.source.y : link.target.y))
 
             // if (outside(x, y)) continue
 

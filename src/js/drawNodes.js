@@ -2,8 +2,6 @@ import {
     s
 } from './state'
 
-const shift = 4
-
 export default () => {
 
     const middleSpace = string => {
@@ -23,9 +21,9 @@ export default () => {
     s.nodes.forEach(node => {
         // console.log(node)
         const name = node.name,
-            x = node.x,
-            y = node.y
-        s.context.fillText(name, x, y - shift)
+            x = Math.floor(node.x),
+            y = Math.floor(node.y)
+        s.context.fillText(name, x, y)
         // // const i = middleSpace(name[0])
         // drawName(name.slice(0, i), name.slice(i + 1))
         // s.context.fillText(name[0].slice(0, i), x, y - shift / 2)
