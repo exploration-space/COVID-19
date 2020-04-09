@@ -16,13 +16,13 @@ const _computeDensityData = () => {
         .x(d => Math.floor(d.x) - x)
         .y(d => Math.floor(d.y) - y)
         // .weight(d => d.docs)
-        .weight(d => sumValues(d.tokens))
+        .weight(d => sumValues(d.tokens) /100)
         .size([width, height])
-        .cellSize(5)
+        .cellSize(15)
         // If cellSize is specified, sets the size of individual cells in the underlying bin grid to the specified positive integer and returns the estimator. If cellSize is not specified, returns the current cell size, which defaults to 4. The cell size is rounded down to the nearest power of two. Smaller cells produce more detailed contour polygons, but are more expensive to compute.
-        .bandwidth(70)
+        .bandwidth(80)
         // If bandwidth is specified, sets the bandwidth (the standard deviation) of the Gaussian kernel and returns the estimate. If bandwidth is not specified, returns the current bandwidth, which defaults to 20.4939…. The specified bandwidth is currently rounded to the nearest supported value by this implementation, and must be nonnegative.
-        .thresholds(30)
+        .thresholds(15)
         // If thresholds is specified, sets the threshold generator to the specified function or array and returns this contour generator. If thresholds is not specified, returns the current threshold generator, which by default generates about twenty nicely-rounded density thresholds.
         (s.nodes)
 
@@ -30,7 +30,8 @@ const _computeDensityData = () => {
         .map(d => d.map(d => d.map(
             d => {
                 // return [(Math.floor(d[0] + x)), Math.floor((d[1] + y))]}
-                return [d[0] + x, d[1] + y]}
+                return [d[0] + x, d[1] + y]
+            }
         )))
     )
 }
@@ -41,16 +42,21 @@ export default () => {
     // if (s.end && !s.densityData.length) _computeDensityData()
     _computeDensityData()
 
-    s.context.beginPath()
-    s.context.strokeStyle = s.colors.contours
 
-    s.densityData
-        .forEach((level, i) => {
-            s.geoPath(level)
-            s.context.lineWidth = .5
-            // s.context.lineWidth = .5 + (.02 * i)
-        })
+    // console.log(s.densityData.length)
 
-    s.context.stroke()
+    // for (var i = s.densityData.length - 1; i >= 0; i--) {
+    for (var i = 0; i < s.densityData.length; i++) {
+
+        // if (i > 5) continue
+
+        s.context.beginPath()
+        s.context.strokeStyle = s.colors.contours
+        s.geoPath(s.densityData[i])
+        // s.context.lineWidth = 1
+        s.context.lineWidth = 3 - (.05 * i)
+        s.context.stroke()
+    }
+
 
 }
