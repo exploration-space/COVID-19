@@ -13,7 +13,7 @@ export let s = {
     colors: {
         gradientA: d3.rgb(0, 0, 0),
         gradientB: d3.rgb(60, 60, 60),
-        contours: d3.rgb(255, 255, 255, .2),
+        contours: d3.rgb(255, 255, 255, .05),
         keywords: d3.rgb(255, 255, 255, .2),
         nodes: d3.rgb(200, 200, 200), // Grigio
         // nodes: d3.rgb(216, 169, 21), // Giallo Cattolica
@@ -39,7 +39,8 @@ export let s = {
 
         s.keywordScale = d3.scaleLinear()
             .domain(s.linkExtent)
-            .range([s.zoomExtent[1] + 1, s.zoomExtent[0] - 5])
+            .range([s.zoomExtent[1], s.zoomExtent[0]])
+            // .range([s.zoomExtent[1] + 1, s.zoomExtent[0] - 5]) // That was the standard
 
         s.geoPath = d3.geoPath().context(s.context)
 

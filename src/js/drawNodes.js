@@ -26,12 +26,14 @@ export default () => {
 
         const name = node.name,
             x = Math.floor(node.x),
-            y = Math.floor(node.y),
-            docs = node.docs
-        const i = middleSpace(name)
+            y = Math.floor(node.y)
+        // const i = middleSpace(name)
 
-        s.context.font = `normal ${Math.log(docs)}pt Helvetica`
-        // const lineHeight = Math.log(docs) * 1.5
+        // const size = 1
+        // const size = docs
+        // const size = Math.log(docs)
+        const size = node.relevancy / 1000
+        s.context.font = `normal ${size}pt Helvetica`
 
         s.context.fillText(name, x, y)
 

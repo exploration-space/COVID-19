@@ -19,7 +19,7 @@ const analysis = authors => {
     // Reduce authors
 
     authors = authors.reduce((array, author, i) => {
-        const min = 10
+        const min = 20
         console.log('Filtering author #', i)
         if (author.docs >= min)
             array.push(author)
@@ -27,6 +27,7 @@ const analysis = authors => {
     }, [])
 
     // Tokenizer
+
     const tokenizer = new natural.WordTokenizer()
     authors.forEach((author, i) => {
         console.log('Tokenizing author #', i)
@@ -34,6 +35,7 @@ const analysis = authors => {
     })
 
     // Cleaning
+
     const stopWords = ['']
     authors.forEach(author => author.tokens = author.tokens.filter(token => token.length > 2))
     authors.forEach(author => author.tokens = author.tokens.filter(token => !stopWords.includes(token)))
@@ -58,6 +60,7 @@ const analysis = authors => {
     })
 
     // TF-IDF
+    
     const tokenFrequency = new natural.TfIdf()
     authors.forEach((author, i) => {
         console.log('Frequencing for author #', i)
@@ -66,8 +69,8 @@ const analysis = authors => {
 
     // Reduction and shaping
 
-    const slice = 15
-    const peaks = 1000
+    const slice = 10
+    // const peaks = 1000
     authors.forEach((item, i) => {
         console.log('Reducing for author #', i)
         item.tokens = tokenFrequency.listTerms(i)
@@ -85,6 +88,7 @@ const analysis = authors => {
     const nodes = authors.reduce((array, author, i) => {
         delete author.text
         author.id = i
+        author.relevancy = Math.floor(Object.values(author.tokens).reduce((a, b) => a + b))
         array.push(author)
         return array
     }, [])
@@ -94,20 +98,21 @@ const analysis = authors => {
 
     // Set links
 
-    // Cangmo Ahm _> error
-
     const pairs = combinatorics.bigCombination(authors, 2)
     const links = []
     let maxCommonTokens = 0
+    let i = pairs.length
 
-    pairs.forEach((pair, i) => {
+    pairs.forEach(pair => {
 
-        const min = 3
+        // const min = 3
         const p1 = pair[0], p2 = pair[1]
         const t1 = p1.tokens, t2 = p2.tokens
         const tokens = Object.keys(p1.tokens).filter(n => Object.keys(p2.tokens).includes(n))
+        i = i - 1
 
-        if (tokens.length < min) return
+        // if (tokens.length < min) return
+        if (tokens.length == 0) return
 
         maxCommonTokens = maxCommonTokens > tokens.length ? maxCommonTokens : tokens.length
         console.log('#', i, '|', tokens.length, 'terms between', p2.name, 'and', p1.name)
@@ -121,26 +126,25 @@ const analysis = authors => {
                 link.value += value
                 link.tokens[token] = value
             } else {
-                links.push({
+                const link = {
                     source: p1.id,
                     target: p2.id,
                     value: value,
                     tokens: {
                         [token]: value,
                     }
-                })
+                }
+                links.push(link)
             }
         })
     })
 
     // Normalizing 
 
-    const factor = 1
-
     links.forEach(link => link.value = Math.floor(link.value))
     const maxLinkValue = links.reduce((max, link) => max > link.value ? max : link.value, 0)
     const minLinkValue = links.reduce((min, link) => min < link.value ? min : link.value, 100000)
-    links.forEach(link => link.value = link.value / maxLinkValue * factor)
+    links.forEach(link => link.value = (link.value / maxLinkValue).toFixed(2))
 
     fs.writeFile('./src/data/links.json', JSON.stringify(links), err => { if (err) throw err })
     fs.writeFile('./data/links.json', JSON.stringify(links, null, '\t'), err => { if (err) throw err })

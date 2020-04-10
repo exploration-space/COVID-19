@@ -36,7 +36,7 @@ export default () => {
     s.context.scale(k, k)
 
     contours()
-    // keywords()
+    keywords()
     nodes()
 
 
