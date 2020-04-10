@@ -55,8 +55,8 @@ export default () => {
                     // return (s.zoomState.k <= scale && scale <= s.zoomState.k + 2) // This was the satndard for a long time
                 })
                 .filter(token => {
-                    const width = s.context.measureText(token[0]).width * 1.1
-                    const height = s.context.measureText('M').width * 1.5
+                    const width = Math.floor(s.context.measureText(token[0]).width * 1.1)
+                    const height = Math.floor(s.context.measureText('M').width * 1.5)
                     const rect = [
                         x - width/2,
                         y - height/2,

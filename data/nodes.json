@@ -12,10 +12,20 @@
 			"antimicrobial": 55,
 			"derivatife": 55,
 			"hiv": 55,
-			"analogue": 53
+			"analogue": 53,
+			"hcv": 51,
+			"cyd": 51,
+			"debio": 49,
+			"amine": 46,
+			"acyclic": 46,
+			"aryl": 45,
+			"inhibitor": 45,
+			"nucleoside": 40,
+			"drug": 39,
+			"against": 38
 		},
 		"id": 0,
-		"relevancy": 696
+		"relevancy": 1146
 	},
 	{
 		"name": "Qian Wang",
@@ -30,10 +40,20 @@
 			"peptide": 68,
 			"hpv": 63,
 			"inhibitor": 56,
-			"pmvec": 53
+			"pmvec": 53,
+			"erm": 53,
+			"xdy": 53,
+			"infection": 52,
+			"protein": 52,
+			"gp41": 48,
+			"mer": 44,
+			"hr2p": 44,
+			"virus": 40,
+			"hr2": 39,
+			"cov": 38
 		},
 		"id": 1,
-		"relevancy": 770
+		"relevancy": 1233
 	},
 	{
 		"name": "Alexander E. Gorbalenya",
@@ -48,10 +68,20 @@
 			"genome": 109,
 			"coronavirus": 106,
 			"replicase": 101,
-			"domain": 100
+			"domain": 100,
+			"polyprotein": 97,
+			"pro": 94,
+			"synthesis": 93,
+			"eav": 87,
+			"processing": 81,
+			"replication": 78,
+			"activity": 77,
+			"substrate": 75,
+			"papain": 69,
+			"mrna": 68
 		},
 		"id": 2,
-		"relevancy": 1489
+		"relevancy": 2308
 	},
 	{
 		"name": "Ying Liu",
@@ -66,10 +96,20 @@
 			"fpr": 51,
 			"saikosaponin": 51,
 			"patient": 45,
-			"boifn": 44
+			"boifn": 44,
+			"icaritin": 44,
+			"bipedal": 44,
+			"ira": 44,
+			"f18": 44,
+			"gfap": 43,
+			"mek": 41,
+			"p300": 38,
+			"encapsidation": 36,
+			"erk": 35,
+			"virus": 34
 		},
 		"id": 3,
-		"relevancy": 584
+		"relevancy": 987
 	},
 	{
 		"name": "Pierre J. Talbot",
@@ -84,10 +124,20 @@
 			"cn": 96,
 			"hapn": 92,
 			"neuronal": 87,
-			"neuroinvasive": 85
+			"neuroinvasive": 85,
+			"protein": 83,
+			"infection": 81,
+			"viral": 72,
+			"hucv": 71,
+			"nervous": 70,
+			"glycoprotein": 58,
+			"mouse": 57,
+			"respiratory": 54,
+			"murine": 53,
+			"apod": 51
 		},
 		"id": 4,
-		"relevancy": 1301
+		"relevancy": 1951
 	},
 	{
 		"name": "Michael J. Buchmeier",
@@ -102,10 +152,20 @@
 			"viral": 69,
 			"coronavirus": 62,
 			"nsp3": 58,
-			"infection": 58
+			"infection": 58,
+			"tmv": 56,
+			"cn": 54,
+			"lcmv": 53,
+			"mouse": 51,
+			"ssp": 51,
+			"arenavirus": 47,
+			"domain": 46,
+			"glycoprotein": 46,
+			"morpholino": 46,
+			"oligomer": 43
 		},
 		"id": 5,
-		"relevancy": 845
+		"relevancy": 1338
 	},
 	{
 		"name": "Luis Enjuanes",
@@ -120,10 +180,20 @@
 			"transmissible": 214,
 			"gastroenteritis": 212,
 			"cell": 212,
-			"rtgev": 202
+			"rtgev": 202,
+			"gene": 186,
+			"tr": 185,
+			"sars": 148,
+			"sequence": 133,
+			"rsar": 129,
+			"genome": 125,
+			"transcription": 120,
+			"viral": 117,
+			"replication": 113,
+			"mouse": 109
 		},
 		"id": 6,
-		"relevancy": 3007
+		"relevancy": 4372
 	},
 	{
 		"name": "Ian Brierley",
@@ -138,10 +208,20 @@
 			"readthrough": 154,
 			"prf": 144,
 			"trna": 140,
-			"stem": 126
+			"stem": 126,
+			"rna": 114,
+			"signal": 94,
+			"reinitiation": 93,
+			"codon": 85,
+			"virus": 84,
+			"termination": 83,
+			"pausing": 79,
+			"loop": 77,
+			"mrna": 75,
+			"stop": 73
 		},
 		"id": 7,
-		"relevancy": 2088
+		"relevancy": 2945
 	},
 	{
 		"name": "Kathryn V. Holmes",
@@ -156,10 +236,20 @@
 			"mouse": 169,
 			"a59": 160,
 			"glycoprotein": 158,
-			"coronavirus": 151
+			"coronavirus": 151,
+			"ceacam1a": 135,
+			"mceacam1a": 123,
+			"murine": 123,
+			"mhvr": 102,
+			"human": 100,
+			"protein": 98,
+			"hcov": 97,
+			"infection": 95,
+			"cov": 88,
+			"spike": 86
 		},
 		"id": 8,
-		"relevancy": 1968
+		"relevancy": 3015
 	},
 	{
 		"name": "Stephen A. Stohlman",
@@ -174,10 +264,20 @@
 			"cd8": 212,
 			"jhmv": 183,
 			"nervous": 173,
-			"cd4": 171
+			"cd4": 171,
+			"ifn": 167,
+			"encephalomyelitis": 166,
+			"viral": 155,
+			"infection": 154,
+			"mhv": 150,
+			"neurotropic": 146,
+			"oligodendroglia": 127,
+			"jhm": 123,
+			"central": 109,
+			"leader": 103
 		},
 		"id": 9,
-		"relevancy": 2736
+		"relevancy": 4136
 	},
 	{
 		"name": "Julian L. Leibowitz",
@@ -192,10 +292,20 @@
 			"utr": 69,
 			"cell": 69,
 			"jhmv": 68,
-			"tr": 64
+			"tr": 64,
+			"mouse": 62,
+			"jhm": 60,
+			"a59": 59,
+			"scov": 58,
+			"coronavirus": 57,
+			"aconitase": 57,
+			"hepatitis": 56,
+			"synthesis": 51,
+			"stem": 49,
+			"mnsp15": 47
 		},
 		"id": 10,
-		"relevancy": 1118
+		"relevancy": 1674
 	},
 	{
 		"name": "Peter J.M. Rottier",
@@ -210,10 +320,20 @@
 			"fipv": 46,
 			"membrane": 41,
 			"ribv": 38,
-			"apn": 38
+			"apn": 38,
+			"pedv": 34,
+			"rna": 31,
+			"eav": 30,
+			"ibv": 29,
+			"cell": 29,
+			"lc3": 27,
+			"fip": 26,
+			"peritonitis": 24,
+			"dry": 24,
+			"advax": 23
 		},
 		"id": 11,
-		"relevancy": 531
+		"relevancy": 808
 	},
 	{
 		"name": "Marian C. Horzinek",
@@ -228,10 +348,20 @@
 			"torovirus": 64,
 			"fip": 52,
 			"sequence": 50,
-			"protein": 47
+			"protein": 47,
+			"kitten": 47,
+			"fiv": 46,
+			"a59": 44,
+			"peritonitis": 39,
+			"peplomer": 36,
+			"ccv": 35,
+			"cell": 34,
+			"orf": 33,
+			"coronavirus": 30,
+			"rna1": 28
 		},
 		"id": 12,
-		"relevancy": 770
+		"relevancy": 1142
 	},
 	{
 		"name": "Michael M.C. Lai",
@@ -246,10 +376,20 @@
 			"jhm": 84,
 			"sequence": 82,
 			"synthesis": 75,
-			"mrna": 67
+			"mrna": 67,
+			"ucuaa": 66,
+			"coronavirus": 65,
+			"mouse": 64,
+			"orf": 63,
+			"a59": 62,
+			"gp65": 54,
+			"hepatitis": 54,
+			"defective": 52,
+			"viral": 52,
+			"cell": 51
 		},
 		"id": 13,
-		"relevancy": 1250
+		"relevancy": 1833
 	},
 	{
 		"name": "Albert D.M.E. Osterhaus",
@@ -264,10 +404,20 @@
 			"mer": 36,
 			"cov": 34,
 			"piv3": 34,
-			"h5n1": 30
+			"h5n1": 30,
+			"influenza": 28,
+			"tract": 27,
+			"pva": 27,
+			"vaccine": 26,
+			"ffpe": 26,
+			"mcab": 25,
+			"cabov": 23,
+			"extrarespiratory": 23,
+			"sars": 23,
+			"bocavirus": 23
 		},
 		"id": 14,
-		"relevancy": 465
+		"relevancy": 716
 	},
 	{
 		"name": "Shinji Makino",
@@ -282,10 +432,20 @@
 			"cell": 194,
 			"scov": 170,
 			"cov": 137,
-			"nss": 130
+			"nss": 130,
+			"coronavirus": 121,
+			"subgenomic": 101,
+			"host": 99,
+			"rvfv": 94,
+			"strand": 93,
+			"sequence": 93,
+			"infected": 90,
+			"translation": 88,
+			"packaging": 87,
+			"viral": 85
 		},
 		"id": 15,
-		"relevancy": 2297
+		"relevancy": 3248
 	},
 	{
 		"name": "Fumihiro Taguchi",
@@ -300,10 +460,20 @@
 			"protein": 142,
 			"somhvr": 137,
 			"mouse": 120,
-			"safv": 87
+			"safv": 87,
+			"infection": 87,
+			"jhm": 74,
+			"tmprss2": 73,
+			"sars": 73,
+			"cov": 67,
+			"cpl": 62,
+			"receptor": 60,
+			"fusion": 59,
+			"bhk": 52,
+			"coronavirus": 51
 		},
 		"id": 16,
-		"relevancy": 1497
+		"relevancy": 2155
 	},
 	{
 		"name": "Stuart G. Siddell",
@@ -318,10 +488,20 @@
 			"protein": 61,
 			"pp1a": 55,
 			"cell": 54,
-			"feline": 54
+			"feline": 54,
+			"ns2": 49,
+			"pro": 48,
+			"jhm": 45,
+			"ictv": 45,
+			"mrna": 42,
+			"cdna": 38,
+			"replicase": 36,
+			"cov": 36,
+			"inf": 36,
+			"pl1": 36
 		},
 		"id": 17,
-		"relevancy": 705
+		"relevancy": 1116
 	},
 	{
 		"name": "David A. Brian",
@@ -336,10 +516,20 @@
 			"mrna": 89,
 			"bovine": 88,
 			"kda": 82,
-			"stem": 81
+			"stem": 81,
+			"sequence": 78,
+			"sgmrna": 72,
+			"cis": 71,
+			"genome": 70,
+			"loop": 65,
+			"leader": 64,
+			"uorf": 62,
+			"nsp1": 62,
+			"replication": 59,
+			"mhv": 58
 		},
 		"id": 18,
-		"relevancy": 961
+		"relevancy": 1622
 	},
 	{
 		"name": "Susan R. Weiss",
@@ -354,10 +544,20 @@
 			"ns2": 300,
 			"mouse": 297,
 			"oa": 285,
-			"protein": 263
+			"protein": 263,
+			"hepatitis": 234,
+			"murine": 217,
+			"coronavirus": 206,
+			"pde": 205,
+			"gene": 167,
+			"infection": 163,
+			"spike": 160,
+			"demyelination": 160,
+			"ifn": 159,
+			"viral": 156
 		},
 		"id": 19,
-		"relevancy": 4189
+		"relevancy": 6016
 	},
 	{
 		"name": "Brenda G. Hogue",
@@ -372,10 +572,20 @@
 			"a59": 44,
 			"tail": 43,
 			"phosphorylated": 39,
-			"charged": 39
+			"charged": 39,
+			"amino": 39,
+			"nucleocapsid": 37,
+			"carboxy": 36,
+			"charge": 36,
+			"midi": 35,
+			"hepatitis": 33,
+			"kda": 32,
+			"drep": 32,
+			"virion": 31,
+			"site": 30
 		},
 		"id": 20,
-		"relevancy": 670
+		"relevancy": 1011
 	},
 	{
 		"name": "Ralph S. Baric",
@@ -390,10 +600,20 @@
 			"mouse": 259,
 			"human": 249,
 			"respiratory": 220,
-			"cell": 197
+			"cell": 197,
+			"rna": 193,
+			"protein": 185,
+			"viral": 170,
+			"replication": 170,
+			"mhv": 169,
+			"syndrome": 167,
+			"host": 160,
+			"disease": 135,
+			"severe": 132,
+			"mutant": 125
 		},
 		"id": 21,
-		"relevancy": 3018
+		"relevancy": 4624
 	},
 	{
 		"name": "Stanley Perlman",
@@ -408,10 +628,20 @@
 			"mhv": 345,
 			"mer": 331,
 			"infection": 297,
-			"coronavirus": 292
+			"coronavirus": 292,
+			"protein": 264,
+			"sars": 217,
+			"infected": 212,
+			"respiratory": 198,
+			"cd8": 176,
+			"cd4": 160,
+			"treg": 159,
+			"human": 152,
+			"ifn": 151,
+			"syndrome": 146
 		},
 		"id": 22,
-		"relevancy": 3926
+		"relevancy": 5761
 	},
 	{
 		"name": "Susan C. Baker",
@@ -426,10 +656,20 @@
 			"cov": 152,
 			"replicase": 140,
 			"virus": 130,
-			"sars": 126
+			"sars": 126,
+			"inhibitor": 122,
+			"viral": 120,
+			"activity": 112,
+			"dub": 108,
+			"polyprotein": 106,
+			"domain": 102,
+			"cell": 95,
+			"protein": 93,
+			"plp": 90,
+			"deubiquitinating": 82
 		},
 		"id": 23,
-		"relevancy": 1823
+		"relevancy": 2853
 	},
 	{
 		"name": "Dongwan Yoo",
@@ -444,10 +684,20 @@
 			"tcov": 102,
 			"nuclear": 92,
 			"reproductive": 89,
-			"nsp11": 88
+			"nsp11": 88,
+			"cell": 80,
+			"gp4": 79,
+			"kdke": 78,
+			"pedv": 76,
+			"cbp": 74,
+			"nl": 73,
+			"sya": 54,
+			"turkey": 54,
+			"type": 53,
+			"mutant": 50
 		},
 		"id": 24,
-		"relevancy": 1266
+		"relevancy": 1937
 	},
 	{
 		"name": "Paul S. Masters",
@@ -462,10 +712,20 @@
 			"virion": 92,
 			"mutant": 89,
 			"endodomain": 80,
-			"assembly": 75
+			"assembly": 75,
+			"domain": 70,
+			"packaging": 70,
+			"hepatitis": 66,
+			"genome": 65,
+			"gene": 63,
+			"nsp3": 61,
+			"interaction": 58,
+			"mouse": 57,
+			"viral": 57,
+			"cell": 49
 		},
 		"id": 25,
-		"relevancy": 1244
+		"relevancy": 1860
 	},
 	{
 		"name": "Georg Herrler",
@@ -480,10 +740,20 @@
 			"infection": 105,
 			"bat": 89,
 			"suilysin": 89,
-			"binding": 81
+			"binding": 81,
+			"ibv": 80,
+			"acid": 78,
+			"pedv": 76,
+			"erythrocyte": 72,
+			"porcine": 68,
+			"coronavirus": 64,
+			"receptor": 62,
+			"licl": 60,
+			"surface": 58,
+			"batmuv": 58
 		},
 		"id": 26,
-		"relevancy": 1294
+		"relevancy": 1970
 	},
 	{
 		"name": "Eric J. Snijder",
@@ -498,10 +768,20 @@
 			"synthesis": 257,
 			"replication": 222,
 			"replicase": 218,
-			"coronavirus": 209
+			"coronavirus": 209,
+			"cov": 166,
+			"arteritis": 163,
+			"viral": 159,
+			"genome": 158,
+			"dmv": 157,
+			"mrna": 154,
+			"nsp10": 152,
+			"activity": 150,
+			"polyprotein": 138,
+			"subgenomic": 134
 		},
 		"id": 27,
-		"relevancy": 3238
+		"relevancy": 4769
 	},
 	{
 		"name": "Xuming Zhang",
@@ -516,10 +796,20 @@
 			"a59": 77,
 			"hnrnp": 76,
 			"bnip3": 76,
-			"coronavirus": 76
+			"coronavirus": 76,
+			"egr": 65,
+			"infection": 63,
+			"mouse": 62,
+			"rna": 62,
+			"nsp15": 50,
+			"sequence": 49,
+			"apoptosis": 48,
+			"expression": 47,
+			"hecv": 47,
+			"hepatitis": 47
 		},
 		"id": 28,
-		"relevancy": 1129
+		"relevancy": 1669
 	},
 	{
 		"name": "Paul Britton",
@@ -534,10 +824,20 @@
 			"beaudette": 151,
 			"ribv": 120,
 			"gene": 115,
-			"cell": 106
+			"cell": 106,
+			"infectious": 96,
+			"rna": 94,
+			"coronavirus": 94,
+			"beau": 76,
+			"spherule": 76,
+			"tgev": 75,
+			"gammacoronavirus": 69,
+			"avian": 65,
+			"autophagy": 59,
+			"recombinant": 59
 		},
 		"id": 29,
-		"relevancy": 1931
+		"relevancy": 2694
 	},
 	{
 		"name": "Shigeru Morikawa",
@@ -552,10 +852,20 @@
 			"tularensis": 70,
 			"infection": 68,
 			"akt": 67,
-			"protein": 65
+			"protein": 65,
+			"fmopv": 65,
+			"mapk": 61,
+			"p38": 56,
+			"arenavirus": 54,
+			"vhf": 51,
+			"jnk": 50,
+			"phosphorylated": 49,
+			"infected": 48,
+			"pseudotype": 46,
+			"ribosomal": 46
 		},
 		"id": 30,
-		"relevancy": 962
+		"relevancy": 1488
 	},
 	{
 		"name": "Mark R. Denison",
@@ -570,10 +880,20 @@
 			"rna": 186,
 			"fidelity": 166,
 			"coronavirus": 157,
-			"nsp5": 153
+			"nsp5": 153,
+			"nsp14": 150,
+			"replicase": 142,
+			"p28": 138,
+			"polyprotein": 131,
+			"a59": 124,
+			"nsp4": 123,
+			"viral": 123,
+			"hepatitis": 118,
+			"nsp10": 114,
+			"p1a": 104
 		},
 		"id": 31,
-		"relevancy": 2384
+		"relevancy": 3651
 	},
 	{
 		"name": "Olli Ruuskanen",
@@ -588,10 +908,20 @@
 			"sinusitis": 65,
 			"virus": 61,
 			"finland": 54,
-			"respiratory": 53
+			"respiratory": 53,
+			"infection": 48,
+			"propionate": 47,
+			"episode": 47,
+			"placebo": 43,
+			"patient": 40,
+			"viral": 39,
+			"common": 38,
+			"prebiotic": 38,
+			"day": 34,
+			"prednisolone": 34
 		},
 		"id": 32,
-		"relevancy": 759
+		"relevancy": 1167
 	},
 	{
 		"name": "Marion Koopmans",
@@ -606,10 +936,20 @@
 			"influenza": 42,
 			"h10n7": 37,
 			"human": 36,
-			"foodborne": 35
+			"foodborne": 35,
+			"camel": 33,
+			"frcov": 31,
+			"volunteer": 31,
+			"qatar": 30,
+			"laboratory": 29,
+			"mer": 26,
+			"respiratory": 25,
+			"outbreak": 25,
+			"health": 25,
+			"pdm09": 25
 		},
 		"id": 33,
-		"relevancy": 491
+		"relevancy": 771
 	},
 	{
 		"name": "Sagar M. Goyal",
@@ -624,10 +964,20 @@
 			"nebulizer": 65,
 			"bkov": 57,
 			"fomite": 54,
-			"ingredient": 50
+			"ingredient": 50,
+			"delta": 47,
+			"msc": 45,
+			"fcv": 44,
+			"log": 42,
+			"survival": 41,
+			"cell": 41,
+			"suspension": 40,
+			"meal": 39,
+			"airborne": 38,
+			"bovine": 38
 		},
 		"id": 34,
-		"relevancy": 833
+		"relevancy": 1248
 	},
 	{
 		"name": "Linda J. Saif",
@@ -642,10 +992,20 @@
 			"diarrhea": 219,
 			"gnotobiotic": 218,
 			"cell": 206,
-			"piglet": 197
+			"piglet": 197,
+			"rotavirus": 189,
+			"virus": 176,
+			"asc": 170,
+			"strain": 169,
+			"inoculated": 158,
+			"pc21a": 144,
+			"bcov": 136,
+			"tgev": 132,
+			"iga": 129,
+			"infection": 123
 		},
 		"id": 35,
-		"relevancy": 2726
+		"relevancy": 4252
 	},
 	{
 		"name": "Niels C. Pedersen",
@@ -660,10 +1020,20 @@
 			"fcov": 62,
 			"virus": 54,
 			"gwa": 44,
-			"infection": 43
+			"infection": 43,
+			"coronavirus": 40,
+			"peritoneal": 39,
+			"disease": 35,
+			"tissue": 34,
+			"kitten": 34,
+			"infectious": 34,
+			"lymph": 33,
+			"node": 31,
+			"cell": 31,
+			"not": 30
 		},
 		"id": 36,
-		"relevancy": 1168
+		"relevancy": 1509
 	},
 	{
 		"name": "Yang Liu",
@@ -678,10 +1048,20 @@
 			"lrtis": 36,
 			"centrality": 35,
 			"neuroinflammation": 31,
-			"drug": 31
+			"drug": 31,
+			"tolerance": 27,
+			"lectin": 26,
+			"nsp11": 25,
+			"evolvement": 25,
+			"dopaminergic": 25,
+			"protein": 25,
+			"astrocyte": 24,
+			"mir": 23,
+			"viral": 23,
+			"emergency": 22
 		},
 		"id": 37,
-		"relevancy": 500
+		"relevancy": 745
 	},
 	{
 		"name": "Diane E. Griffin",
@@ -696,10 +1076,20 @@
 			"cell": 107,
 			"clearance": 90,
 			"measle": 79,
-			"infection": 78
+			"infection": 78,
+			"adpr": 74,
+			"sindbis": 71,
+			"th17": 70,
+			"brain": 64,
+			"ifn": 64,
+			"neuron": 62,
+			"immune": 61,
+			"don": 57,
+			"hydrolase": 57,
+			"adp": 54
 		},
 		"id": 38,
-		"relevancy": 1207
+		"relevancy": 1841
 	},
 	{
 		"name": "Sherif R. Zaki",
@@ -714,10 +1104,20 @@
 			"laiv": 35,
 			"influenza": 34,
 			"mouse": 33,
-			"cell": 32
+			"cell": 32,
+			"angolan": 32,
+			"rsar": 31,
+			"respiratory": 31,
+			"hamster": 30,
+			"marburgvirus": 29,
+			"ultrastructural": 29,
+			"fatal": 28,
+			"tissue": 27,
+			"nipah": 27,
+			"coronavirus": 27
 		},
 		"id": 39,
-		"relevancy": 466
+		"relevancy": 757
 	},
 	{
 		"name": "Tsutomu Hohdatsu",
@@ -732,10 +1132,20 @@
 			"fifn": 83,
 			"type": 81,
 			"macrophage": 64,
-			"alpha": 64
+			"alpha": 64,
+			"tnf": 64,
+			"cell": 62,
+			"infection": 58,
+			"ade": 54,
+			"peptide": 52,
+			"virus": 51,
+			"antibody": 50,
+			"infectious": 47,
+			"epitope": 47,
+			"fbov": 45
 		},
 		"id": 40,
-		"relevancy": 1594
+		"relevancy": 2124
 	},
 	{
 		"name": "Kay S. Faaberg",
@@ -750,10 +1160,20 @@
 			"swine": 52,
 			"pl2": 50,
 			"icpedv": 42,
-			"prr": 40
+			"prr": 40,
+			"viral": 37,
+			"virochip": 35,
+			"endou": 35,
+			"subgenomic": 34,
+			"respiratory": 33,
+			"mrna": 31,
+			"pig": 30,
+			"syndrome": 30,
+			"a2mc2": 29,
+			"nc16845b": 29
 		},
 		"id": 41,
-		"relevancy": 803
+		"relevancy": 1126
 	},
 	{
 		"name": "Julian A. Hiscox",
@@ -768,10 +1188,20 @@
 			"rna": 74,
 			"nucleolar": 70,
 			"viral": 62,
-			"prrsv": 56
+			"prrsv": 56,
+			"bronchitis": 48,
+			"cyclin": 47,
+			"cycle": 45,
+			"nuclear": 44,
+			"dhx9": 44,
+			"localisation": 43,
+			"cellular": 42,
+			"nucleocapsid": 37,
+			"biology": 36,
+			"coronavirus": 36
 		},
 		"id": 42,
-		"relevancy": 1008
+		"relevancy": 1430
 	},
 	{
 		"name": "Li Wang",
@@ -786,10 +1216,20 @@
 			"cd147": 104,
 			"virus": 101,
 			"aca": 89,
-			"anoikis": 83
+			"anoikis": 83,
+			"flow": 82,
+			"pedv": 81,
+			"porcine": 72,
+			"infection": 67,
+			"casei": 64,
+			"metformin": 64,
+			"pbc": 64,
+			"sars": 61,
+			"child": 60,
+			"cypa": 54
 		},
 		"id": 43,
-		"relevancy": 1082
+		"relevancy": 1751
 	},
 	{
 		"name": "Colin R. Parrish",
@@ -804,10 +1244,20 @@
 			"capsid": 83,
 			"dog": 75,
 			"fpv": 74,
-			"parvovirus": 69
+			"parvovirus": 69,
+			"host": 68,
+			"raltegravir": 64,
+			"civ": 57,
+			"feline": 51,
+			"mvc": 51,
+			"binding": 43,
+			"infection": 40,
+			"hhv": 40,
+			"receptor": 36,
+			"neu5gc": 35
 		},
 		"id": 44,
-		"relevancy": 1049
+		"relevancy": 1534
 	},
 	{
 		"name": "Astrid Vabret",
@@ -822,10 +1272,20 @@
 			"le": 71,
 			"child": 68,
 			"pct": 68,
-			"oc43": 64
+			"oc43": 64,
+			"patient": 62,
+			"sample": 61,
+			"pcr": 59,
+			"bcov": 53,
+			"hbov": 53,
+			"cameroon": 51,
+			"human": 49,
+			"respiratoire": 44,
+			"sont": 44,
+			"pctmax": 44
 		},
 		"id": 45,
-		"relevancy": 842
+		"relevancy": 1362
 	},
 	{
 		"name": "Carolyn E. Machamer",
@@ -840,10 +1300,20 @@
 			"membrane": 58,
 			"fatostatin": 57,
 			"scap": 57,
-			"cov": 57
+			"cov": 57,
+			"tail": 56,
+			"signal": 56,
+			"bronchitis": 53,
+			"coronavirus": 51,
+			"cytoplasmic": 51,
+			"srebp": 45,
+			"assembly": 43,
+			"retrieval": 42,
+			"sars": 40,
+			"endoplasmic": 38
 		},
 		"id": 46,
-		"relevancy": 1017
+		"relevancy": 1492
 	},
 	{
 		"name": "Esteban Domingo",
@@ -858,10 +1328,20 @@
 			"population": 50,
 			"mutant": 49,
 			"evolution": 49,
-			"ribavirin": 46
+			"ribavirin": 46,
+			"extinction": 43,
+			"mutagenesis": 43,
+			"mutation": 35,
+			"arenavirus": 32,
+			"mutagenic": 32,
+			"genetic": 31,
+			"constraint": 28,
+			"genome": 28,
+			"spectra": 28,
+			"dynamic": 27
 		},
 		"id": 47,
-		"relevancy": 771
+		"relevancy": 1098
 	},
 	{
 		"name": "Ziad A. Memish",
@@ -876,10 +1356,20 @@
 			"infection": 120,
 			"middle": 118,
 			"gathering": 117,
-			"saudi": 116
+			"saudi": 116,
+			"arabia": 110,
+			"patient": 106,
+			"virus": 105,
+			"hcw": 104,
+			"coronavirus": 102,
+			"cas": 100,
+			"syndrome": 88,
+			"camel": 77,
+			"human": 65,
+			"transmission": 64
 		},
 		"id": 48,
-		"relevancy": 1847
+		"relevancy": 2768
 	},
 	{
 		"name": "James E. Gern",
@@ -894,10 +1384,20 @@
 			"infant": 98,
 			"virus": 93,
 			"respiratory": 92,
-			"uris": 84
+			"uris": 84,
+			"infection": 77,
+			"illness": 73,
+			"cdhr3": 71,
+			"viral": 63,
+			"allergic": 55,
+			"sinusitis": 54,
+			"c15": 53,
+			"bronchiolitis": 52,
+			"sensitization": 50,
+			"childhood": 46
 		},
 		"id": 49,
-		"relevancy": 1565
+		"relevancy": 2159
 	},
 	{
 		"name": "Paul Kellam",
@@ -912,10 +1412,20 @@
 			"infection": 52,
 			"sequencing": 50,
 			"microbat": 50,
-			"mer": 47
+			"mer": 47,
+			"bat": 45,
+			"polyomavirus": 44,
+			"deep": 41,
+			"restriction": 41,
+			"human": 39,
+			"cd225": 35,
+			"cov": 35,
+			"sequence": 34,
+			"mele": 34,
+			"coastal": 34
 		},
 		"id": 50,
-		"relevancy": 731
+		"relevancy": 1113
 	},
 	{
 		"name": "Shan Lu",
@@ -930,10 +1440,20 @@
 			"pbv": 58,
 			"cov": 53,
 			"mab": 52,
-			"plague": 50
+			"plague": 50,
+			"against": 50,
+			"immunization": 50,
+			"protein": 45,
+			"sars": 45,
+			"neutralizing": 40,
+			"lcrv": 39,
+			"hcmv": 39,
+			"virus": 38,
+			"protective": 37,
+			"polyvalent": 37
 		},
 		"id": 51,
-		"relevancy": 718
+		"relevancy": 1138
 	},
 	{
 		"name": "Shixia Wang",
@@ -948,10 +1468,20 @@
 			"plague": 50,
 			"mab": 50,
 			"immunization": 50,
-			"against": 48
+			"against": 48,
+			"lcrv": 39,
+			"hcmv": 39,
+			"protective": 37,
+			"polyvalent": 37,
+			"smallpox": 35,
+			"neutralizing": 34,
+			"scv": 31,
+			"yscf": 29,
+			"poxvirus": 29,
+			"protein": 29
 		},
 		"id": 52,
-		"relevancy": 678
+		"relevancy": 1017
 	},
 	{
 		"name": "Bart L. Haagmans",
@@ -966,10 +1496,20 @@
 			"dromedary": 101,
 			"llama": 95,
 			"dpp4": 92,
-			"camel": 90
+			"camel": 90,
+			"infection": 84,
+			"east": 83,
+			"middle": 80,
+			"syndrome": 72,
+			"sars": 70,
+			"cell": 65,
+			"ferret": 65,
+			"emc": 61,
+			"species": 50,
+			"antibody": 47
 		},
 		"id": 53,
-		"relevancy": 1335
+		"relevancy": 2012
 	},
 	{
 		"name": "Hua Wang",
@@ -984,10 +1524,20 @@
 			"amd": 38,
 			"ecologic": 36,
 			"grp78": 35,
-			"infection": 35
+			"infection": 35,
+			"crane": 34,
+			"lfd": 32,
+			"sft": 32,
+			"cell": 31,
+			"influenza": 29,
+			"assay": 28,
+			"electrochemical": 27,
+			"lamp": 27,
+			"against": 27,
+			"china": 26
 		},
 		"id": 54,
-		"relevancy": 455
+		"relevancy": 748
 	},
 	{
 		"name": "Adolfo García-Sastre",
@@ -1002,10 +1552,20 @@
 			"protein": 93,
 			"rig": 85,
 			"infection": 83,
-			"viral": 78
+			"viral": 78,
+			"isg15": 72,
+			"response": 69,
+			"trim25": 65,
+			"iav": 61,
+			"mouse": 61,
+			"irf": 61,
+			"immune": 59,
+			"h1n1": 59,
+			"interferon": 57,
+			"antiviral": 57
 		},
 		"id": 55,
-		"relevancy": 1160
+		"relevancy": 1781
 	},
 	{
 		"name": "Stefan Pöhlmann",
@@ -1020,10 +1580,20 @@
 			"protein": 183,
 			"sars": 173,
 			"ifitm": 169,
-			"viral": 162
+			"viral": 162,
+			"fluav": 148,
+			"human": 146,
+			"filovirus": 130,
+			"cathepsin": 122,
+			"cov": 120,
+			"lsectin": 119,
+			"driven": 118,
+			"proteas": 112,
+			"host": 100,
+			"infection": 98
 		},
 		"id": 56,
-		"relevancy": 2411
+		"relevancy": 3624
 	},
 	{
 		"name": "Marjolein Kikkert",
@@ -1038,10 +1608,20 @@
 			"viral": 68,
 			"cov": 65,
 			"otu": 59,
-			"protein": 59
+			"protein": 59,
+			"immune": 58,
+			"replication": 53,
+			"rna": 51,
+			"p4a": 51,
+			"teb4": 51,
+			"pro": 48,
+			"membrane": 45,
+			"rvn": 45,
+			"deubiquitinating": 45,
+			"nsp3": 44
 		},
 		"id": 57,
-		"relevancy": 875
+		"relevancy": 1366
 	},
 	{
 		"name": "Jun Wang",
@@ -1056,10 +1636,20 @@
 			"cyunnpv": 53,
 			"adamantane": 48,
 			"sars": 47,
-			"traveller": 46
+			"traveller": 46,
+			"sequence": 46,
+			"genome": 44,
+			"cheetah": 42,
+			"infection": 41,
+			"cell": 41,
+			"virus": 41,
+			"amantadine": 37,
+			"ncp": 37,
+			"caponpv": 35,
+			"cov": 35
 		},
 		"id": 58,
-		"relevancy": 568
+		"relevancy": 967
 	},
 	{
 		"name": "Saskia L. Smits",
@@ -1074,10 +1664,20 @@
 			"human": 40,
 			"metagenomic": 32,
 			"ali": 32,
-			"genome": 32
+			"genome": 32,
+			"frcov": 31,
+			"coronavirus": 31,
+			"torovirus": 30,
+			"metagenome": 30,
+			"picobirnavirus": 29,
+			"sequence": 29,
+			"macaque": 27,
+			"respiratory": 26,
+			"sars": 26,
+			"ffpe": 26
 		},
 		"id": 59,
-		"relevancy": 444
+		"relevancy": 729
 	},
 	{
 		"name": "Zhengli Shi",
@@ -1092,10 +1692,20 @@
 			"ifn": 58,
 			"protein": 54,
 			"adv": 47,
-			"aav": 46
+			"aav": 46,
+			"species": 43,
+			"irf7": 40,
+			"study": 39,
+			"ace2": 37,
+			"wenv": 35,
+			"civet": 35,
+			"laiv": 35,
+			"reservoir": 34,
+			"bvlp": 34,
+			"mammal": 33
 		},
 		"id": 60,
-		"relevancy": 981
+		"relevancy": 1346
 	},
 	{
 		"name": "Lin-Fa Wang",
@@ -1110,10 +1720,20 @@
 			"cell": 140,
 			"henipavirus": 135,
 			"infection": 123,
-			"pteropus": 121
+			"pteropus": 121,
+			"ifn": 110,
+			"reservoir": 109,
+			"species": 107,
+			"hendra": 105,
+			"coronavirus": 99,
+			"host": 87,
+			"nipah": 86,
+			"niv": 86,
+			"flying": 85,
+			"viral": 83
 		},
 		"id": 61,
-		"relevancy": 2346
+		"relevancy": 3303
 	},
 	{
 		"name": "Jonathan D. Dinman",
@@ -1128,10 +1748,20 @@
 			"signal": 87,
 			"ribosome": 80,
 			"egr1": 71,
-			"virus": 66
+			"virus": 66,
+			"recoding": 65,
+			"yeast": 61,
+			"l13a": 54,
+			"mrna": 53,
+			"translational": 53,
+			"pseudoknot": 53,
+			"protein": 48,
+			"rna": 45,
+			"mof2": 44,
+			"saccharomyce": 37
 		},
 		"id": 62,
-		"relevancy": 1398
+		"relevancy": 1911
 	},
 	{
 		"name": "Hong Liu",
@@ -1146,10 +1776,20 @@
 			"compound": 32,
 			"inhibitor": 32,
 			"microcantilever": 32,
-			"fbdo": 32
+			"fbdo": 32,
+			"cov": 30,
+			"proteas": 30,
+			"patient": 28,
+			"dc838": 27,
+			"hcypa": 27,
+			"antibiotic": 26,
+			"rupintrivir": 26,
+			"monkey": 25,
+			"cyclophilin": 24,
+			"cva16": 23
 		},
 		"id": 63,
-		"relevancy": 420
+		"relevancy": 686
 	},
 	{
 		"name": "Kanta Subbarao",
@@ -1164,10 +1804,20 @@
 			"mouse": 108,
 			"infection": 96,
 			"respiratory": 96,
-			"cell": 87
+			"cell": 87,
+			"coronavirus": 83,
+			"human": 82,
+			"neutralizing": 77,
+			"hamster": 74,
+			"vrna": 74,
+			"model": 65,
+			"agm": 63,
+			"viral": 62,
+			"replication": 61,
+			"animal": 61
 		},
 		"id": 64,
-		"relevancy": 1380
+		"relevancy": 2082
 	},
 	{
 		"name": "Jaffar A. Al-Tawfiq",
@@ -1182,10 +1832,20 @@
 			"pilgrim": 101,
 			"middle": 100,
 			"cas": 97,
-			"saudi": 81
+			"saudi": 81,
+			"coronavirus": 80,
+			"infection": 79,
+			"syndrome": 78,
+			"arabia": 69,
+			"hcw": 68,
+			"jeddah": 64,
+			"camel": 61,
+			"virus": 59,
+			"antibiotic": 58,
+			"study": 54
 		},
 		"id": 65,
-		"relevancy": 1336
+		"relevancy": 2006
 	},
 	{
 		"name": "Martin T. Ferris",
@@ -1200,10 +1860,20 @@
 			"strain": 54,
 			"infection": 52,
 			"inbred": 49,
-			"virus": 45
+			"virus": 45,
+			"ncrna": 44,
+			"trait": 38,
+			"gene": 37,
+			"disease": 37,
+			"resource": 36,
+			"variation": 35,
+			"cross": 33,
+			"genome": 29,
+			"expression": 28,
+			"qtl": 28
 		},
 		"id": 66,
-		"relevancy": 615
+		"relevancy": 960
 	},
 	{
 		"name": "Mark T. Heise",
@@ -1218,10 +1888,20 @@
 			"host": 43,
 			"dpp4": 43,
 			"genetic": 43,
-			"disease": 42
+			"disease": 42,
+			"mer": 40,
+			"myositis": 38,
+			"carma3": 38,
+			"viral": 34,
+			"collaborative": 34,
+			"lung": 32,
+			"mbl": 31,
+			"tlr7": 30,
+			"alphavirus": 30,
+			"induced": 30
 		},
 		"id": 67,
-		"relevancy": 608
+		"relevancy": 945
 	},
 	{
 		"name": "Yaseen M. Arabi",
@@ -1236,10 +1916,20 @@
 			"ill": 61,
 			"ventilator": 61,
 			"survivor": 60,
-			"respiratory": 59
+			"respiratory": 59,
+			"trial": 59,
+			"critically": 52,
+			"hcw": 50,
+			"east": 47,
+			"middle": 46,
+			"cov": 45,
+			"icus": 43,
+			"hypoxemic": 42,
+			"syndrome": 40,
+			"ecmo": 40
 		},
 		"id": 68,
-		"relevancy": 794
+		"relevancy": 1258
 	},
 	{
 		"name": "Matthew B. Frieman",
@@ -1254,10 +1944,20 @@
 			"infection": 90,
 			"mouse": 86,
 			"respiratory": 85,
-			"syndrome": 70
+			"syndrome": 70,
+			"cell": 58,
+			"bat": 54,
+			"sirt1": 51,
+			"lung": 48,
+			"rabv": 48,
+			"east": 47,
+			"middle": 47,
+			"orf7a": 46,
+			"protein": 46,
+			"fibrosis": 46
 		},
 		"id": 69,
-		"relevancy": 1153
+		"relevancy": 1644
 	},
 	{
 		"name": "Jasper Fuk-Woo Chan",
@@ -1272,10 +1972,20 @@
 			"ceacam5": 67,
 			"human": 62,
 			"cell": 58,
-			"ns5": 45
+			"ns5": 45,
+			"lipid": 45,
+			"organoid": 39,
+			"viral": 37,
+			"saliva": 36,
+			"respiratory": 34,
+			"protein": 33,
+			"sars": 32,
+			"east": 31,
+			"zika": 31,
+			"grp78": 31
 		},
 		"id": 70,
-		"relevancy": 741
+		"relevancy": 1090
 	},
 	{
 		"name": "Kwok-Yung Yuen",
@@ -1290,10 +2000,20 @@
 			"sars": 246,
 			"human": 215,
 			"infection": 201,
-			"protein": 185
+			"protein": 185,
+			"hcov": 179,
+			"respiratory": 169,
+			"sample": 158,
+			"cell": 154,
+			"genome": 150,
+			"patient": 150,
+			"uae": 149,
+			"viral": 139,
+			"hku1": 137,
+			"hong": 133
 		},
 		"id": 71,
-		"relevancy": 2867
+		"relevancy": 4385
 	},
 	{
 		"name": "Susanna K.P. Lau",
@@ -1308,10 +2028,20 @@
 			"sarsr": 39,
 			"virus": 39,
 			"horseshoe": 38,
-			"thkpv": 37
+			"thkpv": 37,
+			"boosted": 35,
+			"hev": 34,
+			"hku32": 34,
+			"hrv": 33,
+			"batcov": 32,
+			"dna": 31,
+			"sars": 30,
+			"sample": 29,
+			"genome": 29,
+			"hku23": 29
 		},
 		"id": 72,
-		"relevancy": 532
+		"relevancy": 848
 	},
 	{
 		"name": "Jens H. Kuhn",
@@ -1326,10 +2056,20 @@
 			"protein": 54,
 			"tfr1": 53,
 			"human": 51,
-			"entry": 50
+			"entry": 50,
+			"prf": 48,
+			"tibrovirus": 47,
+			"ictv": 45,
+			"filovirus": 45,
+			"arterivirus": 44,
+			"ebov": 44,
+			"simarterivirus": 43,
+			"infection": 43,
+			"ibv": 40,
+			"mammarenavirus": 40
 		},
 		"id": 73,
-		"relevancy": 788
+		"relevancy": 1227
 	},
 	{
 		"name": "Barney S. Graham",
@@ -1344,10 +2084,20 @@
 			"dna": 63,
 			"rbd": 61,
 			"hpv16": 57,
-			"respons": 56
+			"respons": 56,
+			"boost": 53,
+			"microneedle": 51,
+			"neutralizing": 46,
+			"biojector": 45,
+			"protein": 44,
+			"virus": 44,
+			"hpv": 40,
+			"immunogen": 40,
+			"miv": 39,
+			"cell": 39
 		},
 		"id": 74,
-		"relevancy": 848
+		"relevancy": 1289
 	},
 	{
 		"name": "Jelle Matthijnssens",
@@ -1362,10 +2112,20 @@
 			"porcine": 50,
 			"rotavirus": 49,
 			"rvb": 44,
-			"virome": 42
+			"virome": 42,
+			"metagenomic": 35,
+			"dpi": 35,
+			"giii": 34,
+			"cameroon": 34,
+			"belgium": 33,
+			"diarrhea": 32,
+			"sample": 32,
+			"piglet": 31,
+			"viral": 29,
+			"human": 28
 		},
 		"id": 75,
-		"relevancy": 745
+		"relevancy": 1068
 	},
 	{
 		"name": "Friedemann Weber",
@@ -1380,10 +2140,20 @@
 			"sfsv": 83,
 			"cell": 71,
 			"protein": 56,
-			"irf": 53
+			"irf": 53,
+			"induction": 47,
+			"antiviral": 47,
+			"phlebovirus": 45,
+			"cchfv": 43,
+			"viral": 42,
+			"sandfly": 41,
+			"infection": 40,
+			"human": 40,
+			"tbev": 40,
+			"sftsv": 39
 		},
 		"id": 76,
-		"relevancy": 871
+		"relevancy": 1295
 	},
 	{
 		"name": "Quanyi Wang",
@@ -1398,10 +2168,20 @@
 			"infection": 75,
 			"h7n9": 54,
 			"medical": 53,
-			"arm": 50
+			"arm": 50,
+			"respiratory": 50,
+			"cri": 48,
+			"ili": 48,
+			"china": 48,
+			"hpiv": 47,
+			"participant": 45,
+			"idshl": 45,
+			"colonisation": 42,
+			"index": 42,
+			"worker": 41
 		},
 		"id": 77,
-		"relevancy": 921
+		"relevancy": 1377
 	},
 	{
 		"name": "Janet A. Englund",
@@ -1416,10 +2196,20 @@
 			"transplant": 132,
 			"child": 121,
 			"virus": 116,
-			"lrd": 108
+			"lrd": 108,
+			"hrv": 104,
+			"transplantation": 104,
+			"patient": 97,
+			"hmpv": 85,
+			"rhinovirus": 74,
+			"viral": 73,
+			"infection": 70,
+			"piv": 68,
+			"detection": 68,
+			"hbov": 64
 		},
 		"id": 78,
-		"relevancy": 1636
+		"relevancy": 2443
 	},
 	{
 		"name": "Gregory C. Gray",
@@ -1434,10 +2224,20 @@
 			"surveillance": 35,
 			"human": 33,
 			"adenovirus": 33,
-			"sari": 32
+			"sari": 32,
+			"hadv": 31,
+			"sample": 29,
+			"airport": 29,
+			"pathogen": 29,
+			"aerosol": 28,
+			"sampler": 25,
+			"air": 24,
+			"pig": 24,
+			"infection": 23,
+			"study": 23
 		},
 		"id": 79,
-		"relevancy": 451
+		"relevancy": 716
 	},
 	{
 		"name": "Dean D. Erdman",
@@ -1452,10 +2252,20 @@
 			"cov": 62,
 			"assay": 62,
 			"pcr": 51,
-			"rhinovirus": 51
+			"rhinovirus": 51,
+			"piv": 50,
+			"ige": 41,
+			"infection": 40,
+			"patient": 39,
+			"wheezing": 37,
+			"resplex": 37,
+			"ftdrp": 35,
+			"tac": 35,
+			"hospitalized": 34,
+			"card": 34
 		},
 		"id": 80,
-		"relevancy": 682
+		"relevancy": 1064
 	},
 	{
 		"name": "Gary J. Nabel",
@@ -1470,10 +2280,20 @@
 			"needle": 46,
 			"ebola": 45,
 			"sars": 42,
-			"plasmid": 42
+			"plasmid": 42,
+			"miv": 39,
+			"respons": 39,
+			"injection": 39,
+			"abl1": 38,
+			"vaccination": 37,
+			"human": 36,
+			"tropic": 35,
+			"vrc": 34,
+			"boost": 32,
+			"glycoprotein": 32
 		},
 		"id": 81,
-		"relevancy": 587
+		"relevancy": 948
 	},
 	{
 		"name": "Philippe Gautret",
@@ -1488,10 +2308,20 @@
 			"travel": 71,
 			"traveler": 70,
 			"french": 66,
-			"pneumococcal": 62
+			"pneumococcal": 62,
+			"gathering": 60,
+			"symptom": 58,
+			"influenzae": 52,
+			"infection": 52,
+			"mecca": 46,
+			"virus": 45,
+			"diseas": 43,
+			"study": 40,
+			"pilgrimage": 40,
+			"cohort": 39
 		},
 		"id": 82,
-		"relevancy": 1319
+		"relevancy": 1794
 	},
 	{
 		"name": "Philippe Parola",
@@ -1506,10 +2336,20 @@
 			"acquisition": 57,
 			"traveler": 54,
 			"pneumococcal": 49,
-			"travel": 49
+			"travel": 49,
+			"influenzae": 48,
+			"patient": 46,
+			"auf": 41,
+			"france": 41,
+			"febrile": 41,
+			"symptom": 40,
+			"returning": 38,
+			"infection": 36,
+			"fever": 34,
+			"island": 33
 		},
 		"id": 83,
-		"relevancy": 832
+		"relevancy": 1230
 	},
 	{
 		"name": "Jonathan H. Epstein",
@@ -1524,10 +2364,20 @@
 			"human": 35,
 			"bitten": 34,
 			"reservoir": 29,
-			"spillover": 29
+			"spillover": 29,
+			"camel": 28,
+			"interdisciplinary": 27,
+			"domestic": 26,
+			"nipah": 24,
+			"hendra": 24,
+			"disease": 23,
+			"emergence": 23,
+			"zoonos": 23,
+			"viral": 21,
+			"pteropus": 21
 		},
 		"id": 84,
-		"relevancy": 515
+		"relevancy": 755
 	},
 	{
 		"name": "Hongjie Yu",
@@ -1542,10 +2392,20 @@
 			"human": 71,
 			"poultry": 70,
 			"cas": 67,
-			"patient": 64
+			"patient": 64,
+			"risk": 63,
+			"rural": 51,
+			"urban": 49,
+			"rsv": 47,
+			"hospitalized": 44,
+			"incubation": 44,
+			"exposure": 43,
+			"train": 37,
+			"h5n6": 37,
+			"hospitalization": 37
 		},
 		"id": 85,
-		"relevancy": 890
+		"relevancy": 1342
 	},
 	{
 		"name": "Thomas E. Lane",
@@ -1560,10 +2420,20 @@
 			"mouse": 285,
 			"jhmv": 276,
 			"chemokine": 173,
-			"transplantation": 158
+			"transplantation": 158,
+			"mhv": 150,
+			"demyelinating": 140,
+			"infection": 140,
+			"viral": 128,
+			"nervous": 124,
+			"sclerosis": 123,
+			"neuroinflammation": 122,
+			"virus": 122,
+			"neural": 115,
+			"axonal": 112
 		},
 		"id": 86,
-		"relevancy": 2800
+		"relevancy": 4076
 	},
 	{
 		"name": "Wei Xu",
@@ -1578,10 +2448,20 @@
 			"hiv": 36,
 			"hr2": 36,
 			"ap3": 36,
-			"mce": 35
+			"mce": 35,
+			"hr1": 34,
+			"collagen": 34,
+			"protein": 32,
+			"readthrough": 30,
+			"epitope": 30,
+			"virus": 30,
+			"cell": 29,
+			"liposome": 29,
+			"helix": 29,
+			"sirna": 28
 		},
 		"id": 87,
-		"relevancy": 426
+		"relevancy": 731
 	},
 	{
 		"name": "Frederick G. Hayden",
@@ -1596,10 +2476,20 @@
 			"influenza": 43,
 			"ill": 41,
 			"hcw": 39,
-			"critically": 37
+			"critically": 37,
+			"cov": 37,
+			"niv": 35,
+			"care": 34,
+			"miracle": 34,
+			"hrv": 33,
+			"hypoxemic": 31,
+			"middle": 30,
+			"therapy": 30,
+			"east": 28,
+			"rimantadine": 28
 		},
 		"id": 88,
-		"relevancy": 522
+		"relevancy": 842
 	},
 	{
 		"name": "Nelson Lee",
@@ -1614,10 +2504,20 @@
 			"mask": 36,
 			"coughing": 35,
 			"corticosteroid": 34,
-			"rct": 32
+			"rct": 32,
+			"respiratory": 32,
+			"infection": 31,
+			"therapy": 30,
+			"plasma": 28,
+			"willingness": 28,
+			"ace": 27,
+			"hong": 27,
+			"kong": 27,
+			"healthcare": 26,
+			"vaccination": 26
 		},
 		"id": 89,
-		"relevancy": 466
+		"relevancy": 748
 	},
 	{
 		"name": "William B. Karesh",
@@ -1632,10 +2532,20 @@
 			"pdr": 29,
 			"disease": 28,
 			"human": 26,
-			"camel": 26
+			"camel": 26,
+			"spillover": 25,
+			"lao": 23,
+			"zoonotic": 22,
+			"market": 21,
+			"sector": 21,
+			"dromedary": 19,
+			"global": 19,
+			"ebov": 19,
+			"biodiversity": 18,
+			"stakeholder": 17
 		},
 		"id": 90,
-		"relevancy": 438
+		"relevancy": 642
 	},
 	{
 		"name": "Larry J. Anderson",
@@ -1650,10 +2560,20 @@
 			"asthma": 52,
 			"bat": 51,
 			"specimen": 45,
-			"human": 41
+			"human": 41,
+			"infection": 40,
+			"protein": 38,
+			"kenya": 38,
+			"assay": 37,
+			"nab": 36,
+			"coronavirus": 35,
+			"patient": 30,
+			"tlda": 29,
+			"exacerbation": 29,
+			"syncytial": 26
 		},
 		"id": 91,
-		"relevancy": 680
+		"relevancy": 1018
 	},
 	{
 		"name": "Terence S. Dermody",
@@ -1668,10 +2588,20 @@
 			"viral": 69,
 			"ifnlr1": 64,
 			"t3d": 53,
-			"bid": 51
+			"bid": 51,
+			"protein": 51,
+			"iec": 50,
+			"replication": 48,
+			"infection": 48,
+			"cathepsin": 47,
+			"t3sa": 44,
+			"ifn": 44,
+			"mouse": 43,
+			"disassembly": 43,
+			"p28": 42
 		},
 		"id": 92,
-		"relevancy": 1169
+		"relevancy": 1629
 	},
 	{
 		"name": "W. Ian Lipkin",
@@ -1686,10 +2616,20 @@
 			"pathogen": 44,
 			"waterpipe": 41,
 			"pneumoniae": 38,
-			"bird": 37
+			"bird": 37,
+			"disease": 36,
+			"human": 36,
+			"vircapseq": 35,
+			"vert": 35,
+			"viral": 35,
+			"respiratory": 34,
+			"wildlife": 33,
+			"cavv": 31,
+			"diversity": 31,
+			"pipeline": 30
 		},
 		"id": 93,
-		"relevancy": 523
+		"relevancy": 859
 	},
 	{
 		"name": "Paul K.S. Chan",
@@ -1704,10 +2644,20 @@
 			"asthma": 48,
 			"promazine": 47,
 			"nhap": 44,
-			"hong": 44
+			"hong": 44,
+			"kong": 44,
+			"oxygen": 41,
+			"child": 40,
+			"below": 39,
+			"exhaled": 38,
+			"rotavirus": 37,
+			"phenothiazine": 35,
+			"ap": 35,
+			"mask": 33,
+			"respiratory": 33
 		},
 		"id": 94,
-		"relevancy": 549
+		"relevancy": 924
 	},
 	{
 		"name": "Joseph J.Y. Sung",
@@ -1722,10 +2672,20 @@
 			"h2o": 62,
 			"smoke": 61,
 			"cholecystectomy": 57,
-			"air": 55
+			"air": 55,
+			"hp": 51,
+			"ipap": 47,
+			"sars": 42,
+			"gallbladder": 38,
+			"airflow": 32,
+			"biliary": 32,
+			"stone": 32,
+			"dispersion": 31,
+			"jet": 29,
+			"student": 28
 		},
 		"id": 95,
-		"relevancy": 681
+		"relevancy": 1043
 	},
 	{
 		"name": "Po-Ren Hsueh",
@@ -1740,10 +2700,20 @@
 			"vre": 57,
 			"hcai": 57,
 			"sars": 55,
-			"resistant": 55
+			"resistant": 55,
+			"covid": 50,
+			"tcb": 47,
+			"antimicrobial": 46,
+			"hospital": 43,
+			"incidence": 42,
+			"hypouricemia": 38,
+			"fluoroquinolone": 38,
+			"filmarray": 37,
+			"staphylococcus": 34,
+			"aureus": 33
 		},
 		"id": 96,
-		"relevancy": 728
+		"relevancy": 1136
 	},
 	{
 		"name": "David S. Hui",
@@ -1758,10 +2728,20 @@
 			"hp": 82,
 			"leakage": 80,
 			"patient": 76,
-			"plume": 75
+			"plume": 75,
+			"jet": 73,
+			"coughing": 65,
+			"oxygen": 64,
+			"simulator": 54,
+			"ventilation": 53,
+			"nebulizer": 47,
+			"ipap": 47,
+			"sars": 47,
+			"pressure": 45,
+			"helmet": 44
 		},
 		"id": 97,
-		"relevancy": 1057
+		"relevancy": 1596
 	},
 	{
 		"name": "Kwok-Hung Chan",
@@ -1776,10 +2756,20 @@
 			"virus": 105,
 			"mer": 103,
 			"load": 95,
-			"patient": 92
+			"patient": 92,
+			"ev71": 92,
+			"infection": 92,
+			"viral": 89,
+			"respiratory": 85,
+			"sample": 85,
+			"picornavirus": 80,
+			"genome": 79,
+			"hong": 78,
+			"kong": 78,
+			"hcov": 75
 		},
 		"id": 98,
-		"relevancy": 1338
+		"relevancy": 2171
 	},
 	{
 		"name": "Terrence M. Tumpey",
@@ -1794,10 +2784,20 @@
 			"ferret": 70,
 			"ocular": 69,
 			"endothelial": 59,
-			"avian": 57
+			"avian": 57,
+			"cell": 52,
+			"mouse": 52,
+			"pandemic": 51,
+			"h1n1": 50,
+			"lung": 45,
+			"response": 44,
+			"boost": 44,
+			"h3n2": 41,
+			"host": 41,
+			"hpai": 40
 		},
 		"id": 99,
-		"relevancy": 1034
+		"relevancy": 1494
 	},
 	{
 		"name": "Volker Thiel",
@@ -1812,10 +2812,20 @@
 			"fcov": 118,
 			"human": 116,
 			"cov": 112,
-			"protein": 97
+			"protein": 97,
+			"viral": 94,
+			"replication": 89,
+			"sars": 83,
+			"pdc": 75,
+			"ubl": 72,
+			"type": 71,
+			"infection": 69,
+			"mhv": 65,
+			"methylation": 56,
+			"mutant": 53
 		},
 		"id": 100,
-		"relevancy": 1465
+		"relevancy": 2192
 	},
 	{
 		"name": "Kuo-Chen Chou",
@@ -1830,10 +2840,20 @@
 			"iprot": 44,
 			"octapeptide": 43,
 			"metabolism": 41,
-			"gln": 39
+			"gln": 39,
+			"protein": 39,
+			"predictor": 39,
+			"hopping": 38,
+			"igpcr": 38,
+			"web": 37,
+			"prediction": 35,
+			"gpcr": 34,
+			"engine": 32,
+			"sno": 32,
+			"inr": 32
 		},
 		"id": 101,
-		"relevancy": 585
+		"relevancy": 941
 	},
 	{
 		"name": "Yan Li",
@@ -1848,10 +2868,20 @@
 			"channel": 88,
 			"influenza": 86,
 			"ptsd": 85,
-			"hsv": 85
+			"hsv": 85,
+			"human": 82,
+			"c5a": 80,
+			"bat": 77,
+			"coronavirus": 77,
+			"mer": 76,
+			"cell": 74,
+			"study": 72,
+			"viral": 66,
+			"patient": 63,
+			"sequence": 61
 		},
 		"id": 102,
-		"relevancy": 1309
+		"relevancy": 2037
 	},
 	{
 		"name": "Wei Wang",
@@ -1866,10 +2896,20 @@
 			"cell": 92,
 			"jev": 92,
 			"hpiv": 91,
-			"influenza": 87
+			"influenza": 87,
+			"mirna": 84,
+			"zikv": 79,
+			"patient": 79,
+			"study": 78,
+			"pm1": 77,
+			"agr2": 76,
+			"pcv3": 74,
+			"alv": 68,
+			"cov": 67,
+			"fgl2": 65
 		},
 		"id": 103,
-		"relevancy": 1152
+		"relevancy": 1899
 	},
 	{
 		"name": "Po-Huang Liang",
@@ -1884,10 +2924,20 @@
 			"compound": 51,
 			"pro": 50,
 			"extract": 47,
-			"nanohybrid": 38
+			"nanohybrid": 38,
+			"dbm": 38,
+			"fluorogenic": 36,
+			"dried": 36,
+			"ester": 32,
+			"peptidomimetic": 26,
+			"anti": 25,
+			"cibotium": 25,
+			"barometz": 25,
+			"gentiana": 25,
+			"scabra": 25
 		},
 		"id": 104,
-		"relevancy": 581
+		"relevancy": 874
 	},
 	{
 		"name": "Zihe Rao",
@@ -1902,10 +2952,20 @@
 			"coronavirus": 79,
 			"crystal": 75,
 			"ibv": 62,
-			"plpro": 60
+			"plpro": 60,
+			"substrate": 58,
+			"domain": 55,
+			"structural": 54,
+			"mpro": 53,
+			"virus": 47,
+			"fusion": 46,
+			"nsp8": 45,
+			"adrp": 45,
+			"protease": 43,
+			"viral": 41
 		},
 		"id": 105,
-		"relevancy": 834
+		"relevancy": 1321
 	},
 	{
 		"name": "Tetsuya Mizutani",
@@ -1920,10 +2980,20 @@
 			"cov": 75,
 			"akt": 67,
 			"rnp": 67,
-			"bat": 65
+			"bat": 65,
+			"japanese": 64,
+			"philippine": 61,
+			"phosphorylated": 59,
+			"jnk": 58,
+			"kinase": 49,
+			"rna": 48,
+			"btov": 46,
+			"phosphorylation": 45,
+			"infected": 44,
+			"rebov": 42
 		},
 		"id": 106,
-		"relevancy": 833
+		"relevancy": 1349
 	},
 	{
 		"name": "Shuetsu Fukushi",
@@ -1938,10 +3008,20 @@
 			"infection": 79,
 			"rnp": 79,
 			"mer": 74,
-			"protein": 70
+			"protein": 70,
+			"akt": 67,
+			"mapk": 61,
+			"p38": 56,
+			"arenavirus": 54,
+			"furin": 53,
+			"vhf": 51,
+			"jnk": 50,
+			"phosphorylated": 49,
+			"pseudotype": 49,
+			"mouse": 48
 		},
 		"id": 107,
-		"relevancy": 936
+		"relevancy": 1474
 	},
 	{
 		"name": "Masayuki Saijo",
@@ -1956,10 +3036,20 @@
 			"cell": 73,
 			"akt": 67,
 			"infection": 67,
-			"mapk": 61
+			"mapk": 61,
+			"p38": 56,
+			"arenavirus": 54,
+			"vhf": 51,
+			"jnk": 50,
+			"phosphorylated": 49,
+			"ribavirin": 49,
+			"sft": 48,
+			"rat": 47,
+			"infected": 44,
+			"celisa": 43
 		},
 		"id": 108,
-		"relevancy": 834
+		"relevancy": 1325
 	},
 	{
 		"name": "Andrea Marzi",
@@ -1974,10 +3064,20 @@
 			"ebolavirus": 72,
 			"signr": 71,
 			"rabv": 65,
-			"hev": 63
+			"hev": 63,
+			"marv": 58,
+			"ebola": 58,
+			"niv": 54,
+			"infection": 54,
+			"human": 52,
+			"cell": 48,
+			"entry": 47,
+			"tim": 42,
+			"not": 41,
+			"sars": 40
 		},
 		"id": 109,
-		"relevancy": 896
+		"relevancy": 1390
 	},
 	{
 		"name": "George F. Gao",
@@ -1992,10 +3092,20 @@
 			"binding": 113,
 			"epitope": 105,
 			"structure": 105,
-			"hr2": 102
+			"hr2": 102,
+			"cov": 101,
+			"human": 99,
+			"fusion": 94,
+			"mhc": 93,
+			"ctl": 89,
+			"hr1": 89,
+			"influenza": 88,
+			"mer": 88,
+			"infection": 84,
+			"bat": 80
 		},
 		"id": 110,
-		"relevancy": 1497
+		"relevancy": 2402
 	},
 	{
 		"name": "Jing Zhang",
@@ -2010,10 +3120,20 @@
 			"respiratory": 70,
 			"cell": 63,
 			"child": 62,
-			"mir": 58
+			"mir": 58,
+			"cov": 52,
+			"human": 51,
+			"hemagglutinating": 45,
+			"mer": 44,
+			"fpv": 43,
+			"ulk1": 41,
+			"patient": 41,
+			"study": 41,
+			"china": 41,
+			"epitope": 40
 		},
 		"id": 111,
-		"relevancy": 1082
+		"relevancy": 1521
 	},
 	{
 		"name": "Yi Zhang",
@@ -2028,10 +3148,20 @@
 			"virus": 66,
 			"hcw": 57,
 			"cov": 57,
-			"hadv": 55
+			"hadv": 55,
+			"study": 52,
+			"rtraa": 51,
+			"mer": 50,
+			"rbd": 50,
+			"hpiv": 47,
+			"ibv": 43,
+			"duplex": 43,
+			"vaccine": 42,
+			"pei": 42,
+			"colonisation": 42
 		},
 		"id": 112,
-		"relevancy": 728
+		"relevancy": 1190
 	},
 	{
 		"name": "Cheng Chen",
@@ -2046,10 +3176,20 @@
 			"michael": 41,
 			"crystal": 40,
 			"hku1": 40,
-			"tlr4": 40
+			"tlr4": 40,
+			"acceptor": 39,
+			"main": 38,
+			"n2a": 38,
+			"coronavirus": 37,
+			"diffracted": 37,
+			"pro": 37,
+			"protein": 36,
+			"cell": 35,
+			"rsv": 34,
+			"crystallization": 33
 		},
 		"id": 113,
-		"relevancy": 487
+		"relevancy": 851
 	},
 	{
 		"name": "Haitao Yang",
@@ -2064,10 +3204,20 @@
 			"nef": 47,
 			"sars": 47,
 			"main": 46,
-			"inhibitor": 45
+			"inhibitor": 45,
+			"nsp9": 42,
+			"michael": 41,
+			"acceptor": 39,
+			"coronavirus": 36,
+			"complex": 35,
+			"protein": 31,
+			"structural": 30,
+			"fipv": 28,
+			"drug": 26,
+			"polyprotein": 25
 		},
 		"id": 114,
-		"relevancy": 563
+		"relevancy": 896
 	},
 	{
 		"name": "Lei Zhang",
@@ -2082,10 +3232,20 @@
 			"prrsv": 44,
 			"scfv": 41,
 			"patient": 39,
-			"caponpv": 35
+			"caponpv": 35,
+			"atg16l1": 35,
+			"covid": 35,
+			"gene": 35,
+			"clinical": 35,
+			"protein": 33,
+			"co": 33,
+			"cav": 32,
+			"outcome": 32,
+			"cusia": 32,
+			"atg12": 32
 		},
 		"id": 115,
-		"relevancy": 514
+		"relevancy": 848
 	},
 	{
 		"name": "Johan Neyts",
@@ -2100,10 +3260,20 @@
 			"inhibitor": 64,
 			"hiv": 57,
 			"hcv": 54,
-			"cell": 50
+			"cell": 50,
+			"infection": 50,
+			"norovirus": 49,
+			"debio": 49,
+			"osbp": 49,
+			"viral": 47,
+			"enterovirus": 47,
+			"itz": 44,
+			"macro": 44,
+			"against": 42,
+			"phosphatidylinositol": 42
 		},
 		"id": 116,
-		"relevancy": 681
+		"relevancy": 1144
 	},
 	{
 		"name": "Marta L. DeDiego",
@@ -2118,10 +3288,20 @@
 			"ph1n1": 69,
 			"channel": 62,
 			"mouse": 62,
-			"cell": 61
+			"cell": 61,
+			"coronavirus": 59,
+			"ma15": 54,
+			"respiratory": 53,
+			"ion": 51,
+			"gene": 49,
+			"attenuated": 46,
+			"syndrome": 43,
+			"lipid": 42,
+			"severe": 42,
+			"acute": 42
 		},
 		"id": 117,
-		"relevancy": 1047
+		"relevancy": 1528
 	},
 	{
 		"name": "Jaume Torres",
@@ -2136,10 +3316,20 @@
 			"etm": 77,
 			"helical": 72,
 			"lipid": 64,
-			"bilayer": 58
+			"bilayer": 58,
+			"domain": 56,
+			"activity": 53,
+			"virus": 50,
+			"form": 44,
+			"infrared": 43,
+			"pore": 42,
+			"proton": 38,
+			"cov": 36,
+			"membrane": 36,
+			"envelope": 35
 		},
 		"id": 118,
-		"relevancy": 1061
+		"relevancy": 1494
 	},
 	{
 		"name": "Gary R. Whittaker",
@@ -2154,10 +3344,20 @@
 			"cleavage": 102,
 			"fcov": 94,
 			"matriptase": 89,
-			"fipv": 85
+			"fipv": 85,
+			"entry": 84,
+			"protein": 79,
+			"influenza": 71,
+			"membrane": 69,
+			"cov": 67,
+			"furin": 67,
+			"activation": 66,
+			"host": 64,
+			"kallikrein": 64,
+			"spike": 62
 		},
 		"id": 119,
-		"relevancy": 1193
+		"relevancy": 1886
 	},
 	{
 		"name": "Hui Li",
@@ -2172,10 +3372,20 @@
 			"signr": 57,
 			"anaesthesia": 53,
 			"china": 52,
-			"anaesthetist": 51
+			"anaesthetist": 51,
+			"aiv": 42,
+			"infection": 42,
+			"ibv": 40,
+			"programme": 38,
+			"rdt": 38,
+			"project": 37,
+			"hcv": 36,
+			"aid": 35,
+			"rig": 35,
+			"civil": 34
 		},
 		"id": 120,
-		"relevancy": 705
+		"relevancy": 1082
 	},
 	{
 		"name": "Chen Wang",
@@ -2190,10 +3400,20 @@
 			"icp0": 51,
 			"hla": 49,
 			"pkv": 47,
-			"virus": 45
+			"virus": 45,
+			"pneumonia": 44,
+			"covid": 40,
+			"adolescent": 40,
+			"jnk2": 38,
+			"bce": 35,
+			"nanoparticle": 35,
+			"bleeding": 35,
+			"influenza": 34,
+			"nai": 31,
+			"rv": 30
 		},
 		"id": 121,
-		"relevancy": 655
+		"relevancy": 1017
 	},
 	{
 		"name": "Bin Cao",
@@ -2208,10 +3428,20 @@
 			"pneumonia": 54,
 			"adult": 50,
 			"virus": 50,
-			"hla": 49
+			"hla": 49,
+			"uptodate": 47,
+			"clinical": 43,
+			"pneumoniae": 41,
+			"infection": 41,
+			"mycoplasma": 40,
+			"adolescent": 40,
+			"china": 39,
+			"adenovirus": 35,
+			"risk": 35,
+			"beijing": 35
 		},
 		"id": 122,
-		"relevancy": 779
+		"relevancy": 1175
 	},
 	{
 		"name": "Kwok-yung Yuen",
@@ -2226,10 +3456,20 @@
 			"hpiv": 55,
 			"hbov": 53,
 			"hcov": 52,
-			"elisa": 52
+			"elisa": 52,
+			"igm": 44,
+			"tpa": 44,
+			"respiratory": 43,
+			"infection": 43,
+			"salmonella": 40,
+			"nucleocapsid": 39,
+			"patient": 37,
+			"igg": 36,
+			"protein": 35,
+			"antibody": 35
 		},
 		"id": 123,
-		"relevancy": 690
+		"relevancy": 1086
 	},
 	{
 		"name": "Bing Sun",
@@ -2244,10 +3484,20 @@
 			"patient": 47,
 			"viroporin": 46,
 			"oc43": 43,
-			"h1n1": 40
+			"h1n1": 40,
+			"hcov": 38,
+			"covid": 38,
+			"cov": 36,
+			"cell": 32,
+			"orf4a": 31,
+			"viral": 29,
+			"influenza": 28,
+			"accessory": 27,
+			"coronavirus": 27,
+			"sumo1": 27
 		},
 		"id": 124,
-		"relevancy": 641
+		"relevancy": 954
 	},
 	{
 		"name": "Feng Gao",
@@ -2262,10 +3512,20 @@
 			"mir": 105,
 			"cell": 102,
 			"peptide": 98,
-			"rse": 95
+			"rse": 95,
+			"hla": 85,
+			"recoding": 80,
+			"porcine": 77,
+			"mhc": 70,
+			"structure": 66,
+			"ctl": 64,
+			"infection": 61,
+			"epitope": 61,
+			"sla": 58,
+			"mamu": 56
 		},
 		"id": 125,
-		"relevancy": 1533
+		"relevancy": 2211
 	},
 	{
 		"name": "Feng Chen",
@@ -2280,10 +3540,20 @@
 			"diarrhea": 46,
 			"yx10p90": 44,
 			"lrrc16a": 44,
-			"bronchitis": 42
+			"bronchitis": 42,
+			"plt": 42,
+			"hla": 39,
+			"virus": 39,
+			"isolated": 38,
+			"sequence": 38,
+			"p120": 31,
+			"piglet": 29,
+			"js201603": 28,
+			"chicken": 28,
+			"isolate": 25
 		},
 		"id": 126,
-		"relevancy": 652
+		"relevancy": 989
 	},
 	{
 		"name": "Holly Seale",
@@ -2298,10 +3568,20 @@
 			"worker": 76,
 			"influenza": 70,
 			"infection": 66,
-			"use": 64
+			"use": 64,
+			"facemask": 63,
+			"hospital": 62,
+			"fit": 62,
+			"respiratory": 61,
+			"policy": 60,
+			"participant": 59,
+			"medical": 58,
+			"ipc": 57,
+			"guideline": 56,
+			"staff": 54
 		},
 		"id": 127,
-		"relevancy": 1292
+		"relevancy": 1884
 	},
 	{
 		"name": "Y. Li",
@@ -2316,10 +3596,20 @@
 			"n95": 49,
 			"workforce": 46,
 			"lycorine": 45,
-			"droplet": 41
+			"droplet": 41,
+			"covid": 40,
+			"drainage": 38,
+			"percutaneous": 32,
+			"job": 31,
+			"provincial": 31,
+			"nano": 30,
+			"speaking": 29,
+			"infection": 28,
+			"aerosol": 28,
+			"cluster": 27
 		},
 		"id": 128,
-		"relevancy": 648
+		"relevancy": 962
 	},
 	{
 		"name": "V. Stalin Raj",
@@ -2334,10 +3624,20 @@
 			"respiratory": 47,
 			"camel": 46,
 			"east": 44,
-			"middle": 43
+			"middle": 43,
+			"virus": 40,
+			"dpp4": 38,
+			"sia": 38,
+			"dromedary": 37,
+			"infection": 37,
+			"hcov": 36,
+			"syndrome": 32,
+			"frcov": 31,
+			"antibody": 27,
+			"receptor": 25
 		},
 		"id": 129,
-		"relevancy": 678
+		"relevancy": 1019
 	},
 	{
 		"name": "Boyd L. Yount",
@@ -2352,10 +3652,20 @@
 			"vaccine": 53,
 			"sars": 51,
 			"mtase": 45,
-			"platform": 42
+			"platform": 42,
+			"denv1": 42,
+			"attenuation": 41,
+			"protein": 41,
+			"clone": 39,
+			"rmer": 38,
+			"rbcv": 37,
+			"human": 37,
+			"attenuated": 36,
+			"mouse": 36,
+			"bat": 35
 		},
 		"id": 130,
-		"relevancy": 635
+		"relevancy": 1017
 	},
 	{
 		"name": "Raoul J. de Groot",
@@ -2370,10 +3680,20 @@
 			"pro": 74,
 			"he": 63,
 			"acetylated": 63,
-			"coronavirus": 61
+			"coronavirus": 61,
+			"torovirus": 61,
+			"protein": 60,
+			"stress": 60,
+			"isr": 57,
+			"lectin": 53,
+			"glycan": 52,
+			"fcov": 52,
+			"p4a": 51,
+			"isrib": 51,
+			"cell": 49
 		},
 		"id": 131,
-		"relevancy": 923
+		"relevancy": 1469
 	},
 	{
 		"name": "Nikolai Petrovsky",
@@ -2388,10 +3708,20 @@
 			"adjuvanted": 73,
 			"vit": 70,
 			"formulation": 62,
-			"wiv": 57
+			"wiv": 57,
+			"immunogenicity": 51,
+			"jja": 51,
+			"venom": 49,
+			"against": 45,
+			"cpg": 45,
+			"jjav": 44,
+			"advax4": 44,
+			"influenza": 44,
+			"tau": 41,
+			"polysaccharide": 40
 		},
 		"id": 132,
-		"relevancy": 1647
+		"relevancy": 2101
 	},
 	{
 		"name": "Berend-Jan Bosch",
@@ -2406,10 +3736,20 @@
 			"apn": 66,
 			"antibody": 65,
 			"pdcov": 63,
-			"spike": 60
+			"spike": 60,
+			"ecov": 56,
+			"protein": 55,
+			"infection": 55,
+			"dromedary": 52,
+			"cell": 51,
+			"receptor": 50,
+			"sialic": 47,
+			"sia": 46,
+			"atp1a1": 46,
+			"human": 45
 		},
 		"id": 133,
-		"relevancy": 732
+		"relevancy": 1235
 	},
 	{
 		"name": "John Ziebuhr",
@@ -2424,10 +3764,20 @@
 			"activity": 100,
 			"protein": 86,
 			"mesonivirus": 76,
-			"cavv": 74
+			"cavv": 74,
+			"wbv": 71,
+			"substrate": 70,
+			"viral": 69,
+			"pp1ab": 63,
+			"genome": 57,
+			"helicase": 56,
+			"replicase": 55,
+			"cov": 54,
+			"processing": 54,
+			"ribose": 53
 		},
 		"id": 134,
-		"relevancy": 1174
+		"relevancy": 1776
 	},
 	{
 		"name": "Yi Guan",
@@ -2442,10 +3792,20 @@
 			"coronavirus": 59,
 			"pheasant": 54,
 			"market": 49,
-			"astrovirus": 49
+			"astrovirus": 49,
+			"pcr": 49,
+			"infection": 48,
+			"respiratory": 47,
+			"iirt": 44,
+			"h7n9": 42,
+			"poultry": 42,
+			"dromedary": 42,
+			"palm": 41,
+			"bird": 41,
+			"civet": 41
 		},
 		"id": 135,
-		"relevancy": 806
+		"relevancy": 1243
 	},
 	{
 		"name": "Wei Li",
@@ -2460,10 +3820,20 @@
 			"sewi": 51,
 			"iristectorin": 51,
 			"csf": 49,
-			"cox": 44
+			"cox": 44,
+			"melioidosis": 44,
+			"china": 43,
+			"trim25": 43,
+			"sequence": 41,
+			"m826": 40,
+			"tgev": 38,
+			"pcv2": 38,
+			"dispase": 38,
+			"eupathdb": 38,
+			"coronavirus": 36
 		},
 		"id": 136,
-		"relevancy": 598
+		"relevancy": 997
 	},
 	{
 		"name": "Jing Liu",
@@ -2478,10 +3848,20 @@
 			"cypa": 46,
 			"hdac": 44,
 			"dcpep": 41,
-			"chitosan": 40
+			"chitosan": 40,
+			"hmpv": 39,
+			"plantarum": 38,
+			"flavonoid": 37,
+			"lsectin": 36,
+			"tinctoria": 35,
+			"hairy": 35,
+			"asp": 35,
+			"pgsa": 32,
+			"suzhou": 32,
+			"prna": 32
 		},
 		"id": 137,
-		"relevancy": 596
+		"relevancy": 947
 	},
 	{
 		"name": "Ying Wang",
@@ -2496,10 +3876,20 @@
 			"genotype": 47,
 			"vhh": 45,
 			"t2d": 44,
-			"infection": 43
+			"infection": 43,
+			"asfv": 41,
+			"ebv": 40,
+			"a21": 40,
+			"cklf1": 38,
+			"rs707922": 38,
+			"ec": 38,
+			"nrp1": 38,
+			"wuhan": 36,
+			"ndv": 34,
+			"hrv": 33
 		},
 		"id": 138,
-		"relevancy": 513
+		"relevancy": 889
 	},
 	{
 		"name": "Zongxi Han",
@@ -2514,10 +3904,20 @@
 			"ldl": 97,
 			"recombination": 94,
 			"ljl": 79,
-			"gene": 74
+			"gene": 74,
+			"infectious": 73,
+			"china": 68,
+			"iltv": 63,
+			"lgx": 63,
+			"serotype": 60,
+			"gvi": 58,
+			"genotype": 57,
+			"phcov": 57,
+			"vaccine": 56,
+			"analysis": 54
 		},
 		"id": 139,
-		"relevancy": 1430
+		"relevancy": 2039
 	},
 	{
 		"name": "Yan Zhao",
@@ -2532,10 +3932,20 @@
 			"china": 65,
 			"lgx": 63,
 			"rev": 63,
-			"chicken": 63
+			"chicken": 63,
+			"bronchitis": 60,
+			"gvi": 58,
+			"phcov": 57,
+			"rs2660": 51,
+			"h120": 49,
+			"infection": 49,
+			"rs10774671": 47,
+			"ljl": 47,
+			"ldt3": 47,
+			"trsv": 44
 		},
 		"id": 140,
-		"relevancy": 867
+		"relevancy": 1376
 	},
 	{
 		"name": "Shengwang Liu",
@@ -2550,10 +3960,20 @@
 			"ldl": 97,
 			"recombination": 94,
 			"gene": 90,
-			"ljl": 79
+			"ljl": 79,
+			"china": 74,
+			"infectious": 74,
+			"vaccine": 73,
+			"analysis": 65,
+			"serotype": 64,
+			"bf2": 64,
+			"iltv": 63,
+			"lgx": 63,
+			"sequence": 59,
+			"gvi": 58
 		},
 		"id": 141,
-		"relevancy": 1531
+		"relevancy": 2188
 	},
 	{
 		"name": "Chong Wang",
@@ -2568,10 +3988,20 @@
 			"antibody": 57,
 			"diarrhea": 55,
 			"vlp": 55,
-			"elisa": 54
+			"elisa": 54,
+			"pcv2": 51,
+			"prrsv": 50,
+			"sample": 49,
+			"iga": 45,
+			"disinfectant": 39,
+			"mer": 39,
+			"dpi": 38,
+			"igg": 38,
+			"svlp": 36,
+			"dpe": 35
 		},
 		"id": 142,
-		"relevancy": 753
+		"relevancy": 1173
 	},
 	{
 		"name": "Huanchun Chen",
@@ -2586,10 +4016,20 @@
 			"rabv": 100,
 			"fmdv": 91,
 			"irf3": 90,
-			"protein": 82
+			"protein": 82,
+			"infection": 82,
+			"sifitm3": 76,
+			"pdcov": 75,
+			"pedv": 71,
+			"rig": 70,
+			"signaling": 68,
+			"dub": 64,
+			"pcv2": 56,
+			"reproductive": 55,
+			"autophagy": 53
 		},
 		"id": 143,
-		"relevancy": 1131
+		"relevancy": 1801
 	},
 	{
 		"name": "Kwonil Jung",
@@ -2604,10 +4044,20 @@
 			"cell": 116,
 			"diarrhea": 92,
 			"piglet": 90,
-			"dex": 85
+			"dex": 85,
+			"crypt": 83,
+			"fd22": 82,
+			"gnotobiotic": 75,
+			"weaned": 71,
+			"infected": 71,
+			"pgar": 70,
+			"strain": 69,
+			"calve": 67,
+			"virus": 67,
+			"infection": 65
 		},
 		"id": 144,
-		"relevancy": 1564
+		"relevancy": 2284
 	},
 	{
 		"name": "Nicola Decaro",
@@ -2622,10 +4072,20 @@
 			"italy": 109,
 			"coronavirus": 104,
 			"crcov": 100,
-			"virus": 98
+			"virus": 98,
+			"pcr": 96,
+			"sample": 96,
+			"hobi": 95,
+			"pantropic": 95,
+			"cat": 90,
+			"parvovirus": 86,
+			"assay": 83,
+			"bcov": 83,
+			"cird": 82,
+			"pup": 81
 		},
 		"id": 145,
-		"relevancy": 2266
+		"relevancy": 3153
 	},
 	{
 		"name": "Costantina Desario",
@@ -2640,10 +4100,20 @@
 			"crcov": 57,
 			"pup": 51,
 			"strain": 48,
-			"type": 43
+			"type": 43,
+			"assay": 41,
+			"pcr": 38,
+			"chv": 37,
+			"italy": 35,
+			"caninecv": 35,
+			"coronavirus": 34,
+			"taqman": 33,
+			"infection": 30,
+			"buffalo": 30,
+			"bovine": 28
 		},
 		"id": 146,
-		"relevancy": 884
+		"relevancy": 1225
 	},
 	{
 		"name": "Gabriella Elia",
@@ -2658,10 +4128,20 @@
 			"bcov": 83,
 			"crcov": 76,
 			"pup": 73,
-			"sample": 71
+			"sample": 71,
+			"pcr": 70,
+			"pantropic": 70,
+			"italy": 66,
+			"type": 61,
+			"assay": 61,
+			"ita": 60,
+			"virus": 58,
+			"cird": 51,
+			"parvovirus": 50,
+			"fluorogenic": 49
 		},
 		"id": 147,
-		"relevancy": 1620
+		"relevancy": 2216
 	},
 	{
 		"name": "Vito Martella",
@@ -2676,10 +4156,20 @@
 			"sample": 100,
 			"ita": 90,
 			"italy": 82,
-			"virus": 81
+			"virus": 81,
+			"coronavirus": 77,
+			"crcov": 76,
+			"pup": 73,
+			"parvovirus": 69,
+			"type": 69,
+			"feline": 66,
+			"pcr": 62,
+			"assay": 60,
+			"hun": 59,
+			"identity": 55
 		},
 		"id": 148,
-		"relevancy": 1876
+		"relevancy": 2542
 	},
 	{
 		"name": "Canio Buonavoglia",
@@ -2694,10 +4184,20 @@
 			"coronavirus": 105,
 			"sample": 98,
 			"nov": 96,
-			"pantropic": 95
+			"pantropic": 95,
+			"italy": 90,
+			"pcr": 88,
+			"virus": 87,
+			"pup": 84,
+			"assay": 83,
+			"bcov": 83,
+			"cphv": 76,
+			"crcov": 76,
+			"parvovirus": 72,
+			"type": 71
 		},
 		"id": 149,
-		"relevancy": 2210
+		"relevancy": 3020
 	},
 	{
 		"name": "Wei Zhang",
@@ -2712,10 +4212,20 @@
 			"mer": 76,
 			"protein": 72,
 			"cisplatin": 65,
-			"clec4m": 65
+			"clec4m": 65,
+			"sars": 63,
+			"human": 63,
+			"china": 63,
+			"patient": 61,
+			"virus": 61,
+			"kshv": 59,
+			"o157": 59,
+			"camel": 57,
+			"colonization": 54,
+			"infection": 54
 		},
 		"id": 150,
-		"relevancy": 917
+		"relevancy": 1511
 	},
 	{
 		"name": "Tomomi Takano",
@@ -2730,10 +4240,20 @@
 			"type": 85,
 			"fifn": 83,
 			"macrophage": 64,
-			"alpha": 64
+			"alpha": 64,
+			"tnf": 64,
+			"infection": 57,
+			"cell": 53,
+			"cholesterol": 52,
+			"peptide": 52,
+			"fbov": 45,
+			"infectious": 45,
+			"antibody": 45,
+			"serotype": 45,
+			"ade": 43
 		},
 		"id": 151,
-		"relevancy": 1542
+		"relevancy": 2043
 	},
 	{
 		"name": "Qian Yang",
@@ -2748,10 +4268,20 @@
 			"lius": 83,
 			"subtilis": 81,
 			"porcine": 79,
-			"intestinal": 77
+			"intestinal": 77,
+			"virus": 72,
+			"ipec": 71,
+			"shxb": 70,
+			"transmissible": 69,
+			"gastroenteritis": 67,
+			"emt": 64,
+			"egfr": 63,
+			"piglet": 60,
+			"tfr1": 58,
+			"microfilament": 51
 		},
 		"id": 152,
-		"relevancy": 1278
+		"relevancy": 1923
 	},
 	{
 		"name": "Jing Chen",
@@ -2766,10 +4296,20 @@
 			"camel": 57,
 			"prrsv": 53,
 			"human": 53,
-			"virus": 53
+			"virus": 53,
+			"binding": 48,
+			"sars_n": 47,
+			"orfx": 46,
+			"hnrnp": 45,
+			"hv": 44,
+			"coronavirus": 44,
+			"cell": 42,
+			"sars_cov": 41,
+			"infection": 40,
+			"spr": 40
 		},
 		"id": 153,
-		"relevancy": 617
+		"relevancy": 1054
 	},
 	{
 		"name": "Li Feng",
@@ -2784,10 +4324,20 @@
 			"strain": 131,
 			"infection": 131,
 			"virus": 114,
-			"adam17": 108
+			"adam17": 108,
+			"cell": 101,
+			"ccov": 93,
+			"enteroid": 89,
+			"cpv": 89,
+			"cbov": 87,
+			"occludin": 82,
+			"gene": 80,
+			"ipec": 67,
+			"epidemic": 65,
+			"scfv": 64
 		},
 		"id": 154,
-		"relevancy": 1791
+		"relevancy": 2608
 	},
 	{
 		"name": "Viviana Mari",
@@ -2802,10 +4352,20 @@
 			"bcov": 83,
 			"strain": 78,
 			"crcov": 76,
-			"bvdv": 69
+			"bvdv": 69,
+			"coronavirus": 60,
+			"italy": 54,
+			"virus": 53,
+			"bovine": 52,
+			"cird": 51,
+			"cpv": 48,
+			"cattle": 46,
+			"buffalo": 45,
+			"pup": 44,
+			"sample": 44
 		},
 		"id": 155,
-		"relevancy": 1341
+		"relevancy": 1838
 	},
 	{
 		"name": "Yang Yang",
@@ -2820,10 +4380,20 @@
 			"tgev": 85,
 			"spike": 84,
 			"receptor": 76,
-			"lysosomal": 65
+			"lysosomal": 65,
+			"ev71": 64,
+			"apn": 62,
+			"rbd": 61,
+			"entry": 57,
+			"mdd": 53,
+			"human": 50,
+			"bax": 50,
+			"proteas": 49,
+			"binding": 48,
+			"infection": 48
 		},
 		"id": 156,
-		"relevancy": 940
+		"relevancy": 1482
 	},
 	{
 		"name": "Kai Wang",
@@ -2838,10 +4408,20 @@
 			"cxcl9": 56,
 			"channel": 54,
 			"viroporin": 46,
-			"cbov1": 44
+			"cbov1": 44,
+			"polyethylenimine": 43,
+			"oc43": 43,
+			"tlr5": 41,
+			"ubxn1": 41,
+			"cell": 41,
+			"fcv": 40,
+			"cat": 39,
+			"hcov": 38,
+			"ion": 38,
+			"prostate": 38
 		},
 		"id": 157,
-		"relevancy": 715
+		"relevancy": 1117
 	},
 	{
 		"name": "Jan Balzarini",
@@ -2856,10 +4436,20 @@
 			"hiv": 110,
 			"grft": 102,
 			"analogue": 98,
-			"phosphonate": 93
+			"phosphonate": 93,
+			"against": 91,
+			"antiviral": 91,
+			"synthesis": 88,
+			"fluoro": 85,
+			"acyclic": 82,
+			"virus": 82,
+			"deoxy": 81,
+			"cem": 74,
+			"ec50": 67,
+			"dideoxy": 65
 		},
 		"id": 158,
-		"relevancy": 1294
+		"relevancy": 2100
 	},
 	{
 		"name": "Graciela Andrei",
@@ -2874,10 +4464,20 @@
 			"derivatife": 104,
 			"cytostatic": 102,
 			"against": 92,
-			"virus": 92
+			"virus": 92,
+			"compound": 89,
+			"antiviral": 87,
+			"trans": 85,
+			"zoster": 83,
+			"analogue": 80,
+			"uracil": 79,
+			"varicella": 78,
+			"hsv": 77,
+			"hcmv": 74,
+			"ec50": 73
 		},
 		"id": 159,
-		"relevancy": 1247
+		"relevancy": 2052
 	},
 	{
 		"name": "Dominique Schols",
@@ -2892,10 +4492,20 @@
 			"l1210": 68,
 			"cell": 66,
 			"against": 64,
-			"substituted": 61
+			"substituted": 61,
+			"cis": 61,
+			"virus": 60,
+			"cem": 58,
+			"deazapurine": 57,
+			"hiv": 57,
+			"lectin": 53,
+			"analogue": 53,
+			"vzv": 53,
+			"adhesin": 48,
+			"antiproliferative": 47
 		},
 		"id": 160,
-		"relevancy": 862
+		"relevancy": 1409
 	},
 	{
 		"name": "Robert Snoeck",
@@ -2910,10 +4520,20 @@
 			"derivatife": 104,
 			"cytostatic": 102,
 			"against": 92,
-			"compound": 89
+			"compound": 89,
+			"trans": 85,
+			"analogue": 80,
+			"uracil": 79,
+			"zoster": 78,
+			"virus": 78,
+			"hsv": 77,
+			"hcmv": 74,
+			"ec50": 73,
+			"prodrug": 73,
+			"varicella": 73
 		},
 		"id": 161,
-		"relevancy": 1241
+		"relevancy": 2011
 	},
 	{
 		"name": "Lieve Naesens",
@@ -2928,10 +4548,20 @@
 			"ec50": 50,
 			"derivatife": 49,
 			"against": 39,
-			"antiviral": 39
+			"antiviral": 39,
+			"dihydrotriazine": 38,
+			"channel": 37,
+			"lipophilic": 37,
+			"synthesis": 37,
+			"nmda": 35,
+			"aglycoristocetin": 34,
+			"micromolar": 29,
+			"polycyclic": 29,
+			"proton": 29,
+			"antivirally": 25
 		},
 		"id": 162,
-		"relevancy": 607
+		"relevancy": 937
 	},
 	{
 		"name": "Isabel Sola",
@@ -2946,10 +4576,20 @@
 			"protein": 121,
 			"gene": 111,
 			"coronavirus": 100,
-			"transcription": 93
+			"transcription": 93,
+			"trss": 82,
+			"sequence": 80,
+			"chaperone": 80,
+			"transmissible": 71,
+			"gastroenteritis": 69,
+			"synthesis": 65,
+			"genome": 60,
+			"mrna": 57,
+			"viral": 56,
+			"packaging": 53
 		},
 		"id": 163,
-		"relevancy": 1350
+		"relevancy": 2023
 	},
 	{
 		"name": "Fernando Almazán",
@@ -2964,10 +4604,20 @@
 			"coronavirus": 70,
 			"chromosome": 57,
 			"artificial": 55,
-			"bac": 54
+			"bac": 54,
+			"cov": 53,
+			"genome": 47,
+			"cell": 47,
+			"transmissible": 46,
+			"replication": 46,
+			"infectious": 45,
+			"gastroenteritis": 45,
+			"gait": 43,
+			"replicon": 42,
+			"ptb": 42
 		},
 		"id": 164,
-		"relevancy": 812
+		"relevancy": 1268
 	},
 	{
 		"name": "Shutoku Matsuyama",
@@ -2982,10 +4632,20 @@
 			"mhvr": 97,
 			"cathepsin": 94,
 			"fusion": 91,
-			"jhmv": 89
+			"jhmv": 89,
+			"virus": 82,
+			"mer": 79,
+			"endosomal": 71,
+			"protease": 65,
+			"coronavirus": 62,
+			"cpl": 62,
+			"entry": 57,
+			"sars": 56,
+			"furin": 56,
+			"surface": 54
 		},
 		"id": 165,
-		"relevancy": 1221
+		"relevancy": 1865
 	},
 	{
 		"name": "Ying Fang",
@@ -3000,10 +4660,20 @@
 			"frameshifting": 73,
 			"nsp1": 70,
 			"pig": 68,
-			"eav": 68
+			"eav": 68,
+			"reproductive": 65,
+			"tgev": 57,
+			"nl": 56,
+			"cell": 54,
+			"arterivirus": 54,
+			"nanotube": 53,
+			"isg15": 53,
+			"nsp2tf": 53,
+			"respiratory": 50,
+			"ifn": 50
 		},
 		"id": 166,
-		"relevancy": 989
+		"relevancy": 1534
 	},
 	{
 		"name": "Leatrice Vogel",
@@ -3018,10 +4688,20 @@
 			"respiratory": 45,
 			"virus": 45,
 			"ma15": 42,
-			"infection": 41
+			"infection": 41,
+			"mva": 40,
+			"leap": 39,
+			"mer": 37,
+			"neutralizing": 37,
+			"replication": 31,
+			"coronavirus": 31,
+			"cell": 30,
+			"rabbit": 28,
+			"respons": 28,
+			"adjuvant": 28
 		},
 		"id": 167,
-		"relevancy": 616
+		"relevancy": 945
 	},
 	{
 		"name": "Anjeanette Roberts",
@@ -3036,10 +4716,20 @@
 			"antibody": 48,
 			"respiratory": 46,
 			"ma15": 46,
-			"mva": 40
+			"mva": 40,
+			"animal": 39,
+			"model": 37,
+			"coronavirus": 36,
+			"severe": 34,
+			"infection": 32,
+			"aged": 31,
+			"rsar": 31,
+			"acute": 31,
+			"replication": 29,
+			"syndrome": 29
 		},
 		"id": 168,
-		"relevancy": 719
+		"relevancy": 1048
 	},
 	{
 		"name": "Cornelia C. Bergmann",
@@ -3054,10 +4744,20 @@
 			"cd4": 169,
 			"virus": 168,
 			"mouse": 167,
-			"ifn": 165
+			"ifn": 165,
+			"viral": 157,
+			"encephalomyelitis": 156,
+			"neurotropic": 149,
+			"microglia": 143,
+			"infection": 136,
+			"bmem": 131,
+			"oligodendroglia": 127,
+			"central": 111,
+			"astrocyte": 109,
+			"jhmv": 102
 		},
 		"id": 169,
-		"relevancy": 2762
+		"relevancy": 4083
 	},
 	{
 		"name": "Yuxian He",
@@ -3072,10 +4772,20 @@
 			"antibody": 71,
 			"hiv": 69,
 			"receptor": 66,
-			"vaccine": 65
+			"vaccine": 65,
+			"raav": 65,
+			"respons": 65,
+			"fusion": 63,
+			"binding": 63,
+			"potent": 61,
+			"epitope": 61,
+			"cp32m": 57,
+			"m36": 47,
+			"domain": 47,
+			"spike": 47
 		},
 		"id": 170,
-		"relevancy": 1090
+		"relevancy": 1666
 	},
 	{
 		"name": "Yusen Zhou",
@@ -3090,10 +4800,20 @@
 			"sars": 149,
 			"m2e": 134,
 			"antibody": 134,
-			"receptor": 119
+			"receptor": 119,
+			"mouse": 113,
+			"binding": 112,
+			"ha1": 110,
+			"infection": 105,
+			"h5n1": 101,
+			"zikv": 98,
+			"respons": 93,
+			"domain": 93,
+			"epitope": 90,
+			"virus": 89
 		},
 		"id": 171,
-		"relevancy": 2082
+		"relevancy": 3086
 	},
 	{
 		"name": "Shibo Jiang",
@@ -3108,10 +4828,20 @@
 			"sars": 260,
 			"neutralizing": 237,
 			"antibody": 230,
-			"peptide": 193
+			"peptide": 193,
+			"fusion": 192,
+			"binding": 187,
+			"zikv": 187,
+			"infection": 186,
+			"receptor": 178,
+			"human": 176,
+			"domain": 169,
+			"virus": 168,
+			"against": 160,
+			"coronavirus": 158
 		},
 		"id": 172,
-		"relevancy": 3342
+		"relevancy": 5103
 	},
 	{
 		"name": "Berend Jan Bosch",
@@ -3126,10 +4856,20 @@
 			"mhv": 54,
 			"cell": 53,
 			"spike": 51,
-			"entry": 47
+			"entry": 47,
+			"peptide": 46,
+			"membrane": 41,
+			"nanosized": 38,
+			"receptor": 34,
+			"dpp4": 33,
+			"furin": 31,
+			"infection": 30,
+			"coronavirion": 29,
+			"murine": 28,
+			"binding": 27
 		},
 		"id": 173,
-		"relevancy": 642
+		"relevancy": 979
 	},
 	{
 		"name": "Marc Van Ranst",
@@ -3144,10 +4884,20 @@
 			"bat": 56,
 			"human": 53,
 			"sample": 48,
-			"papillomavirus": 45
+			"papillomavirus": 45,
+			"ebc": 45,
+			"puumala": 41,
+			"viral": 41,
+			"sars": 39,
+			"virome": 38,
+			"cameroon": 34,
+			"respiratory": 34,
+			"belgium": 33,
+			"infection": 33,
+			"cov": 33
 		},
 		"id": 174,
-		"relevancy": 623
+		"relevancy": 994
 	},
 	{
 		"name": "Stephan Becker",
@@ -3162,10 +4912,20 @@
 			"ebola": 58,
 			"mva": 57,
 			"tetherin": 56,
-			"infection": 55
+			"infection": 55,
+			"chadox1": 54,
+			"vac2": 51,
+			"human": 43,
+			"ire1": 41,
+			"protein": 41,
+			"pdc": 40,
+			"viral": 39,
+			"vaccine": 39,
+			"r06e": 38,
+			"budding": 38
 		},
 		"id": 175,
-		"relevancy": 754
+		"relevancy": 1178
 	},
 	{
 		"name": "Michael Farzan",
@@ -3180,10 +4940,20 @@
 			"cell": 120,
 			"sars": 116,
 			"arenavirus": 102,
-			"cov": 83
+			"cov": 83,
+			"human": 81,
+			"entry": 80,
+			"receptor": 77,
+			"infection": 75,
+			"glycoprotein": 55,
+			"tim1": 53,
+			"mbl": 53,
+			"transferrin": 48,
+			"viral": 48,
+			"restrict": 48
 		},
 		"id": 176,
-		"relevancy": 1501
+		"relevancy": 2119
 	},
 	{
 		"name": "David R. Hinton",
@@ -3198,10 +4968,20 @@
 			"mouse": 118,
 			"cd8": 104,
 			"encephalomyelitis": 104,
-			"virus": 94
+			"virus": 94,
+			"nervous": 93,
+			"neurotropic": 89,
+			"viral": 85,
+			"infection": 85,
+			"astrocyte": 85,
+			"jhmv": 80,
+			"mmp": 78,
+			"timp": 62,
+			"central": 58,
+			"myd88": 58
 		},
 		"id": 177,
-		"relevancy": 1603
+		"relevancy": 2376
 	},
 	{
 		"name": "Yi Huang",
@@ -3216,10 +4996,20 @@
 			"batcov": 65,
 			"group": 58,
 			"sarsr": 58,
-			"wnv": 56
+			"wnv": 56,
+			"training": 50,
+			"hku14": 48,
+			"subgroup": 47,
+			"xtjyf": 44,
+			"genotype": 44,
+			"rbcov": 44,
+			"protein": 43,
+			"virus": 43,
+			"picornavirus": 42,
+			"nucleocapsid": 42
 		},
 		"id": 178,
-		"relevancy": 892
+		"relevancy": 1339
 	},
 	{
 		"name": "Hideki Hasegawa",
@@ -3234,10 +5024,20 @@
 			"infection": 64,
 			"gvn": 62,
 			"nlrp3": 56,
-			"eosinophilic": 50
+			"eosinophilic": 50,
+			"passaged": 50,
+			"influenza": 45,
+			"inflammasome": 43,
+			"ns1": 43,
+			"lung": 42,
+			"protein": 41,
+			"respiratory": 38,
+			"iav": 36,
+			"neonatal": 36,
+			"model": 36
 		},
 		"id": 179,
-		"relevancy": 769
+		"relevancy": 1179
 	},
 	{
 		"name": "Noriyo Nagata",
@@ -3252,10 +5052,20 @@
 			"infection": 87,
 			"virus": 74,
 			"oshima": 70,
-			"cell": 55
+			"cell": 55,
+			"respiratory": 51,
+			"eosinophilic": 50,
+			"passaged": 50,
+			"lung": 45,
+			"celisa": 43,
+			"protein": 42,
+			"severe": 41,
+			"model": 39,
+			"mer": 39,
+			"coronavirus": 38
 		},
 		"id": 180,
-		"relevancy": 894
+		"relevancy": 1332
 	},
 	{
 		"name": "Lanying Du",
@@ -3270,10 +5080,20 @@
 			"zikv": 193,
 			"antibody": 176,
 			"sars": 167,
-			"receptor": 153
+			"receptor": 153,
+			"binding": 138,
+			"infection": 137,
+			"m2e": 134,
+			"human": 132,
+			"mouse": 126,
+			"domain": 124,
+			"coronavirus": 122,
+			"against": 122,
+			"virus": 117,
+			"spike": 112
 		},
 		"id": 181,
-		"relevancy": 2680
+		"relevancy": 3944
 	},
 	{
 		"name": "Bo-Jian Zheng",
@@ -3288,10 +5108,20 @@
 			"rbd": 102,
 			"coronavirus": 93,
 			"m2e": 91,
-			"cell": 89
+			"cell": 89,
+			"influenza": 87,
+			"mer": 75,
+			"partetravirus": 74,
+			"bat": 73,
+			"aptamer": 68,
+			"vaccine": 66,
+			"raav": 65,
+			"fmopv": 65,
+			"infection": 64,
+			"sarsr": 61
 		},
 		"id": 182,
-		"relevancy": 1086
+		"relevancy": 1784
 	},
 	{
 		"name": "Yee-Joo Tan",
@@ -3306,10 +5136,20 @@
 			"coronavirus": 86,
 			"orf6": 77,
 			"apoptosis": 77,
-			"virus": 69
+			"virus": 69,
+			"viral": 67,
+			"syndrome": 59,
+			"respiratory": 58,
+			"antibody": 58,
+			"expression": 58,
+			"mab": 58,
+			"acute": 58,
+			"bik": 57,
+			"severe": 57,
+			"nss": 55
 		},
 		"id": 183,
-		"relevancy": 1148
+		"relevancy": 1733
 	},
 	{
 		"name": "Changhee Lee",
@@ -3324,10 +5164,20 @@
 			"diarrhea": 82,
 			"protein": 80,
 			"piglet": 65,
-			"cell": 62
+			"cell": 62,
+			"korea": 59,
+			"korean": 57,
+			"nidovirus": 55,
+			"cholesterol": 52,
+			"sow": 52,
+			"g2b": 51,
+			"epidemic": 50,
+			"strain": 46,
+			"jeju": 44,
+			"papn": 42
 		},
 		"id": 184,
-		"relevancy": 1105
+		"relevancy": 1613
 	},
 	{
 		"name": "Jincun Zhao",
@@ -3342,10 +5192,20 @@
 			"s450": 109,
 			"treg": 109,
 			"respiratory": 101,
-			"coronavirus": 92
+			"coronavirus": 92,
+			"protein": 92,
+			"infection": 85,
+			"human": 74,
+			"cd4": 68,
+			"m133": 65,
+			"specific": 64,
+			"receptor": 62,
+			"crcov": 62,
+			"wnv": 60,
+			"syndrome": 60
 		},
 		"id": 185,
-		"relevancy": 1408
+		"relevancy": 2100
 	},
 	{
 		"name": "Yan Zhang",
@@ -3360,10 +5220,20 @@
 			"alg": 70,
 			"protein": 65,
 			"porcine": 63,
-			"hev71": 62
+			"hev71": 62,
+			"pcr": 62,
+			"sars": 61,
+			"hfmd": 55,
+			"hiv": 52,
+			"ccr5": 51,
+			"mucroporin": 51,
+			"mucosal": 48,
+			"patient": 47,
+			"hpiv": 47,
+			"strain": 46
 		},
 		"id": 186,
-		"relevancy": 803
+		"relevancy": 1323
 	},
 	{
 		"name": "Chengyu Jiang",
@@ -3378,10 +5248,20 @@
 			"ali": 47,
 			"h5n1": 46,
 			"cell": 46,
-			"acute": 43
+			"acute": 43,
+			"cov": 43,
+			"virus": 41,
+			"influenza": 38,
+			"nanoparticle": 35,
+			"protein": 33,
+			"infection": 33,
+			"converting": 32,
+			"h7n9": 32,
+			"tudca": 32,
+			"lysosome": 30
 		},
 		"id": 187,
-		"relevancy": 635
+		"relevancy": 984
 	},
 	{
 		"name": "Ben Berkhout",
@@ -3396,10 +5276,20 @@
 			"genome": 47,
 			"nucleotide": 47,
 			"rna": 46,
-			"coronavirus": 44
+			"coronavirus": 44,
+			"human": 44,
+			"composition": 39,
+			"hiv": 38,
+			"child": 38,
+			"codon": 36,
+			"infection": 35,
+			"t20": 33,
+			"croup": 31,
+			"astrovirus": 30,
+			"zikv": 30
 		},
 		"id": 188,
-		"relevancy": 763
+		"relevancy": 1117
 	},
 	{
 		"name": "Ding Xiang Liu",
@@ -3414,10 +5304,20 @@
 			"channel": 105,
 			"stress": 91,
 			"viroporin": 85,
-			"etm": 77
+			"etm": 77,
+			"upr": 77,
+			"gadd153": 76,
+			"infectious": 75,
+			"viral": 72,
+			"eic": 70,
+			"apoptosis": 69,
+			"pentameric": 68,
+			"replication": 66,
+			"rna": 64,
+			"interaction": 59
 		},
 		"id": 189,
-		"relevancy": 1574
+		"relevancy": 2270
 	},
 	{
 		"name": "Ying Zhu",
@@ -3432,10 +5332,20 @@
 			"expression": 51,
 			"hbc": 46,
 			"cov": 40,
-			"sgrna": 39
+			"sgrna": 39,
+			"baf200": 38,
+			"sil6r": 38,
+			"cell": 38,
+			"infection": 37,
+			"gp120": 36,
+			"iav": 30,
+			"promoter": 30,
+			"hiv": 30,
+			"patient": 29,
+			"sirna": 28
 		},
 		"id": 190,
-		"relevancy": 639
+		"relevancy": 973
 	},
 	{
 		"name": "Heinz Feldmann",
@@ -3450,10 +5360,20 @@
 			"filovirus": 112,
 			"ebolavirus": 111,
 			"mer": 110,
-			"hev": 107
+			"hev": 107,
+			"niv": 101,
+			"macaque": 101,
+			"infection": 100,
+			"vsv": 97,
+			"hamster": 93,
+			"cov": 93,
+			"disease": 86,
+			"zebov": 84,
+			"animal": 80,
+			"glycoprotein": 80
 		},
 		"id": 191,
-		"relevancy": 1465
+		"relevancy": 2380
 	},
 	{
 		"name": "Ming Wang",
@@ -3468,10 +5388,20 @@
 			"sarsr": 61,
 			"virus": 60,
 			"sars": 59,
-			"civet": 57
+			"civet": 57,
+			"hku10": 56,
+			"protein": 55,
+			"genome": 50,
+			"hsp40": 49,
+			"hku14": 48,
+			"palm": 47,
+			"patient": 45,
+			"subgroup": 44,
+			"rbcov": 44,
+			"buying": 42
 		},
 		"id": 192,
-		"relevancy": 760
+		"relevancy": 1240
 	},
 	{
 		"name": "Jianqiang Zhang",
@@ -3486,10 +5416,20 @@
 			"rrt": 116,
 			"hull": 107,
 			"diarrhea": 103,
-			"rice": 98
+			"rice": 98,
+			"iipcr": 97,
+			"sample": 92,
+			"indel": 82,
+			"pcr": 81,
+			"sow": 78,
+			"sdpp": 77,
+			"batch": 76,
+			"piglet": 75,
+			"svv": 74,
+			"g2b": 72
 		},
 		"id": 193,
-		"relevancy": 1842
+		"relevancy": 2646
 	},
 	{
 		"name": "Guiqing Peng",
@@ -3504,10 +5444,20 @@
 			"binding": 88,
 			"tgev": 88,
 			"virus": 87,
-			"nsp1": 80
+			"nsp1": 80,
+			"nsp5": 78,
+			"ntd": 77,
+			"mceacam1a": 77,
+			"nsp9": 74,
+			"mhv": 72,
+			"nsp15": 65,
+			"nemo": 63,
+			"structure": 58,
+			"diarrhea": 57,
+			"ifn": 56
 		},
 		"id": 194,
-		"relevancy": 1148
+		"relevancy": 1825
 	},
 	{
 		"name": "Li Liu",
@@ -3522,10 +5472,20 @@
 			"tshsv": 51,
 			"door": 48,
 			"training": 46,
-			"sars": 45
+			"sars": 45,
+			"nab": 43,
+			"mucosal": 43,
+			"gene": 42,
+			"ifn": 41,
+			"cov": 41,
+			"viral": 39,
+			"opening": 39,
+			"soe": 38,
+			"droplet": 38,
+			"ace2": 35
 		},
 		"id": 195,
-		"relevancy": 621
+		"relevancy": 1020
 	},
 	{
 		"name": "Chuan Qin",
@@ -3540,10 +5500,20 @@
 			"ace2": 49,
 			"mer": 43,
 			"cell": 42,
-			"infection": 42
+			"infection": 42,
+			"virus": 41,
+			"lung": 38,
+			"sev": 38,
+			"respiratory": 35,
+			"lycorine": 35,
+			"viral": 33,
+			"severe": 33,
+			"coronavirus": 32,
+			"brandt": 32,
+			"procyanidin": 32
 		},
 		"id": 196,
-		"relevancy": 562
+		"relevancy": 911
 	},
 	{
 		"name": "Zhiwei Chen",
@@ -3558,10 +5528,20 @@
 			"hiv": 63,
 			"mva": 61,
 			"vaccine": 55,
-			"viral": 54
+			"viral": 54,
+			"ace2": 51,
+			"antibody": 50,
+			"vaccinia": 49,
+			"neutralizing": 47,
+			"virus": 43,
+			"mvttzci": 41,
+			"cell": 40,
+			"soe": 38,
+			"vaccination": 37,
+			"smallpox": 35
 		},
 		"id": 197,
-		"relevancy": 707
+		"relevancy": 1138
 	},
 	{
 		"name": "Christian Drosten",
@@ -3576,10 +5556,20 @@
 			"human": 256,
 			"cell": 219,
 			"hcov": 208,
-			"infection": 191
+			"infection": 191,
+			"camel": 183,
+			"respiratory": 182,
+			"protein": 148,
+			"viral": 137,
+			"emc": 125,
+			"syndrome": 124,
+			"east": 110,
+			"host": 108,
+			"species": 108,
+			"dromedary": 106
 		},
 		"id": 198,
-		"relevancy": 3005
+		"relevancy": 4336
 	},
 	{
 		"name": "Linqi Zhang",
@@ -3594,10 +5584,20 @@
 			"nab": 65,
 			"mva": 61,
 			"zikv": 55,
-			"sars": 54
+			"sars": 54,
+			"mvtt": 53,
+			"against": 50,
+			"binding": 50,
+			"mouse": 46,
+			"dpp4": 46,
+			"receptor": 45,
+			"vaccine": 44,
+			"tpa": 44,
+			"virus": 42,
+			"mvttzci": 41
 		},
 		"id": 199,
-		"relevancy": 688
+		"relevancy": 1149
 	},
 	{
 		"name": "Li Li",
@@ -3612,10 +5612,20 @@
 			"cd69": 55,
 			"cd4": 50,
 			"mtb": 47,
-			"nov": 43
+			"nov": 43,
+			"protein": 43,
+			"peptide": 42,
+			"resveratrol": 41,
+			"tmv": 41,
+			"a21": 40,
+			"blg": 38,
+			"patient": 37,
+			"provider": 37,
+			"diarrhea": 36,
+			"pharyngitis": 35
 		},
 		"id": 200,
-		"relevancy": 597
+		"relevancy": 987
 	},
 	{
 		"name": "Yu Zhang",
@@ -3630,10 +5640,20 @@
 			"hbc": 66,
 			"hace1": 65,
 			"methylation": 60,
-			"ampk": 59
+			"ampk": 59,
+			"cell": 59,
+			"pollutant": 56,
+			"hunov": 55,
+			"sars": 53,
+			"ace2": 51,
+			"colon": 49,
+			"rvsv": 48,
+			"vaccine": 46,
+			"mtase": 45,
+			"igy": 42
 		},
 		"id": 201,
-		"relevancy": 726
+		"relevancy": 1230
 	},
 	{
 		"name": "Hualiang Jiang",
@@ -3648,10 +5668,20 @@
 			"protein": 46,
 			"virtual": 46,
 			"hnrnp": 45,
-			"sars_cov": 41
+			"sars_cov": 41,
+			"quercetin": 39,
+			"binding": 38,
+			"yycg": 38,
+			"compound": 38,
+			"discovery": 35,
+			"antibiotic": 35,
+			"scoring": 35,
+			"drug": 32,
+			"isonucleoside": 32,
+			"spr": 31
 		},
 		"id": 202,
-		"relevancy": 507
+		"relevancy": 860
 	},
 	{
 		"name": "Aitor Nogales",
@@ -3666,10 +5696,20 @@
 			"gait": 43,
 			"rna": 42,
 			"iav": 39,
-			"ns1": 37
+			"ns1": 37,
+			"rzikv": 35,
+			"ifi44": 35,
+			"laiv": 35,
+			"ata": 35,
+			"clone": 33,
+			"infection": 30,
+			"nss": 30,
+			"ns2a": 29,
+			"rdrp": 28,
+			"replication": 28
 		},
 		"id": 203,
-		"relevancy": 602
+		"relevancy": 920
 	},
 	{
 		"name": "Marc Desforges",
@@ -3684,10 +5724,20 @@
 			"virus": 66,
 			"coronavirus": 64,
 			"cell": 61,
-			"neuropathogenesis": 54
+			"neuropathogenesis": 54,
+			"protein": 50,
+			"nervous": 46,
+			"respiratory": 40,
+			"infection": 40,
+			"myelin": 38,
+			"viral": 37,
+			"glutamate": 36,
+			"mouse": 33,
+			"neurological": 33,
+			"atcc": 32
 		},
 		"id": 204,
-		"relevancy": 923
+		"relevancy": 1308
 	},
 	{
 		"name": "Honglin Chen",
@@ -3702,10 +5752,20 @@
 			"human": 45,
 			"ebv": 45,
 			"h5n1": 44,
-			"influenza": 42
+			"influenza": 42,
+			"hku4": 41,
+			"cyclin": 38,
+			"emc": 36,
+			"sars": 36,
+			"h7n9": 35,
+			"alimentary": 35,
+			"organoid": 35,
+			"infection": 34,
+			"npe": 32,
+			"coronavirus": 30
 		},
 		"id": 205,
-		"relevancy": 555
+		"relevancy": 907
 	},
 	{
 		"name": "Xiaofeng Ren",
@@ -3720,10 +5780,20 @@
 			"prv": 88,
 			"peptide": 84,
 			"cholesterol": 79,
-			"protein": 71
+			"protein": 71,
+			"cell": 70,
+			"transmissible": 69,
+			"infection": 66,
+			"licl": 65,
+			"gastroenteritis": 64,
+			"pvax1": 50,
+			"pseudoraby": 49,
+			"silver": 45,
+			"elisa": 43,
+			"diarrhea": 40
 		},
 		"id": 206,
-		"relevancy": 1154
+		"relevancy": 1715
 	},
 	{
 		"name": "Lei Zhou",
@@ -3738,10 +5808,20 @@
 			"virus": 68,
 			"reproductive": 67,
 			"apoptosis": 60,
-			"cell": 58
+			"cell": 58,
+			"chm2013": 53,
+			"bj2011c": 53,
+			"hht": 51,
+			"nsp2": 49,
+			"marc": 48,
+			"pedv": 44,
+			"train": 37,
+			"prb": 37,
+			"plp2": 36,
+			"replication": 35
 		},
 		"id": 207,
-		"relevancy": 973
+		"relevancy": 1416
 	},
 	{
 		"name": "Hanchun Yang",
@@ -3756,10 +5836,20 @@
 			"ddx5": 68,
 			"virus": 68,
 			"apoptosis": 60,
-			"cell": 59
+			"cell": 59,
+			"chm2013": 53,
+			"bj2011c": 53,
+			"nsp2": 49,
+			"marc": 48,
+			"pedv": 39,
+			"prb": 37,
+			"replication": 36,
+			"plp2": 36,
+			"nsp10": 34,
+			"nonstructural": 32
 		},
 		"id": 208,
-		"relevancy": 1020
+		"relevancy": 1437
 	},
 	{
 		"name": "Yan-Jin Zhang",
@@ -3774,10 +5864,20 @@
 			"kshv": 95,
 			"stat3": 93,
 			"a2mc2": 89,
-			"vil": 89
+			"vil": 89,
+			"jak": 85,
+			"stat": 84,
+			"ifn": 81,
+			"cell": 70,
+			"morpholino": 69,
+			"kpna1": 65,
+			"virus": 59,
+			"reproductive": 58,
+			"oligomer": 57,
+			"prr": 56
 		},
 		"id": 209,
-		"relevancy": 1284
+		"relevancy": 1968
 	},
 	{
 		"name": "Yan Wang",
@@ -3792,10 +5892,20 @@
 			"lactoglobulin": 45,
 			"dptv": 44,
 			"ahsg": 44,
-			"ptss": 44
+			"ptss": 44,
+			"cell": 42,
+			"mental": 40,
+			"vp1": 40,
+			"cvb3": 40,
+			"lactoferrin": 39,
+			"hla": 39,
+			"lactalbumin": 38,
+			"hsp70": 37,
+			"sars": 36,
+			"enf": 35
 		},
 		"id": 210,
-		"relevancy": 519
+		"relevancy": 905
 	},
 	{
 		"name": "Kouichi Morita",
@@ -3810,10 +5920,20 @@
 			"cov": 59,
 			"ndiv": 53,
 			"jev": 50,
-			"protein": 45
+			"protein": 45,
+			"igm": 44,
+			"isothermal": 44,
+			"assay": 44,
+			"sft": 40,
+			"rsftsv": 38,
+			"mouse": 36,
+			"detection": 35,
+			"infection": 35,
+			"sample": 33,
+			"amplification": 33
 		},
 		"id": 211,
-		"relevancy": 702
+		"relevancy": 1084
 	},
 	{
 		"name": "Hin Chu",
@@ -3828,10 +5948,20 @@
 			"cell": 63,
 			"infection": 60,
 			"human": 54,
-			"fip1c": 51
+			"fip1c": 51,
+			"coronavirus": 48,
+			"adcc": 46,
+			"lipid": 42,
+			"influenza": 42,
+			"env": 39,
+			"organoid": 39,
+			"h7n9": 35,
+			"antiviral": 34,
+			"zikv": 33,
+			"rab14": 32
 		},
 		"id": 212,
-		"relevancy": 667
+		"relevancy": 1057
 	},
 	{
 		"name": "Jie Zhou",
@@ -3846,10 +5976,20 @@
 			"jev": 63,
 			"crtc1": 59,
 			"influenza": 59,
-			"human": 55
+			"human": 55,
+			"infection": 55,
+			"cell": 50,
+			"adcc": 46,
+			"organoid": 39,
+			"coronavirus": 37,
+			"h7n9": 37,
+			"hadv": 35,
+			"bananin": 34,
+			"hbv": 33,
+			"h5n1": 32
 		},
 		"id": 213,
-		"relevancy": 682
+		"relevancy": 1080
 	},
 	{
 		"name": "Qigai He",
@@ -3864,10 +6004,20 @@
 			"cell": 72,
 			"fcrn": 70,
 			"n195": 70,
-			"ifa": 69
+			"ifa": 69,
+			"tgev": 62,
+			"orf3": 54,
+			"infection": 51,
+			"piscidin": 44,
+			"sars": 44,
+			"epidemic": 43,
+			"hps4": 41,
+			"apn": 38,
+			"pdcov": 37,
+			"rpdcov": 35
 		},
 		"id": 214,
-		"relevancy": 1002
+		"relevancy": 1451
 	},
 	{
 		"name": "Fulvio Reggiori",
@@ -3882,10 +6032,20 @@
 			"autophagosome": 45,
 			"membrane": 42,
 			"replication": 41,
-			"rtc": 39
+			"rtc": 39,
+			"pimozide": 38,
+			"lecb": 38,
+			"erad": 38,
+			"loperamide": 32,
+			"mhv": 32,
+			"stf": 32,
+			"gbm": 32,
+			"eav": 30,
+			"coronavirus": 29,
+			"author": 28
 		},
 		"id": 215,
-		"relevancy": 639
+		"relevancy": 968
 	},
 	{
 		"name": "Ulrich Wernery",
@@ -3900,10 +6060,20 @@
 			"cov": 80,
 			"bactrian": 63,
 			"dccov": 58,
-			"wnv": 56
+			"wnv": 56,
+			"virus": 47,
+			"emirate": 43,
+			"arab": 42,
+			"east": 41,
+			"middle": 39,
+			"ndv": 37,
+			"coronavirus": 37,
+			"erbv": 37,
+			"erbv3": 37,
+			"sample": 36
 		},
 		"id": 216,
-		"relevancy": 980
+		"relevancy": 1376
 	},
 	{
 		"name": "Wen Wang",
@@ -3918,10 +6088,20 @@
 			"mrarf2": 44,
 			"dbsv": 44,
 			"shrew": 44,
-			"wssv": 41
+			"wssv": 41,
+			"patient": 40,
+			"infection": 40,
+			"coronavirus": 39,
+			"erk": 39,
+			"eriocheiris": 38,
+			"murinae": 38,
+			"arf": 38,
+			"egf": 38,
+			"protein": 38,
+			"mek": 36
 		},
 		"id": 217,
-		"relevancy": 468
+		"relevancy": 852
 	},
 	{
 		"name": "Edward C. Holmes",
@@ -3936,10 +6116,20 @@
 			"hajj": 70,
 			"evolutionary": 65,
 			"devil": 62,
-			"diversity": 60
+			"diversity": 60,
+			"rna": 57,
+			"civ": 57,
+			"viral": 55,
+			"transmission": 55,
+			"genome": 53,
+			"cov": 51,
+			"emergence": 49,
+			"coronavirus": 48,
+			"influenza": 48,
+			"wesv": 47
 		},
 		"id": 218,
-		"relevancy": 981
+		"relevancy": 1501
 	},
 	{
 		"name": "Qi Chen",
@@ -3954,10 +6144,20 @@
 			"iipcr": 97,
 			"pdcov": 94,
 			"porcine": 92,
-			"virus": 84
+			"virus": 84,
+			"indel": 82,
+			"tgev": 80,
+			"piglet": 78,
+			"batch": 76,
+			"svv": 74,
+			"pcr": 69,
+			"prcv": 65,
+			"nrf2": 64,
+			"diarrhea": 63,
+			"mixer": 53
 		},
 		"id": 219,
-		"relevancy": 1356
+		"relevancy": 2060
 	},
 	{
 		"name": "Liurong Fang",
@@ -3972,10 +6172,20 @@
 			"protein": 118,
 			"virus": 118,
 			"rig": 114,
-			"signaling": 98
+			"signaling": 98,
+			"nsp5": 93,
+			"nsp1": 91,
+			"deltacoronavirus": 91,
+			"tgev": 90,
+			"ns6": 85,
+			"diarrhea": 84,
+			"reproductive": 82,
+			"irf3": 77,
+			"nsp11": 77,
+			"production": 77
 		},
 		"id": 220,
-		"relevancy": 1880
+		"relevancy": 2727
 	},
 	{
 		"name": "Dang Wang",
@@ -3990,10 +6200,20 @@
 			"nsp11": 103,
 			"protein": 103,
 			"virus": 100,
-			"signaling": 96
+			"signaling": 96,
+			"pedv": 95,
+			"nsp5": 93,
+			"ns6": 85,
+			"reproductive": 84,
+			"irf3": 77,
+			"deltacoronavirus": 76,
+			"production": 75,
+			"infection": 69,
+			"interferon": 66,
+			"dub": 64
 		},
 		"id": 221,
-		"relevancy": 1675
+		"relevancy": 2459
 	},
 	{
 		"name": "Yi Li",
@@ -4008,10 +6228,20 @@
 			"glove": 45,
 			"virus": 43,
 			"infection": 39,
-			"covid": 38
+			"covid": 38,
+			"sars": 36,
+			"removal": 35,
+			"contamination": 34,
+			"cell": 33,
+			"bin": 32,
+			"ppc": 32,
+			"circadian": 32,
+			"ac": 32,
+			"hcv": 30,
+			"mental": 27
 		},
 		"id": 222,
-		"relevancy": 544
+		"relevancy": 867
 	},
 	{
 		"name": "Shaobo Xiao",
@@ -4026,10 +6256,20 @@
 			"virus": 128,
 			"protein": 123,
 			"rig": 114,
-			"nsp11": 110
+			"nsp11": 110,
+			"signaling": 101,
+			"tgev": 98,
+			"nsp5": 93,
+			"diarrhea": 92,
+			"nsp1": 91,
+			"deltacoronavirus": 91,
+			"reproductive": 89,
+			"ns6": 85,
+			"infection": 78,
+			"irf3": 77
 		},
 		"id": 223,
-		"relevancy": 1979
+		"relevancy": 2874
 	},
 	{
 		"name": "Clara C. Posthuma",
@@ -4044,10 +6284,20 @@
 			"coronavirus": 58,
 			"helicas": 51,
 			"cov": 50,
-			"protein": 50
+			"protein": 50,
+			"virus": 50,
+			"synthesis": 49,
+			"zbd": 49,
+			"rdrp": 49,
+			"helicase": 47,
+			"nsp14": 45,
+			"exon": 45,
+			"activity": 42,
+			"cyclophilin": 42,
+			"arteritis": 41
 		},
 		"id": 224,
-		"relevancy": 801
+		"relevancy": 1260
 	},
 	{
 		"name": "Jianxun Qi",
@@ -4062,10 +6312,20 @@
 			"hsv": 96,
 			"mhc": 90,
 			"virus": 85,
-			"rbd": 73
+			"rbd": 73,
+			"receptor": 70,
+			"csra": 68,
+			"sla": 58,
+			"cest": 57,
+			"mamu": 56,
+			"cell": 53,
+			"suis": 51,
+			"mer": 51,
+			"crystal": 50,
+			"cd26": 47
 		},
 		"id": 225,
-		"relevancy": 1136
+		"relevancy": 1697
 	},
 	{
 		"name": "Ying Wu",
@@ -4080,10 +6340,20 @@
 			"erm": 53,
 			"xdy": 53,
 			"bat": 47,
-			"fepv": 46
+			"fepv": 46,
+			"duck": 44,
+			"cat": 44,
+			"batcov": 43,
+			"mer": 43,
+			"protein": 42,
+			"dpv": 39,
+			"sgrna": 39,
+			"ifitm1": 38,
+			"cov": 37,
+			"def": 35
 		},
 		"id": 226,
-		"relevancy": 604
+		"relevancy": 1008
 	},
 	{
 		"name": "Guangwen Lu",
@@ -4098,10 +6368,20 @@
 			"csra": 68,
 			"ceacam5": 67,
 			"receptor": 63,
-			"protein": 57
+			"protein": 57,
+			"structure": 57,
+			"cest": 57,
+			"coronavirus": 53,
+			"betacov": 48,
+			"spike": 47,
+			"cd26": 47,
+			"cell": 46,
+			"hku9": 42,
+			"fbp": 40,
+			"enolase": 39
 		},
 		"id": 227,
-		"relevancy": 880
+		"relevancy": 1356
 	},
 	{
 		"name": "Yi Shi",
@@ -4116,10 +6396,20 @@
 			"adc7": 54,
 			"mhc": 49,
 			"receptor": 47,
-			"ebola": 43
+			"ebola": 43,
+			"fbp": 40,
+			"serm": 38,
+			"structure": 37,
+			"idv": 37,
+			"cd26": 34,
+			"lilra3": 32,
+			"protein": 32,
+			"hef": 30,
+			"hla": 29,
+			"batcov": 29
 		},
 		"id": 228,
-		"relevancy": 608
+		"relevancy": 946
 	},
 	{
 		"name": "Fan Yang",
@@ -4134,10 +6424,20 @@
 			"fmdv": 55,
 			"gene": 52,
 			"expression": 51,
-			"virus": 48
+			"virus": 48,
+			"thrombi": 44,
+			"patient": 39,
+			"integrin": 38,
+			"col5a2": 38,
+			"complement": 37,
+			"embolism": 34,
+			"svv": 34,
+			"virome": 32,
+			"bcl": 30,
+			"immune": 30
 		},
 		"id": 229,
-		"relevancy": 672
+		"relevancy": 1028
 	},
 	{
 		"name": "Kazuya Shirato",
@@ -4152,10 +6452,20 @@
 			"cathepsin": 75,
 			"lamp": 71,
 			"protease": 65,
-			"furin": 53
+			"furin": 53,
+			"fusion": 52,
+			"coronavirus": 49,
+			"endosomal": 49,
+			"entry": 45,
+			"respiratory": 45,
+			"infection": 44,
+			"celisa": 43,
+			"surface": 42,
+			"p10": 42,
+			"amibara": 41
 		},
 		"id": 230,
-		"relevancy": 972
+		"relevancy": 1424
 	},
 	{
 		"name": "Bin Wang",
@@ -4170,10 +6480,20 @@
 			"erg11": 57,
 			"virus": 57,
 			"cell": 51,
-			"pedv": 51
+			"pedv": 51,
+			"porcine": 50,
+			"rhil": 47,
+			"ltnp": 44,
+			"fluconazole": 44,
+			"hu191": 44,
+			"dna": 41,
+			"p24": 40,
+			"pil": 40,
+			"infection": 36,
+			"candida": 36
 		},
 		"id": 231,
-		"relevancy": 652
+		"relevancy": 1074
 	},
 	{
 		"name": "Benjamin W. Neuman",
@@ -4188,10 +6508,20 @@
 			"nsp3": 66,
 			"domain": 66,
 			"organelle": 63,
-			"rna": 61
+			"rna": 61,
+			"structure": 55,
+			"viral": 52,
+			"mtase": 49,
+			"arenavirus": 47,
+			"sars": 46,
+			"morpholino": 46,
+			"dmv": 44,
+			"oligomer": 43,
+			"vesicle": 39,
+			"spherule": 38
 		},
 		"id": 232,
-		"relevancy": 857
+		"relevancy": 1316
 	},
 	{
 		"name": "Jun Liu",
@@ -4206,10 +6536,20 @@
 			"virus": 59,
 			"sla": 58,
 			"mamu": 56,
-			"ggo": 49
+			"ggo": 49,
+			"infection": 49,
+			"ifitm": 48,
+			"supertype": 46,
+			"hbc": 46,
+			"hbv": 45,
+			"patient": 43,
+			"bcg": 40,
+			"ifitm10": 38,
+			"child": 38,
+			"allele": 37
 		},
 		"id": 233,
-		"relevancy": 856
+		"relevancy": 1286
 	},
 	{
 		"name": "Markus Hoffmann",
@@ -4224,10 +6564,20 @@
 			"ebov": 82,
 			"tmprss2": 81,
 			"ifitm": 71,
-			"filovirus": 69
+			"filovirus": 69,
+			"rhifitm3": 59,
+			"human": 58,
+			"batmuv": 58,
+			"mer": 51,
+			"hal": 51,
+			"viral": 50,
+			"ghv": 49,
+			"siv": 47,
+			"catl": 46,
+			"glycoprotein": 44
 		},
 		"id": 234,
-		"relevancy": 926
+		"relevancy": 1439
 	},
 	{
 		"name": "Jing Li",
@@ -4242,10 +6592,20 @@
 			"glp": 32,
 			"ncapp": 32,
 			"ts18": 32,
-			"patient": 29
+			"patient": 29,
+			"scarlet": 28,
+			"saa": 27,
+			"ammonium": 27,
+			"infection": 26,
+			"sars": 25,
+			"quaternary": 25,
+			"cancer": 23,
+			"array": 23,
+			"virus": 23,
+			"dhav": 22
 		},
 		"id": 235,
-		"relevancy": 370
+		"relevancy": 619
 	},
 	{
 		"name": "Jianfei Chen",
@@ -4260,10 +6620,20 @@
 			"sad": 72,
 			"virus": 55,
 			"cell": 48,
-			"npm1": 47
+			"npm1": 47,
+			"papn": 46,
+			"epitope": 45,
+			"rpifn": 45,
+			"gene": 42,
+			"siga": 40,
+			"epidemic": 38,
+			"mcab": 35,
+			"pdcov": 34,
+			"scfv": 34,
+			"chinese": 33
 		},
 		"id": 236,
-		"relevancy": 903
+		"relevancy": 1295
 	},
 	{
 		"name": "Hongyan Shi",
@@ -4278,10 +6648,20 @@
 			"strain": 71,
 			"cell": 57,
 			"virus": 55,
-			"npm1": 47
+			"npm1": 47,
+			"epitope": 47,
+			"papn": 46,
+			"rpifn": 45,
+			"epidemic": 40,
+			"siga": 40,
+			"ipec": 37,
+			"piglet": 36,
+			"mpil": 35,
+			"mcab": 35,
+			"pdcov": 34
 		},
 		"id": 237,
-		"relevancy": 969
+		"relevancy": 1364
 	},
 	{
 		"name": "Xin Zhang",
@@ -4296,10 +6676,20 @@
 			"stress": 60,
 			"ecatg5": 57,
 			"cell": 57,
-			"ili": 56
+			"ili": 56,
+			"cypa": 54,
+			"replication": 53,
+			"perk": 52,
+			"npm1": 47,
+			"infection": 47,
+			"porcine": 45,
+			"cd147": 43,
+			"china": 42,
+			"cassiae": 41,
+			"socs1": 41
 		},
 		"id": 238,
-		"relevancy": 807
+		"relevancy": 1272
 	},
 	{
 		"name": "Da Shi",
@@ -4314,10 +6704,20 @@
 			"npm1": 47,
 			"cell": 43,
 			"siga": 40,
-			"virus": 38
+			"virus": 38,
+			"papn": 37,
+			"strain": 35,
+			"pdcov": 34,
+			"scfv": 34,
+			"shr": 31,
+			"ppv": 30,
+			"epitope": 30,
+			"mab": 30,
+			"nucleolus": 28,
+			"replication": 28
 		},
 		"id": 239,
-		"relevancy": 705
+		"relevancy": 1022
 	},
 	{
 		"name": "Jing Wang",
@@ -4332,10 +6732,20 @@
 			"gsea": 44,
 			"tuberculata": 44,
 			"cell": 44,
-			"viral": 41
+			"viral": 41,
+			"rna": 40,
+			"sars": 40,
+			"infection": 40,
+			"sample": 39,
+			"u5mr": 38,
+			"pcr": 38,
+			"cov": 37,
+			"detection": 36,
+			"ibdv": 35,
+			"ev71": 35
 		},
 		"id": 240,
-		"relevancy": 544
+		"relevancy": 922
 	},
 	{
 		"name": "Ning Wang",
@@ -4350,10 +6760,20 @@
 			"hsp70l1": 51,
 			"bile": 48,
 			"ovm": 44,
-			"copd": 42
+			"copd": 42,
+			"coronavirus": 41,
+			"c41": 39,
+			"zikv": 39,
+			"est": 39,
+			"glycyrrhizin": 38,
+			"mmt": 38,
+			"liposome": 37,
+			"mer": 36,
+			"sarsr": 36,
+			"flu": 34
 		},
 		"id": 241,
-		"relevancy": 631
+		"relevancy": 1008
 	},
 	{
 		"name": "Michael G. Katze",
@@ -4368,10 +6788,20 @@
 			"gene": 88,
 			"mouse": 87,
 			"macaque": 84,
-			"expression": 79
+			"expression": 79,
+			"restv": 75,
+			"sars": 70,
+			"viral": 69,
+			"respiratory": 67,
+			"h7n9": 65,
+			"disease": 64,
+			"cell": 63,
+			"transcriptomic": 61,
+			"transcriptome": 58,
+			"human": 57
 		},
 		"id": 242,
-		"relevancy": 1119
+		"relevancy": 1768
 	},
 	{
 		"name": "Victor M. Corman",
@@ -4386,10 +6816,20 @@
 			"human": 50,
 			"jeddah": 48,
 			"cov": 48,
-			"infection": 46
+			"infection": 46,
+			"camel": 42,
+			"becn1": 38,
+			"cell": 38,
+			"hepatovirus": 35,
+			"coronavirus": 35,
+			"skp2": 34,
+			"cshbv": 32,
+			"astv": 31,
+			"hepadnavirus": 31,
+			"ancient": 30
 		},
 		"id": 243,
-		"relevancy": 612
+		"relevancy": 958
 	},
 	{
 		"name": "Tero Ahola",
@@ -4404,10 +6844,20 @@
 			"virus": 85,
 			"ribose": 82,
 			"semliki": 73,
-			"replication": 70
+			"replication": 70,
+			"adp": 69,
+			"protein": 67,
+			"membrane": 56,
+			"forest": 54,
+			"domain": 52,
+			"obatoclax": 51,
+			"capping": 51,
+			"replicase": 50,
+			"nsp2": 49,
+			"strand": 45
 		},
 		"id": 244,
-		"relevancy": 1000
+		"relevancy": 1544
 	},
 	{
 		"name": "Xiaoyan Lu",
@@ -4422,10 +6872,20 @@
 			"arabia": 55,
 			"saudi": 54,
 			"patient": 53,
-			"child": 49
+			"child": 49,
+			"person": 47,
+			"virus": 46,
+			"coronavirus": 42,
+			"specimen": 41,
+			"ige": 41,
+			"ncov": 40,
+			"january": 39,
+			"health": 38,
+			"cas": 38,
+			"wheezing": 37
 		},
 		"id": 245,
-		"relevancy": 659
+		"relevancy": 1068
 	},
 	{
 		"name": "John V. Williams",
@@ -4440,10 +6900,20 @@
 			"hospitalized": 55,
 			"rhinovirus": 55,
 			"infection": 52,
-			"virus": 52
+			"virus": 52,
+			"cd8": 49,
+			"illness": 49,
+			"infant": 46,
+			"bronchiolitis": 46,
+			"icv": 41,
+			"visit": 39,
+			"uri": 35,
+			"hcov": 35,
+			"impairment": 34,
+			"hospitalization": 34
 		},
 		"id": 246,
-		"relevancy": 861
+		"relevancy": 1269
 	},
 	{
 		"name": "Laurent Kaiser",
@@ -4458,10 +6928,20 @@
 			"dicv": 38,
 			"cre": 38,
 			"aecopd": 37,
-			"tanzanian": 34
+			"tanzanian": 34,
+			"oct": 32,
+			"rash": 32,
+			"hev": 31,
+			"ifih1": 30,
+			"pipeline": 30,
+			"specimen": 28,
+			"enterovirus": 26,
+			"viral": 26,
+			"human": 25,
+			"intradermal": 25
 		},
 		"id": 247,
-		"relevancy": 491
+		"relevancy": 776
 	},
 	{
 		"name": "Tuomas Jartti",
@@ -4476,10 +6956,20 @@
 			"episode": 77,
 			"atopic": 75,
 			"virus": 70,
-			"hrv": 59
+			"hrv": 59,
+			"respiratory": 58,
+			"vitamin": 51,
+			"rsv": 49,
+			"recurrent": 47,
+			"tonsil": 41,
+			"hypertrophy": 41,
+			"illness": 40,
+			"infant": 38,
+			"finland": 38,
+			"patient": 37
 		},
 		"id": 248,
-		"relevancy": 961
+		"relevancy": 1401
 	},
 	{
 		"name": "Sina Bavari",
@@ -4494,10 +6984,20 @@
 			"bcx4430": 89,
 			"antisense": 67,
 			"gilead": 62,
-			"infection": 62
+			"infection": 62,
+			"marburg": 60,
+			"cell": 60,
+			"antihistamine": 57,
+			"salary": 57,
+			"viral": 47,
+			"employee": 44,
+			"against": 42,
+			"anthracis": 41,
+			"morpholino": 41,
+			"rna": 40
 		},
 		"id": 249,
-		"relevancy": 1046
+		"relevancy": 1535
 	},
 	{
 		"name": "Josef M. Penninger",
@@ -4512,10 +7012,20 @@
 			"apelin": 64,
 			"renin": 61,
 			"ace": 59,
-			"race2": 57
+			"race2": 57,
+			"converting": 54,
+			"lung": 52,
+			"b38": 51,
+			"injury": 49,
+			"hartnup": 44,
+			"collectrin": 41,
+			"ard": 39,
+			"enzyme": 39,
+			"oxidative": 36,
+			"cardiovascular": 36
 		},
 		"id": 250,
-		"relevancy": 1039
+		"relevancy": 1480
 	},
 	{
 		"name": "Jinghua Yan",
@@ -4530,10 +7040,20 @@
 			"ceacam5": 67,
 			"virus": 67,
 			"receptor": 63,
-			"protein": 57
+			"protein": 57,
+			"mamu": 56,
+			"suis": 56,
+			"adc7": 54,
+			"structure": 54,
+			"zikv": 52,
+			"cell": 51,
+			"hsp40": 49,
+			"coronavirus": 43,
+			"hku9": 42,
+			"fbp": 40
 		},
 		"id": 251,
-		"relevancy": 855
+		"relevancy": 1352
 	},
 	{
 		"name": "Gustavo Palacios",
@@ -4548,10 +7068,20 @@
 			"saffold": 29,
 			"genome": 28,
 			"basv": 28,
-			"masstag": 27
+			"masstag": 27,
+			"viral": 27,
+			"pathogen": 24,
+			"avi": 23,
+			"ekv": 23,
+			"respiratory": 23,
+			"sequence": 23,
+			"nomenclature": 23,
+			"h1n1pdm": 23,
+			"ebola": 22,
+			"infection": 22
 		},
 		"id": 252,
-		"relevancy": 388
+		"relevancy": 621
 	},
 	{
 		"name": "Yan Wu",
@@ -4566,10 +7096,20 @@
 			"microwave": 42,
 			"ebc": 39,
 			"sumo": 39,
-			"hrtv": 39
+			"hrtv": 39,
+			"impaction": 35,
+			"impactor": 35,
+			"apcp": 35,
+			"protein": 35,
+			"junv": 35,
+			"airborne": 34,
+			"mineral": 34,
+			"min": 33,
+			"air": 33,
+			"l60v": 32
 		},
 		"id": 253,
-		"relevancy": 485
+		"relevancy": 826
 	},
 	{
 		"name": "Zhengde Xie",
@@ -4584,10 +7124,20 @@
 			"hrv": 82,
 			"beijing": 72,
 			"respiratory": 64,
-			"virus": 56
+			"virus": 56,
+			"china": 51,
+			"pcr": 44,
+			"electrochemical": 43,
+			"patient": 42,
+			"adenovirus": 41,
+			"hospitalized": 39,
+			"alrtis": 39,
+			"hbov": 34,
+			"human": 33,
+			"pediatric": 31
 		},
 		"id": 254,
-		"relevancy": 1126
+		"relevancy": 1523
 	},
 	{
 		"name": "Etienne Decroly",
@@ -4602,10 +7152,20 @@
 			"mtase": 123,
 			"nsp14": 104,
 			"methylation": 90,
-			"exon": 65
+			"exon": 65,
+			"mrna": 60,
+			"activity": 58,
+			"protein": 52,
+			"cov": 50,
+			"ns5": 49,
+			"viral": 49,
+			"methyltransferas": 48,
+			"structure": 46,
+			"complex": 44,
+			"coronavirus": 44
 		},
 		"id": 255,
-		"relevancy": 1315
+		"relevancy": 1815
 	},
 	{
 		"name": "The Lancet",
@@ -4620,10 +7180,20 @@
 			"dangerously": 6,
 			"revamp": 6,
 			"manifesto": 6,
-			"momentum": 6
+			"momentum": 6,
+			"china": 5,
+			"mer": 5,
+			"job": 5,
+			"frontier": 5,
+			"commitment": 4,
+			"clean": 4,
+			"freely": 4,
+			"panic": 4,
+			"leadership": 4,
+			"ahead": 4
 		},
 		"id": 256,
-		"relevancy": 70
+		"relevancy": 114
 	},
 	{
 		"name": "Christophe Fraser",
@@ -4638,10 +7208,20 @@
 			"data": 48,
 			"transmission": 48,
 			"cluster": 44,
-			"reproduction": 43
+			"reproduction": 43,
+			"outbreak": 39,
+			"cas": 38,
+			"bias": 37,
+			"estimated": 34,
+			"influenza": 33,
+			"number": 32,
+			"disease": 31,
+			"attack": 29,
+			"analysis": 29,
+			"pandemic": 29
 		},
 		"id": 257,
-		"relevancy": 530
+		"relevancy": 861
 	},
 	{
 		"name": "Steven Riley",
@@ -4656,10 +7236,20 @@
 			"data": 52,
 			"influenza": 50,
 			"population": 48,
-			"intervention": 46
+			"intervention": 46,
+			"outbreak": 45,
+			"cas": 43,
+			"household": 40,
+			"estimated": 38,
+			"infection": 38,
+			"individual": 37,
+			"interval": 36,
+			"forecast": 36,
+			"number": 35,
+			"market": 35
 		},
 		"id": 258,
-		"relevancy": 591
+		"relevancy": 974
 	},
 	{
 		"name": "Thijs Kuiken",
@@ -4674,10 +7264,20 @@
 			"shrew": 64,
 			"respiratory": 59,
 			"sars": 58,
-			"lpaiv": 57
+			"lpaiv": 57,
+			"influenza": 53,
+			"macaque": 52,
+			"seov": 43,
+			"h5n1": 40,
+			"tract": 39,
+			"h10n7": 37,
+			"hepatovirus": 35,
+			"rsv": 34,
+			"cshbv": 32,
+			"scv": 31
 		},
 		"id": 259,
-		"relevancy": 732
+		"relevancy": 1128
 	},
 	{
 		"name": "Maria Zambon",
@@ -4692,10 +7292,20 @@
 			"human": 37,
 			"infection": 31,
 			"antibody": 30,
-			"pandemic": 29
+			"pandemic": 29,
+			"lrtis": 27,
+			"coronavirus": 27,
+			"hku5": 25,
+			"btcov": 24,
+			"subgroup": 22,
+			"sars": 20,
+			"sporting": 20,
+			"syndrome": 19,
+			"burden": 18,
+			"health": 18
 		},
 		"id": 260,
-		"relevancy": 416
+		"relevancy": 636
 	},
 	{
 		"name": "Azaibi Tamin",
@@ -4710,10 +7320,20 @@
 			"nab": 36,
 			"rmv": 35,
 			"coronavirus": 35,
-			"human": 35
+			"human": 35,
+			"protein": 33,
+			"virus": 32,
+			"cas": 30,
+			"syndrome": 28,
+			"mab": 28,
+			"serologic": 28,
+			"middle": 26,
+			"east": 25,
+			"infection": 25,
+			"israel": 25
 		},
 		"id": 261,
-		"relevancy": 527
+		"relevancy": 807
 	},
 	{
 		"name": "David L Heymann",
@@ -4728,10 +7348,20 @@
 			"diseas": 16,
 			"collaboration": 15,
 			"infectious": 15,
-			"pandemic": 14
+			"pandemic": 14,
+			"behavioural": 14,
+			"surveillance": 14,
+			"planning": 14,
+			"public": 13,
+			"security": 13,
+			"disease": 13,
+			"olympic": 13,
+			"ebov": 12,
+			"risk": 12,
+			"response": 12
 		},
 		"id": 262,
-		"relevancy": 197
+		"relevancy": 327
 	},
 	{
 		"name": "Malik Peiris",
@@ -4746,10 +7376,20 @@
 			"middle": 78,
 			"respiratory": 74,
 			"infection": 67,
-			"sars": 66
+			"sars": 66,
+			"virus": 64,
+			"human": 56,
+			"syndrome": 56,
+			"lisa": 54,
+			"africa": 48,
+			"egypt": 48,
+			"patient": 45,
+			"antibody": 43,
+			"morocco": 41,
+			"influenza": 40
 		},
 		"id": 263,
-		"relevancy": 1155
+		"relevancy": 1650
 	},
 	{
 		"name": "Ziad A Memish",
@@ -4764,10 +7404,20 @@
 			"pilgrim": 82,
 			"arabia": 81,
 			"mass": 67,
-			"infection": 59
+			"infection": 59,
+			"respiratory": 55,
+			"mg": 53,
+			"public": 41,
+			"middle": 34,
+			"east": 34,
+			"planning": 31,
+			"transmission": 30,
+			"syndrome": 30,
+			"cas": 30,
+			"influenza": 27
 		},
 		"id": 264,
-		"relevancy": 876
+		"relevancy": 1241
 	},
 	{
 		"name": "Yu Wang",
@@ -4782,10 +7432,20 @@
 			"pue": 62,
 			"cancer": 55,
 			"c3ar": 51,
-			"til": 51
+			"til": 51,
+			"pcifn": 51,
+			"colon": 49,
+			"antifungal": 46,
+			"prrsv": 44,
+			"virus": 44,
+			"launched": 41,
+			"candida": 41,
+			"hla": 39,
+			"c5ar": 39,
+			"sm21": 38
 		},
 		"id": 265,
-		"relevancy": 699
+		"relevancy": 1131
 	},
 	{
 		"name": "Bo Zhang",
@@ -4800,10 +7460,20 @@
 			"flavivirus": 41,
 			"infection": 41,
 			"hbsag": 37,
-			"cell": 36
+			"cell": 36,
+			"lycorine": 35,
+			"yichang": 32,
+			"host": 31,
+			"elongation": 30,
+			"rna": 30,
+			"methyltransferase": 29,
+			"kpna3": 29,
+			"aede": 29,
+			"mtase": 28,
+			"viral": 28
 		},
 		"id": 266,
-		"relevancy": 637
+		"relevancy": 938
 	},
 	{
 		"name": "Jeremy Farrar",
@@ -4818,10 +7488,20 @@
 			"patient": 29,
 			"child": 28,
 			"research": 26,
-			"team": 26
+			"team": 26,
+			"lna": 25,
+			"guideline": 25,
+			"vietnam": 24,
+			"respiratory": 24,
+			"storm": 24,
+			"clinical": 22,
+			"aris": 21,
+			"fla3": 21,
+			"fla5": 21,
+			"lrti": 21
 		},
 		"id": 267,
-		"relevancy": 390
+		"relevancy": 618
 	},
 	{
 		"name": "Marc Lipsitch",
@@ -4836,10 +7516,20 @@
 			"pandemic": 33,
 			"estimating": 32,
 			"trial": 30,
-			"vaccine": 28
+			"vaccine": 28,
+			"surveillance": 28,
+			"gof": 28,
+			"data": 28,
+			"traveller": 27,
+			"infectious": 26,
+			"randomisation": 26,
+			"research": 26,
+			"ethical": 24,
+			"curve": 24,
+			"infector": 23
 		},
 		"id": 268,
-		"relevancy": 363
+		"relevancy": 623
 	},
 	{
 		"name": "Alimuddin Zumla",
@@ -4854,10 +7544,20 @@
 			"respiratory": 78,
 			"jeddah": 72,
 			"east": 67,
-			"africa": 67
+			"africa": 67,
+			"country": 67,
+			"middle": 65,
+			"saudi": 64,
+			"virus": 64,
+			"arabia": 62,
+			"mass": 61,
+			"infection": 59,
+			"public": 57,
+			"risk": 57,
+			"transmission": 57
 		},
 		"id": 269,
-		"relevancy": 945
+		"relevancy": 1558
 	},
 	{
 		"name": "Abdullah Assiri",
@@ -4872,10 +7572,20 @@
 			"jeddah": 52,
 			"riyadh": 50,
 			"virus": 43,
-			"respiratory": 41
+			"respiratory": 41,
+			"east": 40,
+			"infection": 39,
+			"middle": 37,
+			"worker": 37,
+			"patient": 32,
+			"syndrome": 29,
+			"influenza": 28,
+			"health": 27,
+			"coronavirus": 27,
+			"transmission": 26
 		},
 		"id": 270,
-		"relevancy": 649
+		"relevancy": 971
 	},
 	{
 		"name": "Yan Guo",
@@ -4890,10 +7600,20 @@
 			"h5n1": 50,
 			"hdpp4": 49,
 			"virus": 48,
-			"mouse": 47
+			"mouse": 47,
+			"nb": 46,
+			"vaccine": 43,
+			"infection": 42,
+			"paraquat": 40,
+			"harbin": 39,
+			"neutralizing": 38,
+			"antibody": 35,
+			"transgenic": 30,
+			"pyroptosis": 30,
+			"nbms10": 30
 		},
 		"id": 271,
-		"relevancy": 730
+		"relevancy": 1103
 	},
 	{
 		"name": "Fei Yu",
@@ -4908,10 +7628,20 @@
 			"fusion": 60,
 			"inhibitor": 57,
 			"hr2p": 56,
-			"idl": 54
+			"idl": 54,
+			"gp41": 52,
+			"h7n9": 51,
+			"infection": 48,
+			"t20": 43,
+			"m826": 40,
+			"virus": 40,
+			"zikv": 39,
+			"asv": 38,
+			"enfuvirtide": 37,
+			"ap3": 36
 		},
 		"id": 272,
-		"relevancy": 671
+		"relevancy": 1095
 	},
 	{
 		"name": "Lu Lu",
@@ -4926,10 +7656,20 @@
 			"fusion": 99,
 			"idl": 93,
 			"nhr": 89,
-			"protein": 83
+			"protein": 83,
+			"virus": 83,
+			"infection": 80,
+			"rbd": 76,
+			"vaccine": 72,
+			"hr1": 69,
+			"inhibitor": 69,
+			"antibody": 64,
+			"gp41": 63,
+			"human": 62,
+			"coronavirus": 61
 		},
 		"id": 273,
-		"relevancy": 1152
+		"relevancy": 1851
 	},
 	{
 		"name": "Gary Wong",
@@ -4944,10 +7684,20 @@
 			"guinea": 42,
 			"zebov": 42,
 			"ebola": 37,
-			"mouse": 36
+			"mouse": 36,
+			"svlp": 36,
+			"mer": 32,
+			"vaccine": 31,
+			"pig": 30,
+			"infection": 30,
+			"marv": 29,
+			"cov": 27,
+			"vp40": 27,
+			"human": 26,
+			"antibody": 25
 		},
 		"id": 274,
-		"relevancy": 521
+		"relevancy": 814
 	},
 	{
 		"name": "Myoung-don Oh",
@@ -4962,10 +7712,20 @@
 			"middle": 40,
 			"respiratory": 37,
 			"infection": 37,
-			"patient": 36
+			"patient": 36,
+			"syndrome": 32,
+			"coronavirus": 30,
+			"outbreak": 30,
+			"antibody": 26,
+			"day": 19,
+			"sftsv": 17,
+			"transmission": 17,
+			"pneumonia": 16,
+			"severe": 16,
+			"cas": 16
 		},
 		"id": 275,
-		"relevancy": 517
+		"relevancy": 736
 	},
 	{
 		"name": "Giuseppe Ippolito",
@@ -4980,10 +7740,20 @@
 			"evd": 49,
 			"patient": 45,
 			"infectious": 39,
-			"diseas": 39
+			"diseas": 39,
+			"cell": 38,
+			"ebola": 33,
+			"virus": 33,
+			"health": 32,
+			"isolation": 32,
+			"italy": 31,
+			"referral": 30,
+			"country": 30,
+			"radiological": 30,
+			"nkg2d": 28
 		},
 		"id": 276,
-		"relevancy": 541
+		"relevancy": 858
 	},
 	{
 		"name": "Yuwei Gao",
@@ -4998,10 +7768,20 @@
 			"giant": 44,
 			"adjuvant": 43,
 			"cov": 40,
-			"rvfv": 37
+			"rvfv": 37,
+			"pedv": 36,
+			"svlp": 36,
+			"vaccine": 35,
+			"equine": 34,
+			"gem": 32,
+			"antibody": 32,
+			"polysaccharide": 31,
+			"wnv": 30,
+			"mouse": 30,
+			"marv": 29
 		},
 		"id": 277,
-		"relevancy": 627
+		"relevancy": 952
 	},
 	{
 		"name": "Songtao Yang",
@@ -5016,10 +7796,20 @@
 			"vaccine": 65,
 			"cov": 53,
 			"gem": 49,
-			"adjuvant": 45
+			"adjuvant": 45,
+			"fpv": 43,
+			"antibody": 42,
+			"ndv": 37,
+			"rvfv": 37,
+			"mouse": 37,
+			"pedv": 36,
+			"lsectin": 36,
+			"svlp": 36,
+			"equine": 34,
+			"particle": 33
 		},
 		"id": 278,
-		"relevancy": 710
+		"relevancy": 1081
 	},
 	{
 		"name": "Xianzhu Xia",
@@ -5034,10 +7824,20 @@
 			"rvg": 65,
 			"vaccine": 65,
 			"cov": 56,
-			"cdv": 52
+			"cdv": 52,
+			"gem": 49,
+			"adjuvant": 45,
+			"antibody": 45,
+			"giant": 44,
+			"fpv": 43,
+			"ndv": 37,
+			"rvfv": 37,
+			"mouse": 37,
+			"pedv": 36,
+			"lsectin": 36
 		},
 		"id": 279,
-		"relevancy": 754
+		"relevancy": 1163
 	},
 	{
 		"name": "Yu Chen",
@@ -5052,10 +7852,20 @@
 			"protein": 64,
 			"nsp14": 62,
 			"rna": 55,
-			"nsp10": 55
+			"nsp10": 55,
+			"h7n9": 51,
+			"virus": 51,
+			"hpv": 49,
+			"pdtc": 47,
+			"sars": 46,
+			"patient": 40,
+			"sgrna": 39,
+			"cov": 38,
+			"epac2": 38,
+			"rnai": 37
 		},
 		"id": 280,
-		"relevancy": 770
+		"relevancy": 1206
 	},
 	{
 		"name": "Peng Zhou",
@@ -5070,10 +7880,20 @@
 			"pedv": 56,
 			"coronavirus": 52,
 			"protein": 52,
-			"psip411": 51
+			"psip411": 51,
+			"adv": 47,
+			"pteropus": 46,
+			"cell": 45,
+			"irf7": 40,
+			"study": 40,
+			"camel": 39,
+			"human": 39,
+			"infection": 36,
+			"rpdcov": 35,
+			"hku8r": 34
 		},
 		"id": 281,
-		"relevancy": 924
+		"relevancy": 1325
 	},
 	{
 		"name": "Gary Crameri",
@@ -5088,10 +7908,20 @@
 			"nipah": 49,
 			"fruit": 44,
 			"m101": 43,
-			"melaka": 42
+			"melaka": 42,
+			"hendra": 42,
+			"kampar": 41,
+			"mshv": 41,
+			"human": 41,
+			"infection": 40,
+			"ifn": 39,
+			"cov": 38,
+			"antibody": 38,
+			"civet": 35,
+			"lbv": 34
 		},
 		"id": 282,
-		"relevancy": 775
+		"relevancy": 1164
 	},
 	{
 		"name": "Michelle L. Baker",
@@ -5106,10 +7936,20 @@
 			"pteropid": 47,
 			"viral": 44,
 			"mammal": 42,
-			"furin": 42
+			"furin": 42,
+			"cell": 42,
+			"irf7": 40,
+			"reservoir": 38,
+			"host": 37,
+			"flying": 37,
+			"coexist": 36,
+			"species": 35,
+			"fox": 34,
+			"immune": 32,
+			"iii": 30
 		},
 		"id": 283,
-		"relevancy": 947
+		"relevancy": 1308
 	},
 	{
 		"name": "Kui Li",
@@ -5124,10 +7964,20 @@
 			"antiviral": 62,
 			"prrsv": 59,
 			"innate": 57,
-			"mcpip1": 57
+			"mcpip1": 57,
+			"cell": 57,
+			"fmdv": 55,
+			"activity": 54,
+			"pedv": 54,
+			"trim": 53,
+			"isg20": 51,
+			"sting": 50,
+			"pro": 50,
+			"ligase": 49,
+			"plp2": 48
 		},
 		"id": 284,
-		"relevancy": 1100
+		"relevancy": 1621
 	},
 	{
 		"name": "Li Zhang",
@@ -5142,10 +7992,20 @@
 			"covid": 52,
 			"china": 51,
 			"malaria": 49,
-			"infection": 46
+			"infection": 46,
+			"ppe": 46,
+			"bismuth": 44,
+			"ev71": 42,
+			"idc": 38,
+			"usp28": 38,
+			"caninum": 38,
+			"cell": 38,
+			"study": 37,
+			"wildlife": 36,
+			"review": 36
 		},
 		"id": 285,
-		"relevancy": 639
+		"relevancy": 1032
 	},
 	{
 		"name": "Yan Xiao",
@@ -5160,10 +8020,20 @@
 			"patient": 59,
 			"respiratory": 52,
 			"genotype": 51,
-			"cap": 39
+			"cap": 39,
+			"crv": 38,
+			"child": 38,
+			"beijing": 35,
+			"alrtis": 34,
+			"pcr": 34,
+			"human": 32,
+			"rsv": 32,
+			"adult": 31,
+			"japonicum": 29,
+			"tract": 29
 		},
 		"id": 286,
-		"relevancy": 812
+		"relevancy": 1144
 	},
 	{
 		"name": "Gláucia Paranhos-Baccalà",
@@ -5178,10 +8048,20 @@
 			"ttmv": 51,
 			"hbov1": 49,
 			"respiratory": 49,
-			"genotype": 38
+			"genotype": 38,
+			"human": 38,
+			"hypoxemia": 37,
+			"virus": 37,
+			"mali": 36,
+			"study": 33,
+			"hrsv": 32,
+			"rsv": 32,
+			"madagascar": 31,
+			"artis": 31,
+			"year": 30
 		},
 		"id": 287,
-		"relevancy": 704
+		"relevancy": 1041
 	},
 	{
 		"name": "Qi Jin",
@@ -5196,10 +8076,20 @@
 			"erad": 60,
 			"virome": 55,
 			"a21": 48,
-			"infection": 47
+			"infection": 47,
+			"patient": 42,
+			"artis": 40,
+			"pcr": 39,
+			"species": 39,
+			"crv": 38,
+			"respiratory": 38,
+			"cov": 37,
+			"china": 35,
+			"human": 32,
+			"sample": 29
 		},
 		"id": 288,
-		"relevancy": 759
+		"relevancy": 1128
 	},
 	{
 		"name": "Jianwei Wang",
@@ -5214,10 +8104,20 @@
 			"ev71": 82,
 			"respiratory": 78,
 			"patient": 70,
-			"rad": 61
+			"rad": 61,
+			"erad": 60,
+			"hmpv": 59,
+			"artis": 57,
+			"beijing": 52,
+			"pneumonia": 51,
+			"pcr": 51,
+			"ttmv": 51,
+			"hbov1": 49,
+			"influenza": 49,
+			"a21": 48
 		},
 		"id": 289,
-		"relevancy": 912
+		"relevancy": 1439
 	},
 	{
 		"name": "Herman Tse",
@@ -5232,10 +8132,20 @@
 			"sapovirus": 53,
 			"genotype": 47,
 			"cov": 45,
-			"mscpv1": 38
+			"mscpv1": 38,
+			"batcov": 36,
+			"infection": 35,
+			"psittacine": 35,
+			"coronavirus": 33,
+			"human": 32,
+			"prrsv": 32,
+			"oc43": 32,
+			"genome": 32,
+			"hongkongensis": 31,
+			"nagk": 31
 		},
 		"id": 290,
-		"relevancy": 624
+		"relevancy": 953
 	},
 	{
 		"name": "Didier Raoult",
@@ -5250,10 +8160,20 @@
 			"virus": 68,
 			"pneumoniae": 67,
 			"patient": 62,
-			"french": 50
+			"french": 50,
+			"symptom": 49,
+			"influenzae": 48,
+			"pathogen": 48,
+			"sample": 46,
+			"hydroxychloroquine": 46,
+			"auf": 41,
+			"infection": 41,
+			"pneumonia": 39,
+			"covid": 35,
+			"chloroquine": 35
 		},
 		"id": 291,
-		"relevancy": 988
+		"relevancy": 1416
 	},
 	{
 		"name": "Philippe Brouqui",
@@ -5268,10 +8188,20 @@
 			"pilgrim": 50,
 			"france": 45,
 			"marseille": 43,
-			"taxi": 38
+			"taxi": 38,
+			"diseas": 36,
+			"hydroxychloroquine": 36,
+			"management": 35,
+			"island": 33,
+			"infectious": 32,
+			"respiratory": 32,
+			"homeless": 32,
+			"ocean": 29,
+			"isolation": 28,
+			"returning": 28
 		},
 		"id": 292,
-		"relevancy": 573
+		"relevancy": 894
 	},
 	{
 		"name": "Lili Ren",
@@ -5286,10 +8216,20 @@
 			"child": 59,
 			"rsv": 57,
 			"ttmv": 51,
-			"virus": 50
+			"virus": 50,
+			"a21": 48,
+			"genotype": 44,
+			"crv": 38,
+			"alrtis": 34,
+			"pcr": 34,
+			"sample": 33,
+			"cov": 33,
+			"sars": 31,
+			"artis": 31,
+			"human": 30
 		},
 		"id": 293,
-		"relevancy": 720
+		"relevancy": 1076
 	},
 	{
 		"name": "Wei Liu",
@@ -5304,10 +8244,20 @@
 			"method": 65,
 			"zbtrim25": 64,
 			"hbov1": 63,
-			"safv": 60
+			"safv": 60,
+			"cfd": 60,
+			"dampness": 59,
+			"markov": 58,
+			"baumannii": 58,
+			"enclosed": 53,
+			"child": 51,
+			"detection": 51,
+			"lamp": 51,
+			"cabin": 47,
+			"b14": 47
 		},
 		"id": 294,
-		"relevancy": 860
+		"relevancy": 1395
 	},
 	{
 		"name": "Wenjie Tan",
@@ -5322,10 +8272,20 @@
 			"respiratory": 103,
 			"coronavirus": 96,
 			"crcov": 95,
-			"infection": 89
+			"infection": 89,
+			"oc43": 86,
+			"human": 85,
+			"child": 80,
+			"vaccine": 77,
+			"protein": 69,
+			"beijing": 67,
+			"china": 61,
+			"mouse": 60,
+			"hrv": 59,
+			"lisa": 54
 		},
 		"id": 295,
-		"relevancy": 1162
+		"relevancy": 1860
 	},
 	{
 		"name": "Jian Wang",
@@ -5340,10 +8300,20 @@
 			"antibody": 34,
 			"isolate": 34,
 			"bj01": 33,
-			"coronavirus": 32
+			"coronavirus": 32,
+			"microbiota": 32,
+			"eip": 32,
+			"pxxgst": 32,
+			"virus": 32,
+			"monitoring": 31,
+			"hadv": 31,
+			"vaccine": 31,
+			"china": 29,
+			"monkey": 27,
+			"analysis": 26
 		},
 		"id": 296,
-		"relevancy": 588
+		"relevancy": 891
 	},
 	{
 		"name": "Simon Cauchemez",
@@ -5358,10 +8328,20 @@
 			"respirator": 41,
 			"fit": 40,
 			"cri": 40,
-			"data": 36
+			"data": 36,
+			"epidemic": 35,
+			"disease": 34,
+			"n95": 33,
+			"infection": 33,
+			"estimated": 32,
+			"mer": 32,
+			"surveillance": 30,
+			"ili": 30,
+			"influenza": 28,
+			"city": 27
 		},
 		"id": 297,
-		"relevancy": 509
+		"relevancy": 823
 	},
 	{
 		"name": "Timothy M. Uyeki",
@@ -5376,10 +8356,20 @@
 			"h3n2v": 51,
 			"illness": 50,
 			"statement": 49,
-			"mer": 48
+			"mer": 48,
+			"infection": 48,
+			"household": 46,
+			"cas": 45,
+			"ros": 41,
+			"cruise": 39,
+			"ship": 38,
+			"oseltamivir": 37,
+			"h5n6": 37,
+			"icu": 35,
+			"hospitalized": 34
 		},
 		"id": 298,
-		"relevancy": 631
+		"relevancy": 1031
 	},
 	{
 		"name": "Hans Lutz",
@@ -5394,10 +8384,20 @@
 			"fiv": 108,
 			"fcv": 106,
 			"infection": 91,
-			"hemoplasma": 83
+			"hemoplasma": 83,
+			"fip": 78,
+			"virus": 73,
+			"cmt": 68,
+			"mycoplasma": 59,
+			"candidatus": 53,
+			"iberian": 51,
+			"forl": 47,
+			"fhv": 46,
+			"switzerland": 46,
+			"felis": 45
 		},
 		"id": 299,
-		"relevancy": 1659
+		"relevancy": 2225
 	},
 	{
 		"name": "Regina Hofmann-Lehmann",
@@ -5412,10 +8412,20 @@
 			"infection": 114,
 			"fiv": 108,
 			"hemoplasma": 95,
-			"provirus": 89
+			"provirus": 89,
+			"mycoplasma": 84,
+			"haemofelis": 83,
+			"switzerland": 72,
+			"dog": 70,
+			"cmt": 68,
+			"candidatus": 65,
+			"jaguarundis": 64,
+			"turicensis": 59,
+			"virus": 59,
+			"leukemia": 58
 		},
 		"id": 300,
-		"relevancy": 1879
+		"relevancy": 2561
 	},
 	{
 		"name": "Yong Huang",
@@ -5430,10 +8440,20 @@
 			"apoptosis": 92,
 			"sczy3": 89,
 			"undp": 83,
-			"bhv": 76
+			"bhv": 76,
+			"galt": 71,
+			"ro": 71,
+			"lncrna": 70,
+			"infection": 69,
+			"virus": 69,
+			"ppv": 65,
+			"app": 58,
+			"protein": 57,
+			"induced": 53,
+			"bax": 50
 		},
 		"id": 301,
-		"relevancy": 1170
+		"relevancy": 1803
 	},
 	{
 		"name": "Wolfgang Baumgärtner",
@@ -5448,10 +8468,20 @@
 			"infection": 47,
 			"cvb3": 44,
 			"mer": 39,
-			"tsen54": 38
+			"tsen54": 38,
+			"carnitine": 38,
+			"llama": 37,
+			"h10n7": 37,
+			"canine": 35,
+			"ifnar": 35,
+			"respiratory": 33,
+			"schnauzer": 32,
+			"leukodystrophy": 32,
+			"hepatocyte": 30,
+			"lesion": 29
 		},
 		"id": 302,
-		"relevancy": 556
+		"relevancy": 894
 	},
 	{
 		"name": "Jayasri Das Sarma",
@@ -5466,10 +8496,20 @@
 			"cn": 99,
 			"rsa59": 89,
 			"a59": 86,
-			"hepatitis": 84
+			"hepatitis": 84,
+			"mouse": 76,
+			"virus": 74,
+			"oligodendrocyte": 70,
+			"myelin": 68,
+			"nerve": 67,
+			"neuritis": 65,
+			"microglia": 65,
+			"cx47": 64,
+			"spike": 62,
+			"sclerosis": 61
 		},
 		"id": 303,
-		"relevancy": 1569
+		"relevancy": 2241
 	},
 	{
 		"name": "Sándor Belák",
@@ -5484,10 +8524,20 @@
 			"bcov": 53,
 			"fiv": 46,
 			"hatchery": 44,
-			"bovine": 43
+			"bovine": 43,
+			"disease": 41,
+			"fipv": 39,
+			"pbfipv": 38,
+			"ibv": 37,
+			"peritonitis": 36,
+			"kitten": 34,
+			"detection": 34,
+			"massachusett": 33,
+			"abcd": 32,
+			"pcr": 32
 		},
 		"id": 304,
-		"relevancy": 690
+		"relevancy": 1046
 	},
 	{
 		"name": "Lia M. Haynes",
@@ -5502,10 +8552,20 @@
 			"cell": 36,
 			"rbd": 35,
 			"sars": 34,
-			"rsv": 34
+			"rsv": 34,
+			"protein": 34,
+			"coronavirus": 34,
+			"tmev": 33,
+			"middle": 32,
+			"mab": 32,
+			"lcc": 32,
+			"east": 31,
+			"syndrome": 29,
+			"abu": 28,
+			"dhabi": 28
 		},
 		"id": 305,
-		"relevancy": 568
+		"relevancy": 881
 	},
 	{
 		"name": "Inmaculada Casas",
@@ -5520,10 +8580,20 @@
 			"respiratoria": 44,
 			"influenza": 44,
 			"child": 43,
-			"gico": 41
+			"gico": 41,
+			"diagn": 41,
+			"hsct": 39,
+			"respiratorio": 38,
+			"stico": 38,
+			"infeccione": 38,
+			"que": 35,
+			"cas": 35,
+			"viral": 34,
+			"hbov": 34,
+			"adenovirus": 33
 		},
 		"id": 306,
-		"relevancy": 572
+		"relevancy": 937
 	},
 	{
 		"name": "Ronald Dijkman",
@@ -5538,10 +8608,20 @@
 			"coronavirus": 80,
 			"airway": 71,
 			"child": 70,
-			"hae": 63
+			"hae": 63,
+			"cov": 61,
+			"epithelium": 58,
+			"culture": 53,
+			"respiratory": 52,
+			"sars": 48,
+			"emc": 47,
+			"hku1": 45,
+			"replication": 42,
+			"epithelial": 37,
+			"k22": 37
 		},
 		"id": 307,
-		"relevancy": 1190
+		"relevancy": 1670
 	},
 	{
 		"name": "Lia van der Hoek",
@@ -5556,10 +8636,20 @@
 			"infection": 95,
 			"coronavirus": 93,
 			"sample": 87,
-			"respiratory": 73
+			"respiratory": 73,
+			"cell": 67,
+			"bat": 66,
+			"genome": 51,
+			"protein": 48,
+			"hku1": 48,
+			"hpev": 46,
+			"discovery": 46,
+			"croup": 45,
+			"patient": 41,
+			"viral": 41
 		},
 		"id": 308,
-		"relevancy": 1639
+		"relevancy": 2138
 	},
 	{
 		"name": "Jie Zhang",
@@ -5574,10 +8664,20 @@
 			"rscu": 62,
 			"tcll": 57,
 			"thv": 57,
-			"dhv": 53
+			"dhv": 53,
+			"hsp40": 49,
+			"porcine": 48,
+			"isothermal": 48,
+			"enc": 43,
+			"poliovirus": 43,
+			"emcv": 40,
+			"genotype": 40,
+			"pcv2": 38,
+			"hav": 38,
+			"ndv": 37
 		},
 		"id": 309,
-		"relevancy": 851
+		"relevancy": 1275
 	},
 	{
 		"name": "Su-Jin Park",
@@ -5592,10 +8692,20 @@
 			"korea": 81,
 			"strain": 71,
 			"ptov": 66,
-			"pcr": 64
+			"pcr": 64,
+			"diarrheic": 63,
+			"bnov": 58,
+			"norkurarinol": 57,
+			"cox": 55,
+			"garv": 51,
+			"sybr": 50,
+			"savs": 50,
+			"sapovirus": 49,
+			"fecal": 46,
+			"rotavirus": 46
 		},
 		"id": 310,
-		"relevancy": 862
+		"relevancy": 1387
 	},
 	{
 		"name": "Mun-Il Kang",
@@ -5610,10 +8720,20 @@
 			"bcov": 89,
 			"bnev": 89,
 			"strain": 85,
-			"gcrv": 85
+			"gcrv": 85,
+			"sapovirus": 79,
+			"korea": 78,
+			"psv": 77,
+			"hbga": 74,
+			"ptov": 66,
+			"savs": 65,
+			"sapelovirus": 61,
+			"pcr": 58,
+			"bnov": 58,
+			"rva": 57
 		},
 		"id": 311,
-		"relevancy": 1043
+		"relevancy": 1716
 	},
 	{
 		"name": "Kyoung-Oh Cho",
@@ -5628,10 +8748,20 @@
 			"cox": 100,
 			"strain": 100,
 			"bcov": 89,
-			"bnev": 89
+			"bnev": 89,
+			"gcrv": 85,
+			"korea": 84,
+			"sapovirus": 79,
+			"psv": 77,
+			"hbga": 74,
+			"ptov": 66,
+			"rva": 66,
+			"savs": 65,
+			"pcr": 64,
+			"diarrheic": 63
 		},
 		"id": 312,
-		"relevancy": 1120
+		"relevancy": 1843
 	},
 	{
 		"name": "Christopher C. Broder",
@@ -5646,10 +8776,20 @@
 			"ephrin": 68,
 			"antibody": 68,
 			"m102": 61,
-			"human": 53
+			"human": 53,
+			"m101": 43,
+			"glycoprotein": 43,
+			"cedv": 35,
+			"lbv": 34,
+			"monoclonal": 33,
+			"hmab": 33,
+			"bat": 31,
+			"neutralizing": 31,
+			"infection": 30,
+			"mab": 30
 		},
 		"id": 313,
-		"relevancy": 920
+		"relevancy": 1263
 	},
 	{
 		"name": "Philippe Buchy",
@@ -5664,10 +8804,20 @@
 			"alrip": 64,
 			"lao": 57,
 			"respiratory": 53,
-			"pdr": 47
+			"pdr": 47,
+			"infection": 46,
+			"hrsv": 45,
+			"h5n1": 44,
+			"bat": 44,
+			"hbov": 41,
+			"patient": 40,
+			"human": 38,
+			"astrovirus": 36,
+			"h5anh": 35,
+			"hmpv": 32
 		},
 		"id": 314,
-		"relevancy": 777
+		"relevancy": 1178
 	},
 	{
 		"name": "Suxiang Tong",
@@ -5682,10 +8832,20 @@
 			"kenya": 48,
 			"coronavirus": 47,
 			"abu": 43,
-			"dhabi": 43
+			"dhabi": 43,
+			"human": 42,
+			"sars": 39,
+			"pcr": 36,
+			"sequence": 35,
+			"specimen": 34,
+			"patient": 34,
+			"infection": 33,
+			"emirate": 32,
+			"rotavirus": 32,
+			"united": 31
 		},
 		"id": 315,
-		"relevancy": 657
+		"relevancy": 1005
 	},
 	{
 		"name": "Krzysztof Pyrc",
@@ -5700,10 +8860,20 @@
 			"htcc": 77,
 			"hku1": 71,
 			"protein": 65,
-			"infection": 63
+			"infection": 63,
+			"nspah": 57,
+			"apobec3": 45,
+			"croup": 45,
+			"respiratory": 44,
+			"child": 43,
+			"chitosan": 40,
+			"oc43": 38,
+			"receptor": 38,
+			"entry": 37,
+			"cov": 36
 		},
 		"id": 316,
-		"relevancy": 1218
+		"relevancy": 1641
 	},
 	{
 		"name": "Lili Wang",
@@ -5718,10 +8888,20 @@
 			"cell": 68,
 			"ha1": 61,
 			"human": 55,
-			"neutralizing": 55
+			"neutralizing": 55,
+			"m336": 49,
+			"s377": 48,
+			"vaccine": 47,
+			"hsv": 46,
+			"dpp4": 43,
+			"protein": 43,
+			"hrsv": 40,
+			"coronavirus": 40,
+			"m826": 40,
+			"respons": 38
 		},
 		"id": 317,
-		"relevancy": 784
+		"relevancy": 1218
 	},
 	{
 		"name": "Wenhui Li",
@@ -5736,10 +8916,20 @@
 			"sars": 60,
 			"tim1": 53,
 			"scarb2": 53,
-			"infection": 52
+			"infection": 52,
+			"human": 49,
+			"cvb3": 48,
+			"cell": 46,
+			"virus": 46,
+			"hku1": 45,
+			"cov": 44,
+			"hcov": 38,
+			"hdv": 37,
+			"autophagy": 32,
+			"binding": 32
 		},
 		"id": 318,
-		"relevancy": 696
+		"relevancy": 1113
 	},
 	{
 		"name": "Qiuhong Wang",
@@ -5754,10 +8944,20 @@
 			"hunov": 105,
 			"porcine": 105,
 			"indel": 101,
-			"strain": 96
+			"strain": 96,
+			"virus": 93,
+			"pc22a": 88,
+			"kdke": 78,
+			"bonov": 62,
+			"pc177": 60,
+			"iowa106": 59,
+			"p120": 58,
+			"p100c4": 57,
+			"original": 56,
+			"sya": 54
 		},
 		"id": 319,
-		"relevancy": 1459
+		"relevancy": 2124
 	},
 	{
 		"name": "Anastasia N. Vlasova",
@@ -5772,10 +8972,20 @@
 			"gilt": 89,
 			"kdke": 78,
 			"pid": 70,
-			"porcine": 68
+			"porcine": 68,
+			"pdcov": 66,
+			"diarrhea": 65,
+			"prcv": 61,
+			"strain": 58,
+			"p100c4": 57,
+			"sya": 54,
+			"iga": 51,
+			"fd22": 49,
+			"maternal": 44,
+			"pancov": 43
 		},
 		"id": 320,
-		"relevancy": 1016
+		"relevancy": 1564
 	},
 	{
 		"name": "Lin Wang",
@@ -5790,10 +9000,20 @@
 			"hev": 31,
 			"neonate": 31,
 			"genotype": 30,
-			"migrant": 30
+			"migrant": 30,
+			"prrsv": 29,
+			"hcw": 28,
+			"patient": 28,
+			"chronic": 27,
+			"bactrian": 27,
+			"temporary": 26,
+			"hepatitis": 26,
+			"disease": 25,
+			"metapopulation": 25,
+			"unspecified": 25
 		},
 		"id": 321,
-		"relevancy": 470
+		"relevancy": 736
 	},
 	{
 		"name": "Dale L. Barnard",
@@ -5808,10 +9028,20 @@
 			"promazine": 47,
 			"lung": 47,
 			"infection": 45,
-			"tylophorine": 38
+			"tylophorine": 38,
+			"mdef201": 38,
+			"fdc": 38,
+			"influenza": 37,
+			"compound": 36,
+			"phenothiazine": 35,
+			"lethal": 34,
+			"ribavirin": 34,
+			"balb": 33,
+			"pcn": 32,
+			"replication": 30
 		},
 		"id": 322,
-		"relevancy": 710
+		"relevancy": 1057
 	},
 	{
 		"name": "Graham Simmons",
@@ -5826,10 +9056,20 @@
 			"cathepsin": 75,
 			"entry": 75,
 			"cov": 64,
-			"podoplanin": 60
+			"podoplanin": 60,
+			"clec": 59,
+			"fusion": 59,
+			"glycoprotein": 52,
+			"ebola": 48,
+			"ace2": 46,
+			"xmrv": 45,
+			"infection": 44,
+			"viral": 42,
+			"envelope": 42,
+			"emc": 41
 		},
 		"id": 323,
-		"relevancy": 907
+		"relevancy": 1385
 	},
 	{
 		"name": "Bruno Canard",
@@ -5844,10 +9084,20 @@
 			"mtase": 123,
 			"methyltransferase": 123,
 			"nsp14": 111,
-			"protein": 108
+			"protein": 108,
+			"viral": 91,
+			"virus": 88,
+			"adp": 85,
+			"domain": 84,
+			"methylation": 82,
+			"activity": 80,
+			"ribose": 75,
+			"exon": 75,
+			"synthesis": 74,
+			"coronavirus": 70
 		},
 		"id": 324,
-		"relevancy": 1539
+		"relevancy": 2343
 	},
 	{
 		"name": "Bruno Coutard",
@@ -5862,10 +9112,20 @@
 			"mtase": 53,
 			"virus": 52,
 			"ns6": 51,
-			"nsp10": 44
+			"nsp10": 44,
+			"ribose": 44,
+			"crystal": 43,
+			"nsp16": 42,
+			"viral": 40,
+			"capping": 38,
+			"mayv": 35,
+			"structure": 35,
+			"coronavirus": 35,
+			"nsp15": 34,
+			"alphavirus": 34
 		},
 		"id": 325,
-		"relevancy": 643
+		"relevancy": 1023
 	},
 	{
 		"name": "Rolf Hilgenfeld",
@@ -5880,10 +9140,20 @@
 			"structure": 74,
 			"rchy1": 65,
 			"domain": 65,
-			"crystal": 61
+			"crystal": 61,
+			"pro": 59,
+			"mpro": 57,
+			"virus": 52,
+			"substrate": 51,
+			"ns6": 51,
+			"inhibitor": 46,
+			"cleavage": 40,
+			"viral": 40,
+			"nsp7": 39,
+			"activity": 39
 		},
 		"id": 326,
-		"relevancy": 898
+		"relevancy": 1372
 	},
 	{
 		"name": "Jan Felix Drexler",
@@ -5898,10 +9168,20 @@
 			"ghana": 70,
 			"shrew": 64,
 			"batmuv": 58,
-			"african": 57
+			"african": 57,
+			"mer": 54,
+			"helvum": 53,
+			"coronavirus": 52,
+			"species": 51,
+			"ghv": 49,
+			"gabon": 48,
+			"host": 46,
+			"infection": 43,
+			"muv": 40,
+			"respiratory": 39
 		},
 		"id": 327,
-		"relevancy": 1169
+		"relevancy": 1644
 	},
 	{
 		"name": "Victor Max Corman",
@@ -5916,10 +9196,20 @@
 			"stec": 77,
 			"batmuv": 58,
 			"hcov": 54,
-			"dromedary": 47
+			"dromedary": 47,
+			"african": 43,
+			"muv": 40,
+			"coronavirus": 39,
+			"ghana": 39,
+			"respiratory": 38,
+			"africa": 33,
+			"pakistan": 33,
+			"esbl": 32,
+			"neocov": 30,
+			"east": 30
 		},
 		"id": 328,
-		"relevancy": 914
+		"relevancy": 1271
 	},
 	{
 		"name": "Deyin Guo",
@@ -5934,10 +9224,20 @@
 			"protein": 73,
 			"rna": 70,
 			"nsp14": 68,
-			"methyltransferase": 66
+			"methyltransferase": 66,
+			"nsp10": 62,
+			"cov": 58,
+			"swarm": 41,
+			"virus": 41,
+			"rnai": 37,
+			"ronivirus": 36,
+			"ifi204": 35,
+			"vsr": 35,
+			"methylation": 33,
+			"guanine": 33
 		},
 		"id": 329,
-		"relevancy": 832
+		"relevancy": 1243
 	},
 	{
 		"name": "Yunjeong Kim",
@@ -5952,10 +9252,20 @@
 			"feline": 61,
 			"gc376": 60,
 			"hunov": 60,
-			"macrocyclic": 53
+			"macrocyclic": 53,
+			"simvastatin": 53,
+			"proteas": 51,
+			"pec": 51,
+			"coronavirus": 47,
+			"bile": 44,
+			"virus": 43,
+			"pedv": 41,
+			"atthrv": 39,
+			"therapeutic": 36,
+			"calicivirus": 36
 		},
 		"id": 330,
-		"relevancy": 859
+		"relevancy": 1300
 	},
 	{
 		"name": "Kyeong-Ok Chang",
@@ -5970,10 +9280,20 @@
 			"fip": 75,
 			"fcv": 71,
 			"cat": 69,
-			"feline": 61
+			"feline": 61,
+			"pig": 60,
+			"gc376": 60,
+			"hunov": 60,
+			"virus": 60,
+			"macrocyclic": 53,
+			"simvastatin": 53,
+			"cell": 52,
+			"proteas": 51,
+			"coronavirus": 47,
+			"rotavirus": 46
 		},
 		"id": 331,
-		"relevancy": 985
+		"relevancy": 1527
 	},
 	{
 		"name": "Emmie de Wit",
@@ -5988,10 +9308,20 @@
 			"macaque": 57,
 			"virus": 56,
 			"disease": 49,
-			"remdesivir": 43
+			"remdesivir": 43,
+			"dromedary": 42,
+			"rhesus": 36,
+			"coronavirus": 36,
+			"east": 36,
+			"middle": 34,
+			"infection": 34,
+			"animal": 33,
+			"lca60": 32,
+			"treatment": 30,
+			"tract": 29
 		},
 		"id": 332,
-		"relevancy": 720
+		"relevancy": 1062
 	},
 	{
 		"name": "Friederike Feldmann",
@@ -6006,10 +9336,20 @@
 			"salary": 57,
 			"human": 54,
 			"infection": 46,
-			"disease": 45
+			"disease": 45,
+			"employee": 44,
+			"respiratory": 44,
+			"remdesivir": 43,
+			"niv": 43,
+			"vaccine": 41,
+			"marmoset": 41,
+			"ebola": 39,
+			"rhesus": 39,
+			"agm": 39,
+			"tgf": 38
 		},
 		"id": 333,
-		"relevancy": 701
+		"relevancy": 1112
 	},
 	{
 		"name": "Davide Corti",
@@ -6024,10 +9364,20 @@
 			"virus": 60,
 			"cov": 58,
 			"icsz16": 57,
-			"lca60": 56
+			"lca60": 56,
+			"monoclonal": 54,
+			"lta": 53,
+			"sars": 52,
+			"gii": 52,
+			"memory": 46,
+			"k479n": 45,
+			"influenza": 44,
+			"autoantibody": 39,
+			"pentamer": 39,
+			"infection": 38
 		},
 		"id": 334,
-		"relevancy": 766
+		"relevancy": 1228
 	},
 	{
 		"name": "Rachel L. Graham",
@@ -6042,10 +9392,20 @@
 			"protein": 83,
 			"cs1": 79,
 			"sars": 68,
-			"mhv": 65
+			"mhv": 65,
+			"mer": 64,
+			"human": 60,
+			"bat": 56,
+			"cs2": 53,
+			"replicase": 52,
+			"mutant": 52,
+			"respiratory": 45,
+			"rna": 45,
+			"viral": 43,
+			"vaccine": 41
 		},
 		"id": 335,
-		"relevancy": 914
+		"relevancy": 1425
 	},
 	{
 		"name": "Amy C. Sims",
@@ -6060,10 +9420,20 @@
 			"coronavirus": 73,
 			"cell": 72,
 			"viral": 71,
-			"hku1": 66
+			"hku1": 66,
+			"human": 64,
+			"infection": 63,
+			"omic": 61,
+			"polyprotein": 57,
+			"replication": 56,
+			"nsp2": 55,
+			"nsp10": 55,
+			"respiratory": 54,
+			"mer": 51,
+			"synthesis": 49
 		},
 		"id": 336,
-		"relevancy": 861
+		"relevancy": 1426
 	},
 	{
 		"name": "Andrew D. Mesecar",
@@ -6078,10 +9448,20 @@
 			"coronavirus": 104,
 			"sars": 104,
 			"activity": 91,
-			"deubiquitinating": 90
+			"deubiquitinating": 90,
+			"plp": 86,
+			"isg15": 84,
+			"ubl": 77,
+			"ubiquitin": 73,
+			"mer": 71,
+			"structure": 69,
+			"plp2": 68,
+			"ray": 66,
+			"domain": 64,
+			"proteas": 60
 		},
 		"id": 337,
-		"relevancy": 1523
+		"relevancy": 2241
 	},
 	{
 		"name": "Yao Deng",
@@ -6096,10 +9476,20 @@
 			"hcv": 42,
 			"mouse": 41,
 			"east": 38,
-			"middle": 37
+			"middle": 37,
+			"coronavirus": 35,
+			"orf4b": 35,
+			"cmi": 34,
+			"roc43": 31,
+			"pres1": 31,
+			"antibody": 31,
+			"respiratory": 31,
+			"virus": 31,
+			"hcov": 29,
+			"syndrome": 28
 		},
 		"id": 338,
-		"relevancy": 585
+		"relevancy": 901
 	},
 	{
 		"name": "Rino Rappuoli",
@@ -6114,10 +9504,20 @@
 			"design": 26,
 			"antigen": 25,
 			"ag": 25,
-			"antibiotic": 23
+			"antibiotic": 23,
+			"society": 23,
+			"development": 22,
+			"infectious": 22,
+			"vaccination": 21,
+			"genomic": 21,
+			"antibody": 20,
+			"pathogen": 20,
+			"approach": 19,
+			"million": 19,
+			"century": 19
 		},
 		"id": 339,
-		"relevancy": 363
+		"relevancy": 569
 	},
 	{
 		"name": "Krishna Narayanan",
@@ -6132,10 +9532,20 @@
 			"host": 89,
 			"mhv": 89,
 			"rna": 84,
-			"packaging": 83
+			"packaging": 83,
+			"translation": 80,
+			"scov": 66,
+			"degradation": 62,
+			"mer": 60,
+			"coronavirus": 58,
+			"sars": 58,
+			"replication": 56,
+			"viral": 55,
+			"nss": 55,
+			"mapk": 51
 		},
 		"id": 340,
-		"relevancy": 1265
+		"relevancy": 1866
 	},
 	{
 		"name": "Craig E. Cameron",
@@ -6150,10 +9560,20 @@
 			"nucleotide": 47,
 			"sabin": 45,
 			"t362i": 44,
-			"trna": 44
+			"trna": 44,
+			"poliovirus": 39,
+			"duplex": 39,
+			"polymerase": 39,
+			"g64": 38,
+			"mtrnap": 38,
+			"speed": 37,
+			"virus": 36,
+			"binding": 35,
+			"pkr": 34,
+			"dynamic": 34
 		},
 		"id": 341,
-		"relevancy": 776
+		"relevancy": 1145
 	},
 	{
 		"name": "Peng Yang",
@@ -6168,10 +9588,20 @@
 			"n95": 49,
 			"hpiv": 47,
 			"ace2": 46,
-			"idshl": 45
+			"idshl": 45,
+			"angiotensin": 44,
+			"h7n9": 44,
+			"cri": 44,
+			"influenza": 44,
+			"virus": 44,
+			"respiratory": 43,
+			"study": 38,
+			"participant": 37,
+			"willingness": 37,
+			"literacy": 37
 		},
 		"id": 342,
-		"relevancy": 622
+		"relevancy": 1034
 	},
 	{
 		"name": "Marcel A. Müller",
@@ -6186,10 +9616,20 @@
 			"hcov": 101,
 			"sars": 98,
 			"coronavirus": 94,
-			"camel": 84
+			"camel": 84,
+			"emc": 66,
+			"infection": 66,
+			"rchy1": 65,
+			"dromedary": 61,
+			"dpp4": 61,
+			"respiratory": 61,
+			"viral": 60,
+			"tmprss2": 55,
+			"protein": 51,
+			"east": 47
 		},
 		"id": 343,
-		"relevancy": 1314
+		"relevancy": 1907
 	},
 	{
 		"name": "Yuhao Shao",
@@ -6204,10 +9644,20 @@
 			"iltv": 63,
 			"lgx": 58,
 			"recombination": 55,
-			"lhlj": 54
+			"lhlj": 54,
+			"gene": 53,
+			"avbd": 51,
+			"infectious": 48,
+			"ldt3": 47,
+			"infection": 47,
+			"pigeon": 44,
+			"ldl": 44,
+			"p110": 43,
+			"gahv": 41,
+			"src": 41
 		},
 		"id": 344,
-		"relevancy": 920
+		"relevancy": 1379
 	},
 	{
 		"name": "Xiangang Kong",
@@ -6222,10 +9672,20 @@
 			"virus": 69,
 			"vaccine": 56,
 			"lhlj": 54,
-			"recombination": 53
+			"recombination": 53,
+			"lsd": 51,
+			"ldt3": 47,
+			"gene": 46,
+			"infectious": 44,
+			"civet": 43,
+			"lgx": 37,
+			"isolate": 36,
+			"sars": 36,
+			"analysis": 34,
+			"massachusett": 33
 		},
 		"id": 345,
-		"relevancy": 920
+		"relevancy": 1327
 	},
 	{
 		"name": "Benjamin Meyer",
@@ -6240,10 +9700,20 @@
 			"dromedary": 57,
 			"human": 56,
 			"sud": 46,
-			"virus": 46
+			"virus": 46,
+			"coronavirus": 45,
+			"p53": 37,
+			"antibody": 36,
+			"respiratory": 29,
+			"middle": 29,
+			"east": 28,
+			"infection": 28,
+			"nl63": 26,
+			"sample": 26,
+			"serological": 25
 		},
 		"id": 346,
-		"relevancy": 677
+		"relevancy": 986
 	},
 	{
 		"name": "Tianlei Ying",
@@ -6258,10 +9728,20 @@
 			"zikv": 46,
 			"human": 45,
 			"m826": 40,
-			"monoclonal": 39
+			"monoclonal": 39,
+			"infection": 33,
+			"hbsag": 32,
+			"ncov": 30,
+			"bispecific": 30,
+			"diii": 29,
+			"coronavirus": 28,
+			"therapeutic": 27,
+			"denv": 27,
+			"rbd": 26,
+			"against": 26
 		},
 		"id": 347,
-		"relevancy": 602
+		"relevancy": 890
 	},
 	{
 		"name": "Wentao Li",
@@ -6276,10 +9756,20 @@
 			"protein": 47,
 			"coronavirus": 47,
 			"sia": 46,
-			"spike": 46
+			"spike": 46,
+			"receptor": 45,
+			"mer": 44,
+			"virus": 44,
+			"hps4": 41,
+			"antibody": 41,
+			"sialic": 41,
+			"cov": 41,
+			"binding": 38,
+			"diarrhea": 38,
+			"vuv": 38
 		},
 		"id": 348,
-		"relevancy": 661
+		"relevancy": 1072
 	},
 	{
 		"name": "Chunyi Xue",
@@ -6294,10 +9784,20 @@
 			"pdcov": 53,
 			"porcine": 48,
 			"china": 48,
-			"pcv2": 47
+			"pcv2": 47,
+			"rs1": 46,
+			"bronchitis": 45,
+			"vaccine": 44,
+			"h9n2": 43,
+			"diarrhea": 42,
+			"jx17": 41,
+			"nephropathogenic": 37,
+			"chicken": 37,
+			"piglet": 36,
+			"gds03": 35
 		},
 		"id": 349,
-		"relevancy": 767
+		"relevancy": 1173
 	},
 	{
 		"name": "Yongchang Cao",
@@ -6312,10 +9812,20 @@
 			"porcine": 54,
 			"pdcov": 53,
 			"diarrhea": 48,
-			"pcv2": 47
+			"pcv2": 47,
+			"rs1": 46,
+			"h9n2": 43,
+			"vaccine": 42,
+			"jx17": 41,
+			"china": 41,
+			"piglet": 39,
+			"gds03": 35,
+			"bronchitis": 35,
+			"chicken": 35,
+			"cell": 34
 		},
 		"id": 350,
-		"relevancy": 769
+		"relevancy": 1160
 	},
 	{
 		"name": "Eric Delwart",
@@ -6330,10 +9840,20 @@
 			"virome": 61,
 			"genome": 60,
 			"brd": 57,
-			"parvovirus": 53
+			"parvovirus": 53,
+			"circovirus": 51,
+			"cyclovirus": 51,
+			"sequence": 47,
+			"human": 43,
+			"fece": 42,
+			"detected": 40,
+			"sample": 40,
+			"fecal": 40,
+			"species": 38,
+			"parvoviridae": 37
 		},
 		"id": 351,
-		"relevancy": 779
+		"relevancy": 1208
 	},
 	{
 		"name": "Andrew Rambaut",
@@ -6348,10 +9868,20 @@
 			"data": 41,
 			"outbreak": 40,
 			"bayesian": 40,
-			"transmission": 39
+			"transmission": 39,
+			"dsdna": 38,
+			"population": 35,
+			"disease": 35,
+			"denv": 33,
+			"analysis": 33,
+			"genome": 33,
+			"zoonotic": 33,
+			"dynamic": 32,
+			"bat": 31,
+			"riyadh": 31
 		},
 		"id": 352,
-		"relevancy": 549
+		"relevancy": 883
 	},
 	{
 		"name": "Hiroshi Nishiura",
@@ -6366,10 +9896,20 @@
 			"epidemic": 101,
 			"interval": 101,
 			"death": 93,
-			"cas": 92
+			"cas": 92,
+			"time": 89,
+			"influenza": 88,
+			"number": 79,
+			"infection": 73,
+			"estimation": 73,
+			"case": 70,
+			"mer": 68,
+			"incubation": 67,
+			"covid": 67,
+			"pandemic": 64
 		},
 		"id": 353,
-		"relevancy": 1152
+		"relevancy": 1890
 	},
 	{
 		"name": "Viroj Wiwanitkit",
@@ -6384,10 +9924,20 @@
 			"author": 17,
 			"firstly": 16,
 			"influenza": 16,
-			"east": 15
+			"east": 15,
+			"disease": 15,
+			"middle": 15,
+			"problem": 14,
+			"infectious": 14,
+			"flu": 14,
+			"coronavirus": 14,
+			"usually": 14,
+			"atypical": 13,
+			"respiratory": 13,
+			"management": 12
 		},
 		"id": 354,
-		"relevancy": 223
+		"relevancy": 361
 	},
 	{
 		"name": "John S. Brownstein",
@@ -6402,10 +9952,20 @@
 			"disease": 38,
 			"surveillance": 38,
 			"official": 34,
-			"public": 33
+			"public": 33,
+			"social": 31,
+			"communication": 30,
+			"data": 30,
+			"health": 29,
+			"informal": 28,
+			"query": 28,
+			"wildlife": 27,
+			"syndromic": 27,
+			"report": 26,
+			"information": 24
 		},
 		"id": 355,
-		"relevancy": 460
+		"relevancy": 740
 	},
 	{
 		"name": "Julian W. Tang",
@@ -6420,10 +9980,20 @@
 			"sliding": 64,
 			"hinged": 62,
 			"mask": 57,
-			"room": 57
+			"room": 57,
+			"doorway": 54,
+			"maximum": 51,
+			"breathing": 44,
+			"coughing": 43,
+			"motion": 42,
+			"oxygen": 41,
+			"adenovirus": 37,
+			"velocity": 37,
+			"infection": 37,
+			"aecopd": 37
 		},
 		"id": 356,
-		"relevancy": 773
+		"relevancy": 1196
 	},
 	{
 		"name": "Allison McGeer",
@@ -6438,10 +10008,20 @@
 			"care": 61,
 			"facial": 59,
 			"hcw": 57,
-			"emergency": 48
+			"emergency": 48,
+			"visit": 46,
+			"canada": 45,
+			"contact": 44,
+			"ipd": 43,
+			"precaution": 40,
+			"intubation": 39,
+			"transmission": 34,
+			"mask": 33,
+			"worker": 32,
+			"influenza": 29
 		},
 		"id": 357,
-		"relevancy": 678
+		"relevancy": 1063
 	},
 	{
 		"name": "Jun Li",
@@ -6456,10 +10036,20 @@
 			"rgnnv": 51,
 			"u251": 41,
 			"aurkb": 38,
-			"tnbc": 38
+			"tnbc": 38,
+			"pro": 37,
+			"virus": 37,
+			"mpro": 36,
+			"aurka": 32,
+			"df": 32,
+			"pei": 31,
+			"cathepsin": 31,
+			"rsv": 29,
+			"vp1": 29,
+			"grouper": 28
 		},
 		"id": 358,
-		"relevancy": 567
+		"relevancy": 889
 	},
 	{
 		"name": "Yuguo Li",
@@ -6474,10 +10064,20 @@
 			"ventilation": 74,
 			"airflow": 73,
 			"fomite": 67,
-			"transmission": 60
+			"transmission": 60,
+			"door": 57,
+			"city": 55,
+			"opening": 49,
+			"ward": 46,
+			"office": 46,
+			"aerosol": 43,
+			"hcw": 43,
+			"infection": 42,
+			"route": 40,
+			"contact": 37
 		},
 		"id": 359,
-		"relevancy": 935
+		"relevancy": 1393
 	},
 	{
 		"name": "Gabriel M. Leung",
@@ -6492,10 +10092,20 @@
 			"poultry": 61,
 			"household": 57,
 			"survey": 55,
-			"live": 51
+			"live": 51,
+			"iar": 49,
+			"h5n1": 48,
+			"buying": 47,
+			"risk": 45,
+			"infection": 44,
+			"estimate": 42,
+			"market": 42,
+			"cas": 42,
+			"fractional": 42,
+			"urban": 40
 		},
 		"id": 360,
-		"relevancy": 751
+		"relevancy": 1192
 	},
 	{
 		"name": "Jie Wang",
@@ -6510,10 +10120,20 @@
 			"mask": 70,
 			"protein": 59,
 			"silkworm": 57,
-			"dmb": 57
+			"dmb": 57,
+			"htlv": 51,
+			"isg20": 51,
+			"xiaoyaosan": 51,
+			"bmp38": 51,
+			"bms6k": 51,
+			"digestive": 51,
+			"filter": 49,
+			"hepa": 45,
+			"cordata": 45,
+			"n99": 44
 		},
 		"id": 361,
-		"relevancy": 925
+		"relevancy": 1414
 	},
 	{
 		"name": "Paul Ahlquist",
@@ -6528,10 +10148,20 @@
 			"strand": 97,
 			"membrane": 97,
 			"spherule": 93,
-			"virus": 92
+			"virus": 92,
+			"mosaic": 85,
+			"fhv": 75,
+			"rna1": 67,
+			"yeast": 64,
+			"template": 61,
+			"rhp": 57,
+			"protein": 52,
+			"synthesis": 47,
+			"helicase": 47,
+			"recruitment": 42
 		},
 		"id": 362,
-		"relevancy": 1491
+		"relevancy": 2088
 	},
 	{
 		"name": "Guangyu Zhao",
@@ -6546,10 +10176,20 @@
 			"ha1": 110,
 			"h5n1": 101,
 			"antibody": 100,
-			"mouse": 94
+			"mouse": 94,
+			"infection": 85,
+			"protein": 81,
+			"sars": 76,
+			"nb": 75,
+			"receptor": 73,
+			"ediii": 73,
+			"c5a": 70,
+			"human": 68,
+			"respons": 67,
+			"binding": 67
 		},
 		"id": 363,
-		"relevancy": 1530
+		"relevancy": 2265
 	},
 	{
 		"name": "Lin Yang",
@@ -6564,10 +10204,20 @@
 			"aav": 46,
 			"evaporation": 45,
 			"city": 43,
-			"ncov": 42
+			"ncov": 42,
+			"mortality": 40,
+			"covid": 40,
+			"china": 38,
+			"age": 36,
+			"brisbane": 34,
+			"associated": 33,
+			"iran": 32,
+			"wuhan": 31,
+			"droplet": 31,
+			"estimated": 30
 		},
 		"id": 364,
-		"relevancy": 549
+		"relevancy": 894
 	},
 	{
 		"name": "Robert Booy",
@@ -6582,10 +10232,20 @@
 			"mask": 73,
 			"gathering": 71,
 			"australian": 68,
-			"qol": 64
+			"qol": 64,
+			"parent": 47,
+			"vaccine": 46,
+			"ilis": 45,
+			"meningococcal": 43,
+			"respiratory": 42,
+			"mass": 41,
+			"saudi": 40,
+			"pilgrimage": 40,
+			"virus": 40,
+			"childcare": 39
 		},
 		"id": 365,
-		"relevancy": 1238
+		"relevancy": 1661
 	},
 	{
 		"name": "Harunor Rashid",
@@ -6600,10 +10260,20 @@
 			"vaccine": 62,
 			"uptake": 56,
 			"australian": 52,
-			"saudi": 50
+			"saudi": 50,
+			"advice": 45,
+			"among": 43,
+			"vaccination": 42,
+			"mass": 41,
+			"pilgrimage": 40,
+			"app": 37,
+			"reason": 36,
+			"awareness": 35,
+			"receipt": 35,
+			"infection": 34
 		},
 		"id": 366,
-		"relevancy": 1079
+		"relevancy": 1467
 	},
 	{
 		"name": "Yun Zhang",
@@ -6618,10 +10288,20 @@
 			"cd59": 49,
 			"cetuximab": 47,
 			"virus": 47,
-			"hfr": 44
+			"hfr": 44,
+			"gene": 34,
+			"epitope": 32,
+			"cxcl10": 30,
+			"hantaan": 30,
+			"rs2430561": 29,
+			"rs2077647": 29,
+			"sequence": 29,
+			"sirna": 28,
+			"ctl": 28,
+			"cell": 28
 		},
 		"id": 367,
-		"relevancy": 595
+		"relevancy": 892
 	},
 	{
 		"name": "Jun Chen",
@@ -6636,10 +10316,20 @@
 			"arm": 40,
 			"patient": 40,
 			"hcmv": 39,
-			"magnetotactic": 38
+			"magnetotactic": 38,
+			"chest": 34,
+			"sars": 33,
+			"mouse": 30,
+			"jet": 29,
+			"recovery": 29,
+			"covid": 28,
+			"bird": 27,
+			"progression": 27,
+			"h7n9": 25,
+			"tumv": 25
 		},
 		"id": 368,
-		"relevancy": 458
+		"relevancy": 745
 	},
 	{
 		"name": "Linlin Li",
@@ -6654,10 +10344,20 @@
 			"dtmuv": 43,
 			"prm": 40,
 			"pbov2": 35,
-			"protein": 34
+			"protein": 34,
+			"circovirus": 34,
+			"agm": 34,
+			"guano": 34,
+			"ndv": 34,
+			"porcine": 32,
+			"pbov1": 29,
+			"genome": 29,
+			"sequence": 28,
+			"canine": 28,
+			"read": 26
 		},
 		"id": 369,
-		"relevancy": 519
+		"relevancy": 827
 	},
 	{
 		"name": "Jane Kuypers",
@@ -6672,10 +10372,20 @@
 			"hmpv": 108,
 			"hrv": 107,
 			"hematopoietic": 106,
-			"transplant": 102
+			"transplant": 102,
+			"illness": 96,
+			"pcr": 91,
+			"detection": 84,
+			"infant": 82,
+			"viral": 80,
+			"bov": 79,
+			"patient": 79,
+			"nasal": 75,
+			"sample": 74,
+			"rhinovirus": 69
 		},
 		"id": 370,
-		"relevancy": 1478
+		"relevancy": 2287
 	},
 	{
 		"name": "David Wang",
@@ -6690,10 +10400,20 @@
 			"respiratory": 33,
 			"klassevirus": 32,
 			"child": 30,
-			"dfa": 28
+			"dfa": 28,
+			"viral": 28,
+			"whale": 27,
+			"louis": 26,
+			"mlb1": 26,
+			"species": 24,
+			"virochip": 23,
+			"tobacco": 23,
+			"pcr": 23,
+			"infection": 23,
+			"panviral": 22
 		},
 		"id": 371,
-		"relevancy": 466
+		"relevancy": 711
 	},
 	{
 		"name": "Dong-Yan Jin",
@@ -6708,10 +10428,20 @@
 			"sars": 97,
 			"coronavirus": 84,
 			"ifn": 70,
-			"crtc1": 65
+			"crtc1": 65,
+			"mer": 62,
+			"interferon": 60,
+			"upr": 60,
+			"torc1": 57,
+			"sirt1": 57,
+			"cell": 55,
+			"tbk1": 52,
+			"creb": 51,
+			"viral": 51,
+			"mekk1": 51
 		},
 		"id": 372,
-		"relevancy": 1058
+		"relevancy": 1614
 	},
 	{
 		"name": "Antonio Lanzavecchia",
@@ -6726,10 +10456,20 @@
 			"monoclonal": 79,
 			"cav1": 68,
 			"virus": 66,
-			"infection": 59
+			"infection": 59,
+			"lta": 53,
+			"sars": 52,
+			"gii": 52,
+			"cov": 51,
+			"denv": 50,
+			"lair1": 47,
+			"malaria": 46,
+			"response": 44,
+			"autoantibody": 44,
+			"neutralization": 43
 		},
 		"id": 373,
-		"relevancy": 980
+		"relevancy": 1462
 	},
 	{
 		"name": "Federica Sallusto",
@@ -6744,10 +10484,20 @@
 			"human": 49,
 			"lair1": 47,
 			"malaria": 42,
-			"monoclonal": 39
+			"monoclonal": 39,
+			"autoantibody": 39,
+			"pentamer": 39,
+			"infection": 37,
+			"vsa": 35,
+			"somatic": 34,
+			"csf": 34,
+			"dsg3": 34,
+			"pam": 33,
+			"virus": 33,
+			"hcmv": 30
 		},
 		"id": 374,
-		"relevancy": 606
+		"relevancy": 954
 	},
 	{
 		"name": "Gang Chen",
@@ -6762,10 +10512,20 @@
 			"pseudoknot": 49,
 			"triplex": 49,
 			"pna": 46,
-			"hia": 44
+			"hia": 44,
+			"u251": 41,
+			"a59": 38,
+			"tbk1": 37,
+			"unfolding": 33,
+			"cell": 32,
+			"beijing": 32,
+			"transshipment": 32,
+			"mandated": 32,
+			"bpifb1": 32,
+			"cathepsin": 31
 		},
 		"id": 375,
-		"relevancy": 590
+		"relevancy": 930
 	},
 	{
 		"name": "Arturo Casadevall",
@@ -6780,10 +10540,20 @@
 			"cryptococcosis": 32,
 			"list": 28,
 			"albican": 27,
-			"collection": 26
+			"collection": 26,
+			"gattii": 25,
+			"autophagy": 23,
+			"diseas": 23,
+			"antimicrobial": 21,
+			"attribute": 20,
+			"microorganism": 20,
+			"destruction": 19,
+			"atg5": 19,
+			"cryptococcal": 19,
+			"pnw": 19
 		},
 		"id": 376,
-		"relevancy": 406
+		"relevancy": 614
 	},
 	{
 		"name": "Michael S. Diamond",
@@ -6798,10 +10568,20 @@
 			"irf": 107,
 			"orov": 102,
 			"mouse": 91,
-			"denv": 91
+			"denv": 91,
+			"ifi27l2a": 83,
+			"mav": 82,
+			"nile": 77,
+			"interferon": 65,
+			"ifn": 64,
+			"mxra8": 64,
+			"ifnar": 63,
+			"rna": 61,
+			"neuron": 59,
+			"chikv": 59
 		},
 		"id": 377,
-		"relevancy": 1253
+		"relevancy": 1930
 	},
 	{
 		"name": "Robert H. Silverman",
@@ -6816,10 +10596,20 @@
 			"mhv": 124,
 			"rrna": 107,
 			"virus": 107,
-			"vp3": 106
+			"vp3": 106,
+			"cell": 102,
+			"ifn": 88,
+			"activation": 86,
+			"viral": 85,
+			"rna": 83,
+			"oas3": 77,
+			"protein": 71,
+			"cleavage": 67,
+			"pathway": 67,
+			"phosphoesterase": 66
 		},
 		"id": 378,
-		"relevancy": 2163
+		"relevancy": 2955
 	},
 	{
 		"name": "Dimiter S. Dimitrov",
@@ -6834,10 +10624,20 @@
 			"mab": 88,
 			"bnab": 75,
 			"monoclonal": 73,
-			"virus": 72
+			"virus": 72,
+			"cov": 70,
+			"elicitation": 66,
+			"b12": 63,
+			"binding": 62,
+			"m102": 61,
+			"immunogen": 58,
+			"mer": 57,
+			"against": 56,
+			"igf2": 53,
+			"neutralizing": 52
 		},
 		"id": 379,
-		"relevancy": 1092
+		"relevancy": 1690
 	},
 	{
 		"name": "Burkhard Ludewig",
@@ -6852,10 +10652,20 @@
 			"fibroblastic": 49,
 			"cn": 38,
 			"chorioretinitis": 38,
-			"coronavirus": 37
+			"coronavirus": 37,
+			"infection": 37,
+			"liver": 36,
+			"vector": 35,
+			"dc": 35,
+			"stromal": 34,
+			"cfse": 34,
+			"dendritic": 32,
+			"ilc": 32,
+			"mhv": 30,
+			"mouse": 30
 		},
 		"id": 380,
-		"relevancy": 668
+		"relevancy": 1003
 	},
 	{
 		"name": "Michael Boeckh",
@@ -6870,10 +10680,20 @@
 			"respiratory": 161,
 			"patient": 145,
 			"rsv": 124,
-			"lrd": 108
+			"lrd": 108,
+			"virus": 106,
+			"infection": 102,
+			"myeloablative": 89,
+			"rvi": 82,
+			"biopsy": 80,
+			"bov": 79,
+			"cell": 77,
+			"day": 75,
+			"tract": 72,
+			"ip": 70
 		},
 		"id": 381,
-		"relevancy": 2148
+		"relevancy": 2980
 	},
 	{
 		"name": "Eskild Petersen",
@@ -6888,10 +10708,20 @@
 			"evd": 32,
 			"cov": 32,
 			"monkeypox": 26,
-			"middle": 26
+			"middle": 26,
+			"mdr": 26,
+			"east": 25,
+			"outbreak": 25,
+			"pilgrimage": 24,
+			"covid": 23,
+			"respiratory": 23,
+			"ksa": 23,
+			"cchf": 23,
+			"mru": 22,
+			"tuberculosis": 22
 		},
 		"id": 382,
-		"relevancy": 387
+		"relevancy": 623
 	},
 	{
 		"name": "Gerardo Chowell",
@@ -6906,10 +10736,20 @@
 			"transmission": 79,
 			"mer": 76,
 			"outbreak": 75,
-			"wave": 62
+			"wave": 62,
+			"growth": 60,
+			"cas": 57,
+			"number": 57,
+			"disease": 56,
+			"influenza": 55,
+			"exponential": 53,
+			"estimated": 49,
+			"korea": 49,
+			"data": 47,
+			"interval": 47
 		},
 		"id": 383,
-		"relevancy": 873
+		"relevancy": 1403
 	},
 	{
 		"name": "Matthew Cotten",
@@ -6924,10 +10764,20 @@
 			"sequencing": 44,
 			"polyomavirus": 44,
 			"cov": 41,
-			"infection": 38
+			"infection": 38,
+			"diarrhoea": 36,
+			"human": 35,
+			"kenya": 34,
+			"mele": 34,
+			"coastal": 34,
+			"bat": 33,
+			"deep": 33,
+			"patient": 32,
+			"respiratory": 32,
+			"coronavirus": 31
 		},
 		"id": 384,
-		"relevancy": 561
+		"relevancy": 895
 	},
 	{
 		"name": "Bei Li",
@@ -6942,10 +10792,20 @@
 			"shrew": 56,
 			"orthohepevirus": 53,
 			"sarsr": 47,
-			"virus": 46
+			"virus": 46,
+			"human": 42,
+			"accov": 38,
+			"jc34": 38,
+			"surveillance": 38,
+			"kenya": 38,
+			"hev": 37,
+			"chevrieri": 37,
+			"species": 34,
+			"apodemus": 34,
+			"hku8r": 34
 		},
 		"id": 385,
-		"relevancy": 680
+		"relevancy": 1050
 	},
 	{
 		"name": "Chien-Te K. Tseng",
@@ -6960,10 +10820,20 @@
 			"protein": 68,
 			"nsp1": 59,
 			"rbd": 57,
-			"vaccine": 48
+			"vaccine": 48,
+			"cell": 44,
+			"coronavirus": 43,
+			"respiratory": 43,
+			"lung": 40,
+			"syndrome": 39,
+			"ac70": 37,
+			"human": 37,
+			"neutralizing": 34,
+			"model": 34,
+			"scov": 33
 		},
 		"id": 386,
-		"relevancy": 887
+		"relevancy": 1271
 	},
 	{
 		"name": "Shihui Sun",
@@ -6978,10 +10848,20 @@
 			"rbd": 66,
 			"vaccine": 55,
 			"neutralizing": 53,
-			"hdpp4": 49
+			"hdpp4": 49,
+			"ha1": 49,
+			"infection": 48,
+			"mouse": 47,
+			"virus": 43,
+			"antibody": 40,
+			"human": 40,
+			"paraquat": 40,
+			"binding": 37,
+			"receptor": 36,
+			"transgenic": 36
 		},
 		"id": 387,
-		"relevancy": 852
+		"relevancy": 1268
 	},
 	{
 		"name": "Xing-Yi Ge",
@@ -6996,10 +10876,20 @@
 			"virus": 46,
 			"china": 39,
 			"accov": 38,
-			"jc34": 38
+			"jc34": 38,
+			"yunnan": 36,
+			"sarsr": 36,
+			"hepadnavirus": 35,
+			"human": 33,
+			"species": 33,
+			"wiv1": 32,
+			"hepevirus": 31,
+			"horseshoe": 31,
+			"province": 30,
+			"mrv": 30
 		},
 		"id": 388,
-		"relevancy": 587
+		"relevancy": 914
 	},
 	{
 		"name": "Benjamin J. Cowling",
@@ -7014,10 +10904,20 @@
 			"incubation": 108,
 			"infection": 98,
 			"virus": 89,
-			"risk": 86
+			"risk": 86,
+			"closure": 85,
+			"estimate": 85,
+			"hospitalization": 85,
+			"ph1n1": 85,
+			"cas": 80,
+			"period": 75,
+			"transmission": 75,
+			"poultry": 75,
+			"h5n1": 70,
+			"interval": 64
 		},
 		"id": 389,
-		"relevancy": 1263
+		"relevancy": 2042
 	},
 	{
 		"name": "Jianhua Sui",
@@ -7032,10 +10932,20 @@
 			"sars": 60,
 			"ctcl": 59,
 			"minibody": 53,
-			"ighv1": 48
+			"ighv1": 48,
+			"receptor": 47,
+			"h1567": 47,
+			"protein": 46,
+			"tumor": 46,
+			"hku1": 45,
+			"cov": 45,
+			"binding": 43,
+			"hbv": 42,
+			"escape": 42,
+			"mab": 42
 		},
 		"id": 390,
-		"relevancy": 679
+		"relevancy": 1124
 	},
 	{
 		"name": "Wayne A. Marasco",
@@ -7050,10 +10960,20 @@
 			"escape": 62,
 			"scfv": 60,
 			"ctcl": 59,
-			"cell": 59
+			"cell": 59,
+			"sars": 54,
+			"virus": 54,
+			"minibody": 53,
+			"tumor": 50,
+			"h1567": 47,
+			"hku1": 45,
+			"binding": 45,
+			"epitope": 44,
+			"mer": 43,
+			"influenza": 42
 		},
 		"id": 391,
-		"relevancy": 744
+		"relevancy": 1221
 	},
 	{
 		"name": "Peter Daszak",
@@ -7068,10 +10988,20 @@
 			"cov": 92,
 			"disease": 92,
 			"eid": 91,
-			"risk": 87
+			"risk": 87,
+			"emergence": 78,
+			"climate": 70,
+			"spillover": 67,
+			"host": 67,
+			"species": 65,
+			"coronavirus": 60,
+			"reservoir": 60,
+			"hantavirus": 60,
+			"health": 59,
+			"pandemic": 57
 		},
 		"id": 392,
-		"relevancy": 1207
+		"relevancy": 1850
 	},
 	{
 		"name": "Qi Zhao",
@@ -7086,10 +11016,20 @@
 			"smith": 47,
 			"cov": 46,
 			"adrp": 45,
-			"cyrtomium": 44
+			"cyrtomium": 44,
+			"mgc": 41,
+			"m708": 41,
+			"structure": 41,
+			"pro": 39,
+			"coronavirus": 38,
+			"germline": 37,
+			"substrate": 37,
+			"mpro": 36,
+			"igf1": 35,
+			"crystal": 34
 		},
 		"id": 393,
-		"relevancy": 503
+		"relevancy": 882
 	},
 	{
 		"name": "J. S. Malik Peiris",
@@ -7104,10 +11044,20 @@
 			"elisa": 65,
 			"pals1": 57,
 			"day": 56,
-			"estimate": 55
+			"estimate": 55,
+			"household": 54,
+			"hong": 54,
+			"kong": 54,
+			"mbl": 53,
+			"protein": 53,
+			"h5n1": 52,
+			"respiratory": 50,
+			"patient": 48,
+			"coronavirus": 47,
+			"pandemic": 46
 		},
 		"id": 394,
-		"relevancy": 861
+		"relevancy": 1372
 	},
 	{
 		"name": "Frank J. M. van Kuppeveld",
@@ -7122,10 +11072,20 @@
 			"enterovirus": 92,
 			"protein": 85,
 			"pro": 80,
-			"bfa": 78
+			"bfa": 78,
+			"cell": 65,
+			"stress": 60,
+			"replication": 59,
+			"ro": 57,
+			"isr": 57,
+			"site": 56,
+			"fmdv": 55,
+			"infection": 55,
+			"p4a": 51,
+			"isrib": 51
 		},
 		"id": 395,
-		"relevancy": 998
+		"relevancy": 1564
 	},
 	{
 		"name": "Boyd Yount",
@@ -7140,10 +11100,20 @@
 			"mouse": 55,
 			"human": 51,
 			"protein": 51,
-			"vrp": 49
+			"vrp": 49,
+			"coronavirus": 49,
+			"cs1": 47,
+			"ma15": 46,
+			"ns4b": 44,
+			"denv": 43,
+			"cdna": 43,
+			"replication": 42,
+			"gfp": 42,
+			"rna": 40,
+			"cea": 40
 		},
 		"id": 396,
-		"relevancy": 688
+		"relevancy": 1124
 	},
 	{
 		"name": "Ralph Baric",
@@ -7158,10 +11128,20 @@
 			"gilead": 57,
 			"salary": 57,
 			"icsz16": 57,
-			"mouse": 51
+			"mouse": 51,
+			"lysosomal": 48,
+			"strain": 48,
+			"infection": 48,
+			"respiratory": 47,
+			"zoonotic": 45,
+			"k479n": 45,
+			"ptec": 44,
+			"severe": 44,
+			"employee": 44,
+			"viral": 42
 		},
 		"id": 397,
-		"relevancy": 787
+		"relevancy": 1242
 	},
 	{
 		"name": "Neil M. Ferguson",
@@ -7176,10 +11156,20 @@
 			"transmission": 42,
 			"data": 39,
 			"city": 38,
-			"population": 35
+			"population": 35,
+			"bias": 33,
+			"estimating": 32,
+			"outbreak": 32,
+			"h1n1": 29,
+			"pdm09": 29,
+			"model": 28,
+			"cas": 27,
+			"smallpox": 27,
+			"intervention": 26,
+			"reproduction": 26
 		},
 		"id": 398,
-		"relevancy": 459
+		"relevancy": 748
 	},
 	{
 		"name": "Susanna K. P. Lau",
@@ -7194,10 +11184,20 @@
 			"genome": 132,
 			"mer": 116,
 			"uae": 116,
-			"sars": 110
+			"sars": 110,
+			"genotype": 109,
+			"virus": 99,
+			"sample": 93,
+			"infection": 91,
+			"pbv": 90,
+			"human": 87,
+			"hev8": 85,
+			"protein": 82,
+			"nucleocapsid": 82,
+			"bactrian": 81
 		},
 		"id": 399,
-		"relevancy": 1684
+		"relevancy": 2583
 	},
 	{
 		"name": "Patrick C. Y. Woo",
@@ -7212,10 +11212,20 @@
 			"hcov": 136,
 			"genome": 133,
 			"uae": 116,
-			"sars": 110
+			"sars": 110,
+			"genotype": 109,
+			"virus": 107,
+			"protein": 96,
+			"sample": 96,
+			"infection": 91,
+			"pbv": 90,
+			"human": 89,
+			"hev8": 85,
+			"nucleocapsid": 82,
+			"bactrian": 81
 		},
 		"id": 400,
-		"relevancy": 1807
+		"relevancy": 2733
 	},
 	{
 		"name": "Thomas Briese",
@@ -7230,10 +11240,20 @@
 			"bird": 37,
 			"vircapseq": 35,
 			"vert": 35,
-			"cavv": 31
+			"cavv": 31,
+			"human": 30,
+			"camel": 28,
+			"arabia": 28,
+			"saudi": 28,
+			"respiratory": 27,
+			"masstag": 27,
+			"pathogen": 26,
+			"sample": 26,
+			"arenavirus": 25,
+			"viral": 25
 		},
 		"id": 401,
-		"relevancy": 453
+		"relevancy": 723
 	},
 	{
 		"name": "Peter J. M. Rottier",
@@ -7248,10 +11268,20 @@
 			"fipv": 85,
 			"rna": 81,
 			"entry": 79,
-			"infection": 78
+			"infection": 78,
+			"membrane": 76,
+			"spike": 72,
+			"ribv": 65,
+			"gene": 62,
+			"feline": 61,
+			"pedv": 59,
+			"hepatitis": 57,
+			"rsv": 57,
+			"ibv": 56,
+			"a59": 56
 		},
 		"id": 402,
-		"relevancy": 1271
+		"relevancy": 1892
 	},
 	{
 		"name": "Cornelis A. M. de Haan",
@@ -7266,10 +11296,20 @@
 			"coronavirus": 90,
 			"fusion": 85,
 			"cell": 84,
-			"receptor": 82
+			"receptor": 82,
+			"entry": 69,
+			"rsv": 57,
+			"not": 55,
+			"cd200r": 53,
+			"site": 52,
+			"infection": 52,
+			"membrane": 51,
+			"viral": 49,
+			"cov": 48,
+			"particle": 47
 		},
 		"id": 403,
-		"relevancy": 1136
+		"relevancy": 1669
 	},
 	{
 		"name": "Lisa E. Hensley",
@@ -7284,10 +11324,20 @@
 			"rvsv": 53,
 			"human": 50,
 			"rabv": 48,
-			"amodiaquine": 43
+			"amodiaquine": 43,
+			"drug": 40,
+			"cell": 40,
+			"respiratory": 39,
+			"east": 38,
+			"middle": 37,
+			"marmoset": 37,
+			"ebola": 37,
+			"filovirus": 36,
+			"syndrome": 35,
+			"vaccine": 35
 		},
 		"id": 404,
-		"relevancy": 686
+		"relevancy": 1060
 	},
 	{
 		"name": "Peter B. Jahrling",
@@ -7302,10 +11352,20 @@
 			"shfv": 73,
 			"ebola": 71,
 			"kinome": 67,
-			"imaging": 63
+			"imaging": 63,
+			"infection": 63,
+			"apilimod": 59,
+			"cell": 59,
+			"vaccine": 58,
+			"tomography": 55,
+			"pet": 55,
+			"human": 54,
+			"disease": 46,
+			"ebolavirus": 46,
+			"emission": 44
 		},
 		"id": 405,
-		"relevancy": 958
+		"relevancy": 1497
 	},
 	{
 		"name": "Peter L. Collins",
@@ -7320,10 +11380,20 @@
 			"airway": 98,
 			"vaccine": 92,
 			"vector": 87,
-			"hae": 83
+			"hae": 83,
+			"human": 79,
+			"cell": 77,
+			"cftr": 74,
+			"newcastle": 71,
+			"ciliated": 69,
+			"respiratory": 68,
+			"bhv": 65,
+			"protein": 65,
+			"rlasota": 64,
+			"replication": 63
 		},
 		"id": 406,
-		"relevancy": 1541
+		"relevancy": 2236
 	},
 	{
 		"name": "Albert D. M. E. Osterhaus",
@@ -7338,10 +11408,20 @@
 			"cell": 63,
 			"coronavirus": 62,
 			"cov": 61,
-			"emc": 61
+			"emc": 61,
+			"sars": 56,
+			"viral": 51,
+			"puuv": 51,
+			"influenza": 45,
+			"tract": 45,
+			"hcov": 44,
+			"macaque": 42,
+			"mer": 41,
+			"child": 40,
+			"rsv": 39
 		},
 		"id": 407,
-		"relevancy": 814
+		"relevancy": 1268
 	},
 	{
 		"name": "Jingxian Zhao",
@@ -7356,10 +11436,20 @@
 			"demyelination": 59,
 			"tcr": 58,
 			"tconv": 57,
-			"reg": 49
+			"reg": 49,
+			"cov": 49,
+			"mer": 48,
+			"rdc": 45,
+			"cd8": 44,
+			"specific": 43,
+			"foxp3": 42,
+			"infected": 41,
+			"mav": 41,
+			"disease": 40,
+			"infection": 39
 		},
 		"id": 408,
-		"relevancy": 847
+		"relevancy": 1279
 	},
 	{
 		"name": "Cheng Huang",
@@ -7374,10 +11464,20 @@
 			"cell": 97,
 			"lasv": 70,
 			"virus": 66,
-			"mrna": 65
+			"mrna": 65,
+			"host": 61,
+			"infection": 60,
+			"sars": 56,
+			"translation": 50,
+			"cov": 50,
+			"candid": 47,
+			"ifn": 47,
+			"p28": 46,
+			"ire": 42,
+			"ahf": 39
 		},
 		"id": 409,
-		"relevancy": 1247
+		"relevancy": 1745
 	},
 	{
 		"name": "Andrew E. Firth",
@@ -7392,10 +11492,20 @@
 			"flavivirus": 63,
 			"readthrough": 61,
 			"ns4": 60,
-			"rna": 59
+			"rna": 59,
+			"arterivirus": 54,
+			"gene": 53,
+			"programmed": 52,
+			"slippery": 51,
+			"isf": 51,
+			"orf": 48,
+			"frame": 46,
+			"translation": 46,
+			"sequence": 44,
+			"simarterivirus": 43
 		},
 		"id": 410,
-		"relevancy": 1012
+		"relevancy": 1500
 	},
 	{
 		"name": "Daihai He",
@@ -7410,10 +11520,20 @@
 			"china": 36,
 			"iran": 32,
 			"wuhan": 31,
-			"estimate": 30
+			"estimate": 30,
+			"cas": 28,
+			"model": 28,
+			"turning": 27,
+			"travel": 27,
+			"rainfall": 27,
+			"estimation": 26,
+			"resurgence": 26,
+			"january": 26,
+			"cfr": 25,
+			"number": 24
 		},
 		"id": 411,
-		"relevancy": 373
+		"relevancy": 637
 	},
 	{
 		"name": "Marc-Alain Widdowson",
@@ -7428,10 +11548,20 @@
 			"hospitalized": 58,
 			"surveillance": 55,
 			"illness": 53,
-			"patient": 52
+			"patient": 52,
+			"pdm09": 50,
+			"year": 47,
+			"idshl": 45,
+			"incidence": 44,
+			"person": 43,
+			"virus": 42,
+			"aged": 40,
+			"hospital": 40,
+			"score": 39,
+			"health": 37
 		},
 		"id": 412,
-		"relevancy": 843
+		"relevancy": 1270
 	},
 	{
 		"name": "Tasnee Chonmaitree",
@@ -7446,10 +11576,20 @@
 			"hbov1": 81,
 			"infant": 74,
 			"respiratory": 64,
-			"otopathogen": 64
+			"otopathogen": 64,
+			"virus": 64,
+			"infection": 61,
+			"ear": 60,
+			"viral": 56,
+			"ab": 54,
+			"complicating": 52,
+			"rhinovirus": 51,
+			"bacterial": 48,
+			"complication": 46,
+			"upper": 46
 		},
 		"id": 413,
-		"relevancy": 1815
+		"relevancy": 2353
 	},
 	{
 		"name": "Leo L. M. Poon",
@@ -7464,10 +11604,20 @@
 			"cov": 46,
 			"emc": 41,
 			"sars": 36,
-			"respiratory": 29
+			"respiratory": 29,
+			"bird": 27,
+			"novel": 24,
+			"assay": 22,
+			"cell": 22,
+			"lamp": 20,
+			"hku1": 20,
+			"alpaca": 19,
+			"aquatic": 19,
+			"cd8": 17,
+			"pcr": 17
 		},
 		"id": 414,
-		"relevancy": 482
+		"relevancy": 689
 	},
 	{
 		"name": "Barry Rockx",
@@ -7482,10 +11632,20 @@
 			"nab": 58,
 			"henipavirus": 58,
 			"escape": 57,
-			"icsz16": 57
+			"icsz16": 57,
+			"respiratory": 54,
+			"zoonotic": 53,
+			"infection": 48,
+			"k479n": 45,
+			"seov": 43,
+			"nipah": 43,
+			"neutralization": 42,
+			"ht": 41,
+			"antibody": 40,
+			"severe": 37
 		},
 		"id": 415,
-		"relevancy": 760
+		"relevancy": 1206
 	},
 	{
 		"name": "Justin Lessler",
@@ -7500,10 +11660,20 @@
 			"day": 34,
 			"cfr": 34,
 			"infectious": 33,
-			"monitoring": 29
+			"monitoring": 29,
+			"distance": 29,
+			"data": 28,
+			"cas": 27,
+			"cholera": 27,
+			"mer": 26,
+			"home": 26,
+			"cov": 25,
+			"modeling": 24,
+			"health": 24,
+			"dynamic": 22
 		},
 		"id": 416,
-		"relevancy": 399
+		"relevancy": 657
 	},
 	{
 		"name": "Peng Wu",
@@ -7518,10 +11688,20 @@
 			"closure": 70,
 			"hospitalization": 66,
 			"infection": 63,
-			"cas": 62
+			"cas": 62,
+			"virus": 59,
+			"poultry": 58,
+			"h5n1": 56,
+			"china": 51,
+			"estimate": 47,
+			"survey": 47,
+			"incubation": 46,
+			"human": 46,
+			"fatality": 45,
+			"excess": 45
 		},
 		"id": 417,
-		"relevancy": 890
+		"relevancy": 1390
 	},
 	{
 		"name": "Ron A. M. Fouchier",
@@ -7536,10 +11716,20 @@
 			"ferret": 42,
 			"cell": 38,
 			"respiratory": 37,
-			"h10n7": 37
+			"h10n7": 37,
+			"influenza": 28,
+			"sars": 24,
+			"infection": 24,
+			"dpp4": 23,
+			"dis": 22,
+			"pipistrellus": 20,
+			"cov": 19,
+			"paramyxovirus": 18,
+			"rmva": 17,
+			"bat": 17
 		},
 		"id": 418,
-		"relevancy": 541
+		"relevancy": 753
 	},
 	{
 		"name": "Cyril C. Y. Yip",
@@ -7554,10 +11744,20 @@
 			"hku23": 53,
 			"picornavirus": 50,
 			"hku14": 48,
-			"strain": 48
+			"strain": 48,
+			"rpp": 47,
+			"fepv": 46,
+			"uae": 45,
+			"rbcov": 44,
+			"oc43": 43,
+			"coronavirus": 42,
+			"a71": 42,
+			"pbv": 42,
+			"infection": 42,
+			"d68": 40
 		},
 		"id": 419,
-		"relevancy": 662
+		"relevancy": 1095
 	},
 	{
 		"name": "Yoshihiro Kawaoka",
@@ -7572,10 +11772,20 @@
 			"host": 64,
 			"vsv": 62,
 			"mouse": 60,
-			"tmprss2": 55
+			"tmprss2": 55,
+			"cell": 51,
+			"viral": 51,
+			"lectin": 47,
+			"infectivity": 45,
+			"lncrna": 45,
+			"gene": 43,
+			"ebola": 39,
+			"response": 39,
+			"gp": 39,
+			"natb": 38
 		},
 		"id": 420,
-		"relevancy": 883
+		"relevancy": 1320
 	},
 	{
 		"name": "Martijn A. Langereis",
@@ -7590,10 +11800,20 @@
 			"he": 63,
 			"protein": 58,
 			"isr": 57,
-			"lectin": 53
+			"lectin": 53,
+			"eif2": 52,
+			"enterovirus": 51,
+			"mda5": 51,
+			"p4a": 51,
+			"acetylated": 51,
+			"isrib": 51,
+			"pkr": 47,
+			"ifn": 47,
+			"fmdv": 47,
+			"virus": 45
 		},
 		"id": 421,
-		"relevancy": 694
+		"relevancy": 1187
 	},
 	{
 		"name": "Fang Li",
@@ -7608,10 +11828,20 @@
 			"spike": 123,
 			"binding": 120,
 			"human": 101,
-			"ntd": 96
+			"ntd": 96,
+			"apn": 94,
+			"cell": 80,
+			"structure": 79,
+			"bat": 77,
+			"mceacam1a": 77,
+			"ediii": 73,
+			"neutralizing": 73,
+			"virus": 71,
+			"entry": 69,
+			"domain": 68
 		},
 		"id": 422,
-		"relevancy": 1565
+		"relevancy": 2326
 	},
 	{
 		"name": "Shan-Lu Liu",
@@ -7626,10 +11856,20 @@
 			"virus": 78,
 			"protein": 76,
 			"jsrv": 70,
-			"cell": 69
+			"cell": 69,
+			"xmrv": 68,
+			"entry": 65,
+			"fusion": 63,
+			"ly6e": 57,
+			"viral": 50,
+			"enac": 45,
+			"envelope": 42,
+			"ifitm2": 38,
+			"membrane": 37,
+			"cgmp": 37
 		},
 		"id": 423,
-		"relevancy": 1108
+		"relevancy": 1610
 	},
 	{
 		"name": "Lisa E. Gralinski",
@@ -7644,10 +11884,20 @@
 			"respiratory": 49,
 			"coronavirus": 47,
 			"viral": 46,
-			"mtase": 45
+			"mtase": 45,
+			"mer": 44,
+			"pathogenesis": 40,
+			"disease": 39,
+			"gene": 39,
+			"attenuation": 36,
+			"network": 36,
+			"syndrome": 35,
+			"collaborative": 34,
+			"human": 33,
+			"influenza": 33
 		},
 		"id": 424,
-		"relevancy": 690
+		"relevancy": 1059
 	},
 	{
 		"name": "Vincent J. Munster",
@@ -7662,10 +11912,20 @@
 			"dromedary": 69,
 			"coronavirus": 66,
 			"marmoset": 63,
-			"virus": 62
+			"virus": 62,
+			"east": 61,
+			"bat": 61,
+			"middle": 61,
+			"macaque": 52,
+			"infection": 48,
+			"syndrome": 45,
+			"rbd": 45,
+			"hamster": 44,
+			"disease": 42,
+			"rhesus": 36
 		},
 		"id": 425,
-		"relevancy": 975
+		"relevancy": 1470
 	},
 	{
 		"name": "Vineet D. Menachery",
@@ -7680,10 +11940,20 @@
 			"mtase": 53,
 			"infection": 51,
 			"vaccine": 48,
-			"syndrome": 43
+			"syndrome": 43,
+			"denv1": 42,
+			"attenuation": 41,
+			"viral": 41,
+			"platform": 39,
+			"mouse": 38,
+			"nsp16": 38,
+			"rmer": 38,
+			"host": 35,
+			"disease": 34,
+			"human": 33
 		},
 		"id": 426,
-		"relevancy": 707
+		"relevancy": 1086
 	},
 	{
 		"name": "John T. Watson",
@@ -7698,10 +11968,20 @@
 			"respiratory": 42,
 			"circulation": 34,
 			"east": 34,
-			"middle": 33
+			"middle": 33,
+			"hcov": 31,
+			"illness": 28,
+			"camel": 28,
+			"coronavirus": 28,
+			"during": 27,
+			"cas": 26,
+			"syndrome": 26,
+			"human": 22,
+			"reported": 21,
+			"jeddah": 20
 		},
 		"id": 427,
-		"relevancy": 509
+		"relevancy": 766
 	},
 	{
 		"name": "Susan I. Gerber",
@@ -7716,10 +11996,20 @@
 			"arabia": 76,
 			"hpiv": 67,
 			"patient": 67,
-			"cas": 63
+			"cas": 63,
+			"infection": 62,
+			"syndrome": 59,
+			"coronavirus": 56,
+			"united": 50,
+			"camel": 48,
+			"contact": 47,
+			"abu": 43,
+			"dhabi": 43,
+			"health": 40,
+			"healthcare": 39
 		},
 		"id": 428,
-		"relevancy": 889
+		"relevancy": 1376
 	},
 	{
 		"name": "Rudragouda Channappanavar",
@@ -7734,10 +12024,20 @@
 			"sars": 53,
 			"infection": 49,
 			"cd8": 49,
-			"coronavirus": 48
+			"coronavirus": 48,
+			"memory": 46,
+			"ifn": 44,
+			"lung": 41,
+			"respiratory": 39,
+			"epitope": 39,
+			"heteroclitic": 35,
+			"imm": 34,
+			"human": 29,
+			"respons": 29,
+			"lethal": 28
 		},
 		"id": 429,
-		"relevancy": 656
+		"relevancy": 1020
 	},
 	{
 		"name": "Reed F. Johnson",
@@ -7752,10 +12052,20 @@
 			"tomography": 48,
 			"niv": 46,
 			"virus": 46,
-			"vaccine": 43
+			"vaccine": 43,
+			"nhp": 43,
+			"spect": 38,
+			"respiratory": 38,
+			"disease": 36,
+			"emission": 35,
+			"east": 34,
+			"rabies": 33,
+			"middle": 33,
+			"replication": 33,
+			"computed": 32
 		},
 		"id": 430,
-		"relevancy": 677
+		"relevancy": 1032
 	},
 	{
 		"name": "David K. Meyerholz",
@@ -7770,10 +12080,20 @@
 			"lung": 62,
 			"sars": 62,
 			"macrodomain": 59,
-			"memory": 55
+			"memory": 55,
+			"mhv": 54,
+			"coronavirus": 46,
+			"dp1": 45,
+			"respiratory": 45,
+			"brain": 45,
+			"c3h": 45,
+			"hej": 44,
+			"disease": 44,
+			"cd8": 44,
+			"rsv": 42
 		},
 		"id": 431,
-		"relevancy": 787
+		"relevancy": 1241
 	},
 	{
 		"name": "Zheng-Li Shi",
@@ -7788,10 +12108,20 @@
 			"mer": 65,
 			"rodent": 64,
 			"human": 62,
-			"orthohepevirus": 58
+			"orthohepevirus": 58,
+			"sarsr": 58,
+			"camel": 57,
+			"shrew": 56,
+			"china": 55,
+			"species": 53,
+			"yunnan": 48,
+			"orfx": 46,
+			"reservoir": 45,
+			"kenya": 44,
+			"slcov": 44
 		},
 		"id": 432,
-		"relevancy": 1017
+		"relevancy": 1523
 	},
 	{
 		"name": "Xing-Lou Yang",
@@ -7806,10 +12136,20 @@
 			"camel": 57,
 			"shrew": 56,
 			"human": 52,
-			"sars": 49
+			"sars": 49,
+			"sarsr": 47,
+			"orfx": 46,
+			"kenya": 44,
+			"surveillance": 41,
+			"species": 39,
+			"rodent": 38,
+			"hev": 37,
+			"hepevirus": 36,
+			"hepadnavirus": 35,
+			"china": 35
 		},
 		"id": 433,
-		"relevancy": 803
+		"relevancy": 1201
 	},
 	{
 		"name": "Paul B. McCray",
@@ -7824,10 +12164,20 @@
 			"virus": 71,
 			"receptor": 65,
 			"human": 64,
-			"infection": 64
+			"infection": 64,
+			"mouse": 62,
+			"axl": 56,
+			"cd9": 53,
+			"apical": 52,
+			"lung": 50,
+			"dpp4": 48,
+			"sars": 44,
+			"differentiated": 42,
+			"zebov": 42,
+			"polarized": 41
 		},
 		"id": 434,
-		"relevancy": 905
+		"relevancy": 1395
 	},
 	{
 		"name": "M C Horzinek",
@@ -7842,10 +12192,20 @@
 			"eav": 53,
 			"ts342": 51,
 			"rna": 49,
-			"a59": 44
+			"a59": 44,
+			"peritonitis": 39,
+			"golgi": 39,
+			"budding": 38,
+			"mouse": 37,
+			"coronavirus": 37,
+			"torovirus": 37,
+			"weight": 35,
+			"dtt": 35,
+			"virion": 33,
+			"fhv": 32
 		},
 		"id": 435,
-		"relevancy": 626
+		"relevancy": 988
 	},
 	{
 		"name": "W J Spaan",
@@ -7860,10 +12220,20 @@
 			"sequence": 62,
 			"subgenomic": 57,
 			"iss": 53,
-			"mrna": 52
+			"mrna": 52,
+			"protein": 48,
+			"leader": 46,
+			"cell": 45,
+			"bev": 45,
+			"orf1a": 44,
+			"coronavirus": 42,
+			"arteritis": 41,
+			"hepatitis": 41,
+			"frame": 39,
+			"mouse": 38
 		},
 		"id": 436,
-		"relevancy": 793
+		"relevancy": 1222
 	},
 	{
 		"name": "Jane Parry",
@@ -7878,10 +12248,20 @@
 			"china": 8,
 			"coming": 8,
 			"chinese": 7,
-			"fight": 7
+			"fight": 7,
+			"alert": 7,
+			"resign": 6,
+			"trader": 6,
+			"detain": 6,
+			"withdraw": 6,
+			"myanmar": 6,
+			"coroner": 6,
+			"inquest": 6,
+			"prais": 6,
+			"warn": 6
 		},
 		"id": 437,
-		"relevancy": 129
+		"relevancy": 190
 	},
 	{
 		"name": "M M Lai",
@@ -7896,10 +12276,20 @@
 			"hepatitis": 140,
 			"mouse": 133,
 			"end": 122,
-			"subgenomic": 92
+			"subgenomic": 92,
+			"recombination": 92,
+			"protein": 90,
+			"transcription": 88,
+			"synthesis": 88,
+			"strand": 87,
+			"hdv": 84,
+			"a59": 80,
+			"genomic": 75,
+			"minus": 72,
+			"ucuaa": 72
 		},
 		"id": 438,
-		"relevancy": 2109
+		"relevancy": 2937
 	},
 	{
 		"name": "S Makino",
@@ -7914,10 +12304,20 @@
 			"sequence": 105,
 			"virus": 94,
 			"mrna": 77,
-			"packaging": 73
+			"packaging": 73,
+			"a59": 71,
+			"defective": 70,
+			"dissa": 68,
+			"transcription": 66,
+			"dissf": 65,
+			"hepatitis": 57,
+			"strand": 56,
+			"helper": 55,
+			"genomic": 54,
+			"coronavirus": 52
 		},
 		"id": 439,
-		"relevancy": 1367
+		"relevancy": 1981
 	},
 	{
 		"name": "S A Stohlman",
@@ -7932,10 +12332,20 @@
 			"hepatitis": 94,
 			"mrna": 85,
 			"jhm": 84,
-			"a59": 65
+			"a59": 65,
+			"cell": 63,
+			"oligonucleotide": 52,
+			"perforin": 51,
+			"sequence": 50,
+			"nervous": 49,
+			"strain": 48,
+			"protein": 44,
+			"recombination": 44,
+			"specific": 44,
+			"ctl": 41
 		},
 		"id": 440,
-		"relevancy": 1038
+		"relevancy": 1524
 	},
 	{
 		"name": "K V Holmes",
@@ -7950,10 +12360,20 @@
 			"mouse": 121,
 			"virus": 117,
 			"sjl": 87,
-			"cc1": 79
+			"cc1": 79,
+			"hepatitis": 66,
+			"cea": 65,
+			"murine": 64,
+			"virion": 62,
+			"protein": 54,
+			"bgp2": 53,
+			"carcinoembryonic": 53,
+			"coronavirus": 51,
+			"fapn": 50,
+			"bhk": 48
 		},
 		"id": 441,
-		"relevancy": 1672
+		"relevancy": 2238
 	},
 	{
 		"name": "undefined Lei Liu",
@@ -7968,9 +12388,19 @@
 			"wuhan": 55,
 			"gica": 51,
 			"hypertension": 42,
-			"cas": 42
+			"cas": 42,
+			"hospital": 42,
+			"abo": 38,
+			"arb": 38,
+			"disease": 37,
+			"clinical": 36,
+			"severe": 35,
+			"antibody": 33,
+			"igg": 32,
+			"risk": 31,
+			"symptom": 30
 		},
 		"id": 442,
-		"relevancy": 777
+		"relevancy": 1129
 	}
 ]

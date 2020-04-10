@@ -69,7 +69,7 @@ const analysis = authors => {
 
     // Reduction and shaping
 
-    const slice = 10
+    const slice = 20
     // const peaks = 1000
     authors.forEach((item, i) => {
         console.log('Reducing for author #', i)
