@@ -42,47 +42,50 @@ const parse = (records) => {
 
     // Grouping by author
 
-    const authors = records.reduce((authors, record, i) => {
+    const authors = records
+        // .slice(0, 1000) // Trim for testing
+        .reduce((authors, record, i) => {
 
-        console.log('Grouping authors for record #', i)
+            console.log('Grouping authors for record #', i)
 
-        record.authors.forEach(author => {
+            record.authors.forEach(author => {
 
-            if (author == 'undefined') return
-            
-            const existence = authors.some(a => a.name === author)
-            const text = `${record.title.toLowerCase()} ${record.abstract.toLowerCase()} `
+                if (author == 'undefined') return
 
-            if (existence) {
-                let _author = authors.filter(a => a.name === author)
-                _author[0].docs++
-                _author[0].text += text
-            } else {
-                authors.push({
-                    name: author,
-                    docs: 1,
-                    text: text
-                })
-            }
+                const existence = authors.some(a => a.name === author)
+                const text = `${record.title.toLowerCase()} ${record.abstract.toLowerCase()} `
 
-        })
+                if (existence) {
+                    let _author = authors.filter(a => a.name === author)
+                    _author[0].docs++
+                    _author[0].text += text
+                } else {
+                    const _author = {
+                        name: author,
+                        docs: 1,
+                        text: text
+                    }
+                    authors.push(_author)
+                }
 
-        return authors
+            })
 
-    }, [])
+            return authors
+
+        }, [])
 
     // Shorten list
 
-    // const min = 20
-    const abridged = authors.reduce((array, author) => {
-        // if (author.docs > min)
-            array.push(author)
-        return array
-    }, [])
+    // authors = authors.reduce((array, author) => {
+    //     const min = 20
+    //     if (author.docs > min)
+    //         array.push(author)
+    //     return array
+    // }, [])
 
     // Write JSON
 
-    fs.writeFile('./data/authors.json', JSON.stringify(abridged, null, '\t'), err => {
+    fs.writeFile('./data/authors.json', JSON.stringify(authors, null, '\t'), err => {
         if (err) throw err
     })
 

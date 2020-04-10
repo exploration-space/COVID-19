@@ -18,10 +18,11 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const min = 10
     authors = authors.reduce((array, author, i) => {
+        const min = 10
         console.log('Filtering author #', i)
-		if (author.docs >= min ) array.push(author)
+        if (author.docs >= min)
+            array.push(author)
         return array
     }, [])
 
@@ -45,7 +46,7 @@ const analysis = authors => {
     authors.forEach((author, i) => {
         // console.log('Singularizing author #', i)
         author.tokens = author.tokens.map(t => {
-            if ((safeList.includes(t) && t.length > 3) || /us$/.test(t) || /is$/.test(t) ) {
+            if ((safeList.includes(t) && t.length > 3) || /us$/.test(t) || /is$/.test(t)) {
                 return t
             } else {
                 const newt = inflector.singularize(t)
@@ -65,13 +66,13 @@ const analysis = authors => {
 
     // Reduction and shaping
 
-    const slice = 10
+    const slice = 12
     const peaks = 1000
     authors.forEach((item, i) => {
         console.log('Reducing for author #', i)
         item.tokens = tokenFrequency.listTerms(i)
             // .filter(el => el.tfidf > tfidfLimit) // Remove bottom
-            .filter(el => el.tfidf < peaks) // Remove peaks
+            // .filter(el => el.tfidf < peaks) // Remove peaks
             .slice(0, slice) // Slice first x elements
             .reduce((obj, el) => {
                 obj[el.term] = el.tfidf
@@ -99,13 +100,13 @@ const analysis = authors => {
 
     pairs.forEach((pair, i) => {
 
-        const min = 3
+        const min = 4
         const p1 = pair[0], p2 = pair[1]
         const t1 = p1.tokens, t2 = p2.tokens
         const tokens = Object.keys(p1.tokens).filter(n => Object.keys(p2.tokens).includes(n))
-        
+
         if (tokens.length < min) return
-        
+
         maxCommonTokens = maxCommonTokens > tokens.length ? maxCommonTokens : tokens.length
         console.log('#', i, '|', tokens.length, 'terms between', p2.name, 'and', p1.name)
 
@@ -133,6 +134,8 @@ const analysis = authors => {
     // Normalizing 
 
     const factor = 1
+
+    links.forEach(link => link.value = Math.floor(link.value))
     const maxLinkValue = links.reduce((max, link) => max > link.value ? max : link.value, 0)
     const minLinkValue = links.reduce((min, link) => min < link.value ? min : link.value, 100000)
     links.forEach(link => link.value = link.value / maxLinkValue * factor)

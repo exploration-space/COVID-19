@@ -54,7 +54,7 @@ export default () => {
         s.context.strokeStyle = s.colors.contours
         s.geoPath(s.densityData[i])
         // s.context.lineWidth = 1
-        s.context.lineWidth = 3 - (.05 * i)
+        s.context.lineWidth = 6 - (.1 * i)
         s.context.stroke()
     }
 
