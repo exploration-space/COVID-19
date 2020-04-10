@@ -21,7 +21,7 @@ export default () => {
 
                 const tokens = Object.entries(node.tokens).reduce((tokens, token) => {
                     if (tokens.length < 30)
-                        tokens.push(`${token[0]} (${token[1].toFixed(2)})`)
+                        tokens.push(`${token[0]} (${token[1]})`)
                     return tokens
                 }, [])
 

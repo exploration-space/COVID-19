@@ -26,9 +26,23 @@ const trimRight = (str) => {
 
 const parse = (records) => {
 
+    // Check length limit
+    
+    // const toolong = records.reduce((int, r) => {
+    //     if (r.abstract.length > 3000)
+    //         int = int + 1
+    //     return int
+    // }, 0)
+    // console.log('-', toolong)
+    
     // Name treatment
 
     records = records.reduce((records, record) => {
+
+        const max = 3000
+        if (record.abstract.length > max)
+            return records
+
         record.authors = record.authors.split('; ').reduce((authors, author) => {
             let string = `${author.split(', ')[1]} ${author.split(', ')[0]}`
             string = trimLeft(string)
@@ -46,7 +60,7 @@ const parse = (records) => {
         // .slice(0, 1000) // Trim for testing
         .reduce((authors, record, i) => {
 
-            console.log('Grouping authors for record #', i)
+            console.log('Grouping record #', i)
 
             record.authors.forEach(author => {
 

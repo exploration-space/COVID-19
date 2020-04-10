@@ -66,7 +66,7 @@ const analysis = authors => {
 
     // Reduction and shaping
 
-    const slice = 12
+    const slice = 15
     const peaks = 1000
     authors.forEach((item, i) => {
         console.log('Reducing for author #', i)
@@ -75,7 +75,7 @@ const analysis = authors => {
             // .filter(el => el.tfidf < peaks) // Remove peaks
             .slice(0, slice) // Slice first x elements
             .reduce((obj, el) => {
-                obj[el.term] = el.tfidf
+                obj[el.term] = Math.floor(el.tfidf)
                 return obj
             }, {})
     })
@@ -94,13 +94,15 @@ const analysis = authors => {
 
     // Set links
 
+    // Cangmo Ahm _> error
+
     const pairs = combinatorics.bigCombination(authors, 2)
     const links = []
     let maxCommonTokens = 0
 
     pairs.forEach((pair, i) => {
 
-        const min = 4
+        const min = 3
         const p1 = pair[0], p2 = pair[1]
         const t1 = p1.tokens, t2 = p2.tokens
         const tokens = Object.keys(p1.tokens).filter(n => Object.keys(p2.tokens).includes(n))
