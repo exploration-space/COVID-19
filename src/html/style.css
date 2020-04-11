@@ -50,7 +50,7 @@ a {
 	background-color: rgba(255,255,255,.1);
 	right: 0;
 	bottom: 10;
-	width: 40%;
+	width: 10%;
 }
 
 #searchWrapper {
@@ -66,17 +66,17 @@ a {
 }
 
 h1 {
-	font-size: 150%;
+	font-size: 120%;
 	margin: 5px 0;
 }
 
 h2 {
-	font-size: 100%;
+	font-size: 80%;
 	margin: 5px 0;
 }
 
 p {
-	font-size: 70%;
+	font-size: 60%;
 	margin: 5px 0;
 	line-height: 1.4;
 }
