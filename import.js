@@ -29,7 +29,7 @@ const parse = (records) => {
     // Check length limit
     
     // const toolong = records.reduce((int, r) => {
-    //     if (r.abstract.length > 3000)
+    //     if (r.abstract.length > 4000)
     //         int = int + 1
     //     return int
     // }, 0)

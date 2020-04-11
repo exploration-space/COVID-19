@@ -13,7 +13,7 @@ export let s = {
     colors: {
         gradientA: d3.rgb(0, 0, 0),
         gradientB: d3.rgb(60, 60, 60),
-        contours: d3.rgb(255, 255, 255),
+        contours: d3.rgb(255, 255, 0),
         keywords: d3.rgb(255, 255, 255, .2),
         nodes: d3.rgb(200, 200, 200), // Grigio
         // nodes: d3.rgb(216, 169, 21), // Giallo Cattolica

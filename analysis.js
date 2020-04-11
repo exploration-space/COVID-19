@@ -18,8 +18,8 @@ const analysis = authors => {
 
     // Reduce authors
 
+    const min = 30
     authors = authors.reduce((array, author, i) => {
-        const min = 20
         console.log('Filtering author #', i)
         if (author.docs >= min)
             array.push(author)
@@ -60,7 +60,7 @@ const analysis = authors => {
     })
 
     // TF-IDF
-    
+
     const tokenFrequency = new natural.TfIdf()
     authors.forEach((author, i) => {
         console.log('Frequencing for author #', i)
@@ -69,7 +69,7 @@ const analysis = authors => {
 
     // Reduction and shaping
 
-    const slice = 20
+    const slice = 10
     // const peaks = 1000
     authors.forEach((item, i) => {
         console.log('Reducing for author #', i)
@@ -93,9 +93,6 @@ const analysis = authors => {
         return array
     }, [])
 
-    fs.writeFile('./src/data/nodes.json', JSON.stringify(nodes), err => { if (err) throw err })
-    fs.writeFile('./data/nodes.json', JSON.stringify(nodes, null, '\t'), err => { if (err) throw err })
-
     // Set links
 
     const pairs = combinatorics.bigCombination(authors, 2)
@@ -105,16 +102,18 @@ const analysis = authors => {
 
     pairs.forEach(pair => {
 
-        // const min = 3
+        const min = 3
         const p1 = pair[0], p2 = pair[1]
         const t1 = p1.tokens, t2 = p2.tokens
         const tokens = Object.keys(p1.tokens).filter(n => Object.keys(p2.tokens).includes(n))
         i = i - 1
 
-        // if (tokens.length < min) return
-        if (tokens.length == 0) return
+        if (tokens.length <= min)
+            return
 
-        maxCommonTokens = maxCommonTokens > tokens.length ? maxCommonTokens : tokens.length
+        if (tokens.length > maxCommonTokens)
+            maxCommonTokens = tokens.length
+            
         console.log('#', i, '|', tokens.length, 'terms between', p2.name, 'and', p1.name)
 
         tokens.forEach(token => {
@@ -139,12 +138,17 @@ const analysis = authors => {
         })
     })
 
-    // Normalizing 
+    // Normalization
 
     links.forEach(link => link.value = Math.floor(link.value))
     const maxLinkValue = links.reduce((max, link) => max > link.value ? max : link.value, 0)
     const minLinkValue = links.reduce((min, link) => min < link.value ? min : link.value, 100000)
     links.forEach(link => link.value = (link.value / maxLinkValue).toFixed(2))
+
+    // Writing files
+
+    fs.writeFile('./src/data/nodes.json', JSON.stringify(nodes), err => { if (err) throw err })
+    fs.writeFile('./data/nodes.json', JSON.stringify(nodes, null, '\t'), err => { if (err) throw err })
 
     fs.writeFile('./src/data/links.json', JSON.stringify(links), err => { if (err) throw err })
     fs.writeFile('./data/links.json', JSON.stringify(links, null, '\t'), err => { if (err) throw err })
