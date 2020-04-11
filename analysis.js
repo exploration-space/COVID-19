@@ -18,7 +18,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const min = 30
+    const min = 25
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
         if (author.docs >= min)
@@ -69,7 +69,7 @@ const analysis = authors => {
 
     // Reduction and shaping
 
-    const slice = 10
+    const slice = 40
     // const peaks = 1000
     authors.forEach((item, i) => {
         console.log('Reducing for author #', i)
@@ -102,7 +102,7 @@ const analysis = authors => {
 
     pairs.forEach(pair => {
 
-        const min = 3
+        const min = 10
         const p1 = pair[0], p2 = pair[1]
         const t1 = p1.tokens, t2 = p2.tokens
         const tokens = Object.keys(p1.tokens).filter(n => Object.keys(p2.tokens).includes(n))

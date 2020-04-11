@@ -42,7 +42,7 @@ export default () => {
         // s.context.fillText(`(${docs})`, x, y + lineHeight)
 
         s.context.beginPath()
-        s.context.arc(x, y, 1, 0, 2 * Math.PI)
+        s.context.arc(x, y, .7, 0, 2 * Math.PI)
 
         s.context.fill()
     })

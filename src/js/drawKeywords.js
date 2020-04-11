@@ -3,7 +3,7 @@ import { s } from './state'
 export default () => {
 
     const max = 1
-    const rounding = 200
+    const rounding = 500
     const d_min = Math.pow(s.distance, 2) - rounding
     const d_max = Math.pow(s.distance * 2, 2) + rounding
     let rectangles = []
@@ -55,8 +55,8 @@ export default () => {
                 //     // return (s.zoomState.k <= scale && scale <= s.zoomState.k + 2) // This was the satndard for a long time
                 // })
                 .filter(token => {
-                    const width = Math.floor(s.context.measureText(token[0]).width * 1.1)
-                    const height = Math.floor(s.context.measureText('M').width * 1.5)
+                    const width = s.context.measureText(token[0]).width * 1.1
+                    const height = s.context.measureText('M').width * 1.5
                     const rect = [
                         x - width / 2,
                         y - height / 2,
@@ -74,11 +74,11 @@ export default () => {
 
             tokens.forEach(([key, value]) => {
 
-                if (value > 1000) {
+                // if (value > 1000) {
                     const size = value * .01
                     s.context.font = `normal 300 ${size}pt Helvetica`
                     s.context.fillText(key, x, y)
-                }
+                // }
 
                 const width = s.context.measureText(key).width * 1.1
                 const height = s.context.measureText('M').width * 1.5
