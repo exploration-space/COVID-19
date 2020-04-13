@@ -1,7 +1,5 @@
 import * as d3 from 'd3'
-import {
-    s
-} from './state'
+import { s } from './state'
 
 export default () => {
 

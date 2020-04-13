@@ -8,6 +8,7 @@ import simulation from './js/simulation'
 import hover from './js/hover'
 import search from './js/search'
 import background from './js/drawBackground'
+import init from './js/init.js'
 
 window.d3 = d3
 window.s = s
@@ -20,9 +21,8 @@ Promise.all([
     s.nodes = nodes
     console.log('nodes', s.nodes.length)
     console.log('links', s.links.length)
-    s.setScreen()
+    init()
     background()
-    s.setVariables()
     simulation()
     hover()
     search()

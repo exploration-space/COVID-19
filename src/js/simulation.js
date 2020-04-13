@@ -1,8 +1,6 @@
 import * as d3 from 'd3'
-import * as reuse from 'd3-force-reuse'
-import {
-    s
-} from './state'
+// import * as reuse from 'd3-force-reuse'
+import { s } from './state'
 import ticked from './ticked'
 
 window.s = s
