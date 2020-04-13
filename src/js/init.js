@@ -1,5 +1,6 @@
 import * as d3 from 'd3'
 import { s } from './state'
+import { json } from 'd3'
 
 export default () => {
 
@@ -46,5 +47,20 @@ export default () => {
     // Set geopath
 
     s.geoPath = d3.geoPath().context(s.context)
+
+    // Canvas one node
+    
+    s.nodeCanvas = document.createElement('canvas')
+    const nodeContext= s.nodeCanvas.getContext('2d')
+    nodeContext.width = 1
+    nodeContext.height = 1
+    nodeContext.fillStyle = s.colors.nodes
+    nodeContext.arc(2, 2, 1, 0, 2 * Math.PI)
+    nodeContext.fill()
+
+    s.drawNode = (x, y) => {
+        s.context.drawImage(s.nodeCanvas, x, y)
+        // setTimeout(s.drawNode, 1000 / 60)
+    }
 
 }
