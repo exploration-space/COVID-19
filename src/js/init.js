@@ -52,24 +52,25 @@ export default () => {
 
     const nodeCanvas = document.createElement('canvas')
     const nodeContext = nodeCanvas.getContext('2d')
-    nodeContext.width = 1
-    nodeContext.height = 1
+    nodeContext.width = 10
+    nodeContext.height = 10
     nodeContext.fillStyle = s.colors.nodes
-    nodeContext.arc(2, 2, 1, 0, 2 * Math.PI)
+    nodeContext.arc(10, 10, 10, 0, 2 * Math.PI)
     nodeContext.fill()
 
     s.drawNode = (x, y) => {
-        s.context.drawImage(nodeCanvas, x, y)
+        const scale = .1
+        s.context.drawImage(nodeCanvas, x - 1, y - 1, nodeCanvas.width * scale, nodeCanvas.height * scale)
         // setTimeout(s.drawNode, 1000 / 60)
     }
 
     // Canvas for keywords
 
     const tokens = s.nodes.reduce((array, node) => {
-        // console.log(Object.keys(node.tokens))
+        let i = 0
         for (let token in node.tokens) {
             if (!array.includes('token')) array.push(token)
-            break
+            if (++i == 2) break
         }
         return array
     }, [])
@@ -80,21 +81,19 @@ export default () => {
 
         const canvas = document.createElement('canvas')
         const context = canvas.getContext('2d')
-        // context.width = 10
-        // context.height = 10
+        // context.width = 200
+        // context.height = 1
         context.fillStyle = s.colors.tokens
-        context.font = '80px Arial'
+        context.font = '100px Arial'
         context.textBaseline = 'top'
+        // context.textAlign = 'center'
         context.fillText(token, 0, 0)
 
         s.tokens[token] = (x, y, value) => {
-            // console.log(canvas.width, canvas.height)
             const scale = value / 10000
-            s.context.drawImage(canvas, x, y, canvas.width * scale, canvas.height * scale)
-            console.log(canvas.width, canvas.height)
-            // canvas.width = canvas.width / 2
-            // canvas.height = canvas.height / 2
-            // // setTimeout(s.drawNode, 1000 / 60)
+            const width = Math.floor(canvas.width * scale)
+            const height = Math.floor(canvas.height * scale)
+            s.context.drawImage(canvas, x, y, width, height)
         }
 
     })
