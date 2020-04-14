@@ -82,9 +82,10 @@ export default () => {
         const context = canvas.getContext('2d')
         context.width = 1
         context.height = 1
-        context.fillStyle = 'red'
-        context.arc(2, 2, 1, 0, 2 * Math.PI)
-        context.fill()
+        context.fillStyle = '#0f0';
+        context.font = '10px Arial';
+        context.textBaseline = 'top';
+        context.fillText(token, 0, 0);
 
         s.tokens[token] = (x, y) => {
             s.context.drawImage(canvas, x, y)
