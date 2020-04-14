@@ -80,16 +80,21 @@ export default () => {
 
         const canvas = document.createElement('canvas')
         const context = canvas.getContext('2d')
-        context.width = 1
-        context.height = 1
-        context.fillStyle = '#0f0';
-        context.font = '10px Arial';
-        context.textBaseline = 'top';
-        context.fillText(token, 0, 0);
+        // context.width = 10
+        // context.height = 10
+        context.fillStyle = s.colors.tokens
+        context.font = '80px Arial'
+        context.textBaseline = 'top'
+        context.fillText(token, 0, 0)
 
-        s.tokens[token] = (x, y) => {
-            s.context.drawImage(canvas, x, y)
-            // setTimeout(s.drawNode, 1000 / 60)
+        s.tokens[token] = (x, y, value) => {
+            // console.log(canvas.width, canvas.height)
+            const scale = value / 10000
+            s.context.drawImage(canvas, x, y, canvas.width * scale, canvas.height * scale)
+            console.log(canvas.width, canvas.height)
+            // canvas.width = canvas.width / 2
+            // canvas.height = canvas.height / 2
+            // // setTimeout(s.drawNode, 1000 / 60)
         }
 
     })
