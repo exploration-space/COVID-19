@@ -1,4 +1,5 @@
 import { s } from './state'
+import { json } from 'd3'
 
 export default () => {
 
@@ -47,52 +48,63 @@ export default () => {
             const y = Math.floor(deltaY / 2 + (link.source.y < link.target.y ? link.source.y : link.target.y))
 
             // if (outside(x, y)) continue
+            // console.log(tokens)
 
-            const tokens = Object.entries(link.tokens)
-                // .filter(token => {
-                //     const scale = s.keywordScale(token[1])
-                //     return (s.zoomState.k <= scale && scale <= s.zoomState.k + 1)
-                //     // return (s.zoomState.k <= scale && scale <= s.zoomState.k + 2) // This was the satndard for a long time
-                // })
-                .filter(token => {
-                    const width = s.context.measureText(token[0]).width * 1.1
-                    const height = s.context.measureText('M').width * 1.5
-                    const rect = [
-                        x - width / 2,
-                        y - height / 2,
-                        width,
-                        height
-                    ]
-                    const result = !overlap(rect)
-                    return result
-                })
-                .slice(0, max)
+            for (let token in link.tokens) {
+                // console.log(token)
+                if (typeof s.tokens[token] == 'function')
+                    s.tokens[token](x, y)
+                break
+            }
 
-            s.context.beginPath()
-            s.context.fillStyle = s.colors.keywords
-            s.context.textAlign = 'center'
+            // const tokens = Object.entries(link.tokens)
 
-            tokens.forEach(([key, value]) => {
+            // console.log(token)
 
-                // if (value > 1000) {
-                    const size = value * .01
-                    s.context.font = `normal 300 ${size}pt Helvetica`
-                    s.context.fillText(key, x, y)
-                // }
+            // .filter(token => {
+            //     const scale = s.keywordScale(token[1])
+            //     return (s.zoomState.k <= scale && scale <= s.zoomState.k + 1)
+            //     // return (s.zoomState.k <= scale && scale <= s.zoomState.k + 2) // This was the satndard for a long time
+            // })
+            //     .filter(token => {
+            //         const width = s.context.measureText(token[0]).width * 1.1
+            //         const height = s.context.measureText('M').width * 1.5
+            //         const rect = [
+            //             x - width / 2,
+            //             y - height / 2,
+            //             width,
+            //             height
+            //         ]
+            //         const result = !overlap(rect)
+            //         return result
+            //     })
+            //     .slice(0, max)
 
-                const width = s.context.measureText(key).width * 1.1
-                const height = s.context.measureText('M').width * 1.5
-                const rect = [
-                    x - width / 2,
-                    y - height / 2,
-                    width,
-                    height
-                ]
+            // s.context.beginPath()
+            // s.context.fillStyle = s.colors.keywords
+            // s.context.textAlign = 'center'
 
-                rectangles.push(rect)
-            })
+            // tokens.forEach(([key, value]) => {
 
-            s.context.fill()
+            //     // if (value > 1000) {
+            //         const size = value * .01
+            //         s.context.font = `normal 300 ${size}pt Helvetica`
+            //         s.context.fillText(key, x, y)
+            //     // }
+
+            //     const width = s.context.measureText(key).width * 1.1
+            //     const height = s.context.measureText('M').width * 1.5
+            //     const rect = [
+            //         x - width / 2,
+            //         y - height / 2,
+            //         width,
+            //         height
+            //     ]
+
+            //     rectangles.push(rect)
+            // })
+
+            // s.context.fill()
 
         }
 

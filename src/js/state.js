@@ -14,6 +14,8 @@ export let s = {
         contours: d3.rgb(255, 255, 255, .5),
         keywords: d3.rgb(255, 255, 255, .5),
         nodes: d3.rgb(255, 255, 255, .5), // Grigio
-    }
+    },
+
+    tokens: {}
 
 }

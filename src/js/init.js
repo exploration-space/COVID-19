@@ -48,10 +48,10 @@ export default () => {
 
     s.geoPath = d3.geoPath().context(s.context)
 
-    // Canvas one node
-    
-    s.nodeCanvas = document.createElement('canvas')
-    const nodeContext= s.nodeCanvas.getContext('2d')
+    // Canvas for one node
+
+    const nodeCanvas = document.createElement('canvas')
+    const nodeContext = nodeCanvas.getContext('2d')
     nodeContext.width = 1
     nodeContext.height = 1
     nodeContext.fillStyle = s.colors.nodes
@@ -59,8 +59,38 @@ export default () => {
     nodeContext.fill()
 
     s.drawNode = (x, y) => {
-        s.context.drawImage(s.nodeCanvas, x, y)
+        s.context.drawImage(nodeCanvas, x, y)
         // setTimeout(s.drawNode, 1000 / 60)
     }
+
+    // Canvas for keywords
+
+    const tokens = s.nodes.reduce((array, node) => {
+        // console.log(Object.keys(node.tokens))
+        for (let token in node.tokens) {
+            if (!array.includes('token')) array.push(token)
+            break
+        }
+        return array
+    }, [])
+
+    console.log(tokens)
+
+    tokens.forEach(token => {
+
+        const canvas = document.createElement('canvas')
+        const context = canvas.getContext('2d')
+        context.width = 1
+        context.height = 1
+        context.fillStyle = 'red'
+        context.arc(2, 2, 1, 0, 2 * Math.PI)
+        context.fill()
+
+        s.tokens[token] = (x, y) => {
+            s.context.drawImage(canvas, x, y)
+            // setTimeout(s.drawNode, 1000 / 60)
+        }
+
+    })
 
 }
