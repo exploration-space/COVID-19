@@ -90,7 +90,7 @@ export default () => {
         context.fillText(token, 0, 0)
 
         s.tokens[token] = (x, y, value) => {
-            const scale = value / 10000
+            const scale = value / 5000
             const width = Math.floor(canvas.width * scale)
             const height = Math.floor(canvas.height * scale)
             s.context.drawImage(canvas, x, y, width, height)

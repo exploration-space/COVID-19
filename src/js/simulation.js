@@ -1,26 +1,20 @@
 import * as d3 from 'd3'
-// import * as reuse from 'd3-force-reuse'
+import * as reuse from 'd3-force-reuse'
 import { s } from './state'
 import ticked from './ticked'
 
 window.s = s
 s.zoomState = d3.zoomIdentity
 
-
-
-//
 // Simulation
-//
 
 export default () => {
 
-    //
     // Configuration
-    //
 
     const simulation = d3.forceSimulation()
         // .force('charge', reuse.forceManyBodyReuse()
-        //     .strength(-200)
+        //     .strength(-10)
         // .distanceMin(s.distance)
         //     .distanceMax(10000)
         // )
@@ -31,27 +25,20 @@ export default () => {
         // )
         .force('collide', d3.forceCollide()
             .radius(s.distance)
-            .strength(.8)
-            .iterations(10)
+            .strength(.2)
+            .iterations(20)
         )
         .force('center', d3.forceCenter(s.screen.width / 2, s.screen.height / 2))
         .force('link', d3.forceLink()
             .id(d => d.id)
-            .strength(d => d.value * .3)
-            // .iterations(.1)
+            .strength(d => d.value * .2)
+            .iterations(20)
         )
-
-    // .alphaDecay(.005)
-    // .alpha(0.1)
 
     simulation.nodes(s.nodes)
     simulation.force('link').links(s.links)
 
-
-
-    //
     // Simulation start
-    //
 
     const animation = true
 

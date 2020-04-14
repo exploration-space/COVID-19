@@ -18,7 +18,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const min = 25
+    const min = 15
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
         if (author.docs >= min)
@@ -34,29 +34,33 @@ const analysis = authors => {
         author.tokens = tokenizer.tokenize(author.text)
     })
 
-    // Cleaning
-
-    const stopWords = ['']
-    authors.forEach(author => author.tokens = author.tokens.filter(token => token.length > 2))
-    authors.forEach(author => author.tokens = author.tokens.filter(token => !stopWords.includes(token)))
-    authors.forEach(author => author.tokens = author.tokens.filter(token => !parseInt(token)))
-    authors.forEach(author => author.tokens = sw.removeStopwords(author.tokens))
-
     // Singularize
+
     const inflector = new natural.NounInflector()
     const safeList = ['sars', 'savs', 'trans', 'recsars', 'facs']
     authors.forEach((author, i) => {
-        // console.log('Singularizing author #', i)
+        console.log('Singularizing author #', i)
         author.tokens = author.tokens.map(t => {
             if ((safeList.includes(t) && t.length > 3) || /us$/.test(t) || /is$/.test(t)) {
                 return t
             } else {
                 const newt = inflector.singularize(t)
-                if (/.*(s)$/.test(t))
-                    console.log(`Singularizing \t ${t} \t ${newt}`)
+                // if (/.*(s)$/.test(t))
+                //     console.log(`Singularizing \t ${t} \t ${newt}`)
                 return newt
             }
         })
+    })
+
+    // Cleaning
+
+    // const stopWords = ['not', 'cn']
+    authors.forEach((author, i) => {
+        console.log('Cleaning author #', i)
+        author.tokens = sw.removeStopwords(author.tokens)
+            .filter(token => token.length > 2)
+            .filter(token => !parseInt(token))
+        // .filter(token => !stopWords.includes(token))
     })
 
     // TF-IDF
@@ -78,6 +82,7 @@ const analysis = authors => {
             // .filter(el => el.tfidf < peaks) // Remove peaks
             .slice(0, slice) // Slice first x elements
             .reduce((obj, el) => {
+                // console.log(el)
                 obj[el.term] = Math.floor(el.tfidf)
                 return obj
             }, {})
@@ -113,7 +118,7 @@ const analysis = authors => {
 
         if (tokens.length > maxCommonTokens)
             maxCommonTokens = tokens.length
-            
+
         console.log('#', i, '|', tokens.length, 'terms between', p2.name, 'and', p1.name)
 
         tokens.forEach(token => {

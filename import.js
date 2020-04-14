@@ -66,6 +66,8 @@ const parse = (records) => {
 
                 if (author == 'undefined') return
 
+                // test some and filter with find function, which should give the first result back
+
                 const existence = authors.some(a => a.name === author)
                 const text = `${record.title.toLowerCase()} ${record.abstract.toLowerCase()} `
 
