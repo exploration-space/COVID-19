@@ -57,7 +57,7 @@ const parse = (records) => {
     // Grouping by author
 
     const authors = records
-        // .slice(0, 1000) // Trim for testing
+        .slice(0, 100) // Trim for testing
         .reduce((authors, record, i) => {
 
             console.log('Grouping record #', i)

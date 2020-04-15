@@ -81,8 +81,12 @@ export default () => {
 
         const canvas = document.createElement('canvas')
         const context = canvas.getContext('2d')
-        // context.width = 200
+        canvas.width = 500
+        canvas.height = 100
         // context.height = 1
+        // console.log(canvas.height, context.measureText('M').width)
+        // canvas.width = context.measureText(token).width * 1.5
+        // canvas.height = context.measureText('M').width
         context.fillStyle = s.colors.tokens
         context.font = '100px Arial'
         context.textBaseline = 'top'
