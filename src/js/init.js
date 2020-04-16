@@ -48,29 +48,32 @@ export default () => {
 
     s.geoPath = d3.geoPath().context(s.context)
 
-    // Canvas for one node
+    // Canvas for nodes
+
+    const side = 20
 
     const nodeCanvas = document.createElement('canvas')
+    nodeCanvas.width = side
+    nodeCanvas.height = side
+
     const nodeContext = nodeCanvas.getContext('2d')
-    nodeContext.width = 10
-    nodeContext.height = 10
-    nodeContext.fillStyle = s.colors.nodes
-    nodeContext.arc(10, 10, 10, 0, 2 * Math.PI)
-    nodeContext.fill()
+    nodeContext.fillStyle = s.colors.tokens
+    nodeContext.font = '40px Arial'
+    nodeContext.textBaseline = 'middle'
+    nodeContext.textAlign = 'center'
+    nodeContext.fillText('●', side / 2, side / 2)
 
     s.drawNode = (x, y) => {
-        const scale = .1
-        s.context.drawImage(nodeCanvas, x - 1, y - 1, nodeCanvas.width * scale, nodeCanvas.height * scale)
-        // setTimeout(s.drawNode, 1000 / 60)
+        s.context.drawImage(nodeCanvas, x - 1, y - 1, 2, 2)
     }
 
-    // Canvas for keywords
+    // Canvas for tokens
 
     const tokens = s.nodes.reduce((array, node) => {
         let i = 0
         for (let token in node.tokens) {
             if (!array.includes('token')) array.push(token)
-            if (++i == 2) break
+            if (++i == 3) break
         }
         return array
     }, [])
@@ -97,7 +100,7 @@ export default () => {
             const scale = value / 2000
             const scaledWidth = Math.floor(width * scale)
             const scaledHeight = Math.floor(height * scale)
-            x = x - scaledWidth / 2 
+            x = x - scaledWidth / 2
             y = y - scaledHeight / 2
             s.context.drawImage(canvas, x, y, scaledWidth, scaledHeight)
         }
