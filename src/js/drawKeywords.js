@@ -4,23 +4,23 @@ import { json } from 'd3'
 export default () => {
 
     const max = 1
-    const rounding = 500
+    const rounding = 0 // Not sure this Pytagora application is working
     const d_min = Math.pow(s.distance, 2) - rounding
     const d_max = Math.pow(s.distance * 2, 2) + rounding
     let rectangles = []
 
-    const overlap = current => {
-        let result = false
-        rectangles.forEach(previous => {
-            if (current[0] < previous[0] + previous[2] &&
-                current[0] + current[2] > previous[0] &&
-                current[1] < previous[1] + previous[3] &&
-                current[1] + current[3] > previous[1]) {
-                result = true
-            }
-        })
-        return result
-    }
+    // const overlap = current => {
+    //     let result = false
+    //     rectangles.forEach(previous => {
+    //         if (current[0] < previous[0] + previous[2] &&
+    //             current[0] + current[2] > previous[0] &&
+    //             current[1] < previous[1] + previous[3] &&
+    //             current[1] + current[3] > previous[1]) {
+    //             result = true
+    //         }
+    //     })
+    //     return result
+    // }
 
     // const outside = (x, y) => {
     //     let result = false

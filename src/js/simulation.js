@@ -6,32 +6,25 @@ import ticked from './ticked'
 window.s = s
 s.zoomState = d3.zoomIdentity
 
-// Simulation
-
 export default () => {
 
-    // Configuration
+    // Simulation
 
     const simulation = d3.forceSimulation()
-        // .force('charge', reuse.forceManyBodyReuse()
-        //     .strength(-10)
-        // .distanceMin(s.distance)
-        //     .distanceMax(10000)
-        // )
-        // .force('charge', d3.forceManyBody()
-        //     .strength(-1)
-        //     // .distanceMin(s.distance)
-        //     //     // .distanceMax(400)
-        // )
+        .force('charge', reuse.forceManyBodyReuse()
+            .strength(-5)
+        .distanceMin(s.distance)
+            .distanceMax(10000)
+        )
         .force('collide', d3.forceCollide()
             .radius(s.distance)
-            .strength(.2)
+            .strength(.3)
             .iterations(20)
         )
         .force('center', d3.forceCenter(s.screen.width / 2, s.screen.height / 2))
         .force('link', d3.forceLink()
             .id(d => d.id)
-            .strength(d => d.value * .2)
+            .strength(d => d.value * .1)
             .iterations(20)
         )
 
@@ -52,24 +45,17 @@ export default () => {
 
     } else {
         simulation.stop()
-        simulation.tick(100)
+        simulation.tick(500)
         s.end = true
     }
 
-
-    //
     // Refresh on resize
-    //
 
     window.onresize = function reportWindowSize() {
         ticked()
     }
 
-
-
-    //
     // Zoom
-    //
 
     s.zoom = d3.zoom().on('zoom', () => {
         s.zoomState = d3.event.transform

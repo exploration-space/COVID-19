@@ -18,7 +18,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const min = 30 // 15 is the limit
+    const min = 20 // 15 is the limit
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
         if (author.docs >= min)
@@ -90,7 +90,7 @@ const analysis = authors => {
 
     // Set nodes
 
-    const nodes = authors.reduce((array, author, i) => {
+    let nodes = authors.reduce((array, author, i) => {
         delete author.text
         author.id = i
         author.relevancy = Math.floor(Object.values(author.tokens).reduce((a, b) => a + b))
@@ -149,6 +149,16 @@ const analysis = authors => {
     const maxLinkValue = links.reduce((max, link) => max > link.value ? max : link.value, 0)
     const minLinkValue = links.reduce((min, link) => min < link.value ? min : link.value, 100000)
     links.forEach(link => link.value = (link.value / maxLinkValue).toFixed(2))
+
+    // Cleaning nodes without relations
+
+    const connectedNodes = links.reduce((array, link) => {
+		if (!array.includes(link.source)) array.push(link.source)
+		if (!array.includes(link.target)) array.push(link.target)
+        return array
+    }, [])
+
+    nodes = nodes.filter(node => connectedNodes.includes(node.id))
 
     // Writing files
 
