@@ -79,25 +79,30 @@ export default () => {
 
     tokens.forEach(token => {
 
-        const canvas = document.createElement('canvas')
-        const context = canvas.getContext('2d')
-        canvas.width = 500
-        canvas.height = 100
-        // context.height = 1
-        // console.log(canvas.height, context.measureText('M').width)
-        // canvas.width = context.measureText(token).width * 1.5
-        // canvas.height = context.measureText('M').width
-        context.fillStyle = s.colors.tokens
-        context.font = '100px Arial'
-        context.textBaseline = 'top'
-        // context.textAlign = 'center'
-        context.fillText(token, 0, 0)
+        const obj = {}
+        const width = 250
+        const height = 50
+
+        obj.canvas = document.createElement('canvas')
+        obj.canvas.width = width
+        obj.canvas.height = height
+
+        obj.context = obj.canvas.getContext('2d')
+
+        obj.context.fillStyle = s.colors.tokens
+        obj.context.font = '10px Arial'
+        obj.context.textBaseline = 'middle'
+        obj.context.textAlign = 'center'
+        obj.context.fillText(token, width / 2, height / 2)
 
         s.tokens[token] = (x, y, value) => {
-            const scale = value / 5000
-            const width = Math.floor(canvas.width * scale)
-            const height = Math.floor(canvas.height * scale)
-            s.context.drawImage(canvas, x, y, width, height)
+            // const scale = value / 2000
+            // const scale = 0.5
+            // const scaledWidth = width * scale
+            // const scaledHeight = height * scale
+            x = x - width / 2
+            y = y - height / 2
+            s.context.drawImage(obj.canvas, x, y)
         }
 
     })
