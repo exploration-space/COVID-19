@@ -1,6 +1,6 @@
 import * as d3 from 'd3'
 import { s } from './state'
-import { json } from 'd3'
+import fps from 'fps'
 
 export default () => {
 
@@ -105,6 +105,20 @@ export default () => {
             s.context.drawImage(canvas, x, y, scaledWidth, scaledHeight)
         }
 
+    })
+
+    const ticker = fps({
+        every: 1
+    })
+
+    setInterval(() => {
+        ticker.tick()
+    }, 1000 / 60)
+
+    const element = document.getElementById('fps')
+
+    ticker.on('data', function (framerate) {
+        element.innerHTML = Math.floor(parseInt(framerate))
     })
 
 }
