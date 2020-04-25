@@ -2,32 +2,50 @@ import * as d3 from 'd3'
 
 export default () => {
 
+    const radius = 10
+
     const hover = () => {
 
-        const radius = 20,
-            x = s.zoomState.invertX(event.x) * s.screen.density,
-            y = s.zoomState.invertY(event.y) * s.screen.density
+        const x = s.zoomState.invertX(event.x) * s.screen.density
+        const y = s.zoomState.invertY(event.y) * s.screen.density
 
-        for (let i = s.nodes.length - 1; i >= 0; --i) {
+        const focus = d3.select('#focus')
+        let hover = false
 
-            const node = s.nodes[i],
-                dx = x - node.x,
-                dy = y - node.y
+        s.nodes.forEach(node => {
+
+            const dx = x - node.x
+            const dy = y - node.y
 
             if (dx * dx + dy * dy < radius * radius) {
 
-                const tokens = Object.entries(node.tokens).reduce((tokens, token) => {
-                    if (tokens.length < 30)
+                hover = true
+
+                let tokens = Object.entries(node.tokens).reduce((tokens, token) => {
+                    if (tokens.length < 20)
                         tokens.push(`${token[0]} (${token[1]})`)
                     return tokens
-                }, [])
+                }, []).join('<br/>')
 
-                let text = `<h2><strong>${node.name}</strong></h2>`
-                text += `<p>Number of papers: ${node.docs}</p>`
-                text += `<p>Tokens:<br/>${tokens.join('<br/>')}</p>`
-                d3.select('#focus').html(text)
+                let years = Object.entries(node.years).reduce((years, year) => {
+                    years.push(`${year[0]} (${year[1]})`)
+                    return years
+                }, []).join('<br/>')
+
+                const name = node.name
+                const docs = node.docs
+
+                let text = `<h2><strong>${name}</strong></h2>`
+                text += `<p>Number of papers: ${docs}</p>`
+                text += `<p>Tokens:<br/>${tokens}</p>`
+                text += `<p>Publication years:<br/>${years}</p>`
+                focus.html(text)
 
             }
+        })
+
+        if (!hover) {
+            focus.html('')
         }
 
     }

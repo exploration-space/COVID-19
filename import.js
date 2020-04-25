@@ -59,8 +59,10 @@ const parse = (records) => {
                     const _author = {
                         name: name,
                         docs: 1,
-                        years: Array(1).fill(year),
-                        text: text,
+                        years: {
+                            [year]: 1
+                        },
+                        text: text
                     }
                     authors.push(_author)
                 }
@@ -68,7 +70,11 @@ const parse = (records) => {
                 // Update an author
                 else {
                     author.docs++
-                    author.years.push(year)
+                    if (author.years[year]) {
+                        author.years[year]++
+                    } else {
+                        author.years[year] = 1
+                    }
                     author.text += text
                 }
 
