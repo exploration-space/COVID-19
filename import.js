@@ -1,4 +1,3 @@
-
 // Libraries
 
 const fs = require('fs')
@@ -7,46 +6,30 @@ const csv = require('csv-parser')
 // Reading data
 
 const results = []
-fs.createReadStream('./data/metadata.csv')
-    .pipe(csv())
+fs.createReadStream('./data/metadata.csv').pipe(csv())
     .on('data', (data) => results.push(data))
     .on('end', () => parse(results))
 
 // Parsing
 
-const trimLeft = (str) => {
-    if (!str) return str;
-    return str.replace(/^\s+/g, '');
-}
-
-const trimRight = (str) => {
-    if (!str) return str;
-    return str.replace(/\s+$/g, '');
-}
+const trimLeft = str => (!str) ? str : str.replace(/^\s+/g, '')
+const trimRight = str => (!str) ? str : str.replace(/\s+$/g, '')
 
 const parse = (records) => {
 
-    // Check length limit
-    
-    // const toolong = records.reduce((int, r) => {
-    //     if (r.abstract.length > 4000)
-    //         int = int + 1
-    //     return int
-    // }, 0)
-    // console.log('-', toolong)
-    
-    // Name treatment
+    // cleaning of strings
 
     records = records.reduce((records, record) => {
 
-        const max = 3000
-        if (record.abstract.length > max)
-            return records
+        // Check length limit as some papers have the full text
+
+        if (record.abstract.length > 3000) return records
+
+        // Cleaning and inversion
 
         record.authors = record.authors.split('; ').reduce((authors, author) => {
             let string = `${author.split(', ')[1]} ${author.split(', ')[0]}`
-            string = trimLeft(string)
-            string = trimRight(string)
+            string = trimLeft(trimRight(string))
             authors.push(string)
             return authors
         }, [])
@@ -57,31 +40,36 @@ const parse = (records) => {
     // Grouping by author
 
     const authors = records
-        // .slice(0, 50) // Trim for testing
+        // .slice(0, 1000) // Trim for testing
         .reduce((authors, record, i) => {
 
             console.log('Grouping record #', i)
 
-            record.authors.forEach(author => {
+            const year = parseInt(record.publish_time.split('-')[0])
+            const text = `${record.title.toLowerCase()} ${record.abstract.toLowerCase()} `
 
-                if (author == 'undefined') return
+            record.authors.forEach(name => {
 
-                // test some and filter with find function, which should give the first result back
+                if (name == 'undefined') return
 
-                const existence = authors.some(a => a.name === author)
-                const text = `${record.title.toLowerCase()} ${record.abstract.toLowerCase()} `
+                const author = authors.find(a => a.name === name)
 
-                if (existence) {
-                    let _author = authors.filter(a => a.name === author)
-                    _author[0].docs++
-                    _author[0].text += text
-                } else {
+                // Create a new author
+                if (!author) {
                     const _author = {
-                        name: author,
+                        name: name,
                         docs: 1,
-                        text: text
+                        years: Array(1).fill(year),
+                        text: text,
                     }
                     authors.push(_author)
+                }
+
+                // Update an author
+                else {
+                    author.docs++
+                    author.years.push(year)
+                    author.text += text
                 }
 
             })
@@ -89,15 +77,6 @@ const parse = (records) => {
             return authors
 
         }, [])
-
-    // Shorten list
-
-    // authors = authors.reduce((array, author) => {
-    //     const min = 20
-    //     if (author.docs > min)
-    //         array.push(author)
-    //     return array
-    // }, [])
 
     // Write JSON
 
