@@ -32,6 +32,8 @@ export default () => {
         const deltaY = Math.abs(link.source.y - link.target.y)
         const distance = Math.pow(deltaX, 2) + Math.pow(deltaY, 2)
 
+        // if (dx * dx + dy * dy < radius * radius) { // Potrebbe andare bene?
+
         if (s.distanceExtension.min < distance && distance < s.distanceExtension.max) {
 
             const x = Math.floor(deltaX / 2 + (link.source.x < link.target.x ? link.source.x : link.target.x))
