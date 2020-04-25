@@ -2,6 +2,7 @@ import * as d3 from 'd3'
 import * as reuse from 'd3-force-reuse'
 import { s } from './state'
 import ticked from './ticked'
+import background from './drawBackground'
 
 window.s = s
 s.zoomState = d3.zoomIdentity
@@ -52,6 +53,7 @@ export default () => {
     // Refresh on resize
 
     window.onresize = function reportWindowSize() {
+        background()
         ticked()
     }
 
