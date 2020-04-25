@@ -1,5 +1,5 @@
 import contours from '../draw/contours'
-import keywords from '../draw/keywords'
+import keywords from '../draw/tokens'
 import nodes from '../draw/nodes'
 import { s } from '../settings'
 

@@ -4,19 +4,19 @@ export default () => {
 
     const side = 20
 
-    const nodeCanvas = document.createElement('canvas')
-    nodeCanvas.width = side
-    nodeCanvas.height = side
+    const canvas = document.createElement('canvas')
+    canvas.width = side
+    canvas.height = side
 
-    const nodeContext = nodeCanvas.getContext('2d')
-    nodeContext.fillStyle = s.colors.tokens
-    nodeContext.font = '40px Arial'
-    nodeContext.textBaseline = 'middle'
-    nodeContext.textAlign = 'center'
-    nodeContext.fillText('●', side / 2, side / 2)
+    const context = canvas.getContext('2d')
+    context.fillStyle = s.colors.nodes
+    context.font = '40px Arial'
+    context.textBaseline = 'middle'
+    context.textAlign = 'center'
+    context.fillText('●', side / 2, side / 2)
 
     s.drawNode = (x, y) => {
-        s.context.drawImage(nodeCanvas, x - 1, y - 1, 2, 2)
+        s.context.drawImage(canvas, x - 1, y - 1, 2, 2)
     }
 
 }

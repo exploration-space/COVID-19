@@ -2,12 +2,6 @@ import { s } from '../settings'
 
 export default () => {
 
-    const max = 1
-    const rounding = 0 // Not sure this Pytagora application is working
-    const d_min = Math.pow(s.distance, 2) - rounding
-    const d_max = Math.pow(s.distance * 2, 2) + rounding
-    let rectangles = []
-
     // const overlap = current => {
     //     let result = false
     //     rectangles.forEach(previous => {
@@ -32,16 +26,13 @@ export default () => {
     //     return result
     // }
 
-    // s.links.forEach(link => {
-    for (let i = 0; i < s.links.length; i++) {
-
-        const link = s.links[i]
+    s.links.forEach(link => {
 
         const deltaX = Math.abs(link.source.x - link.target.x)
         const deltaY = Math.abs(link.source.y - link.target.y)
         const distance = Math.pow(deltaX, 2) + Math.pow(deltaY, 2)
 
-        if (d_min < distance && distance < d_max) {
+        if (s.distanceExtension.min < distance && distance < s.distanceExtension.max) {
 
             const x = Math.floor(deltaX / 2 + (link.source.x < link.target.x ? link.source.x : link.target.x))
             const y = Math.floor(deltaY / 2 + (link.source.y < link.target.y ? link.source.y : link.target.y))
@@ -106,6 +97,6 @@ export default () => {
 
         // s.context.fill()
 
-    }
+    })
 
 }

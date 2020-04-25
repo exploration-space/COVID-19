@@ -1,5 +1,19 @@
 export default () => {
 
+    // Variables for tokens
+
+    // const max = 1
+    const rounding = 0
+    
+    // Not sure this Pytagora application is working
+
+    s.distanceExtension = {
+        min: Math.pow(s.distance, 2) - rounding,
+        max: Math.pow(s.distance * 2, 2) + rounding
+    }
+
+    // let rectangles = []
+
     // Canvas for tokens
 
     const tokens = s.nodes.reduce((array, node) => {
