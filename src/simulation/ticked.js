@@ -1,7 +1,7 @@
-import contours from './drawContours'
-import keywords from './drawKeywords'
-import nodes from './drawNodes'
-import { s } from './state'
+import contours from '../draw/contours'
+import keywords from '../draw/keywords'
+import nodes from '../draw/nodes'
+import { s } from '../settings'
 
 export default () => {
 

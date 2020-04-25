@@ -1,5 +1,3 @@
-import { s } from './state'
-
 export default () => {
 
     d3.select('#background')

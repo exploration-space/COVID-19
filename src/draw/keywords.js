@@ -1,5 +1,4 @@
-import { s } from './state'
-import { json } from 'd3'
+import { s } from '../settings'
 
 export default () => {
 

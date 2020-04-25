@@ -1,8 +1,8 @@
 import * as d3 from 'd3'
 import * as reuse from 'd3-force-reuse'
-import { s } from './state'
+import { s } from '../settings'
 import ticked from './ticked'
-import background from './drawBackground'
+import background from '../draw/background'
 
 window.s = s
 s.zoomState = d3.zoomIdentity

@@ -1,5 +1,3 @@
-import { s } from './state'
-
 export default () => {
 
     s.nodes.forEach(node => {

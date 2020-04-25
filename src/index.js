@@ -1,14 +1,17 @@
 // require('!style-loader!css-loader!marx-css/css/marx.css')
-import style from './html/style.css'
 import * as d3 from 'd3'
-import { s } from './js/state'
-import nodes from './data/nodes.json'
-import links from './data/links.json'
-import simulation from './js/simulation'
-import hover from './js/hover'
-import search from './js/search'
-import background from './js/drawBackground'
-import init from './js/init.js'
+import { s } from './settings'
+import style from './static/style.css'
+import nodes from './static/nodes.json'
+import links from './static/links.json'
+import simulation from './simulation/simulation'
+import hover from './interface/hover'
+import search from './interface/search'
+import background from './draw/background'
+import initMain from './init/main.js'
+import initTokens from './init/tokens.js'
+import initNodes from './init/nodes.js'
+import initContours from './init/contours.js'
 
 window.d3 = d3
 window.s = s
@@ -16,14 +19,22 @@ window.s = s
 Promise.all([
     d3.json(nodes),
     d3.json(links)
+
 ]).then(([nodes, links]) => {
+
     s.links = links
     s.nodes = nodes
     console.log('nodes', s.nodes.length)
     console.log('links', s.links.length)
-    init()
+
+    initMain()
+    initNodes()
+    initTokens()
+    initContours()
+
     background()
     simulation()
     hover()
     search()
+
 })
