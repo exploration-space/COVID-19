@@ -12,6 +12,7 @@ import initMain from './init/main.js'
 import initTokens from './init/tokens.js'
 import initNodes from './init/nodes.js'
 import initContours from './init/contours.js'
+import initFps from './init/fps.js'
 
 window.d3 = d3
 window.s = s
@@ -31,6 +32,7 @@ Promise.all([
     initNodes()
     initTokens()
     initContours()
+    initFps()
 
     background()
     simulation()

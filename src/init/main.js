@@ -1,5 +1,4 @@
 import * as d3 from 'd3'
-import fps from 'fps'
 
 export default () => {
 
@@ -35,21 +34,5 @@ export default () => {
     s.screen.height = s.body.clientHeight * s.screen.density
     s.canvas = d3.select('#visualization')
     s.context = document.querySelector('#visualization').getContext('2d')
-
-    // Ticker
-
-    const ticker = fps({
-        every: 1
-    })
-
-    setInterval(() => {
-        ticker.tick()
-    }, 1000 / 60)
-
-    const element = document.getElementById('fps')
-
-    ticker.on('data', function (framerate) {
-        element.innerHTML = Math.floor(parseInt(framerate))
-    })
 
 }
