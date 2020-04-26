@@ -16,16 +16,27 @@ export default () => {
 
             const dx = x - node.x
             const dy = y - node.y
+            const pythagoras = dx * dx + dy * dy < radius * radius
+            const block = '<span class="block"></span>'
 
-            if (dx * dx + dy * dy < radius * radius) {
+            // console.log(pythagoras)
+            if (pythagoras) {
 
                 hover = true
 
-                let tokens = Object.entries(node.tokens).reduce((tokens, token) => {
-                    if (tokens.length < 20)
-                        tokens.push(`${token[0]} (${token[1]})`)
+                let tokens = '<table>'
+                tokens += '<tr><td class="right">Token</td><td>TF-IDF</td></tr>'
+                
+                tokens += Object.entries(node.tokens).reduce((tokens, token) => {
+                    const repetition = token[1] / 10
+                    const blocks = block.repeat(repetition)
+                    // table.append
+                    // console.log(token[1], blocks)
+                    tokens += `<tr><td class="right">${token[0]}</td><td>${blocks}</td></tr>`
                     return tokens
-                }, []).join('<br/>')
+                }, [])
+                // .join('<br/>')
+                tokens += '</table>'
 
                 let years = Object.entries(node.years).reduce((years, year) => {
                     years.push(`${year[0]} (${year[1]})`)
@@ -37,16 +48,20 @@ export default () => {
 
                 let text = `<h2><strong>${name}</strong></h2>`
                 text += `<p>Number of papers: ${docs}</p>`
-                text += `<p>Tokens:<br/>${tokens}</p>`
+
+
+
+                text += `<p>${tokens}</p>`
+
                 text += `<p>Publication years:<br/>${years}</p>`
                 focus.html(text)
 
             }
         })
 
-        if (!hover) {
-            focus.html('')
-        }
+        // if (!hover) {
+        //     focus.html('')
+        // }
 
     }
 

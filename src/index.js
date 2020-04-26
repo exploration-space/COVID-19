@@ -1,7 +1,7 @@
-// require('!style-loader!css-loader!marx-css/css/marx.css')
+import './static/main.css'
+
 import * as d3 from 'd3'
 import { s } from './settings'
-import style from './static/style.css'
 import nodes from './static/nodes.json'
 import links from './static/links.json'
 import simulation from './simulation/simulation'

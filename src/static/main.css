@@ -14,8 +14,9 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-body, html {
-	color: rgb(255,255,255);
+body,
+html {
+	color: rgb(255, 255, 255);
 	overflow: hidden;
 	margin: 0;
 }
@@ -28,33 +29,37 @@ canvas {
 }
 
 a {
-	color: rgb(255,255,255);
+	color: rgb(255, 255, 255);
 }
 
 /******************************************************************************
 	 * Containers		
 ******************************************************************************/
 
-#focus, #title, #searchWrapper, #warning {
+#focus,
+#title,
+#searchWrapper,
+#warning {
 	position: absolute;
 	border: none;
 	padding: 10px;
 }
+
 #focus {
-	background-color: rgba(255,255,255,.1);
+	background-color: rgba(255, 255, 255, .1);
 	left: 0;
 	top: 10;
 }
 
 #title {
-	background-color: rgba(255,255,255,.1);
+	background-color: rgba(255, 255, 255, .1);
 	right: 0;
 	bottom: 10;
 	width: 10%;
 }
 
 #searchWrapper {
-	background-color: rgba(255,255,255,.1);
+	background-color: rgba(255, 255, 255, .1);
 	right: 0;
 	top: 10;
 	display: none;
@@ -81,7 +86,22 @@ p {
 	line-height: 1.4;
 }
 
+table {
+	font-size: 80%;
+}
+
 .inverted {
 	background-color: white;
 	color: black;
+}
+
+.block {
+	background-color: white;
+	height: 5px;
+	width: 1px;
+	display: inline-block;
+}
+
+.right {
+	text-align: right;
 }
