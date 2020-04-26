@@ -51,6 +51,10 @@ a {
 	top: 10;
 }
 
+#focus .left, #focus .right {
+	display: inline-block;
+}
+
 #title {
 	background-color: rgba(255, 255, 255, .1);
 	right: 0;
@@ -87,8 +91,16 @@ p {
 }
 
 table {
-	font-size: 40%;
-	border-collapse: collapse;
+	font-size: 60%;
+	/* border-collapse: collapse; */
+	border: 2px;
+	vertical-align: middle;
+}
+
+td {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 .inverted {
@@ -98,13 +110,9 @@ table {
 
 .block {
 	background-color: white;
-	height: 3px;
+	height: 5px;
 	width: 1px;
 	display: inline-block;
-}
-
-.right {
-	text-align: right;
 }
 
 hr {

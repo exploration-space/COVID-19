@@ -20,6 +20,23 @@ export default () => {
         }
     }, 0)
 
+    // Set extent for publications
+
+    s.ext.years = {
+        min: s.nodes.reduce((min, node) => {
+            Object.keys(node.years).forEach(year => {
+                if (year < min) min = year
+            })
+            return min
+        }, Infinity),
+        max: s.nodes.reduce((max, node) => {
+            Object.keys(node.years).forEach(year => {
+                if (year > max) max = year
+            })
+            return max
+        }, 0),
+    }
+
     // Screen density
 
     if ('devicePixelRatio' in window && window.devicePixelRatio > 1) {

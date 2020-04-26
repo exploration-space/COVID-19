@@ -8,6 +8,8 @@ export let s = {
     zoomExtent: [1, 8],
     screen: {},
 
+    ext: {},
+
     colors: {
         gradientA: d3.rgb(0, 0, 0),
         gradientB: d3.rgb(60, 60, 60),
