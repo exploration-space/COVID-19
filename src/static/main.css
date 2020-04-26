@@ -87,7 +87,8 @@ p {
 }
 
 table {
-	font-size: 80%;
+	font-size: 40%;
+	border-collapse: collapse;
 }
 
 .inverted {
@@ -97,11 +98,15 @@ table {
 
 .block {
 	background-color: white;
-	height: 5px;
+	height: 3px;
 	width: 1px;
 	display: inline-block;
 }
 
 .right {
 	text-align: right;
+}
+
+hr {
+	border: .5px solid white;
 }

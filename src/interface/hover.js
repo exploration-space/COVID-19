@@ -23,38 +23,50 @@ export default () => {
             if (pythagoras) {
 
                 hover = true
+                const space = '<tr style="height:10px"><td></td><td></td></tr>'
+                const line = '<tr><th colspan="2"><hr></th></tr>'
 
-                let tokens = '<table>'
-                tokens += '<tr><td class="right">Token</td><td>TF-IDF</td></tr>'
+                let table = '<table>'
+
+                table += `<tr><td style="width:60px"></td><td style="width:80px"></td></tr>`
                 
-                tokens += Object.entries(node.tokens).reduce((tokens, token) => {
-                    const repetition = token[1] / 10
-                    const blocks = block.repeat(repetition)
-                    // table.append
-                    // console.log(token[1], blocks)
-                    tokens += `<tr><td class="right">${token[0]}</td><td>${blocks}</td></tr>`
+                table += `<tr><td colspan="2" style="text-align:center;">${node.name}</td></tr>`
+                table += space
+
+                table += `<tr><td colspan="2" style="text-align:center;">${node.docs} publications</td></tr>`
+                table += space
+
+                table += '<tr><td class="right">Token</td><td>TF-IDF</td></tr>'
+                table += line
+                table += Object.entries(node.tokens).reduce((tokens, token, i) => {
+                    if (i < 20) {
+                        const repetition = token[1] / 10
+                        const blocks = block.repeat(repetition)
+                        tokens += `<tr><td class="right">${token[0]}</td><td>${blocks}</td></tr>`
+                    }
                     return tokens
                 }, [])
-                // .join('<br/>')
-                tokens += '</table>'
+                table += space
 
-                let years = Object.entries(node.years).reduce((years, year) => {
-                    years.push(`${year[0]} (${year[1]})`)
+                table += '<tr><td class="right">Year</td><td>Publications</td></tr>'
+                table += line
+                table += Object.entries(node.years).reduce((years, year) => {
+                    const repetition = year[1] * 2
+                    const blocks = block.repeat(repetition)
+                    years += `<tr><td class="right">${year[0]}</td><td>${blocks}</td></tr>`
                     return years
-                }, []).join('<br/>')
+                }, [])
 
-                const name = node.name
-                const docs = node.docs
+                table += '</table>'
 
-                let text = `<h2><strong>${name}</strong></h2>`
-                text += `<p>Number of papers: ${docs}</p>`
+                // const name = node.name
+                // const docs = node.docs
+                // let text = `<h2><strong>${name}</strong></h2>`
+                // text += `<p>Number of papers: ${docs}</p>`
+                // text += `<p>${tokens}</p>`
+                // text += `<p>Publication years:<br/>${years}</p>`
 
-
-
-                text += `<p>${tokens}</p>`
-
-                text += `<p>Publication years:<br/>${years}</p>`
-                focus.html(text)
+                focus.html(table)
 
             }
         })
