@@ -138,7 +138,7 @@
 	{
 		"source": 6,
 		"target": 12,
-		"value": 0.15964985410587745,
+		"value": 0.16506877865777408,
 		"tokens": {
 			"mhv": 527,
 			"virus": 201,
@@ -150,13 +150,32 @@
 			"murine": 88,
 			"hepatitis": 102,
 			"structure": 81,
+			"cov": 65,
 			"rna": 153
+		}
+	},
+	{
+		"source": 7,
+		"target": 12,
+		"value": 0.268528553563985,
+		"tokens": {
+			"virus": 525,
+			"protein": 562,
+			"cov": 343,
+			"coronavirus": 320,
+			"rna": 384,
+			"cell": 286,
+			"genome": 167,
+			"replication": 161,
+			"mouse": 185,
+			"binding": 145,
+			"synthesis": 143
 		}
 	},
 	{
 		"source": 9,
 		"target": 12,
-		"value": 0.24126719466444352,
+		"value": 0.25185493955814925,
 		"tokens": {
 			"mhv": 710,
 			"cell": 318,
@@ -166,28 +185,11 @@
 			"coronavirus": 211,
 			"murine": 178,
 			"protein": 233,
+			"cov": 127,
 			"ntd": 125,
 			"binding": 110,
 			"jhm": 134,
 			"hepatitis": 120
-		}
-	},
-	{
-		"source": 10,
-		"target": 12,
-		"value": 0.24235097957482285,
-		"tokens": {
-			"cell": 505,
-			"mouse": 316,
-			"virus": 318,
-			"jhmv": 273,
-			"mhv": 532,
-			"jhm": 200,
-			"rna": 224,
-			"hepatitis": 151,
-			"not": 116,
-			"a59": 140,
-			"coronavirus": 132
 		}
 	},
 	{
@@ -499,7 +501,7 @@
 	{
 		"source": 10,
 		"target": 18,
-		"value": 0.34305960817007086,
+		"value": 0.3310546060858691,
 		"tokens": {
 			"cell": 632,
 			"mouse": 335,
@@ -510,7 +512,6 @@
 			"mrna": 359,
 			"rna": 427,
 			"hepatitis": 155,
-			"not": 144,
 			"accumulation": 141,
 			"infected": 174,
 			"expression": 139,
@@ -520,7 +521,7 @@
 	{
 		"source": 12,
 		"target": 18,
-		"value": 0.285785744060025,
+		"value": 0.29278866194247605,
 		"tokens": {
 			"mhv": 702,
 			"protein": 443,
@@ -534,7 +535,7 @@
 			"synthesis": 145,
 			"subgenomic": 155,
 			"replication": 127,
-			"not": 96
+			"cov": 180
 		}
 	},
 	{
@@ -563,7 +564,7 @@
 	{
 		"source": 16,
 		"target": 18,
-		"value": 0.3898290954564402,
+		"value": 0.39924968736973737,
 		"tokens": {
 			"rna": 590,
 			"mhv": 588,
@@ -578,6 +579,7 @@
 			"coronavirus": 188,
 			"hepatitis": 124,
 			"gp65": 116,
+			"defective": 113,
 			"viral": 138,
 			"cell": 249,
 			"gene": 115,
@@ -649,7 +651,7 @@
 	{
 		"source": 12,
 		"target": 19,
-		"value": 0.19599833263859942,
+		"value": 0.19783243017924135,
 		"tokens": {
 			"mhv": 543,
 			"protein": 278,
@@ -661,7 +663,7 @@
 			"hepatitis": 106,
 			"coronavirus": 110,
 			"murine": 95,
-			"not": 83
+			"cov": 105
 		}
 	},
 	{
@@ -705,6 +707,24 @@
 			"mrna": 146,
 			"cdna": 136,
 			"synthesis": 116
+		}
+	},
+	{
+		"source": 12,
+		"target": 20,
+		"value": 0.14731137974155897,
+		"tokens": {
+			"mhv": 455,
+			"protein": 196,
+			"rna": 209,
+			"virus": 195,
+			"cell": 125,
+			"jhm": 115,
+			"a59": 99,
+			"coronavirus": 147,
+			"synthesis": 83,
+			"genome": 71,
+			"cov": 72
 		}
 	},
 	{
@@ -873,7 +893,7 @@
 	{
 		"source": 18,
 		"target": 21,
-		"value": 0.27578157565652356,
+		"value": 0.28403501458941227,
 		"tokens": {
 			"mhv": 405,
 			"rna": 458,
@@ -887,7 +907,8 @@
 			"translation": 139,
 			"synthesis": 142,
 			"replication": 148,
-			"leader": 149
+			"leader": 149,
+			"defective": 99
 		}
 	},
 	{
@@ -1036,7 +1057,7 @@
 	{
 		"source": 12,
 		"target": 23,
-		"value": 0.45018757815756566,
+		"value": 0.4607753230512714,
 		"tokens": {
 			"mhv": 1405,
 			"protein": 401,
@@ -1049,7 +1070,8 @@
 			"hepatitis": 319,
 			"coronavirus": 266,
 			"murine": 282,
-			"replication": 163
+			"replication": 163,
+			"cov": 127
 		}
 	},
 	{
@@ -1136,7 +1158,7 @@
 	{
 		"source": 12,
 		"target": 24,
-		"value": 0.15097957482284285,
+		"value": 0.14639433097123802,
 		"tokens": {
 			"mhv": 447,
 			"protein": 263,
@@ -1149,8 +1171,7 @@
 			"synthesis": 76,
 			"mutant": 70,
 			"kda": 78,
-			"genome": 61,
-			"not": 55
+			"genome": 61
 		}
 	},
 	{
@@ -1177,7 +1198,7 @@
 	{
 		"source": 16,
 		"target": 24,
-		"value": 0.14522717799082951,
+		"value": 0.15139641517298874,
 		"tokens": {
 			"rna": 322,
 			"mhv": 333,
@@ -1188,6 +1209,7 @@
 			"a59": 115,
 			"coronavirus": 127,
 			"hepatitis": 95,
+			"defective": 74,
 			"end": 66,
 			"site": 74
 		}
@@ -1195,7 +1217,7 @@
 	{
 		"source": 18,
 		"target": 24,
-		"value": 0.1988328470195915,
+		"value": 0.1983326385994164,
 		"tokens": {
 			"mhv": 423,
 			"rna": 384,
@@ -1207,13 +1229,13 @@
 			"synthesis": 111,
 			"mouse": 113,
 			"hepatitis": 101,
-			"not": 83
+			"defective": 77
 		}
 	},
 	{
 		"source": 21,
 		"target": 24,
-		"value": 0.1338891204668612,
+		"value": 0.13889120466861193,
 		"tokens": {
 			"rna": 190,
 			"coronavirus": 163,
@@ -1226,7 +1248,8 @@
 			"synthesis": 73,
 			"amino": 91,
 			"site": 79,
-			"translation": 67
+			"translation": 67,
+			"defective": 60
 		}
 	},
 	{
@@ -1314,7 +1337,7 @@
 	{
 		"source": 12,
 		"target": 25,
-		"value": 0.2941225510629429,
+		"value": 0.34622759483117965,
 		"tokens": {
 			"mhv": 553,
 			"protein": 322,
@@ -1327,7 +1350,8 @@
 			"mutant": 190,
 			"mutation": 138,
 			"replication": 222,
-			"genome": 126
+			"genome": 126,
+			"cov": 625
 		}
 	},
 	{
@@ -1556,7 +1580,7 @@
 	{
 		"source": 10,
 		"target": 26,
-		"value": 0.6314297624010005,
+		"value": 0.6146727803251355,
 		"tokens": {
 			"cell": 974,
 			"mouse": 797,
@@ -1571,7 +1595,6 @@
 			"neurotropic": 262,
 			"jhm": 521,
 			"hepatitis": 209,
-			"not": 201,
 			"infected": 299,
 			"specific": 202,
 			"coronavirus": 370
@@ -1580,7 +1603,7 @@
 	{
 		"source": 17,
 		"target": 26,
-		"value": 0.3564818674447687,
+		"value": 0.36673614005835764,
 		"tokens": {
 			"virus": 559,
 			"human": 210,
@@ -1594,6 +1617,7 @@
 			"protein": 286,
 			"epitope": 161,
 			"mouse": 564,
+			"east": 123,
 			"disease": 157,
 			"middle": 132
 		}
@@ -1601,7 +1625,7 @@
 	{
 		"source": 18,
 		"target": 26,
-		"value": 0.5037932471863277,
+		"value": 0.48870362651104626,
 		"tokens": {
 			"mhv": 728,
 			"protein": 579,
@@ -1614,14 +1638,13 @@
 			"viral": 207,
 			"sars": 303,
 			"hepatitis": 184,
-			"not": 181,
 			"mer": 429
 		}
 	},
 	{
 		"source": 19,
 		"target": 26,
-		"value": 0.481117132138391,
+		"value": 0.46711129637348897,
 		"tokens": {
 			"cell": 731,
 			"mhv": 569,
@@ -1634,7 +1657,6 @@
 			"cov": 540,
 			"receptor": 217,
 			"coronavirus": 348,
-			"not": 168,
 			"brain": 165,
 			"hepatitis": 164
 		}
@@ -1662,7 +1684,7 @@
 	{
 		"source": 25,
 		"target": 26,
-		"value": 0.8005002084201751,
+		"value": 0.8168403501458941,
 		"tokens": {
 			"cov": 1060,
 			"virus": 918,
@@ -1682,7 +1704,8 @@
 			"acute": 261,
 			"lung": 228,
 			"receptor": 252,
-			"middle": 206
+			"middle": 206,
+			"east": 196
 		}
 	},
 	{
@@ -1941,7 +1964,7 @@
 	{
 		"source": 18,
 		"target": 29,
-		"value": 0.2838682784493539,
+		"value": 0.29145477282200916,
 		"tokens": {
 			"mhv": 598,
 			"rna": 450,
@@ -1955,7 +1978,8 @@
 			"viral": 143,
 			"hepatitis": 137,
 			"genomic": 110,
-			"gene": 127
+			"gene": 127,
+			"defective": 91
 		}
 	},
 	{
@@ -1997,7 +2021,7 @@
 	{
 		"source": 24,
 		"target": 29,
-		"value": 0.19716548561900793,
+		"value": 0.20150062526052523,
 		"tokens": {
 			"protein": 330,
 			"mhv": 343,
@@ -2014,7 +2038,8 @@
 			"genome": 92,
 			"assembly": 107,
 			"synthesis": 69,
-			"mutant": 118
+			"mutant": 118,
+			"defective": 52
 		}
 	},
 	{
@@ -2092,24 +2117,6 @@
 		}
 	},
 	{
-		"source": 19,
-		"target": 31,
-		"value": 0.1614005835764902,
-		"tokens": {
-			"cell": 381,
-			"protein": 254,
-			"virus": 320,
-			"infection": 192,
-			"sars": 124,
-			"cov": 125,
-			"receptor": 130,
-			"coronavirus": 116,
-			"surface": 113,
-			"not": 91,
-			"entry": 90
-		}
-	},
-	{
 		"source": 3,
 		"target": 32,
 		"value": 0.6292621925802417,
@@ -2175,6 +2182,24 @@
 			"viral": 277,
 			"mrna": 267,
 			"synthesis": 369
+		}
+	},
+	{
+		"source": 12,
+		"target": 32,
+		"value": 0.26752813672363485,
+		"tokens": {
+			"protein": 426,
+			"rna": 577,
+			"virus": 401,
+			"cell": 162,
+			"coronavirus": 269,
+			"synthesis": 336,
+			"subgenomic": 191,
+			"replication": 277,
+			"structure": 157,
+			"genome": 202,
+			"cov": 211
 		}
 	},
 	{
@@ -2432,7 +2457,7 @@
 	{
 		"source": 10,
 		"target": 33,
-		"value": 0.29829095456440186,
+		"value": 0.28761984160066695,
 		"tokens": {
 			"cell": 527,
 			"mouse": 316,
@@ -2445,7 +2470,6 @@
 			"rna": 166,
 			"astrocyte": 144,
 			"hepatitis": 142,
-			"not": 128,
 			"persistence": 120,
 			"expression": 126,
 			"a59": 159,
@@ -2455,7 +2479,7 @@
 	{
 		"source": 12,
 		"target": 33,
-		"value": 0.19274697790746145,
+		"value": 0.18607753230512714,
 		"tokens": {
 			"mhv": 678,
 			"protein": 220,
@@ -2468,8 +2492,7 @@
 			"coronavirus": 135,
 			"murine": 80,
 			"subgenomic": 81,
-			"apoptosis": 86,
-			"not": 80
+			"apoptosis": 86
 		}
 	},
 	{
@@ -2537,7 +2560,7 @@
 	{
 		"source": 18,
 		"target": 33,
-		"value": 0.2998749478949562,
+		"value": 0.2908711963318049,
 		"tokens": {
 			"mhv": 654,
 			"rna": 391,
@@ -2552,26 +2575,7 @@
 			"viral": 129,
 			"hepatitis": 117,
 			"gene": 98,
-			"not": 108,
 			"expression": 111
-		}
-	},
-	{
-		"source": 19,
-		"target": 33,
-		"value": 0.17590662776156732,
-		"tokens": {
-			"cell": 284,
-			"mhv": 495,
-			"protein": 232,
-			"virus": 257,
-			"mouse": 197,
-			"infection": 150,
-			"coronavirus": 129,
-			"murine": 89,
-			"not": 95,
-			"hepatitis": 97,
-			"strain": 85
 		}
 	},
 	{
@@ -2617,24 +2621,6 @@
 		}
 	},
 	{
-		"source": 24,
-		"target": 33,
-		"value": 0.14872863693205501,
-		"tokens": {
-			"protein": 217,
-			"bcv": 276,
-			"mhv": 399,
-			"coronavirus": 139,
-			"virus": 175,
-			"rna": 123,
-			"a59": 131,
-			"hepatitis": 88,
-			"mouse": 94,
-			"bovine": 75,
-			"not": 67
-		}
-	},
-	{
 		"source": 25,
 		"target": 33,
 		"value": 0.30054189245518964,
@@ -2651,24 +2637,6 @@
 			"strain": 145,
 			"gene": 135,
 			"a59": 179
-		}
-	},
-	{
-		"source": 26,
-		"target": 33,
-		"value": 0.3606502709462276,
-		"tokens": {
-			"mouse": 615,
-			"cell": 631,
-			"virus": 584,
-			"mhv": 704,
-			"infection": 360,
-			"coronavirus": 373,
-			"protein": 356,
-			"ifn": 203,
-			"viral": 164,
-			"hepatitis": 171,
-			"not": 165
 		}
 	},
 	{
@@ -2933,7 +2901,7 @@
 	{
 		"source": 12,
 		"target": 42,
-		"value": 0.3177157148812005,
+		"value": 0.34472696957065446,
 		"tokens": {
 			"mhv": 752,
 			"protein": 366,
@@ -2949,7 +2917,8 @@
 			"murine": 149,
 			"kda": 135,
 			"replication": 303,
-			"p28": 192
+			"p28": 192,
+			"cov": 324
 		}
 	},
 	{
@@ -3646,6 +3615,24 @@
 		}
 	},
 	{
+		"source": 26,
+		"target": 70,
+		"value": 0.36565235514797834,
+		"tokens": {
+			"virus": 576,
+			"cov": 751,
+			"mer": 752,
+			"infection": 417,
+			"coronavirus": 399,
+			"respiratory": 366,
+			"human": 220,
+			"syndrome": 244,
+			"result": 169,
+			"middle": 248,
+			"east": 244
+		}
+	},
+	{
 		"source": 63,
 		"target": 72,
 		"value": 0.13864110045852437,
@@ -3768,9 +3755,27 @@
 		}
 	},
 	{
+		"source": 7,
+		"target": 77,
+		"value": 0.278782826177574,
+		"tokens": {
+			"virus": 558,
+			"protein": 470,
+			"cov": 571,
+			"coronavirus": 382,
+			"cell": 282,
+			"sars": 236,
+			"viral": 157,
+			"binding": 137,
+			"antibody": 152,
+			"infection": 185,
+			"respiratory": 214
+		}
+	},
+	{
 		"source": 9,
 		"target": 77,
-		"value": 0.20933722384326803,
+		"value": 0.21784076698624427,
 		"tokens": {
 			"cell": 314,
 			"receptor": 235,
@@ -3783,6 +3788,7 @@
 			"cov": 355,
 			"spike": 128,
 			"bat": 121,
+			"binding": 102,
 			"viral": 110
 		}
 	},
@@ -3835,7 +3841,7 @@
 	{
 		"source": 26,
 		"target": 77,
-		"value": 0.4743643184660275,
+		"value": 0.47803251354731136,
 		"tokens": {
 			"cell": 605,
 			"virus": 599,
@@ -3851,26 +3857,26 @@
 			"syndrome": 227,
 			"viral": 161,
 			"antibody": 170,
-			"not": 156,
-			"middle": 206
+			"middle": 206,
+			"east": 200
 		}
 	},
 	{
 		"source": 31,
 		"target": 77,
-		"value": 0.16148395164651938,
+		"value": 0.16465193830762817,
 		"tokens": {
 			"cell": 255,
 			"virus": 304,
 			"protein": 150,
 			"infection": 189,
 			"bat": 146,
+			"binding": 117,
 			"receptor": 111,
 			"coronavirus": 184,
 			"cov": 316,
 			"entry": 81,
-			"sars": 122,
-			"not": 79
+			"sars": 122
 		}
 	},
 	{
@@ -3951,7 +3957,7 @@
 	{
 		"source": 10,
 		"target": 78,
-		"value": 0.2866194247603168,
+		"value": 0.29829095456440186,
 		"tokens": {
 			"cell": 507,
 			"mouse": 316,
@@ -3967,7 +3973,8 @@
 			"central": 147,
 			"astrocyte": 127,
 			"induced": 105,
-			"expression": 103
+			"expression": 103,
+			"mmp9": 140
 		}
 	},
 	{
@@ -4028,44 +4035,8 @@
 	},
 	{
 		"source": 19,
-		"target": 81,
-		"value": 0.11363067944977073,
-		"tokens": {
-			"cell": 272,
-			"protein": 170,
-			"virus": 194,
-			"tmprss2": 136,
-			"sars": 141,
-			"cov": 98,
-			"fusion": 97,
-			"not": 67,
-			"trypsin": 64,
-			"protease": 63,
-			"proteas": 61
-		}
-	},
-	{
-		"source": 18,
 		"target": 82,
-		"value": 0.2631929970821176,
-		"tokens": {
-			"protein": 497,
-			"virus": 472,
-			"cell": 553,
-			"cov": 273,
-			"coronavirus": 208,
-			"host": 205,
-			"viral": 249,
-			"cleavage": 158,
-			"sars": 256,
-			"not": 144,
-			"mer": 142
-		}
-	},
-	{
-		"source": 19,
-		"target": 82,
-		"value": 0.27136306794497705,
+		"value": 0.26044185077115467,
 		"tokens": {
 			"cell": 548,
 			"protein": 332,
@@ -4075,7 +4046,6 @@
 			"sars": 264,
 			"cov": 198,
 			"coronavirus": 137,
-			"not": 131,
 			"protease": 139,
 			"entry": 319,
 			"proteas": 166
@@ -4100,27 +4070,9 @@
 		}
 	},
 	{
-		"source": 26,
-		"target": 82,
-		"value": 0.42317632346811174,
-		"tokens": {
-			"cell": 895,
-			"virus": 697,
-			"cov": 596,
-			"mer": 451,
-			"infection": 395,
-			"coronavirus": 381,
-			"protein": 456,
-			"sars": 419,
-			"human": 301,
-			"viral": 284,
-			"not": 201
-		}
-	},
-	{
 		"source": 77,
 		"target": 82,
-		"value": 0.28553563984993746,
+		"value": 0.2756148395164652,
 		"tokens": {
 			"mer": 357,
 			"cov": 389,
@@ -4133,14 +4085,13 @@
 			"protein": 228,
 			"viral": 203,
 			"host": 141,
-			"not": 119,
 			"entry": 310
 		}
 	},
 	{
 		"source": 81,
 		"target": 82,
-		"value": 0.37949145477282203,
+		"value": 0.37974155898290957,
 		"tokens": {
 			"cell": 436,
 			"tetherin": 431,
@@ -4157,6 +4108,7 @@
 			"protein": 212,
 			"viral": 188,
 			"lsectin": 150,
+			"ebola": 103,
 			"human": 169,
 			"proteas": 149,
 			"activation": 113,
@@ -4164,7 +4116,6 @@
 			"activate": 112,
 			"target": 115,
 			"filovirus": 155,
-			"not": 100,
 			"glycoprotein": 117
 		}
 	},
@@ -4917,6 +4868,24 @@
 		}
 	},
 	{
+		"source": 26,
+		"target": 98,
+		"value": 0.33605669028761986,
+		"tokens": {
+			"virus": 530,
+			"cov": 705,
+			"mer": 690,
+			"infection": 376,
+			"coronavirus": 377,
+			"respiratory": 315,
+			"human": 190,
+			"syndrome": 233,
+			"result": 162,
+			"middle": 228,
+			"east": 225
+		}
+	},
+	{
 		"source": 70,
 		"target": 98,
 		"value": 0.516048353480617,
@@ -5298,7 +5267,7 @@
 	{
 		"source": 26,
 		"target": 103,
-		"value": 0.5223843268028345,
+		"value": 0.5357232180075031,
 		"tokens": {
 			"mouse": 641,
 			"cell": 598,
@@ -5317,7 +5286,8 @@
 			"lung": 176,
 			"viral": 155,
 			"middle": 169,
-			"response": 154
+			"response": 154,
+			"east": 160
 		}
 	},
 	{
@@ -5565,7 +5535,7 @@
 	{
 		"source": 26,
 		"target": 104,
-		"value": 0.4165068778657774,
+		"value": 0.4283451438099208,
 		"tokens": {
 			"mouse": 573,
 			"cell": 598,
@@ -5580,7 +5550,8 @@
 			"human": 217,
 			"syndrome": 182,
 			"viral": 158,
-			"middle": 150
+			"middle": 150,
+			"east": 142
 		}
 	},
 	{
@@ -5907,7 +5878,7 @@
 	{
 		"source": 26,
 		"target": 105,
-		"value": 0.5820758649437265,
+		"value": 0.5994997915798249,
 		"tokens": {
 			"cell": 695,
 			"virus": 804,
@@ -5922,7 +5893,8 @@
 			"syndrome": 267,
 			"viral": 261,
 			"antibody": 258,
-			"middle": 214
+			"middle": 214,
+			"east": 209
 		}
 	},
 	{
@@ -6320,6 +6292,24 @@
 		}
 	},
 	{
+		"source": 77,
+		"target": 109,
+		"value": 0.14072530220925386,
+		"tokens": {
+			"mer": 366,
+			"cov": 338,
+			"virus": 172,
+			"respiratory": 152,
+			"human": 138,
+			"cell": 105,
+			"antibody": 124,
+			"protein": 86,
+			"viral": 75,
+			"spike": 68,
+			"binding": 64
+		}
+	},
+	{
 		"source": 96,
 		"target": 109,
 		"value": 0.16081700708628596,
@@ -6555,7 +6545,7 @@
 	{
 		"source": 49,
 		"target": 117,
-		"value": 0.16715298040850354,
+		"value": 0.17032096706961233,
 		"tokens": {
 			"cat": 539,
 			"fip": 369,
@@ -6567,7 +6557,8 @@
 			"infection": 74,
 			"kitten": 68,
 			"disease": 68,
-			"infectious": 56
+			"infectious": 56,
+			"mesenteric": 38
 		}
 	},
 	{
@@ -6604,6 +6595,24 @@
 			"syndrome": 203,
 			"middle": 119,
 			"east": 119
+		}
+	},
+	{
+		"source": 26,
+		"target": 119,
+		"value": 0.28411838265944145,
+		"tokens": {
+			"virus": 542,
+			"cov": 535,
+			"mer": 440,
+			"infection": 337,
+			"coronavirus": 326,
+			"sars": 263,
+			"respiratory": 315,
+			"human": 183,
+			"syndrome": 181,
+			"middle": 147,
+			"east": 139
 		}
 	},
 	{
@@ -8251,7 +8260,7 @@
 	{
 		"source": 12,
 		"target": 152,
-		"value": 0.19082951229679032,
+		"value": 0.2035848270112547,
 		"tokens": {
 			"mhv": 437,
 			"protein": 232,
@@ -8263,7 +8272,8 @@
 			"synthesis": 112,
 			"mutant": 110,
 			"replication": 136,
-			"genome": 87
+			"genome": 87,
+			"cov": 153
 		}
 	},
 	{
@@ -8995,7 +9005,7 @@
 	{
 		"source": 77,
 		"target": 154,
-		"value": 0.263859941642351,
+		"value": 0.27061275531471446,
 		"tokens": {
 			"mer": 360,
 			"cov": 454,
@@ -9011,7 +9021,8 @@
 			"bat": 132,
 			"receptor": 90,
 			"protein": 241,
-			"viral": 107
+			"viral": 107,
+			"binding": 81
 		}
 	},
 	{
@@ -9418,7 +9429,7 @@
 	{
 		"source": 77,
 		"target": 156,
-		"value": 0.15698207586494373,
+		"value": 0.1626511046269279,
 		"tokens": {
 			"mer": 327,
 			"cov": 336,
@@ -9433,7 +9444,8 @@
 			"receptor": 76,
 			"protein": 56,
 			"spike": 55,
-			"entry": 54
+			"entry": 54,
+			"binding": 68
 		}
 	},
 	{
@@ -10240,7 +10252,7 @@
 	{
 		"source": 9,
 		"target": 167,
-		"value": 0.15731554814506044,
+		"value": 0.16623593163818257,
 		"tokens": {
 			"cell": 312,
 			"receptor": 224,
@@ -10252,13 +10264,14 @@
 			"protein": 131,
 			"infection": 133,
 			"cov": 141,
+			"spike": 107,
 			"viral": 91
 		}
 	},
 	{
 		"source": 19,
 		"target": 167,
-		"value": 0.1251354731137974,
+		"value": 0.11879949979157982,
 		"tokens": {
 			"cell": 256,
 			"protein": 176,
@@ -10269,7 +10282,6 @@
 			"cov": 119,
 			"receptor": 98,
 			"coronavirus": 78,
-			"not": 76,
 			"entry": 89,
 			"proteas": 56
 		}
@@ -10294,45 +10306,9 @@
 		}
 	},
 	{
-		"source": 26,
-		"target": 167,
-		"value": 0.2953730721133806,
-		"tokens": {
-			"cell": 603,
-			"virus": 502,
-			"cov": 517,
-			"infection": 335,
-			"coronavirus": 322,
-			"protein": 300,
-			"sars": 308,
-			"human": 181,
-			"receptor": 187,
-			"viral": 142,
-			"not": 146
-		}
-	},
-	{
-		"source": 31,
-		"target": 167,
-		"value": 0.11554814506044185,
-		"tokens": {
-			"cell": 253,
-			"virus": 207,
-			"protein": 140,
-			"infection": 143,
-			"receptor": 100,
-			"coronavirus": 90,
-			"cov": 102,
-			"entry": 95,
-			"glycoprotein": 66,
-			"sars": 121,
-			"not": 69
-		}
-	},
-	{
 		"source": 77,
 		"target": 167,
-		"value": 0.1424760316798666,
+		"value": 0.14139224676948728,
 		"tokens": {
 			"cov": 310,
 			"virus": 159,
@@ -10346,14 +10322,14 @@
 			"protein": 72,
 			"viral": 61,
 			"hcov": 86,
-			"not": 64,
+			"spike": 51,
 			"entry": 80
 		}
 	},
 	{
 		"source": 81,
 		"target": 167,
-		"value": 0.09904126719466444,
+		"value": 0.0952897040433514,
 		"tokens": {
 			"cell": 144,
 			"sars": 138,
@@ -10369,14 +10345,13 @@
 			"human": 49,
 			"proteas": 39,
 			"target": 38,
-			"not": 45,
 			"glycoprotein": 36
 		}
 	},
 	{
 		"source": 82,
 		"target": 167,
-		"value": 0.3823259691538141,
+		"value": 0.3732388495206336,
 		"tokens": {
 			"tmprss2": 406,
 			"cell": 420,
@@ -10399,14 +10374,13 @@
 			"sign": 168,
 			"signr": 186,
 			"lectin": 127,
-			"coronavirus": 111,
-			"not": 109
+			"coronavirus": 111
 		}
 	},
 	{
 		"source": 104,
 		"target": 167,
-		"value": 0.09362234264276782,
+		"value": 0.09712380158399334,
 		"tokens": {
 			"cov": 139,
 			"virus": 107,
@@ -10419,7 +10393,8 @@
 			"emc": 81,
 			"protein": 65,
 			"hcov": 75,
-			"sftsv": 68
+			"sftsv": 68,
+			"spike": 42
 		}
 	},
 	{
@@ -10497,7 +10472,7 @@
 	{
 		"source": 156,
 		"target": 167,
-		"value": 0.07077949145477282,
+		"value": 0.0736140058357649,
 		"tokens": {
 			"cov": 122,
 			"sars": 126,
@@ -10507,6 +10482,7 @@
 			"cell": 87,
 			"glycoprotein": 41,
 			"entry": 68,
+			"spike": 34,
 			"human": 42,
 			"protein": 46,
 			"ace2": 82,
@@ -10532,27 +10508,9 @@
 		}
 	},
 	{
-		"source": 77,
-		"target": 168,
-		"value": 0.12105043768236766,
-		"tokens": {
-			"cov": 294,
-			"virus": 230,
-			"human": 159,
-			"infection": 138,
-			"sars": 119,
-			"cell": 115,
-			"species": 82,
-			"antibody": 85,
-			"protein": 68,
-			"not": 78,
-			"entry": 84
-		}
-	},
-	{
 		"source": 81,
 		"target": 168,
-		"value": 0.1294706127553147,
+		"value": 0.12455189662359316,
 		"tokens": {
 			"cell": 129,
 			"tetherin": 152,
@@ -10568,14 +10526,13 @@
 			"ebola": 83,
 			"human": 75,
 			"filovirus": 123,
-			"not": 59,
 			"glycoprotein": 60
 		}
 	},
 	{
 		"source": 82,
 		"target": 168,
-		"value": 0.33864110045852436,
+		"value": 0.3400583576490204,
 		"tokens": {
 			"cell": 405,
 			"tetherin": 431,
@@ -10594,7 +10551,7 @@
 			"sign": 122,
 			"signr": 171,
 			"lectin": 121,
-			"not": 123
+			"ebola": 140
 		}
 	},
 	{
@@ -10716,7 +10673,7 @@
 	{
 		"source": 167,
 		"target": 168,
-		"value": 0.15681533972488537,
+		"value": 0.1511463109629012,
 		"tokens": {
 			"signr": 171,
 			"sars": 118,
@@ -10733,7 +10690,6 @@
 			"virus": 133,
 			"protein": 58,
 			"marv": 85,
-			"not": 68,
 			"human": 80,
 			"glycoprotein": 62
 		}
@@ -10836,7 +10792,7 @@
 	{
 		"source": 77,
 		"target": 169,
-		"value": 0.20241767403084618,
+		"value": 0.2150062526052522,
 		"tokens": {
 			"mer": 373,
 			"cov": 370,
@@ -10848,7 +10804,8 @@
 			"cell": 192,
 			"bat": 136,
 			"receptor": 127,
-			"protein": 171
+			"protein": 171,
+			"binding": 151
 		}
 	},
 	{
@@ -11189,6 +11146,24 @@
 			"patient": 78,
 			"arm": 82,
 			"study": 93
+		}
+	},
+	{
+		"source": 82,
+		"target": 172,
+		"value": 0.23092955398082535,
+		"tokens": {
+			"cell": 417,
+			"tetherin": 436,
+			"entry": 331,
+			"virus": 305,
+			"ebov": 234,
+			"ifitm": 204,
+			"human": 170,
+			"filovirus": 259,
+			"glycoprotein": 135,
+			"lectin": 152,
+			"ebola": 127
 		}
 	},
 	{
@@ -11910,6 +11885,24 @@
 			"activation": 164,
 			"coronavirus": 192,
 			"cleavage": 192
+		}
+	},
+	{
+		"source": 167,
+		"target": 181,
+		"value": 0.10796165068778658,
+		"tokens": {
+			"sign": 118,
+			"cell": 196,
+			"cov": 119,
+			"entry": 139,
+			"infection": 89,
+			"virus": 166,
+			"protein": 111,
+			"coronavirus": 133,
+			"viral": 73,
+			"proteas": 70,
+			"spike": 81
 		}
 	},
 	{
@@ -12706,7 +12699,7 @@
 	{
 		"source": 26,
 		"target": 200,
-		"value": 0.39199666527719884,
+		"value": 0.4050854522717799,
 		"tokens": {
 			"cell": 561,
 			"virus": 511,
@@ -12722,7 +12715,8 @@
 			"syndrome": 185,
 			"viral": 138,
 			"antibody": 150,
-			"middle": 164
+			"middle": 164,
+			"east": 157
 		}
 	},
 	{
@@ -12784,7 +12778,7 @@
 	{
 		"source": 77,
 		"target": 200,
-		"value": 0.314214255939975,
+		"value": 0.31879949979157984,
 		"tokens": {
 			"mer": 427,
 			"cov": 382,
@@ -12815,7 +12809,8 @@
 			"peptidase": 57,
 			"tract": 55,
 			"spike": 60,
-			"frcov": 68
+			"frcov": 68,
+			"binding": 55
 		}
 	},
 	{
@@ -13118,7 +13113,7 @@
 	{
 		"source": 167,
 		"target": 200,
-		"value": 0.08561900791996666,
+		"value": 0.08887036265110462,
 		"tokens": {
 			"sars": 93,
 			"cell": 86,
@@ -13131,7 +13126,8 @@
 			"protein": 50,
 			"human": 94,
 			"coronavirus": 89,
-			"viral": 38
+			"viral": 38,
+			"spike": 39
 		}
 	},
 	{
@@ -13539,7 +13535,7 @@
 	{
 		"source": 26,
 		"target": 204,
-		"value": 0.38132555231346393,
+		"value": 0.3935806586077532,
 		"tokens": {
 			"cell": 591,
 			"virus": 539,
@@ -13554,7 +13550,8 @@
 			"syndrome": 180,
 			"epitope": 177,
 			"antibody": 190,
-			"middle": 154
+			"middle": 154,
+			"east": 147
 		}
 	},
 	{
@@ -13600,7 +13597,7 @@
 	{
 		"source": 77,
 		"target": 204,
-		"value": 0.2648603584827011,
+		"value": 0.27144643601500623,
 		"tokens": {
 			"mer": 382,
 			"cov": 353,
@@ -13622,7 +13619,8 @@
 			"sia": 93,
 			"protein": 97,
 			"spike": 101,
-			"entry": 75
+			"entry": 75,
+			"binding": 79
 		}
 	},
 	{
@@ -13804,6 +13802,24 @@
 			"human": 60,
 			"protein": 71,
 			"coronavirus": 102
+		}
+	},
+	{
+		"source": 167,
+		"target": 204,
+		"value": 0.08628595248020009,
+		"tokens": {
+			"cell": 116,
+			"cov": 139,
+			"entry": 89,
+			"infection": 93,
+			"receptor": 87,
+			"virus": 99,
+			"protein": 87,
+			"human": 72,
+			"coronavirus": 115,
+			"glycoprotein": 58,
+			"spike": 80
 		}
 	},
 	{
@@ -14251,7 +14267,7 @@
 	{
 		"source": 26,
 		"target": 206,
-		"value": 0.30487703209670697,
+		"value": 0.3152980408503543,
 		"tokens": {
 			"virus": 491,
 			"cov": 517,
@@ -14265,7 +14281,8 @@
 			"syndrome": 168,
 			"viral": 137,
 			"antibody": 135,
-			"middle": 133
+			"middle": 133,
+			"east": 125
 		}
 	},
 	{
@@ -15342,7 +15359,7 @@
 	{
 		"source": 26,
 		"target": 220,
-		"value": 0.3238849520633597,
+		"value": 0.3349729053772405,
 		"tokens": {
 			"mouse": 577,
 			"virus": 510,
@@ -15355,7 +15372,8 @@
 			"ifn": 181,
 			"human": 174,
 			"syndrome": 173,
-			"middle": 141
+			"middle": 141,
+			"east": 133
 		}
 	},
 	{
@@ -17232,7 +17250,7 @@
 	{
 		"source": 77,
 		"target": 243,
-		"value": 0.16156731971654856,
+		"value": 0.1684868695289704,
 		"tokens": {
 			"mer": 312,
 			"cov": 354,
@@ -17244,7 +17262,8 @@
 			"sars": 149,
 			"cell": 108,
 			"bat": 113,
-			"protein": 107
+			"protein": 107,
+			"binding": 83
 		}
 	},
 	{
@@ -18127,6 +18146,24 @@
 		}
 	},
 	{
+		"source": 77,
+		"target": 249,
+		"value": 0.17065443934972904,
+		"tokens": {
+			"mer": 429,
+			"cov": 376,
+			"coronavirus": 217,
+			"human": 157,
+			"infection": 132,
+			"cell": 160,
+			"receptor": 126,
+			"protein": 145,
+			"spike": 127,
+			"entry": 95,
+			"binding": 83
+		}
+	},
+	{
 		"source": 109,
 		"target": 249,
 		"value": 0.11563151313047103,
@@ -18259,24 +18296,6 @@
 			"egfr": 106,
 			"coronavirus": 81,
 			"autophagy": 70
-		}
-	},
-	{
-		"source": 49,
-		"target": 251,
-		"value": 0.16240100041684036,
-		"tokens": {
-			"cat": 478,
-			"fip": 472,
-			"feline": 304,
-			"peritonitis": 158,
-			"fcov": 216,
-			"infection": 60,
-			"coronavirus": 61,
-			"kitten": 54,
-			"infectious": 56,
-			"not": 47,
-			"study": 42
 		}
 	},
 	{
@@ -19533,7 +19552,7 @@
 	{
 		"source": 167,
 		"target": 261,
-		"value": 0.13555648186744476,
+		"value": 0.13980825343893288,
 		"tokens": {
 			"sars": 136,
 			"cell": 259,
@@ -19546,7 +19565,8 @@
 			"protein": 161,
 			"coronavirus": 89,
 			"tmprss2": 229,
-			"proteas": 70
+			"proteas": 70,
+			"spike": 51
 		}
 	},
 	{
@@ -19669,7 +19689,7 @@
 	{
 		"source": 26,
 		"target": 262,
-		"value": 0.3062109212171738,
+		"value": 0.31704877032096707,
 		"tokens": {
 			"virus": 507,
 			"cov": 524,
@@ -19683,7 +19703,8 @@
 			"syndrome": 171,
 			"lung": 137,
 			"antibody": 135,
-			"middle": 138
+			"middle": 138,
+			"east": 130
 		}
 	},
 	{
@@ -21476,7 +21497,7 @@
 	{
 		"source": 10,
 		"target": 267,
-		"value": 0.7493122134222593,
+		"value": 0.7483951646519383,
 		"tokens": {
 			"cell": 859,
 			"mouse": 429,
@@ -21499,7 +21520,6 @@
 			"during": 195,
 			"mmp": 158,
 			"microglia": 238,
-			"not": 151,
 			"persistence": 181,
 			"accumulation": 167,
 			"system": 159,
@@ -21508,13 +21528,14 @@
 			"induced": 149,
 			"expression": 144,
 			"coronavirus": 143,
-			"control": 150
+			"control": 150,
+			"mmp9": 140
 		}
 	},
 	{
 		"source": 26,
 		"target": 267,
-		"value": 0.48636932055022924,
+		"value": 0.47069612338474365,
 		"tokens": {
 			"mouse": 728,
 			"cell": 963,
@@ -21527,26 +21548,7 @@
 			"ifn": 345,
 			"specific": 198,
 			"viral": 279,
-			"not": 188,
 			"neurotropic": 266
-		}
-	},
-	{
-		"source": 33,
-		"target": 267,
-		"value": 0.19441433930804503,
-		"tokens": {
-			"virus": 281,
-			"cell": 516,
-			"coronavirus": 146,
-			"mouse": 247,
-			"infection": 199,
-			"expression": 116,
-			"not": 115,
-			"astrocyte": 156,
-			"viral": 201,
-			"persistence": 137,
-			"ifn": 218
 		}
 	},
 	{
@@ -21781,7 +21783,7 @@
 	{
 		"source": 77,
 		"target": 269,
-		"value": 0.15431429762401,
+		"value": 0.1625677365568987,
 		"tokens": {
 			"cov": 398,
 			"virus": 166,
@@ -21793,7 +21795,8 @@
 			"receptor": 115,
 			"protein": 153,
 			"viral": 76,
-			"spike": 87
+			"spike": 87,
+			"binding": 99
 		}
 	},
 	{
@@ -21936,6 +21939,24 @@
 			"activity": 69,
 			"syndrome": 67,
 			"binding": 97
+		}
+	},
+	{
+		"source": 167,
+		"target": 269,
+		"value": 0.10804501875781576,
+		"tokens": {
+			"sars": 317,
+			"cell": 144,
+			"cov": 184,
+			"sftsv": 80,
+			"receptor": 104,
+			"virus": 69,
+			"protein": 143,
+			"coronavirus": 64,
+			"viral": 57,
+			"tmprss2": 68,
+			"spike": 66
 		}
 	},
 	{
@@ -22255,7 +22276,7 @@
 	{
 		"source": 77,
 		"target": 270,
-		"value": 0.2727803251354731,
+		"value": 0.28528553563984993,
 		"tokens": {
 			"mer": 656,
 			"cov": 584,
@@ -22269,7 +22290,8 @@
 			"antibody": 190,
 			"receptor": 172,
 			"protein": 204,
-			"spike": 118
+			"spike": 118,
+			"binding": 150
 		}
 	},
 	{
@@ -22959,7 +22981,7 @@
 	{
 		"source": 77,
 		"target": 271,
-		"value": 0.4045852438516048,
+		"value": 0.4236765318882868,
 		"tokens": {
 			"mer": 874,
 			"cov": 804,
@@ -22974,7 +22996,8 @@
 			"antibody": 291,
 			"receptor": 235,
 			"protein": 347,
-			"spike": 182
+			"spike": 182,
+			"binding": 229
 		}
 	},
 	{
@@ -23809,7 +23832,7 @@
 	{
 		"source": 77,
 		"target": 272,
-		"value": 0.174822842851188,
+		"value": 0.17982492705293873,
 		"tokens": {
 			"mer": 303,
 			"cov": 291,
@@ -23825,7 +23848,8 @@
 			"viral": 67,
 			"hcov": 69,
 			"spike": 91,
-			"entry": 84
+			"entry": 84,
+			"binding": 60
 		}
 	},
 	{
@@ -23946,7 +23970,7 @@
 	{
 		"source": 167,
 		"target": 272,
-		"value": 0.08845352230095874,
+		"value": 0.09428928720300125,
 		"tokens": {
 			"nl63": 95,
 			"cell": 118,
@@ -23960,7 +23984,8 @@
 			"protein": 119,
 			"coronavirus": 93,
 			"viral": 48,
-			"repeat": 39
+			"repeat": 39,
+			"spike": 70
 		}
 	},
 	{
@@ -24643,7 +24668,7 @@
 	{
 		"source": 82,
 		"target": 276,
-		"value": 0.3239683201333889,
+		"value": 0.3356398499374739,
 		"tokens": {
 			"cell": 466,
 			"tetherin": 412,
@@ -24661,7 +24686,8 @@
 			"infection": 153,
 			"signr": 124,
 			"coronavirus": 114,
-			"mer": 186
+			"mer": 186,
+			"ebola": 140
 		}
 	},
 	{
@@ -24961,7 +24987,7 @@
 	{
 		"source": 6,
 		"target": 277,
-		"value": 0.1381408920383493,
+		"value": 0.144060025010421,
 		"tokens": {
 			"virus": 244,
 			"protein": 220,
@@ -24973,7 +24999,26 @@
 			"domain": 86,
 			"arenavirus": 155,
 			"sars": 166,
+			"antibody": 71,
 			"cov": 119
+		}
+	},
+	{
+		"source": 7,
+		"target": 277,
+		"value": 0.2686952897040433,
+		"tokens": {
+			"virus": 568,
+			"protein": 555,
+			"cov": 397,
+			"coronavirus": 309,
+			"cell": 338,
+			"sars": 285,
+			"viral": 165,
+			"expression": 148,
+			"binding": 144,
+			"antibody": 138,
+			"infection": 176
 		}
 	},
 	{
@@ -24998,7 +25043,7 @@
 	{
 		"source": 19,
 		"target": 277,
-		"value": 0.17148812005002084,
+		"value": 0.16448520216756982,
 		"tokens": {
 			"cell": 314,
 			"protein": 271,
@@ -25010,14 +25055,13 @@
 			"receptor": 146,
 			"coronavirus": 99,
 			"surface": 91,
-			"not": 84,
 			"entry": 130
 		}
 	},
 	{
 		"source": 26,
 		"target": 277,
-		"value": 0.3408920383493122,
+		"value": 0.34105877448937055,
 		"tokens": {
 			"cell": 661,
 			"virus": 609,
@@ -25029,13 +25073,13 @@
 			"human": 236,
 			"receptor": 235,
 			"viral": 169,
-			"not": 154
+			"antibody": 156
 		}
 	},
 	{
 		"source": 31,
 		"target": 277,
-		"value": 0.18007503126302626,
+		"value": 0.17365568987077948,
 		"tokens": {
 			"cell": 311,
 			"virus": 314,
@@ -25048,8 +25092,7 @@
 			"cov": 142,
 			"entry": 136,
 			"glycoprotein": 107,
-			"sars": 171,
-			"not": 77
+			"sars": 171
 		}
 	},
 	{
@@ -25074,7 +25117,7 @@
 	{
 		"source": 77,
 		"target": 277,
-		"value": 0.17457273864110046,
+		"value": 0.1814922884535223,
 		"tokens": {
 			"cov": 350,
 			"virus": 266,
@@ -25083,17 +25126,18 @@
 			"infection": 159,
 			"sars": 201,
 			"cell": 188,
+			"antibody": 84,
 			"receptor": 127,
 			"protein": 167,
 			"viral": 88,
-			"not": 72,
-			"entry": 121
+			"entry": 121,
+			"binding": 71
 		}
 	},
 	{
 		"source": 81,
 		"target": 277,
-		"value": 0.12180075031263027,
+		"value": 0.11738224260108379,
 		"tokens": {
 			"cell": 202,
 			"sars": 188,
@@ -25105,14 +25149,13 @@
 			"viral": 73,
 			"human": 104,
 			"filovirus": 60,
-			"not": 53,
 			"glycoprotein": 77
 		}
 	},
 	{
 		"source": 82,
 		"target": 277,
-		"value": 0.35623176323468114,
+		"value": 0.3464776990412672,
 		"tokens": {
 			"cell": 478,
 			"entry": 365,
@@ -25128,8 +25171,25 @@
 			"glycoprotein": 160,
 			"infection": 173,
 			"ifitm3": 384,
-			"coronavirus": 132,
-			"not": 117
+			"coronavirus": 132
+		}
+	},
+	{
+		"source": 89,
+		"target": 277,
+		"value": 0.21042100875364736,
+		"tokens": {
+			"virus": 462,
+			"cov": 307,
+			"sars": 310,
+			"human": 239,
+			"cell": 264,
+			"infection": 198,
+			"coronavirus": 147,
+			"viral": 132,
+			"protein": 206,
+			"antibody": 113,
+			"receptor": 146
 		}
 	},
 	{
@@ -25194,10 +25254,11 @@
 	{
 		"source": 156,
 		"target": 277,
-		"value": 0.13689037098791162,
+		"value": 0.14355981659024594,
 		"tokens": {
 			"cov": 162,
 			"sars": 176,
+			"antibody": 80,
 			"binding": 75,
 			"receptor": 113,
 			"infection": 106,
@@ -25215,7 +25276,7 @@
 	{
 		"source": 167,
 		"target": 277,
-		"value": 0.1511463109629012,
+		"value": 0.1459774906210921,
 		"tokens": {
 			"sars": 200,
 			"ace2": 209,
@@ -25226,7 +25287,6 @@
 			"receptor": 116,
 			"virus": 169,
 			"protein": 157,
-			"not": 62,
 			"human": 109,
 			"coronavirus": 73,
 			"viral": 69,
@@ -25236,7 +25296,7 @@
 	{
 		"source": 168,
 		"target": 277,
-		"value": 0.15598165902459357,
+		"value": 0.15556481867444769,
 		"tokens": {
 			"filovirus": 145,
 			"virus": 240,
@@ -25247,8 +25307,8 @@
 			"cell": 171,
 			"glycoprotein": 103,
 			"sars": 168,
-			"not": 76,
 			"ace2": 180,
+			"antibody": 71,
 			"cov": 120,
 			"protein": 153
 		}
@@ -25275,13 +25335,14 @@
 	{
 		"source": 172,
 		"target": 277,
-		"value": 0.12488536890370988,
+		"value": 0.13080450187578158,
 		"tokens": {
 			"filovirus": 164,
 			"ebolavirus": 126,
 			"virus": 217,
 			"cell": 183,
 			"entry": 142,
+			"antibody": 71,
 			"glycoprotein": 95,
 			"ifitm": 248,
 			"fusion": 78,
@@ -25293,13 +25354,14 @@
 	{
 		"source": 200,
 		"target": 277,
-		"value": 0.12321800750312631,
+		"value": 0.12855356398499374,
 		"tokens": {
 			"cov": 208,
 			"human": 149,
 			"coronavirus": 110,
 			"virus": 178,
 			"infection": 112,
+			"antibody": 64,
 			"receptor": 109,
 			"binding": 62,
 			"cell": 144,
@@ -25312,10 +25374,11 @@
 	{
 		"source": 204,
 		"target": 277,
-		"value": 0.15147978324301792,
+		"value": 0.16015006252605252,
 		"tokens": {
 			"cov": 179,
 			"coronavirus": 136,
+			"antibody": 104,
 			"virus": 206,
 			"protein": 182,
 			"infection": 130,
@@ -25351,12 +25414,13 @@
 	{
 		"source": 269,
 		"target": 277,
-		"value": 0.18215923301375572,
+		"value": 0.1913297207169654,
 		"tokens": {
 			"sars": 367,
 			"cov": 224,
 			"protein": 238,
 			"cell": 202,
+			"antibody": 110,
 			"receptor": 152,
 			"fusion": 121,
 			"binding": 106,
@@ -25369,13 +25433,32 @@
 		}
 	},
 	{
+		"source": 270,
+		"target": 277,
+		"value": 0.19666527719883284,
+		"tokens": {
+			"cov": 410,
+			"protein": 289,
+			"sars": 286,
+			"antibody": 176,
+			"receptor": 209,
+			"binding": 157,
+			"infection": 180,
+			"domain": 136,
+			"virus": 227,
+			"human": 169,
+			"coronavirus": 120
+		}
+	},
+	{
 		"source": 271,
 		"target": 277,
-		"value": 0.33372238432680285,
+		"value": 0.3568153397248854,
 		"tokens": {
 			"cov": 630,
 			"protein": 432,
 			"sars": 405,
+			"antibody": 277,
 			"peptide": 256,
 			"fusion": 265,
 			"binding": 236,
@@ -25411,7 +25494,7 @@
 	{
 		"source": 276,
 		"target": 277,
-		"value": 0.1503959983326386,
+		"value": 0.15573155481450604,
 		"tokens": {
 			"cell": 232,
 			"filovirus": 145,
@@ -25425,6 +25508,7 @@
 			"ebolavirus": 71,
 			"glycoprotein": 90,
 			"coronavirus": 76,
+			"antibody": 64,
 			"sars": 153
 		}
 	},
@@ -25701,7 +25785,7 @@
 	{
 		"source": 19,
 		"target": 281,
-		"value": 0.16565235514797833,
+		"value": 0.1719883284701959,
 		"tokens": {
 			"cell": 224,
 			"protein": 187,
@@ -25714,7 +25798,8 @@
 			"cov": 156,
 			"coronavirus": 83,
 			"passaged": 101,
-			"rat": 71
+			"rat": 71,
+			"neonatal": 76
 		}
 	},
 	{
@@ -25886,7 +25971,7 @@
 	{
 		"source": 19,
 		"target": 282,
-		"value": 0.17573989162150896,
+		"value": 0.18207586494372655,
 		"tokens": {
 			"cell": 248,
 			"protein": 188,
@@ -25899,7 +25984,8 @@
 			"cov": 192,
 			"coronavirus": 91,
 			"passaged": 101,
-			"rat": 74
+			"rat": 74,
+			"neonatal": 76
 		}
 	},
 	{
@@ -26716,7 +26802,7 @@
 	{
 		"source": 26,
 		"target": 284,
-		"value": 0.6141725719049604,
+		"value": 0.6304293455606502,
 		"tokens": {
 			"mouse": 685,
 			"cell": 632,
@@ -26733,7 +26819,8 @@
 			"syndrome": 239,
 			"epitope": 250,
 			"antibody": 307,
-			"middle": 201
+			"middle": 201,
+			"east": 195
 		}
 	},
 	{
@@ -26796,7 +26883,7 @@
 	{
 		"source": 77,
 		"target": 284,
-		"value": 0.37148812005002085,
+		"value": 0.3862442684451855,
 		"tokens": {
 			"mer": 814,
 			"cov": 694,
@@ -26813,7 +26900,8 @@
 			"antibody": 235,
 			"receptor": 209,
 			"protein": 267,
-			"spike": 156
+			"spike": 156,
+			"binding": 177
 		}
 	},
 	{
@@ -27510,7 +27598,7 @@
 	{
 		"source": 277,
 		"target": 284,
-		"value": 0.23726552730304293,
+		"value": 0.25568987077949146,
 		"tokens": {
 			"virus": 255,
 			"protein": 352,
@@ -27522,7 +27610,8 @@
 			"infection": 212,
 			"coronavirus": 171,
 			"binding": 184,
-			"domain": 170
+			"domain": 170,
+			"antibody": 221
 		}
 	},
 	{
@@ -28921,6 +29010,24 @@
 		}
 	},
 	{
+		"source": 277,
+		"target": 286,
+		"value": 0.11479783243017924,
+		"tokens": {
+			"ace2": 170,
+			"virus": 157,
+			"protein": 208,
+			"sars": 187,
+			"cell": 181,
+			"cov": 136,
+			"fusion": 71,
+			"viral": 62,
+			"coronavirus": 85,
+			"expression": 59,
+			"antibody": 61
+		}
+	},
+	{
 		"source": 284,
 		"target": 286,
 		"value": 0.2015839933305544,
@@ -29217,6 +29324,24 @@
 			"coronavirus": 82,
 			"viral": 53,
 			"syndrome": 67
+		}
+	},
+	{
+		"source": 277,
+		"target": 287,
+		"value": 0.12038349312213423,
+		"tokens": {
+			"ace2": 170,
+			"virus": 155,
+			"protein": 231,
+			"sars": 202,
+			"cell": 185,
+			"cov": 154,
+			"fusion": 71,
+			"viral": 65,
+			"coronavirus": 91,
+			"expression": 61,
+			"antibody": 59
 		}
 	},
 	{
@@ -30738,7 +30863,7 @@
 	{
 		"source": 26,
 		"target": 293,
-		"value": 0.6776156731971655,
+		"value": 0.6907044601917466,
 		"tokens": {
 			"mouse": 685,
 			"cell": 761,
@@ -30763,7 +30888,8 @@
 			"antibody": 169,
 			"middle": 169,
 			"response": 163,
-			"rsar": 162
+			"rsar": 162,
+			"east": 157
 		}
 	},
 	{
@@ -31396,6 +31522,24 @@
 		}
 	},
 	{
+		"source": 277,
+		"target": 293,
+		"value": 0.1834097540641934,
+		"tokens": {
+			"virus": 272,
+			"protein": 220,
+			"sars": 246,
+			"cell": 344,
+			"cov": 329,
+			"receptor": 148,
+			"human": 157,
+			"infection": 160,
+			"coronavirus": 140,
+			"wnv": 101,
+			"antibody": 83
+		}
+	},
+	{
 		"source": 282,
 		"target": 293,
 		"value": 0.19783243017924135,
@@ -31702,6 +31846,24 @@
 			"respiratory": 91,
 			"h7n9": 91,
 			"ace2": 166
+		}
+	},
+	{
+		"source": 167,
+		"target": 295,
+		"value": 0.08103376406836182,
+		"tokens": {
+			"sars": 155,
+			"ace2": 183,
+			"cell": 111,
+			"cov": 94,
+			"entry": 72,
+			"infection": 71,
+			"receptor": 62,
+			"virus": 72,
+			"protein": 65,
+			"severe": 45,
+			"spike": 42
 		}
 	},
 	{
@@ -33205,7 +33367,7 @@
 	{
 		"source": 26,
 		"target": 303,
-		"value": 0.31279699874947897,
+		"value": 0.32430179241350565,
 		"tokens": {
 			"cell": 558,
 			"virus": 501,
@@ -33218,7 +33380,8 @@
 			"syndrome": 172,
 			"disease": 169,
 			"viral": 138,
-			"middle": 146
+			"middle": 146,
+			"east": 138
 		}
 	},
 	{
@@ -33276,6 +33439,24 @@
 			"bat": 69,
 			"animal": 61,
 			"viral": 57
+		}
+	},
+	{
+		"source": 82,
+		"target": 303,
+		"value": 0.1704877032096707,
+		"tokens": {
+			"cell": 375,
+			"virus": 256,
+			"ebov": 221,
+			"viral": 180,
+			"human": 175,
+			"cov": 196,
+			"glycoprotein": 119,
+			"infection": 119,
+			"coronavirus": 117,
+			"mer": 181,
+			"ebola": 106
 		}
 	},
 	{
@@ -33731,7 +33912,7 @@
 	{
 		"source": 82,
 		"target": 304,
-		"value": 0.273197165485619,
+		"value": 0.2902876198416007,
 		"tokens": {
 			"cell": 431,
 			"tetherin": 431,
@@ -33743,7 +33924,8 @@
 			"glycoprotein": 187,
 			"infection": 198,
 			"lectin": 155,
-			"mer": 205
+			"mer": 205,
+			"ebola": 205
 		}
 	},
 	{
@@ -35598,7 +35780,7 @@
 	{
 		"source": 277,
 		"target": 311,
-		"value": 0.12930387661525636,
+		"value": 0.1342225927469779,
 		"tokens": {
 			"ace2": 194,
 			"virus": 179,
@@ -35610,7 +35792,8 @@
 			"infection": 117,
 			"viral": 81,
 			"coronavirus": 79,
-			"peptide": 63
+			"peptide": 63,
+			"antibody": 59
 		}
 	},
 	{
@@ -36338,7 +36521,7 @@
 	{
 		"source": 26,
 		"target": 313,
-		"value": 0.6240933722384326,
+		"value": 0.6432680283451438,
 		"tokens": {
 			"cell": 762,
 			"virus": 912,
@@ -36355,7 +36538,8 @@
 			"syndrome": 282,
 			"viral": 259,
 			"antibody": 196,
-			"middle": 234
+			"middle": 234,
+			"east": 230
 		}
 	},
 	{
@@ -37427,6 +37611,24 @@
 		}
 	},
 	{
+		"source": 277,
+		"target": 313,
+		"value": 0.2922050854522718,
+		"tokens": {
+			"virus": 579,
+			"protein": 277,
+			"sars": 407,
+			"cell": 345,
+			"cov": 532,
+			"receptor": 154,
+			"human": 341,
+			"infection": 267,
+			"viral": 186,
+			"coronavirus": 307,
+			"antibody": 110
+		}
+	},
+	{
 		"source": 282,
 		"target": 313,
 		"value": 0.3208003334722801,
@@ -37816,7 +38018,7 @@
 	{
 		"source": 77,
 		"target": 314,
-		"value": 0.17032096706961233,
+		"value": 0.17732388495206336,
 		"tokens": {
 			"mer": 354,
 			"cov": 356,
@@ -37830,7 +38032,8 @@
 			"antibody": 139,
 			"receptor": 93,
 			"viral": 74,
-			"spike": 74
+			"spike": 74,
+			"binding": 84
 		}
 	},
 	{
@@ -38037,6 +38240,24 @@
 			"human": 42,
 			"vaccine": 61,
 			"coronavirus": 40
+		}
+	},
+	{
+		"source": 167,
+		"target": 314,
+		"value": 0.0724468528553564,
+		"tokens": {
+			"sars": 133,
+			"cell": 93,
+			"cov": 142,
+			"infection": 72,
+			"receptor": 82,
+			"virus": 73,
+			"human": 54,
+			"coronavirus": 53,
+			"viral": 55,
+			"glycoprotein": 59,
+			"spike": 53
 		}
 	},
 	{
@@ -38322,7 +38543,7 @@
 	{
 		"source": 277,
 		"target": 314,
-		"value": 0.12130054189245519,
+		"value": 0.13172155064610255,
 		"tokens": {
 			"virus": 180,
 			"sars": 183,
@@ -38335,7 +38556,8 @@
 			"viral": 82,
 			"coronavirus": 74,
 			"binding": 91,
-			"domain": 64
+			"domain": 64,
+			"antibody": 125
 		}
 	},
 	{
@@ -44086,7 +44308,7 @@
 	{
 		"source": 77,
 		"target": 361,
-		"value": 0.15806586077532306,
+		"value": 0.16823676531888287,
 		"tokens": {
 			"mer": 399,
 			"cov": 361,
@@ -44099,7 +44321,8 @@
 			"receptor": 113,
 			"protein": 99,
 			"spike": 87,
-			"entry": 64
+			"entry": 64,
+			"binding": 122
 		}
 	},
 	{
@@ -44914,7 +45137,7 @@
 	{
 		"source": 167,
 		"target": 364,
-		"value": 0.09545644018340975,
+		"value": 0.09870779491454773,
 		"tokens": {
 			"cell": 175,
 			"cov": 125,
@@ -44927,7 +45150,8 @@
 			"coronavirus": 68,
 			"viral": 53,
 			"tmprss2": 56,
-			"proteas": 90
+			"proteas": 90,
+			"spike": 39
 		}
 	},
 	{
@@ -45616,7 +45840,7 @@
 	{
 		"source": 26,
 		"target": 366,
-		"value": 0.34581075448103377,
+		"value": 0.35731554814506045,
 		"tokens": {
 			"cell": 671,
 			"virus": 549,
@@ -45628,7 +45852,8 @@
 			"sars": 270,
 			"respiratory": 248,
 			"syndrome": 181,
-			"middle": 144
+			"middle": 144,
+			"east": 138
 		}
 	},
 	{
@@ -45775,7 +46000,7 @@
 	{
 		"source": 167,
 		"target": 366,
-		"value": 0.12288453522300959,
+		"value": 0.1275531471446436,
 		"tokens": {
 			"sars": 112,
 			"cell": 196,
@@ -45788,7 +46013,8 @@
 			"protein": 145,
 			"coronavirus": 76,
 			"tmprss2": 269,
-			"proteas": 51
+			"proteas": 51,
+			"spike": 56
 		}
 	},
 	{
@@ -47382,7 +47608,7 @@
 	{
 		"source": 82,
 		"target": 376,
-		"value": 0.4414339308045019,
+		"value": 0.45060441850771155,
 		"tokens": {
 			"tmprss2": 474,
 			"cell": 488,
@@ -47405,7 +47631,8 @@
 			"mer": 139,
 			"siv": 133,
 			"rhifitm3": 144,
-			"cleavage": 110
+			"cleavage": 110,
+			"ebola": 110
 		}
 	},
 	{
@@ -49083,7 +49310,7 @@
 	{
 		"source": 12,
 		"target": 384,
-		"value": 0.14497707378074198,
+		"value": 0.1538974572738641,
 		"tokens": {
 			"mhv": 492,
 			"protein": 190,
@@ -49096,7 +49323,8 @@
 			"mutation": 82,
 			"murine": 84,
 			"replication": 115,
-			"genome": 65
+			"genome": 65,
+			"cov": 107
 		}
 	},
 	{
@@ -49409,7 +49637,7 @@
 	{
 		"source": 77,
 		"target": 389,
-		"value": 0.13480616923718217,
+		"value": 0.13947478115881617,
 		"tokens": {
 			"mer": 326,
 			"cov": 307,
@@ -49421,7 +49649,8 @@
 			"receptor": 96,
 			"protein": 80,
 			"spike": 112,
-			"entry": 81
+			"entry": 81,
+			"binding": 56
 		}
 	},
 	{
@@ -50701,6 +50930,24 @@
 		}
 	},
 	{
+		"source": 26,
+		"target": 395,
+		"value": 0.3035431429762401,
+		"tokens": {
+			"cell": 577,
+			"virus": 548,
+			"cov": 520,
+			"mer": 442,
+			"infection": 343,
+			"coronavirus": 332,
+			"respiratory": 227,
+			"human": 205,
+			"syndrome": 171,
+			"middle": 143,
+			"east": 133
+		}
+	},
+	{
 		"source": 70,
 		"target": 395,
 		"value": 0.20466861192163402,
@@ -51126,7 +51373,7 @@
 	{
 		"source": 26,
 		"target": 396,
-		"value": 0.36873697373905795,
+		"value": 0.3807419758232597,
 		"tokens": {
 			"cell": 566,
 			"virus": 532,
@@ -51141,7 +51388,8 @@
 			"syndrome": 183,
 			"acute": 156,
 			"viral": 139,
-			"middle": 152
+			"middle": 152,
+			"east": 144
 		}
 	},
 	{
@@ -53362,6 +53610,24 @@
 		}
 	},
 	{
+		"source": 82,
+		"target": 407,
+		"value": 0.2397665694039183,
+		"tokens": {
+			"cell": 417,
+			"entry": 318,
+			"virus": 340,
+			"ebov": 374,
+			"ifitm": 283,
+			"viral": 210,
+			"human": 177,
+			"filovirus": 285,
+			"infection": 160,
+			"antiviral": 133,
+			"ebola": 179
+		}
+	},
+	{
 		"source": 108,
 		"target": 407,
 		"value": 0.1444768653605669,
@@ -53498,7 +53764,7 @@
 	{
 		"source": 77,
 		"target": 409,
-		"value": 0.16006669445602334,
+		"value": 0.16907044601917465,
 		"tokens": {
 			"mer": 398,
 			"cov": 356,
@@ -53511,7 +53777,8 @@
 			"receptor": 113,
 			"protein": 99,
 			"spike": 75,
-			"entry": 71
+			"entry": 71,
+			"binding": 108
 		}
 	},
 	{
@@ -54424,7 +54691,7 @@
 	{
 		"source": 77,
 		"target": 415,
-		"value": 0.15339724885368905,
+		"value": 0.158982909545644,
 		"tokens": {
 			"mer": 363,
 			"cov": 338,
@@ -54438,7 +54705,8 @@
 			"receptor": 83,
 			"protein": 70,
 			"host": 55,
-			"spike": 74
+			"spike": 74,
+			"binding": 67
 		}
 	},
 	{
@@ -54715,6 +54983,24 @@
 			"mer": 116,
 			"domain": 48,
 			"respiratory": 48
+		}
+	},
+	{
+		"source": 277,
+		"target": 415,
+		"value": 0.09403918299291371,
+		"tokens": {
+			"protein": 155,
+			"cell": 144,
+			"cov": 164,
+			"receptor": 120,
+			"human": 103,
+			"glycoprotein": 84,
+			"fusion": 82,
+			"coronavirus": 71,
+			"binding": 74,
+			"domain": 59,
+			"antibody": 72
 		}
 	},
 	{
@@ -56021,7 +56307,7 @@
 	{
 		"source": 26,
 		"target": 424,
-		"value": 0.2836181742392664,
+		"value": 0.2940391829929137,
 		"tokens": {
 			"virus": 510,
 			"cov": 524,
@@ -56034,7 +56320,8 @@
 			"syndrome": 172,
 			"acute": 157,
 			"antibody": 152,
-			"middle": 133
+			"middle": 133,
+			"east": 125
 		}
 	},
 	{
@@ -56724,7 +57011,7 @@
 	{
 		"source": 26,
 		"target": 425,
-		"value": 0.32546894539391413,
+		"value": 0.33680700291788246,
 		"tokens": {
 			"virus": 503,
 			"cov": 585,
@@ -56738,7 +57025,8 @@
 			"syndrome": 181,
 			"epitope": 169,
 			"antibody": 178,
-			"middle": 146
+			"middle": 146,
+			"east": 136
 		}
 	},
 	{
@@ -57911,7 +58199,7 @@
 	{
 		"source": 26,
 		"target": 429,
-		"value": 0.3605669028761984,
+		"value": 0.3779908295122968,
 		"tokens": {
 			"virus": 535,
 			"cov": 651,
@@ -57925,7 +58213,8 @@
 			"syndrome": 210,
 			"lung": 160,
 			"antibody": 167,
-			"middle": 203
+			"middle": 203,
+			"east": 209
 		}
 	},
 	{
@@ -61016,7 +61305,7 @@
 	{
 		"source": 26,
 		"target": 443,
-		"value": 0.3693205502292622,
+		"value": 0.38132555231346393,
 		"tokens": {
 			"mouse": 618,
 			"cov": 607,
@@ -61032,7 +61321,8 @@
 			"epitope": 165,
 			"lung": 144,
 			"antibody": 160,
-			"middle": 152
+			"middle": 152,
+			"east": 144
 		}
 	},
 	{
@@ -61056,7 +61346,7 @@
 	{
 		"source": 77,
 		"target": 443,
-		"value": 0.1893288870362651,
+		"value": 0.19466444351813256,
 		"tokens": {
 			"mer": 482,
 			"cov": 400,
@@ -61071,7 +61361,8 @@
 			"syndrome": 101,
 			"antibody": 88,
 			"receptor": 83,
-			"protein": 76
+			"protein": 76,
+			"binding": 64
 		}
 	},
 	{
@@ -62531,7 +62822,7 @@
 	{
 		"source": 26,
 		"target": 446,
-		"value": 0.3699874947894956,
+		"value": 0.38290954564401836,
 		"tokens": {
 			"mouse": 595,
 			"virus": 554,
@@ -62544,13 +62835,14 @@
 			"human": 217,
 			"syndrome": 194,
 			"antibody": 189,
-			"middle": 163
+			"middle": 163,
+			"east": 155
 		}
 	},
 	{
 		"source": 77,
 		"target": 446,
-		"value": 0.20725302209253857,
+		"value": 0.21433930804501874,
 		"tokens": {
 			"mer": 472,
 			"cov": 412,
@@ -62564,7 +62856,8 @@
 			"syndrome": 117,
 			"antibody": 117,
 			"protein": 126,
-			"spike": 77
+			"spike": 77,
+			"binding": 85
 		}
 	},
 	{
@@ -63081,6 +63374,24 @@
 			"mer": 225,
 			"domain": 79,
 			"respiratory": 75
+		}
+	},
+	{
+		"source": 277,
+		"target": 446,
+		"value": 0.1397248853689037,
+		"tokens": {
+			"virus": 221,
+			"protein": 211,
+			"cov": 238,
+			"human": 145,
+			"infection": 155,
+			"fusion": 161,
+			"coronavirus": 109,
+			"binding": 92,
+			"peptide": 151,
+			"domain": 90,
+			"antibody": 103
 		}
 	},
 	{
@@ -70006,7 +70317,7 @@
 	{
 		"source": 26,
 		"target": 485,
-		"value": 0.403251354731138,
+		"value": 0.41634014172571904,
 		"tokens": {
 			"mouse": 613,
 			"virus": 583,
@@ -70020,7 +70331,8 @@
 			"human": 240,
 			"syndrome": 193,
 			"antibody": 167,
-			"middle": 164
+			"middle": 164,
+			"east": 157
 		}
 	},
 	{
@@ -72198,6 +72510,24 @@
 			"viral": 193,
 			"middle": 110,
 			"east": 110
+		}
+	},
+	{
+		"source": 26,
+		"target": 494,
+		"value": 0.28245102125885785,
+		"tokens": {
+			"cell": 561,
+			"virus": 532,
+			"cov": 517,
+			"mer": 446,
+			"infection": 324,
+			"respiratory": 241,
+			"human": 177,
+			"syndrome": 179,
+			"viral": 143,
+			"middle": 138,
+			"east": 130
 		}
 	},
 	{
@@ -74430,7 +74760,7 @@
 	{
 		"source": 26,
 		"target": 507,
-		"value": 0.3616506877865777,
+		"value": 0.3734889537307211,
 		"tokens": {
 			"cell": 576,
 			"virus": 493,
@@ -74444,7 +74774,8 @@
 			"human": 175,
 			"syndrome": 182,
 			"antibody": 160,
-			"middle": 152
+			"middle": 152,
+			"east": 142
 		}
 	},
 	{
@@ -79979,7 +80310,7 @@
 	{
 		"source": 26,
 		"target": 527,
-		"value": 0.2901208837015423,
+		"value": 0.30145894122551065,
 		"tokens": {
 			"virus": 546,
 			"cov": 591,
@@ -79991,7 +80322,8 @@
 			"human": 196,
 			"syndrome": 184,
 			"viral": 152,
-			"middle": 144
+			"middle": 144,
+			"east": 136
 		}
 	},
 	{
@@ -83178,7 +83510,7 @@
 	{
 		"source": 26,
 		"target": 538,
-		"value": 0.41450604418507714,
+		"value": 0.426094205919133,
 		"tokens": {
 			"mouse": 577,
 			"cell": 608,
@@ -83193,7 +83525,8 @@
 			"receptor": 193,
 			"immune": 166,
 			"antibody": 199,
-			"middle": 147
+			"middle": 147,
+			"east": 139
 		}
 	},
 	{
@@ -83236,7 +83569,7 @@
 	{
 		"source": 77,
 		"target": 538,
-		"value": 0.20241767403084618,
+		"value": 0.20800333472280116,
 		"tokens": {
 			"mer": 433,
 			"cov": 384,
@@ -83251,7 +83584,8 @@
 			"cell": 135,
 			"antibody": 127,
 			"receptor": 85,
-			"protein": 85
+			"protein": 85,
+			"binding": 67
 		}
 	},
 	{
@@ -84912,7 +85246,7 @@
 	{
 		"source": 77,
 		"target": 541,
-		"value": 0.1421425593997499,
+		"value": 0.1476448520216757,
 		"tokens": {
 			"cov": 309,
 			"virus": 174,
@@ -84926,7 +85260,8 @@
 			"protein": 118,
 			"viral": 71,
 			"hcov": 82,
-			"entry": 68
+			"entry": 68,
+			"binding": 66
 		}
 	},
 	{
@@ -85343,7 +85678,7 @@
 	{
 		"source": 277,
 		"target": 541,
-		"value": 0.197665694039183,
+		"value": 0.202334305960817,
 		"tokens": {
 			"tfr1": 240,
 			"ace2": 241,
@@ -85361,7 +85696,8 @@
 			"viral": 79,
 			"coronavirus": 75,
 			"binding": 73,
-			"domain": 59
+			"domain": 59,
+			"antibody": 56
 		}
 	},
 	{
@@ -86549,7 +86885,7 @@
 	{
 		"source": 19,
 		"target": 552,
-		"value": 0.1768236765318883,
+		"value": 0.1700708628595248,
 		"tokens": {
 			"cell": 305,
 			"mhv": 217,
@@ -86561,28 +86897,9 @@
 			"cov": 139,
 			"fusion": 130,
 			"coronavirus": 94,
-			"not": 81,
 			"protease": 77,
 			"entry": 124,
 			"proteas": 78
-		}
-	},
-	{
-		"source": 26,
-		"target": 552,
-		"value": 0.333805752396832,
-		"tokens": {
-			"cell": 652,
-			"virus": 569,
-			"cov": 537,
-			"mhv": 426,
-			"infection": 341,
-			"coronavirus": 338,
-			"protein": 307,
-			"sars": 363,
-			"viral": 163,
-			"antibody": 157,
-			"not": 151
 		}
 	},
 	{
@@ -86602,24 +86919,6 @@
 			"protein": 133,
 			"nl63": 112,
 			"proteas": 105
-		}
-	},
-	{
-		"source": 31,
-		"target": 552,
-		"value": 0.14189245518966237,
-		"tokens": {
-			"cell": 302,
-			"virus": 274,
-			"protein": 147,
-			"infection": 149,
-			"binding": 119,
-			"coronavirus": 106,
-			"cov": 122,
-			"entry": 130,
-			"glycoprotein": 103,
-			"sars": 176,
-			"not": 74
 		}
 	},
 	{
@@ -86643,7 +86942,7 @@
 	{
 		"source": 77,
 		"target": 552,
-		"value": 0.1548145060441851,
+		"value": 0.15456440183409753,
 		"tokens": {
 			"cov": 330,
 			"virus": 226,
@@ -86655,15 +86954,15 @@
 			"antibody": 85,
 			"protein": 79,
 			"viral": 82,
-			"not": 69,
 			"spike": 80,
-			"entry": 115
+			"entry": 115,
+			"binding": 66
 		}
 	},
 	{
 		"source": 81,
 		"target": 552,
-		"value": 0.1598165902459358,
+		"value": 0.15564818674447686,
 		"tokens": {
 			"cell": 193,
 			"basv": 160,
@@ -86682,14 +86981,13 @@
 			"ebola": 72,
 			"proteas": 61,
 			"protease": 54,
-			"not": 50,
 			"glycoprotein": 73
 		}
 	},
 	{
 		"source": 82,
 		"target": 552,
-		"value": 0.34164235097957485,
+		"value": 0.3428928720300125,
 		"tokens": {
 			"tmprss2": 418,
 			"cell": 469,
@@ -86708,7 +87006,7 @@
 			"infection": 142,
 			"protease": 130,
 			"coronavirus": 127,
-			"not": 114
+			"ebola": 129
 		}
 	},
 	{
@@ -86730,14 +87028,33 @@
 		}
 	},
 	{
+		"source": 109,
+		"target": 552,
+		"value": 0.09395581492288453,
+		"tokens": {
+			"cov": 144,
+			"antibody": 111,
+			"neutralizing": 80,
+			"protein": 83,
+			"virus": 142,
+			"fusion": 106,
+			"cell": 152,
+			"viral": 77,
+			"glycoprotein": 90,
+			"binding": 66,
+			"spike": 76
+		}
+	},
+	{
 		"source": 156,
 		"target": 552,
-		"value": 0.10262609420591913,
+		"value": 0.10804501875781576,
 		"tokens": {
 			"cov": 142,
 			"sars": 181,
 			"antibody": 81,
 			"binding": 70,
+			"neutralizing": 65,
 			"infection": 75,
 			"virus": 129,
 			"cell": 136,
@@ -86767,19 +87084,19 @@
 			"infection": 82,
 			"virus": 129,
 			"protein": 69,
-			"not": 59,
 			"coronavirus": 68,
 			"viral": 63,
 			"tmprss2": 52,
 			"glycoprotein": 75,
 			"proteas": 56,
-			"pseudotype": 53
+			"pseudotype": 53,
+			"spike": 59
 		}
 	},
 	{
 		"source": 168,
 		"target": 552,
-		"value": 0.1488120050020842,
+		"value": 0.14272613588995414,
 		"tokens": {
 			"ebov": 231,
 			"virus": 200,
@@ -86790,7 +87107,6 @@
 			"cell": 162,
 			"glycoprotein": 99,
 			"sars": 173,
-			"not": 73,
 			"ace2": 90,
 			"antibody": 72,
 			"cov": 100,
@@ -86838,7 +87154,7 @@
 	{
 		"source": 204,
 		"target": 552,
-		"value": 0.11954981242184244,
+		"value": 0.12496873697373906,
 		"tokens": {
 			"cov": 159,
 			"coronavirus": 131,
@@ -86851,7 +87167,26 @@
 			"binding": 81,
 			"entry": 124,
 			"fusion": 106,
-			"glycoprotein": 95
+			"glycoprotein": 95,
+			"neutralizing": 65
+		}
+	},
+	{
+		"source": 249,
+		"target": 552,
+		"value": 0.11671529804085036,
+		"tokens": {
+			"cov": 182,
+			"protein": 142,
+			"coronavirus": 139,
+			"cell": 207,
+			"spike": 135,
+			"entry": 144,
+			"proteas": 95,
+			"binding": 85,
+			"neutralizing": 80,
+			"infection": 92,
+			"fusion": 99
 		}
 	},
 	{
@@ -86880,11 +87215,12 @@
 	{
 		"source": 269,
 		"target": 552,
-		"value": 0.14464360150062527,
+		"value": 0.1539808253438933,
 		"tokens": {
 			"sars": 372,
 			"cov": 204,
 			"protein": 150,
+			"neutralizing": 112,
 			"cell": 193,
 			"antibody": 111,
 			"fusion": 135,
@@ -86899,11 +87235,12 @@
 	{
 		"source": 271,
 		"target": 552,
-		"value": 0.2874531054606086,
+		"value": 0.3113797415589829,
 		"tokens": {
 			"cov": 610,
 			"protein": 344,
 			"sars": 410,
+			"neutralizing": 287,
 			"antibody": 278,
 			"fusion": 279,
 			"binding": 231,
@@ -86960,7 +87297,7 @@
 	{
 		"source": 277,
 		"target": 552,
-		"value": 0.19474781158816173,
+		"value": 0.19508128386827844,
 		"tokens": {
 			"ace2": 192,
 			"virus": 236,
@@ -86978,7 +87315,61 @@
 			"coronavirus": 89,
 			"binding": 73,
 			"ebolavirus": 71,
-			"not": 67
+			"antibody": 71
+		}
+	},
+	{
+		"source": 284,
+		"target": 552,
+		"value": 0.22067528136723635,
+		"tokens": {
+			"cov": 500,
+			"protein": 264,
+			"neutralizing": 240,
+			"antibody": 222,
+			"sars": 310,
+			"binding": 179,
+			"infection": 181,
+			"coronavirus": 166,
+			"spike": 164,
+			"virus": 215,
+			"cell": 206
+		}
+	},
+	{
+		"source": 286,
+		"target": 552,
+		"value": 0.09437265527303043,
+		"tokens": {
+			"protein": 120,
+			"sars": 192,
+			"cell": 172,
+			"cov": 116,
+			"coronavirus": 80,
+			"ace2": 80,
+			"antibody": 62,
+			"neutralizing": 52,
+			"fusion": 85,
+			"virus": 117,
+			"viral": 56
+		}
+	},
+	{
+		"source": 311,
+		"target": 552,
+		"value": 0.1003751563151313,
+		"tokens": {
+			"sars": 226,
+			"cov": 164,
+			"ace2": 104,
+			"cell": 155,
+			"infection": 86,
+			"virus": 139,
+			"viral": 75,
+			"coronavirus": 74,
+			"protein": 70,
+			"antibody": 60,
+			"neutralizing": 51
 		}
 	},
 	{
@@ -87003,10 +87394,11 @@
 	{
 		"source": 314,
 		"target": 552,
-		"value": 0.10379324718632764,
+		"value": 0.11271363067944977,
 		"tokens": {
 			"cov": 162,
 			"antibody": 126,
+			"neutralizing": 107,
 			"sars": 188,
 			"binding": 86,
 			"virus": 140,
@@ -87105,6 +87497,24 @@
 			"ebolavirus": 68,
 			"ebola": 79,
 			"sars": 160
+		}
+	},
+	{
+		"source": 446,
+		"target": 552,
+		"value": 0.11513130471029595,
+		"tokens": {
+			"cov": 218,
+			"fusion": 175,
+			"protein": 123,
+			"virus": 181,
+			"infection": 124,
+			"inhibitor": 110,
+			"antibody": 104,
+			"coronavirus": 104,
+			"binding": 87,
+			"spike": 85,
+			"neutralizing": 70
 		}
 	},
 	{
@@ -90948,7 +91358,7 @@
 	{
 		"source": 26,
 		"target": 576,
-		"value": 0.2884535223009587,
+		"value": 0.300708628595248,
 		"tokens": {
 			"virus": 527,
 			"cov": 584,
@@ -90960,7 +91370,8 @@
 			"syndrome": 178,
 			"disease": 192,
 			"lung": 147,
-			"middle": 155
+			"middle": 155,
+			"east": 147
 		}
 	},
 	{
@@ -92958,7 +93369,7 @@
 	{
 		"source": 12,
 		"target": 580,
-		"value": 0.16081700708628596,
+		"value": 0.1787411421425594,
 		"tokens": {
 			"mhv": 437,
 			"protein": 218,
@@ -92972,7 +93383,8 @@
 			"mutation": 85,
 			"murine": 76,
 			"replication": 132,
-			"genome": 73
+			"genome": 73,
+			"cov": 215
 		}
 	},
 	{
@@ -94037,6 +94449,24 @@
 			"cov": 257,
 			"viral": 142,
 			"hku1": 136
+		}
+	},
+	{
+		"source": 12,
+		"target": 581,
+		"value": 0.16131721550646103,
+		"tokens": {
+			"mhv": 453,
+			"protein": 218,
+			"rna": 201,
+			"virus": 206,
+			"cell": 144,
+			"coronavirus": 132,
+			"synthesis": 109,
+			"mutant": 87,
+			"replication": 101,
+			"p28": 86,
+			"cov": 198
 		}
 	},
 	{
@@ -95891,7 +96321,7 @@
 	{
 		"source": 26,
 		"target": 583,
-		"value": 0.3122134222592747,
+		"value": 0.32471863276365154,
 		"tokens": {
 			"mouse": 592,
 			"virus": 502,
@@ -95903,7 +96333,8 @@
 			"ifn": 188,
 			"syndrome": 181,
 			"antibody": 153,
-			"middle": 158
+			"middle": 158,
+			"east": 150
 		}
 	},
 	{
@@ -97454,7 +97885,7 @@
 	{
 		"source": 26,
 		"target": 590,
-		"value": 0.4448520216756982,
+		"value": 0.45819091288036684,
 		"tokens": {
 			"cell": 670,
 			"virus": 610,
@@ -97470,7 +97901,8 @@
 			"syndrome": 199,
 			"viral": 181,
 			"antibody": 164,
-			"middle": 169
+			"middle": 169,
+			"east": 160
 		}
 	},
 	{
@@ -98377,6 +98809,24 @@
 			"camel": 123,
 			"antibody": 72,
 			"sars": 134
+		}
+	},
+	{
+		"source": 277,
+		"target": 590,
+		"value": 0.16832013338891205,
+		"tokens": {
+			"virus": 277,
+			"protein": 178,
+			"sars": 231,
+			"cell": 253,
+			"cov": 280,
+			"entry": 124,
+			"human": 207,
+			"infection": 141,
+			"viral": 108,
+			"coronavirus": 142,
+			"antibody": 78
 		}
 	},
 	{
@@ -100824,7 +101274,7 @@
 	{
 		"source": 26,
 		"target": 594,
-		"value": 0.366902876198416,
+		"value": 0.37849103793247185,
 		"tokens": {
 			"cell": 559,
 			"virus": 517,
@@ -100839,7 +101289,8 @@
 			"receptor": 167,
 			"syndrome": 178,
 			"antibody": 160,
-			"middle": 149
+			"middle": 149,
+			"east": 139
 		}
 	},
 	{
@@ -102527,7 +102978,7 @@
 	{
 		"source": 26,
 		"target": 595,
-		"value": 0.3673197165485619,
+		"value": 0.3786577740725302,
 		"tokens": {
 			"mouse": 575,
 			"cell": 558,
@@ -102541,13 +102992,14 @@
 			"syndrome": 175,
 			"epitope": 165,
 			"antibody": 197,
-			"middle": 144
+			"middle": 144,
+			"east": 136
 		}
 	},
 	{
 		"source": 77,
 		"target": 595,
-		"value": 0.16406836181742393,
+		"value": 0.1684868695289704,
 		"tokens": {
 			"mer": 374,
 			"cov": 345,
@@ -102560,7 +103012,8 @@
 			"infection": 117,
 			"syndrome": 98,
 			"cell": 85,
-			"antibody": 125
+			"antibody": 125,
+			"binding": 53
 		}
 	},
 	{
@@ -103800,7 +104253,7 @@
 	{
 		"source": 77,
 		"target": 596,
-		"value": 0.1618174239266361,
+		"value": 0.16781992496873696,
 		"tokens": {
 			"mer": 324,
 			"cov": 305,
@@ -103815,7 +104268,8 @@
 			"sia": 93,
 			"protein": 89,
 			"spike": 85,
-			"entry": 64
+			"entry": 64,
+			"binding": 72
 		}
 	},
 	{
@@ -103856,6 +104310,24 @@
 			"human": 42,
 			"protein": 63,
 			"coronavirus": 61
+		}
+	},
+	{
+		"source": 167,
+		"target": 596,
+		"value": 0.06944560233430597,
+		"tokens": {
+			"cell": 124,
+			"cov": 91,
+			"entry": 78,
+			"infection": 71,
+			"receptor": 82,
+			"virus": 75,
+			"protein": 79,
+			"human": 54,
+			"coronavirus": 74,
+			"glycoprotein": 41,
+			"spike": 64
 		}
 	},
 	{
@@ -104129,7 +104601,7 @@
 	{
 		"source": 277,
 		"target": 596,
-		"value": 0.12847019591496456,
+		"value": 0.13497290537724052,
 		"tokens": {
 			"virus": 182,
 			"protein": 174,
@@ -104143,7 +104615,8 @@
 			"fusion": 80,
 			"coronavirus": 95,
 			"binding": 79,
-			"domain": 70
+			"domain": 70,
+			"antibody": 78
 		}
 	},
 	{
@@ -107126,7 +107599,7 @@
 	{
 		"source": 141,
 		"target": 607,
-		"value": 0.13705710712796998,
+		"value": 0.14022509378907877,
 		"tokens": {
 			"sars": 127,
 			"patient": 117,
@@ -107149,7 +107622,8 @@
 			"age": 46,
 			"fev1": 44,
 			"month": 46,
-			"etiology": 40
+			"etiology": 40,
+			"culture": 38
 		}
 	},
 	{
@@ -108423,7 +108897,7 @@
 	{
 		"source": 77,
 		"target": 623,
-		"value": 0.207919966652772,
+		"value": 0.21642350979574823,
 		"tokens": {
 			"mer": 571,
 			"cov": 507,
@@ -108435,7 +108909,8 @@
 			"sars": 158,
 			"antibody": 155,
 			"receptor": 123,
-			"protein": 124
+			"protein": 124,
+			"binding": 102
 		}
 	},
 	{
@@ -108906,6 +109381,24 @@
 			"ha1": 228,
 			"safe": 159,
 			"effective": 153
+		}
+	},
+	{
+		"source": 277,
+		"target": 623,
+		"value": 0.15498124218424345,
+		"tokens": {
+			"virus": 199,
+			"protein": 209,
+			"sars": 207,
+			"cov": 333,
+			"receptor": 160,
+			"human": 151,
+			"infection": 160,
+			"coronavirus": 91,
+			"binding": 109,
+			"domain": 99,
+			"antibody": 141
 		}
 	},
 	{
@@ -111453,6 +111946,24 @@
 			"hcov": 123,
 			"middle": 121,
 			"east": 116
+		}
+	},
+	{
+		"source": 26,
+		"target": 647,
+		"value": 0.27653188828678615,
+		"tokens": {
+			"virus": 501,
+			"cov": 540,
+			"mer": 478,
+			"infection": 322,
+			"coronavirus": 317,
+			"protein": 284,
+			"respiratory": 232,
+			"human": 185,
+			"syndrome": 173,
+			"middle": 149,
+			"east": 136
 		}
 	},
 	{
@@ -116454,7 +116965,7 @@
 	{
 		"source": 277,
 		"target": 662,
-		"value": 0.14897874114214255,
+		"value": 0.1539808253438933,
 		"tokens": {
 			"ifitm3": 309,
 			"ace2": 180,
@@ -116467,7 +116978,8 @@
 			"human": 113,
 			"infection": 99,
 			"ifitm1": 68,
-			"filovirus": 63
+			"filovirus": 63,
+			"antibody": 60
 		}
 	},
 	{
@@ -117385,6 +117897,24 @@
 			"glycoprotein": 46,
 			"trimeric": 43,
 			"neutralizing": 67
+		}
+	},
+	{
+		"source": 552,
+		"target": 666,
+		"value": 0.07319716548561901,
+		"tokens": {
+			"virus": 116,
+			"cov": 91,
+			"fusion": 89,
+			"glycoprotein": 78,
+			"ebola": 68,
+			"spike": 79,
+			"coronavirus": 60,
+			"antibody": 96,
+			"ebolavirus": 68,
+			"binding": 57,
+			"neutralizing": 76
 		}
 	},
 	{
@@ -120456,7 +120986,7 @@
 	{
 		"source": 26,
 		"target": 676,
-		"value": 0.47811588161734053,
+		"value": 0.49012088370154233,
 		"tokens": {
 			"mouse": 629,
 			"cell": 584,
@@ -120474,7 +121004,8 @@
 			"lung": 167,
 			"antibody": 150,
 			"brain": 144,
-			"middle": 152
+			"middle": 152,
+			"east": 144
 		}
 	},
 	{
@@ -121242,6 +121773,24 @@
 			"coronavirus": 73,
 			"antibody": 58,
 			"sars": 108
+		}
+	},
+	{
+		"source": 277,
+		"target": 676,
+		"value": 0.13513964151729888,
+		"tokens": {
+			"virus": 168,
+			"protein": 195,
+			"sars": 205,
+			"cell": 167,
+			"cov": 285,
+			"receptor": 114,
+			"human": 119,
+			"infection": 150,
+			"coronavirus": 91,
+			"domain": 63,
+			"antibody": 64
 		}
 	},
 	{
@@ -122491,7 +123040,7 @@
 	{
 		"source": 26,
 		"target": 677,
-		"value": 0.33197165485619007,
+		"value": 0.3432263443101292,
 		"tokens": {
 			"mouse": 599,
 			"virus": 514,
@@ -122504,7 +123053,8 @@
 			"receptor": 192,
 			"epitope": 178,
 			"antibody": 163,
-			"middle": 143
+			"middle": 143,
+			"east": 135
 		}
 	},
 	{
@@ -122546,7 +123096,7 @@
 	{
 		"source": 77,
 		"target": 677,
-		"value": 0.15806586077532306,
+		"value": 0.16398499374739475,
 		"tokens": {
 			"mer": 444,
 			"cov": 384,
@@ -122558,7 +123108,8 @@
 			"infection": 132,
 			"antibody": 91,
 			"receptor": 84,
-			"protein": 69
+			"protein": 69,
+			"binding": 71
 		}
 	},
 	{
@@ -123584,7 +124135,7 @@
 	{
 		"source": 77,
 		"target": 678,
-		"value": 0.15339724885368905,
+		"value": 0.15956648603584828,
 		"tokens": {
 			"mer": 435,
 			"cov": 360,
@@ -123596,7 +124147,8 @@
 			"antibody": 100,
 			"receptor": 90,
 			"protein": 93,
-			"spike": 65
+			"spike": 65,
+			"binding": 74
 		}
 	},
 	{
@@ -125526,6 +126078,24 @@
 		}
 	},
 	{
+		"source": 77,
+		"target": 690,
+		"value": 0.1303042934556065,
+		"tokens": {
+			"cov": 310,
+			"virus": 165,
+			"coronavirus": 148,
+			"human": 184,
+			"sars": 141,
+			"cell": 141,
+			"antibody": 130,
+			"receptor": 96,
+			"protein": 88,
+			"hcov": 82,
+			"binding": 78
+		}
+	},
+	{
 		"source": 105,
 		"target": 690,
 		"value": 0.26227594831179657,
@@ -125693,6 +126263,24 @@
 			"cell": 207,
 			"epitope": 153,
 			"mab": 152
+		}
+	},
+	{
+		"source": 277,
+		"target": 690,
+		"value": 0.1374739474781159,
+		"tokens": {
+			"ace2": 209,
+			"virus": 175,
+			"protein": 173,
+			"sars": 190,
+			"cell": 197,
+			"cov": 136,
+			"receptor": 133,
+			"human": 160,
+			"coronavirus": 75,
+			"binding": 85,
+			"antibody": 116
 		}
 	},
 	{
@@ -126116,7 +126704,7 @@
 	{
 		"source": 77,
 		"target": 691,
-		"value": 0.16673614005835766,
+		"value": 0.17332221759066277,
 		"tokens": {
 			"mer": 323,
 			"cov": 343,
@@ -126129,7 +126717,8 @@
 			"antibody": 147,
 			"receptor": 88,
 			"protein": 83,
-			"hcov": 82
+			"hcov": 82,
+			"binding": 79
 		}
 	},
 	{
@@ -126463,6 +127052,24 @@
 			"respiratory": 158,
 			"epitope": 162,
 			"mab": 139
+		}
+	},
+	{
+		"source": 277,
+		"target": 691,
+		"value": 0.13864110045852437,
+		"tokens": {
+			"ace2": 180,
+			"virus": 192,
+			"protein": 168,
+			"sars": 183,
+			"cell": 182,
+			"cov": 169,
+			"receptor": 125,
+			"human": 166,
+			"coronavirus": 79,
+			"binding": 86,
+			"antibody": 133
 		}
 	},
 	{
@@ -129918,7 +130525,7 @@
 	{
 		"source": 77,
 		"target": 702,
-		"value": 0.1618174239266361,
+		"value": 0.17298874531054606,
 		"tokens": {
 			"mer": 317,
 			"cov": 297,
@@ -129930,7 +130537,8 @@
 			"sia": 229,
 			"protein": 128,
 			"viral": 81,
-			"host": 76
+			"host": 76,
+			"binding": 134
 		}
 	},
 	{
@@ -130960,7 +131568,7 @@
 	{
 		"source": 12,
 		"target": 704,
-		"value": 0.14139224676948728,
+		"value": 0.15264693622342643,
 		"tokens": {
 			"mhv": 445,
 			"protein": 185,
@@ -130972,7 +131580,8 @@
 			"coronavirus": 108,
 			"subgenomic": 83,
 			"replication": 86,
-			"genome": 70
+			"genome": 70,
+			"cov": 135
 		}
 	},
 	{
@@ -132262,6 +132871,24 @@
 			"protein": 53,
 			"vaccine": 49,
 			"coronavirus": 92
+		}
+	},
+	{
+		"source": 167,
+		"target": 705,
+		"value": 0.09979157982492705,
+		"tokens": {
+			"sars": 242,
+			"cell": 129,
+			"cov": 181,
+			"infection": 86,
+			"virus": 111,
+			"protein": 69,
+			"human": 91,
+			"coronavirus": 105,
+			"viral": 63,
+			"severe": 63,
+			"spike": 57
 		}
 	},
 	{
@@ -136459,7 +137086,7 @@
 	{
 		"source": 6,
 		"target": 711,
-		"value": 0.19774906210921217,
+		"value": 0.2039182992913714,
 		"tokens": {
 			"mhv": 336,
 			"virus": 291,
@@ -136474,16 +137101,18 @@
 			"membrane": 125,
 			"hepatitis": 104,
 			"antibody": 89,
+			"cov": 74,
 			"rna": 115
 		}
 	},
 	{
 		"source": 7,
 		"target": 711,
-		"value": 0.2905377240516882,
+		"value": 0.31988328470195915,
 		"tokens": {
 			"virus": 615,
 			"protein": 640,
+			"cov": 352,
 			"coronavirus": 418,
 			"rna": 346,
 			"cell": 353,
@@ -136498,7 +137127,7 @@
 	{
 		"source": 9,
 		"target": 711,
-		"value": 0.29270529387244687,
+		"value": 0.3040433513964152,
 		"tokens": {
 			"mhv": 519,
 			"cell": 385,
@@ -136510,6 +137139,7 @@
 			"murine": 195,
 			"protein": 311,
 			"infection": 173,
+			"cov": 136,
 			"spike": 170,
 			"domain": 144,
 			"viral": 121,
@@ -136517,27 +137147,9 @@
 		}
 	},
 	{
-		"source": 10,
-		"target": 711,
-		"value": 0.24185077115464776,
-		"tokens": {
-			"cell": 572,
-			"mouse": 300,
-			"virus": 408,
-			"mhv": 341,
-			"viral": 207,
-			"infection": 232,
-			"rna": 186,
-			"hepatitis": 153,
-			"not": 136,
-			"a59": 136,
-			"coronavirus": 230
-		}
-	},
-	{
 		"source": 12,
 		"target": 711,
-		"value": 0.20341809087119633,
+		"value": 0.20250104210087536,
 		"tokens": {
 			"mhv": 535,
 			"protein": 344,
@@ -136550,7 +137162,7 @@
 			"coronavirus": 214,
 			"murine": 103,
 			"genome": 95,
-			"not": 88
+			"cov": 77
 		}
 	},
 	{
@@ -136620,25 +137232,25 @@
 	{
 		"source": 18,
 		"target": 711,
-		"value": 0.2610254272613589,
+		"value": 0.26711129637348896,
 		"tokens": {
 			"mhv": 511,
 			"rna": 411,
 			"protein": 521,
 			"virus": 431,
 			"cell": 334,
+			"cov": 189,
 			"coronavirus": 279,
 			"mouse": 137,
 			"viral": 137,
 			"hepatitis": 128,
-			"gene": 126,
-			"not": 116
+			"gene": 126
 		}
 	},
 	{
 		"source": 19,
 		"target": 711,
-		"value": 0.22292621925802417,
+		"value": 0.22384326802834514,
 		"tokens": {
 			"cell": 329,
 			"mhv": 352,
@@ -136646,19 +137258,37 @@
 			"virus": 329,
 			"mouse": 181,
 			"infection": 165,
+			"cov": 114,
 			"fusion": 192,
 			"receptor": 111,
 			"coronavirus": 208,
 			"murine": 112,
-			"not": 103,
 			"hepatitis": 108,
 			"entry": 128
 		}
 	},
 	{
+		"source": 20,
+		"target": 711,
+		"value": 0.16031679866611087,
+		"tokens": {
+			"virus": 285,
+			"mhv": 264,
+			"coronavirus": 245,
+			"rna": 171,
+			"protein": 274,
+			"feline": 126,
+			"cell": 192,
+			"cov": 81,
+			"gene": 98,
+			"a59": 95,
+			"genome": 92
+		}
+	},
+	{
 		"source": 23,
 		"target": 711,
-		"value": 0.5098791162984577,
+		"value": 0.521217173822426,
 		"tokens": {
 			"mhv": 1214,
 			"a59": 700,
@@ -136674,13 +137304,14 @@
 			"infection": 242,
 			"viral": 208,
 			"fusion": 251,
-			"rna": 180
+			"rna": 180,
+			"cov": 136
 		}
 	},
 	{
 		"source": 24,
 		"target": 711,
-		"value": 0.1598165902459358,
+		"value": 0.1535639849937474,
 		"tokens": {
 			"protein": 341,
 			"mhv": 256,
@@ -136693,15 +137324,15 @@
 			"mouse": 78,
 			"membrane": 104,
 			"genome": 82,
-			"assembly": 70,
-			"not": 75
+			"assembly": 70
 		}
 	},
 	{
 		"source": 25,
 		"target": 711,
-		"value": 0.3303042934556065,
+		"value": 0.3831596498541059,
 		"tokens": {
+			"cov": 634,
 			"virus": 632,
 			"mouse": 332,
 			"coronavirus": 428,
@@ -136720,11 +137351,12 @@
 	{
 		"source": 26,
 		"target": 711,
-		"value": 0.3918299291371405,
+		"value": 0.4200917048770321,
 		"tokens": {
 			"mouse": 599,
 			"cell": 676,
 			"virus": 656,
+			"cov": 512,
 			"mhv": 561,
 			"infection": 375,
 			"coronavirus": 452,
@@ -136732,8 +137364,25 @@
 			"receptor": 200,
 			"viral": 172,
 			"antibody": 174,
-			"hepatitis": 182,
-			"not": 173
+			"hepatitis": 182
+		}
+	},
+	{
+		"source": 27,
+		"target": 711,
+		"value": 0.21008753647353065,
+		"tokens": {
+			"mhv": 378,
+			"cov": 204,
+			"coronavirus": 314,
+			"virus": 315,
+			"viral": 171,
+			"domain": 169,
+			"cell": 233,
+			"protein": 306,
+			"rna": 159,
+			"membrane": 147,
+			"murine": 124
 		}
 	},
 	{
@@ -136764,7 +137413,7 @@
 	{
 		"source": 31,
 		"target": 711,
-		"value": 0.18082534389328886,
+		"value": 0.18090871196331804,
 		"tokens": {
 			"cell": 326,
 			"virus": 361,
@@ -136774,15 +137423,15 @@
 			"pedv": 142,
 			"receptor": 113,
 			"coronavirus": 220,
+			"cov": 97,
 			"entry": 134,
-			"membrane": 126,
-			"not": 96
+			"membrane": 126
 		}
 	},
 	{
 		"source": 33,
 		"target": 711,
-		"value": 0.21684035014589412,
+		"value": 0.20850354314297623,
 		"tokens": {
 			"mhv": 487,
 			"virus": 298,
@@ -136794,7 +137443,6 @@
 			"rna": 150,
 			"infection": 141,
 			"hepatitis": 115,
-			"not": 100,
 			"viral": 94,
 			"murine": 97,
 			"gene": 98
@@ -136803,9 +137451,10 @@
 	{
 		"source": 42,
 		"target": 711,
-		"value": 0.2659441433930804,
+		"value": 0.293705710712797,
 		"tokens": {
 			"mhv": 561,
+			"cov": 333,
 			"virus": 468,
 			"protein": 444,
 			"rna": 281,
@@ -136821,8 +137470,9 @@
 	{
 		"source": 77,
 		"target": 711,
-		"value": 0.1598165902459358,
+		"value": 0.17765735723218007,
 		"tokens": {
+			"cov": 305,
 			"virus": 313,
 			"coronavirus": 276,
 			"infection": 162,
@@ -136832,20 +137482,38 @@
 			"receptor": 92,
 			"protein": 252,
 			"viral": 91,
-			"not": 91,
 			"spike": 114,
 			"entry": 119
 		}
 	},
 	{
+		"source": 108,
+		"target": 711,
+		"value": 0.13764068361817425,
+		"tokens": {
+			"virus": 356,
+			"cell": 205,
+			"protein": 266,
+			"entry": 140,
+			"ibv": 104,
+			"infection": 121,
+			"rna": 125,
+			"cov": 81,
+			"viral": 87,
+			"atp1a1": 85,
+			"receptor": 81
+		}
+	},
+	{
 		"source": 152,
 		"target": 711,
-		"value": 0.20491871613172155,
+		"value": 0.2184243434764485,
 		"tokens": {
 			"virus": 408,
 			"coronavirus": 340,
 			"cell": 301,
 			"rna": 228,
+			"cov": 162,
 			"protein": 310,
 			"viral": 146,
 			"mhv": 246,
@@ -136858,8 +137526,9 @@
 	{
 		"source": 156,
 		"target": 711,
-		"value": 0.12847019591496456,
+		"value": 0.1382242601083785,
 		"tokens": {
+			"cov": 117,
 			"antibody": 98,
 			"receptor": 78,
 			"infection": 109,
@@ -136876,9 +137545,45 @@
 		}
 	},
 	{
+		"source": 161,
+		"target": 711,
+		"value": 0.14439349729053771,
+		"tokens": {
+			"hr2": 157,
+			"hr1": 145,
+			"fusion": 204,
+			"protein": 278,
+			"cell": 188,
+			"virus": 235,
+			"cov": 79,
+			"peptide": 83,
+			"coronavirus": 182,
+			"rna": 109,
+			"viral": 72
+		}
+	},
+	{
+		"source": 169,
+		"target": 711,
+		"value": 0.20775323051271363,
+		"tokens": {
+			"virus": 402,
+			"peptide": 259,
+			"protein": 341,
+			"cell": 263,
+			"hr2": 168,
+			"cov": 151,
+			"fusion": 232,
+			"hr1": 152,
+			"infection": 162,
+			"receptor": 129,
+			"coronavirus": 233
+		}
+	},
+	{
 		"source": 181,
 		"target": 711,
-		"value": 0.22551062942892872,
+		"value": 0.23501458941225511,
 		"tokens": {
 			"fusion": 335,
 			"feline": 210,
@@ -136890,6 +137595,7 @@
 			"protein": 291,
 			"furin": 126,
 			"membrane": 153,
+			"cov": 114,
 			"spike": 144,
 			"viral": 103,
 			"infection": 129
@@ -136898,8 +137604,9 @@
 	{
 		"source": 200,
 		"target": 711,
-		"value": 0.11888286786160901,
+		"value": 0.13247186327636515,
 		"tokens": {
+			"cov": 163,
 			"coronavirus": 219,
 			"virus": 225,
 			"infection": 115,
@@ -136916,8 +137623,9 @@
 	{
 		"source": 204,
 		"target": 711,
-		"value": 0.1735723218007503,
+		"value": 0.18474364318466027,
 		"tokens": {
+			"cov": 134,
 			"coronavirus": 245,
 			"pedv": 137,
 			"antibody": 122,
@@ -136934,12 +137642,31 @@
 		}
 	},
 	{
+		"source": 259,
+		"target": 711,
+		"value": 0.1790746144226761,
+		"tokens": {
+			"rna": 256,
+			"virus": 330,
+			"cov": 173,
+			"protein": 335,
+			"gene": 176,
+			"coronavirus": 257,
+			"genome": 121,
+			"viral": 107,
+			"infection": 121,
+			"cell": 178,
+			"antibody": 94
+		}
+	},
+	{
 		"source": 261,
 		"target": 711,
-		"value": 0.19274697790746145,
+		"value": 0.20525218841183826,
 		"tokens": {
 			"cell": 332,
 			"protein": 341,
+			"cov": 150,
 			"fusion": 228,
 			"virus": 267,
 			"coronavirus": 219,
@@ -136955,8 +137682,9 @@
 	{
 		"source": 269,
 		"target": 711,
-		"value": 0.1598165902459358,
+		"value": 0.1747394747811588,
 		"tokens": {
+			"cov": 179,
 			"protein": 323,
 			"cell": 217,
 			"antibody": 128,
@@ -136974,8 +137702,9 @@
 	{
 		"source": 271,
 		"target": 711,
-		"value": 0.30946227594831177,
+		"value": 0.3582325969153814,
 		"tokens": {
+			"cov": 585,
 			"protein": 517,
 			"antibody": 295,
 			"peptide": 270,
@@ -136994,7 +137723,7 @@
 	{
 		"source": 272,
 		"target": 711,
-		"value": 0.23993330554397665,
+		"value": 0.24593580658607753,
 		"tokens": {
 			"fusion": 228,
 			"protein": 299,
@@ -137012,6 +137741,7 @@
 			"furin": 86,
 			"murine": 91,
 			"infection": 108,
+			"cov": 72,
 			"pedv": 90,
 			"viral": 78,
 			"domain": 84,
@@ -137021,11 +137751,12 @@
 	{
 		"source": 277,
 		"target": 711,
-		"value": 0.18599416423509796,
+		"value": 0.1968320133388912,
 		"tokens": {
 			"virus": 323,
 			"protein": 337,
 			"cell": 259,
+			"cov": 131,
 			"entry": 174,
 			"receptor": 129,
 			"infection": 153,
@@ -137035,17 +137766,72 @@
 			"iav": 100,
 			"peptide": 92,
 			"domain": 95,
-			"not": 89
+			"antibody": 88
+		}
+	},
+	{
+		"source": 284,
+		"target": 711,
+		"value": 0.24743643184660274,
+		"tokens": {
+			"cov": 475,
+			"protein": 437,
+			"antibody": 239,
+			"receptor": 211,
+			"infection": 215,
+			"mouse": 188,
+			"domain": 193,
+			"coronavirus": 280,
+			"spike": 198,
+			"virus": 302,
+			"cell": 230
+		}
+	},
+	{
+		"source": 299,
+		"target": 711,
+		"value": 0.21542309295539808,
+		"tokens": {
+			"ibv": 464,
+			"protein": 460,
+			"cell": 312,
+			"coronavirus": 314,
+			"virus": 321,
+			"viral": 124,
+			"rna": 152,
+			"cov": 100,
+			"furin": 106,
+			"infection": 128,
+			"domain": 103
+		}
+	},
+	{
+		"source": 314,
+		"target": 711,
+		"value": 0.12105043768236766,
+		"tokens": {
+			"cov": 137,
+			"antibody": 143,
+			"mouse": 101,
+			"receptor": 95,
+			"virus": 227,
+			"spike": 116,
+			"viral": 85,
+			"infection": 112,
+			"cell": 166,
+			"domain": 87,
+			"coronavirus": 183
 		}
 	},
 	{
 		"source": 364,
 		"target": 711,
-		"value": 0.17182159233013755,
+		"value": 0.181825760733639,
 		"tokens": {
 			"cell": 248,
 			"virus": 269,
 			"protein": 291,
+			"cov": 120,
 			"fusion": 202,
 			"receptor": 117,
 			"entry": 156,
@@ -137061,10 +137847,11 @@
 	{
 		"source": 366,
 		"target": 711,
-		"value": 0.16115047936640267,
+		"value": 0.17240516882034182,
 		"tokens": {
 			"cell": 269,
 			"protein": 325,
+			"cov": 135,
 			"virus": 263,
 			"furin": 110,
 			"fusion": 185,
@@ -137077,11 +137864,48 @@
 		}
 	},
 	{
+		"source": 384,
+		"target": 711,
+		"value": 0.1433097123801584,
+		"tokens": {
+			"mhv": 301,
+			"virus": 260,
+			"cov": 116,
+			"protein": 268,
+			"murine": 101,
+			"coronavirus": 196,
+			"hepatitis": 102,
+			"rna": 124,
+			"a59": 92,
+			"genome": 86,
+			"viral": 73
+		}
+	},
+	{
+		"source": 398,
+		"target": 711,
+		"value": 0.12321800750312631,
+		"tokens": {
+			"protein": 284,
+			"cell": 198,
+			"virus": 246,
+			"hepatitis": 112,
+			"domain": 91,
+			"infection": 109,
+			"assembly": 76,
+			"entry": 113,
+			"cov": 69,
+			"viral": 76,
+			"membrane": 104
+		}
+	},
+	{
 		"source": 444,
 		"target": 711,
-		"value": 0.12680283451438099,
+		"value": 0.13680700291788245,
 		"tokens": {
 			"fusion": 206,
+			"cov": 120,
 			"hr1": 124,
 			"peptide": 120,
 			"protein": 254,
@@ -137097,8 +137921,9 @@
 	{
 		"source": 446,
 		"target": 711,
-		"value": 0.16040016673614005,
+		"value": 0.17649020425177156,
 		"tokens": {
+			"cov": 193,
 			"peptide": 165,
 			"fusion": 237,
 			"protein": 296,
@@ -137115,11 +137940,12 @@
 	{
 		"source": 541,
 		"target": 711,
-		"value": 0.13213839099624844,
+		"value": 0.13964151729887453,
 		"tokens": {
 			"protein": 288,
 			"receptor": 121,
 			"infection": 130,
+			"cov": 90,
 			"cell": 184,
 			"virus": 231,
 			"entry": 121,
@@ -137133,11 +137959,12 @@
 	{
 		"source": 552,
 		"target": 711,
-		"value": 0.17182159233013755,
+		"value": 0.17390579408086704,
 		"tokens": {
 			"cell": 250,
 			"virus": 283,
 			"entry": 168,
+			"cov": 111,
 			"fusion": 192,
 			"infection": 122,
 			"spike": 122,
@@ -137145,14 +137972,31 @@
 			"coronavirus": 198,
 			"protein": 249,
 			"mhv": 209,
-			"antibody": 89,
-			"not": 86
+			"antibody": 89
+		}
+	},
+	{
+		"source": 580,
+		"target": 711,
+		"value": 0.15798249270529388,
+		"tokens": {
+			"cov": 224,
+			"virus": 292,
+			"coronavirus": 244,
+			"protein": 296,
+			"mhv": 246,
+			"rna": 132,
+			"viral": 94,
+			"genome": 94,
+			"hepatitis": 97,
+			"murine": 93,
+			"mouse": 83
 		}
 	},
 	{
 		"source": 596,
 		"target": 711,
-		"value": 0.15656523551479784,
+		"value": 0.16373488953730722,
 		"tokens": {
 			"pedv": 194,
 			"cell": 197,
@@ -137162,6 +138006,7 @@
 			"coronavirus": 204,
 			"virus": 229,
 			"antibody": 96,
+			"cov": 86,
 			"domain": 93,
 			"infection": 111,
 			"entry": 117,
@@ -137169,11 +138014,48 @@
 		}
 	},
 	{
+		"source": 660,
+		"target": 711,
+		"value": 0.15498124218424345,
+		"tokens": {
+			"mhv": 344,
+			"virus": 266,
+			"mouse": 113,
+			"murine": 120,
+			"hepatitis": 122,
+			"coronavirus": 202,
+			"cell": 174,
+			"protein": 247,
+			"viral": 86,
+			"infection": 112,
+			"cov": 73
+		}
+	},
+	{
+		"source": 702,
+		"target": 711,
+		"value": 0.1416423509795748,
+		"tokens": {
+			"virus": 293,
+			"receptor": 152,
+			"protein": 298,
+			"cell": 203,
+			"infection": 133,
+			"iav": 115,
+			"rna": 137,
+			"viral": 92,
+			"pedv": 100,
+			"rsv": 98,
+			"cov": 78
+		}
+	},
+	{
 		"source": 704,
 		"target": 711,
-		"value": 0.1527303042934556,
+		"value": 0.16473530637765735,
 		"tokens": {
 			"virus": 286,
+			"cov": 144,
 			"mhv": 254,
 			"cell": 200,
 			"mouse": 110,
@@ -137228,7 +138110,7 @@
 	{
 		"source": 9,
 		"target": 712,
-		"value": 0.2740308461859108,
+		"value": 0.2857023759899958,
 		"tokens": {
 			"mhv": 476,
 			"cell": 333,
@@ -137237,6 +138119,7 @@
 			"a59": 213,
 			"coronavirus": 244,
 			"murine": 178,
+			"human": 140,
 			"protein": 281,
 			"infection": 147,
 			"cov": 144,
@@ -137250,7 +138133,7 @@
 	{
 		"source": 12,
 		"target": 712,
-		"value": 0.17865777407253022,
+		"value": 0.17832430179241351,
 		"tokens": {
 			"mhv": 492,
 			"protein": 314,
@@ -137263,7 +138146,7 @@
 			"murine": 86,
 			"replication": 83,
 			"binding": 141,
-			"not": 89
+			"cov": 85
 		}
 	},
 	{
@@ -137307,7 +138190,7 @@
 	{
 		"source": 18,
 		"target": 712,
-		"value": 0.27378074197582325,
+		"value": 0.26402667778240935,
 		"tokens": {
 			"mhv": 468,
 			"rna": 372,
@@ -137321,14 +138204,13 @@
 			"viral": 135,
 			"particle": 119,
 			"hepatitis": 110,
-			"gene": 102,
-			"not": 117
+			"gene": 102
 		}
 	},
 	{
 		"source": 19,
 		"target": 712,
-		"value": 0.19474781158816173,
+		"value": 0.18607753230512714,
 		"tokens": {
 			"cell": 277,
 			"mhv": 309,
@@ -137340,7 +138222,6 @@
 			"receptor": 151,
 			"coronavirus": 143,
 			"murine": 95,
-			"not": 104,
 			"hepatitis": 90,
 			"entry": 118
 		}
@@ -137371,7 +138252,7 @@
 	{
 		"source": 24,
 		"target": 712,
-		"value": 0.13122134222592746,
+		"value": 0.12488536890370988,
 		"tokens": {
 			"protein": 311,
 			"mhv": 213,
@@ -137383,19 +138264,19 @@
 			"hepatitis": 81,
 			"site": 90,
 			"membrane": 78,
-			"assembly": 70,
-			"not": 76
+			"assembly": 70
 		}
 	},
 	{
 		"source": 25,
 		"target": 712,
-		"value": 0.3558982909545644,
+		"value": 0.3800750312630263,
 		"tokens": {
 			"cov": 642,
 			"virus": 606,
 			"coronavirus": 363,
 			"infection": 322,
+			"human": 290,
 			"rna": 249,
 			"cell": 286,
 			"mhv": 319,
@@ -137411,7 +138292,7 @@
 	{
 		"source": 26,
 		"target": 712,
-		"value": 0.3523134639433097,
+		"value": 0.35381408920383495,
 		"tokens": {
 			"cell": 624,
 			"virus": 630,
@@ -137420,10 +138301,10 @@
 			"infection": 349,
 			"coronavirus": 387,
 			"protein": 450,
+			"human": 192,
 			"receptor": 240,
 			"viral": 170,
-			"hepatitis": 164,
-			"not": 174
+			"hepatitis": 164
 		}
 	},
 	{
@@ -137472,7 +138353,7 @@
 	{
 		"source": 31,
 		"target": 712,
-		"value": 0.18457690704460192,
+		"value": 0.17649020425177156,
 		"tokens": {
 			"cell": 274,
 			"sialic": 238,
@@ -137484,8 +138365,7 @@
 			"coronavirus": 155,
 			"cov": 105,
 			"entry": 124,
-			"membrane": 100,
-			"not": 97
+			"membrane": 100
 		}
 	},
 	{
@@ -137509,7 +138389,7 @@
 	{
 		"source": 33,
 		"target": 712,
-		"value": 0.17699041267194665,
+		"value": 0.16857023759899958,
 		"tokens": {
 			"mhv": 444,
 			"virus": 272,
@@ -137520,7 +138400,6 @@
 			"rna": 111,
 			"infection": 115,
 			"hepatitis": 97,
-			"not": 101,
 			"viral": 92,
 			"murine": 80,
 			"gene": 74
@@ -137551,11 +138430,12 @@
 	{
 		"source": 77,
 		"target": 712,
-		"value": 0.18315964985410588,
+		"value": 0.19858274280950397,
 		"tokens": {
 			"cov": 313,
 			"virus": 287,
 			"coronavirus": 211,
+			"human": 144,
 			"infection": 136,
 			"cell": 151,
 			"atp1a1": 102,
@@ -137564,9 +138444,27 @@
 			"protein": 222,
 			"viral": 89,
 			"host": 80,
-			"not": 92,
 			"spike": 77,
-			"entry": 109
+			"entry": 109,
+			"binding": 133
+		}
+	},
+	{
+		"source": 80,
+		"target": 712,
+		"value": 0.1548145060441851,
+		"tokens": {
+			"virus": 409,
+			"cell": 188,
+			"protein": 276,
+			"infection": 135,
+			"viral": 128,
+			"iav": 183,
+			"mhv": 190,
+			"human": 84,
+			"rna": 91,
+			"host": 85,
+			"domain": 88
 		}
 	},
 	{
@@ -137588,15 +138486,70 @@
 		}
 	},
 	{
+		"source": 104,
+		"target": 712,
+		"value": 0.11763234681117132,
+		"tokens": {
+			"cov": 142,
+			"virus": 235,
+			"infection": 127,
+			"coronavirus": 159,
+			"human": 101,
+			"cell": 144,
+			"viral": 86,
+			"protein": 215,
+			"spike": 68,
+			"host": 67,
+			"replication": 67
+		}
+	},
+	{
+		"source": 108,
+		"target": 712,
+		"value": 0.12505210504376824,
+		"tokens": {
+			"virus": 330,
+			"cell": 153,
+			"protein": 236,
+			"entry": 130,
+			"human": 90,
+			"infection": 95,
+			"rna": 86,
+			"cov": 89,
+			"viral": 85,
+			"atp1a1": 85,
+			"receptor": 121
+		}
+	},
+	{
+		"source": 112,
+		"target": 712,
+		"value": 0.12421842434347645,
+		"tokens": {
+			"virus": 252,
+			"cov": 143,
+			"cell": 158,
+			"protein": 238,
+			"viral": 91,
+			"human": 78,
+			"infection": 92,
+			"coronavirus": 130,
+			"rna": 84,
+			"replication": 75,
+			"iav": 149
+		}
+	},
+	{
 		"source": 152,
 		"target": 712,
-		"value": 0.2090871196331805,
+		"value": 0.22200917048770322,
 		"tokens": {
 			"virus": 382,
 			"coronavirus": 275,
 			"cell": 249,
 			"rna": 189,
 			"cov": 170,
+			"human": 155,
 			"protein": 280,
 			"replication": 137,
 			"viral": 144,
@@ -137611,7 +138564,7 @@
 	{
 		"source": 156,
 		"target": 712,
-		"value": 0.10696123384743643,
+		"value": 0.1113797415589829,
 		"tokens": {
 			"cov": 125,
 			"binding": 137,
@@ -137622,8 +138575,27 @@
 			"entry": 97,
 			"spike": 60,
 			"domain": 65,
+			"human": 53,
 			"protein": 196,
 			"coronavirus": 104
+		}
+	},
+	{
+		"source": 167,
+		"target": 712,
+		"value": 0.10771154647769904,
+		"tokens": {
+			"cell": 149,
+			"cov": 99,
+			"entry": 123,
+			"infection": 90,
+			"receptor": 121,
+			"virus": 190,
+			"protein": 212,
+			"human": 65,
+			"coronavirus": 117,
+			"viral": 70,
+			"spike": 56
 		}
 	},
 	{
@@ -137650,9 +138622,10 @@
 	{
 		"source": 200,
 		"target": 712,
-		"value": 0.12930387661525636,
+		"value": 0.13805752396832013,
 		"tokens": {
 			"cov": 171,
+			"human": 105,
 			"coronavirus": 154,
 			"sia": 196,
 			"virus": 199,
@@ -137667,9 +138640,27 @@
 		}
 	},
 	{
+		"source": 202,
+		"target": 712,
+		"value": 0.16231763234681118,
+		"tokens": {
+			"sia": 374,
+			"receptor": 192,
+			"sialic": 154,
+			"virus": 251,
+			"binding": 190,
+			"coronavirus": 153,
+			"protein": 243,
+			"cell": 135,
+			"human": 77,
+			"site": 93,
+			"cov": 85
+		}
+	},
+	{
 		"source": 204,
 		"target": 712,
-		"value": 0.18099208003334724,
+		"value": 0.18791162984576906,
 		"tokens": {
 			"cov": 142,
 			"coronavirus": 180,
@@ -137683,9 +138674,46 @@
 			"atp1a1": 102,
 			"sia": 205,
 			"binding": 148,
+			"human": 83,
 			"entry": 118,
 			"fusion": 135,
 			"domain": 85
+		}
+	},
+	{
+		"source": 205,
+		"target": 712,
+		"value": 0.14756148395164653,
+		"tokens": {
+			"rna": 242,
+			"virus": 296,
+			"coronavirus": 215,
+			"protein": 269,
+			"viral": 119,
+			"cov": 109,
+			"replication": 97,
+			"domain": 100,
+			"cell": 136,
+			"human": 84,
+			"site": 103
+		}
+	},
+	{
+		"source": 249,
+		"target": 712,
+		"value": 0.1437265527303043,
+		"tokens": {
+			"cov": 165,
+			"protein": 285,
+			"coronavirus": 188,
+			"cell": 179,
+			"spike": 132,
+			"receptor": 168,
+			"entry": 138,
+			"binding": 152,
+			"human": 89,
+			"infection": 100,
+			"fusion": 128
 		}
 	},
 	{
@@ -137729,7 +138757,7 @@
 	{
 		"source": 271,
 		"target": 712,
-		"value": 0.2847019591496457,
+		"value": 0.3027094622759483,
 		"tokens": {
 			"cov": 593,
 			"protein": 487,
@@ -137738,6 +138766,7 @@
 			"receptor": 277,
 			"infection": 239,
 			"domain": 231,
+			"human": 216,
 			"virus": 327,
 			"coronavirus": 251,
 			"spike": 187,
@@ -137772,7 +138801,7 @@
 	{
 		"source": 277,
 		"target": 712,
-		"value": 0.18841183826594415,
+		"value": 0.1909128803668195,
 		"tokens": {
 			"virus": 297,
 			"protein": 307,
@@ -137780,14 +138809,32 @@
 			"cov": 139,
 			"entry": 164,
 			"receptor": 169,
+			"human": 120,
 			"infection": 127,
 			"fusion": 145,
 			"viral": 97,
 			"coronavirus": 138,
 			"iav": 155,
 			"binding": 140,
-			"domain": 85,
-			"not": 90
+			"domain": 85
+		}
+	},
+	{
+		"source": 284,
+		"target": 712,
+		"value": 0.23017924135056272,
+		"tokens": {
+			"cov": 483,
+			"protein": 407,
+			"receptor": 251,
+			"binding": 246,
+			"infection": 189,
+			"domain": 183,
+			"human": 172,
+			"coronavirus": 215,
+			"spike": 161,
+			"virus": 276,
+			"cell": 178
 		}
 	},
 	{
@@ -137813,7 +138860,7 @@
 	{
 		"source": 300,
 		"target": 712,
-		"value": 0.11054606085869112,
+		"value": 0.11529804085035432,
 		"tokens": {
 			"protein": 250,
 			"virus": 222,
@@ -137825,7 +138872,44 @@
 			"hepatitis": 72,
 			"viral": 73,
 			"binding": 123,
-			"rna": 66
+			"rna": 66,
+			"human": 57
+		}
+	},
+	{
+		"source": 313,
+		"target": 712,
+		"value": 0.2704460191746561,
+		"tokens": {
+			"cov": 495,
+			"virus": 600,
+			"coronavirus": 351,
+			"human": 297,
+			"cell": 308,
+			"infection": 244,
+			"protein": 332,
+			"viral": 187,
+			"host": 153,
+			"rna": 118,
+			"receptor": 159
+		}
+	},
+	{
+		"source": 314,
+		"target": 712,
+		"value": 0.1047102959566486,
+		"tokens": {
+			"cov": 145,
+			"binding": 153,
+			"receptor": 135,
+			"virus": 201,
+			"spike": 79,
+			"viral": 83,
+			"infection": 86,
+			"cell": 114,
+			"domain": 77,
+			"coronavirus": 118,
+			"human": 65
 		}
 	},
 	{
@@ -137849,7 +138933,7 @@
 	{
 		"source": 364,
 		"target": 712,
-		"value": 0.15339724885368905,
+		"value": 0.15848270112546894,
 		"tokens": {
 			"cell": 196,
 			"virus": 243,
@@ -137863,7 +138947,8 @@
 			"coronavirus": 133,
 			"viral": 81,
 			"spike": 65,
-			"host": 66
+			"host": 66,
+			"human": 61
 		}
 	},
 	{
@@ -137903,6 +138988,24 @@
 		}
 	},
 	{
+		"source": 389,
+		"target": 712,
+		"value": 0.11471446436015006,
+		"tokens": {
+			"spike": 117,
+			"coronavirus": 152,
+			"cell": 141,
+			"receptor": 138,
+			"entry": 124,
+			"cov": 96,
+			"protein": 220,
+			"fusion": 123,
+			"human": 66,
+			"binding": 125,
+			"membrane": 74
+		}
+	},
+	{
 		"source": 398,
 		"target": 712,
 		"value": 0.10721133805752397,
@@ -137921,9 +139024,27 @@
 		}
 	},
 	{
+		"source": 409,
+		"target": 712,
+		"value": 0.13355564818674448,
+		"tokens": {
+			"cov": 145,
+			"binding": 177,
+			"receptor": 155,
+			"virus": 226,
+			"protein": 239,
+			"cell": 137,
+			"coronavirus": 135,
+			"spike": 80,
+			"entry": 114,
+			"human": 71,
+			"fusion": 123
+		}
+	},
+	{
 		"source": 415,
 		"target": 712,
-		"value": 0.11488120050020842,
+		"value": 0.11979991663192997,
 		"tokens": {
 			"rsv": 148,
 			"cov": 127,
@@ -137935,18 +139056,38 @@
 			"coronavirus": 115,
 			"domain": 72,
 			"cell": 107,
+			"human": 59,
 			"site": 75,
 			"host": 59
 		}
 	},
 	{
+		"source": 530,
+		"target": 712,
+		"value": 0.1329720716965402,
+		"tokens": {
+			"coronavirus": 191,
+			"human": 135,
+			"virus": 255,
+			"cell": 164,
+			"protein": 247,
+			"infection": 115,
+			"entry": 117,
+			"receptor": 127,
+			"cov": 89,
+			"sialic": 80,
+			"viral": 75
+		}
+	},
+	{
 		"source": 541,
 		"target": 712,
-		"value": 0.13447269695706546,
+		"value": 0.1418090871196332,
 		"tokens": {
 			"protein": 258,
 			"receptor": 161,
 			"infection": 104,
+			"human": 88,
 			"cov": 98,
 			"cell": 132,
 			"virus": 205,
@@ -137962,7 +139103,7 @@
 	{
 		"source": 552,
 		"target": 712,
-		"value": 0.1586494372655273,
+		"value": 0.15139641517298874,
 		"tokens": {
 			"cell": 198,
 			"virus": 257,
@@ -137975,14 +139116,31 @@
 			"coronavirus": 133,
 			"protein": 219,
 			"mhv": 166,
-			"binding": 135,
-			"not": 87
+			"binding": 135
+		}
+	},
+	{
+		"source": 580,
+		"target": 712,
+		"value": 0.14322634431012923,
+		"tokens": {
+			"cov": 232,
+			"virus": 266,
+			"replication": 133,
+			"coronavirus": 179,
+			"protein": 266,
+			"mhv": 203,
+			"human": 99,
+			"rna": 93,
+			"viral": 92,
+			"hepatitis": 79,
+			"murine": 76
 		}
 	},
 	{
 		"source": 581,
 		"target": 712,
-		"value": 0.15373072113380576,
+		"value": 0.16231763234681118,
 		"tokens": {
 			"cov": 215,
 			"virus": 270,
@@ -137992,6 +139150,7 @@
 			"cell": 159,
 			"coronavirus": 165,
 			"viral": 121,
+			"human": 103,
 			"infection": 115,
 			"replication": 102,
 			"gene": 88
@@ -138017,9 +139176,27 @@
 		}
 	},
 	{
+		"source": 590,
+		"target": 712,
+		"value": 0.15381408920383494,
+		"tokens": {
+			"cov": 243,
+			"virus": 298,
+			"cell": 216,
+			"human": 163,
+			"coronavirus": 186,
+			"infection": 118,
+			"viral": 109,
+			"protein": 233,
+			"replication": 84,
+			"host": 83,
+			"entry": 112
+		}
+	},
+	{
 		"source": 596,
 		"target": 712,
-		"value": 0.1563151313047103,
+		"value": 0.1617340558566069,
 		"tokens": {
 			"cell": 145,
 			"sia": 205,
@@ -138034,7 +139211,8 @@
 			"domain": 83,
 			"infection": 85,
 			"entry": 107,
-			"fusion": 123
+			"fusion": 123,
+			"human": 65
 		}
 	},
 	{
@@ -138076,7 +139254,7 @@
 	{
 		"source": 702,
 		"target": 712,
-		"value": 0.20675281367236348,
+		"value": 0.2140892038349312,
 		"tokens": {
 			"sia": 341,
 			"virus": 267,
@@ -138090,6 +139268,7 @@
 			"sialic": 105,
 			"iav": 170,
 			"rna": 98,
+			"human": 88,
 			"viral": 90,
 			"host": 80,
 			"rsv": 98,
@@ -138099,13 +139278,14 @@
 	{
 		"source": 704,
 		"target": 712,
-		"value": 0.1307211338057524,
+		"value": 0.1382242601083785,
 		"tokens": {
 			"virus": 260,
 			"cov": 152,
 			"mhv": 211,
 			"cell": 148,
 			"protein": 233,
+			"human": 90,
 			"coronavirus": 141,
 			"replication": 87,
 			"rna": 88,
@@ -138117,7 +139297,7 @@
 	{
 		"source": 711,
 		"target": 712,
-		"value": 0.355731554814506,
+		"value": 0.35448103376406837,
 		"tokens": {
 			"protein": 392,
 			"virus": 344,
@@ -138139,14 +139319,14 @@
 			"domain": 108,
 			"cd200r": 118,
 			"carboxy": 108,
-			"not": 109,
 			"viral": 100,
 			"atp1a1": 102,
 			"furin": 90,
 			"proteasome": 96,
 			"segment": 94,
 			"receptor": 134,
-			"assembly": 92
+			"assembly": 92,
+			"cov": 94
 		}
 	},
 	{
@@ -138192,7 +139372,7 @@
 	{
 		"source": 26,
 		"target": 713,
-		"value": 0.3421425593997499,
+		"value": 0.3546477699041267,
 		"tokens": {
 			"cell": 579,
 			"virus": 529,
@@ -138205,7 +139385,8 @@
 			"human": 205,
 			"syndrome": 189,
 			"disease": 168,
-			"middle": 158
+			"middle": 158,
+			"east": 150
 		}
 	},
 	{
@@ -138245,6 +139426,24 @@
 			"syndrome": 112,
 			"cell": 106,
 			"animal": 80
+		}
+	},
+	{
+		"source": 82,
+		"target": 713,
+		"value": 0.20050020842017507,
+		"tokens": {
+			"cell": 396,
+			"virus": 284,
+			"ebov": 285,
+			"sars": 218,
+			"human": 198,
+			"filovirus": 174,
+			"cov": 237,
+			"infection": 153,
+			"coronavirus": 121,
+			"mer": 220,
+			"ebola": 119
 		}
 	},
 	{
@@ -139370,6 +140569,24 @@
 		}
 	},
 	{
+		"source": 26,
+		"target": 714,
+		"value": 0.31396415172988745,
+		"tokens": {
+			"cell": 599,
+			"virus": 568,
+			"cov": 578,
+			"mer": 523,
+			"infection": 360,
+			"respiratory": 244,
+			"human": 209,
+			"syndrome": 188,
+			"disease": 189,
+			"middle": 158,
+			"east": 150
+		}
+	},
+	{
 		"source": 77,
 		"target": 714,
 		"value": 0.17257190496040017,
@@ -139909,7 +141126,7 @@
 	{
 		"source": 167,
 		"target": 715,
-		"value": 0.06952897040433514,
+		"value": 0.07394747811588162,
 		"tokens": {
 			"nl63": 102,
 			"cell": 99,
@@ -139921,7 +141138,8 @@
 			"protein": 59,
 			"human": 70,
 			"coronavirus": 56,
-			"glycoprotein": 46
+			"glycoprotein": 46,
+			"spike": 53
 		}
 	},
 	{
@@ -140871,9 +142089,27 @@
 		}
 	},
 	{
+		"source": 711,
+		"target": 715,
+		"value": 0.1298874531054606,
+		"tokens": {
+			"protein": 239,
+			"virus": 226,
+			"coronavirus": 186,
+			"cell": 172,
+			"fusion": 147,
+			"rna": 107,
+			"infection": 105,
+			"spike": 116,
+			"domain": 83,
+			"receptor": 68,
+			"cov": 109
+		}
+	},
+	{
 		"source": 712,
 		"target": 715,
-		"value": 0.10737807419758233,
+		"value": 0.11413088786994581,
 		"tokens": {
 			"protein": 209,
 			"virus": 200,
@@ -140885,7 +142121,8 @@
 			"cov": 117,
 			"domain": 73,
 			"rna": 68,
-			"spike": 79
+			"spike": 79,
+			"human": 81
 		}
 	},
 	{
@@ -153328,7 +154565,7 @@
 	{
 		"source": 77,
 		"target": 751,
-		"value": 0.2689453939141309,
+		"value": 0.28211754897874114,
 		"tokens": {
 			"mer": 516,
 			"cov": 487,
@@ -153344,7 +154581,8 @@
 			"protein": 191,
 			"host": 101,
 			"spike": 168,
-			"entry": 109
+			"entry": 109,
+			"binding": 158
 		}
 	},
 	{
@@ -153573,7 +154811,7 @@
 	{
 		"source": 167,
 		"target": 751,
-		"value": 0.16315131304710295,
+		"value": 0.17540641934139226,
 		"tokens": {
 			"sars": 140,
 			"nl63": 134,
@@ -153587,7 +154825,8 @@
 			"protein": 181,
 			"human": 130,
 			"coronavirus": 191,
-			"proteas": 73
+			"proteas": 73,
+			"spike": 147
 		}
 	},
 	{
@@ -154708,7 +155947,7 @@
 	{
 		"source": 552,
 		"target": 751,
-		"value": 0.1885785744060025,
+		"value": 0.197665694039183,
 		"tokens": {
 			"sars": 195,
 			"cell": 194,
@@ -154723,7 +155962,8 @@
 			"proteas": 95,
 			"protein": 188,
 			"mhv": 105,
-			"binding": 160
+			"binding": 160,
+			"neutralizing": 109
 		}
 	},
 	{
@@ -155138,7 +156378,7 @@
 	{
 		"source": 711,
 		"target": 751,
-		"value": 0.1992496873697374,
+		"value": 0.2215923301375573,
 		"tokens": {
 			"protein": 361,
 			"virus": 256,
@@ -155150,13 +156390,14 @@
 			"spike": 210,
 			"domain": 132,
 			"mouse": 106,
-			"receptor": 253
+			"receptor": 253,
+			"cov": 268
 		}
 	},
 	{
 		"source": 712,
 		"target": 751,
-		"value": 0.21950812838682784,
+		"value": 0.23126302626094206,
 		"tokens": {
 			"protein": 331,
 			"virus": 230,
@@ -155170,7 +156411,8 @@
 			"cov": 276,
 			"domain": 122,
 			"host": 105,
-			"spike": 173
+			"spike": 173,
+			"human": 141
 		}
 	},
 	{
@@ -155272,7 +156514,7 @@
 	{
 		"source": 82,
 		"target": 752,
-		"value": 0.26044185077115467,
+		"value": 0.25135473113797413,
 		"tokens": {
 			"cell": 426,
 			"entry": 348,
@@ -155284,14 +156526,13 @@
 			"viral": 213,
 			"infection": 125,
 			"ifitm3": 219,
-			"hiv": 256,
-			"not": 109
+			"hiv": 256
 		}
 	},
 	{
 		"source": 277,
 		"target": 752,
-		"value": 0.2161734055856607,
+		"value": 0.2110045852438516,
 		"tokens": {
 			"ifitm3": 407,
 			"ifitm": 469,
@@ -155306,14 +156547,13 @@
 			"restrict": 78,
 			"viral": 98,
 			"ifitm1": 176,
-			"restriction": 75,
-			"not": 62
+			"restriction": 75
 		}
 	},
 	{
 		"source": 552,
 		"target": 752,
-		"value": 0.12188411838265945,
+		"value": 0.11696540225093789,
 		"tokens": {
 			"sars": 158,
 			"cell": 183,
@@ -155325,7 +156565,6 @@
 			"infection": 71,
 			"viral": 92,
 			"protein": 115,
-			"not": 59,
 			"ebov": 59,
 			"pseudovirion": 58
 		}
@@ -156521,7 +157760,7 @@
 	{
 		"source": 267,
 		"target": 756,
-		"value": 0.40733639016256773,
+		"value": 0.4146727803251355,
 		"tokens": {
 			"cell": 560,
 			"asc": 521,
@@ -156545,7 +157784,8 @@
 			"control": 102,
 			"autoimmune": 105,
 			"recruitment": 106,
-			"spinal": 91
+			"spinal": 91,
+			"igd": 88
 		}
 	},
 	{
@@ -156583,7 +157823,7 @@
 	{
 		"source": 10,
 		"target": 757,
-		"value": 0.38791162984576905,
+		"value": 0.3995831596498541,
 		"tokens": {
 			"cell": 546,
 			"mouse": 285,
@@ -156605,7 +157845,8 @@
 			"microglia": 159,
 			"persistence": 117,
 			"induced": 107,
-			"control": 101
+			"control": 101,
+			"mmp9": 140
 		}
 	},
 	{
@@ -157389,6 +158630,24 @@
 			"niemann": 50,
 			"pick": 50,
 			"infection": 48
+		}
+	},
+	{
+		"source": 82,
+		"target": 761,
+		"value": 0.2094205919132972,
+		"tokens": {
+			"cell": 415,
+			"entry": 331,
+			"virus": 306,
+			"ebov": 336,
+			"viral": 199,
+			"filovirus": 237,
+			"cathepsin": 154,
+			"host": 135,
+			"glycoprotein": 143,
+			"infection": 122,
+			"ebola": 134
 		}
 	},
 	{
@@ -159167,7 +160426,7 @@
 	{
 		"source": 26,
 		"target": 765,
-		"value": 0.34347644852021675,
+		"value": 0.3581492288453522,
 		"tokens": {
 			"cell": 571,
 			"virus": 533,
@@ -159179,7 +160438,8 @@
 			"human": 230,
 			"syndrome": 199,
 			"disease": 185,
-			"middle": 184
+			"middle": 184,
+			"east": 176
 		}
 	},
 	{
@@ -162537,7 +163797,7 @@
 	{
 		"source": 26,
 		"target": 767,
-		"value": 0.27861609003751564,
+		"value": 0.2790329303876615,
 		"tokens": {
 			"virus": 500,
 			"cov": 554,
@@ -162549,8 +163809,8 @@
 			"syndrome": 170,
 			"disease": 165,
 			"lung": 138,
-			"not": 133,
-			"middle": 146
+			"middle": 146,
+			"east": 138
 		}
 	},
 	{
@@ -162576,7 +163836,7 @@
 	{
 		"source": 77,
 		"target": 767,
-		"value": 0.21317215506461026,
+		"value": 0.20892038349312214,
 		"tokens": {
 			"mer": 380,
 			"cov": 347,
@@ -162594,7 +163854,6 @@
 			"ferret": 86,
 			"bat": 78,
 			"animal": 63,
-			"not": 51,
 			"tract": 60
 		}
 	},
@@ -162976,12 +164235,13 @@
 	{
 		"source": 392,
 		"target": 767,
-		"value": 0.11213005418924551,
+		"value": 0.1200500208420175,
 		"tokens": {
 			"virus": 232,
 			"infection": 169,
 			"cov": 188,
 			"macaque": 121,
+			"expression": 95,
 			"h7n9": 86,
 			"respiratory": 107,
 			"disease": 88,
@@ -164077,7 +165337,7 @@
 	{
 		"source": 26,
 		"target": 770,
-		"value": 0.4258441017090454,
+		"value": 0.43768236765318885,
 		"tokens": {
 			"mouse": 599,
 			"cell": 556,
@@ -164093,7 +165353,8 @@
 			"syndrome": 192,
 			"acute": 154,
 			"lung": 141,
-			"middle": 152
+			"middle": 152,
+			"east": 142
 		}
 	},
 	{
@@ -168176,6 +169437,24 @@
 		}
 	},
 	{
+		"source": 26,
+		"target": 775,
+		"value": 0.25293872446852855,
+		"tokens": {
+			"cov": 598,
+			"mer": 532,
+			"infection": 321,
+			"coronavirus": 332,
+			"respiratory": 247,
+			"human": 181,
+			"receptor": 177,
+			"syndrome": 179,
+			"disease": 159,
+			"middle": 158,
+			"east": 150
+		}
+	},
+	{
 		"source": 70,
 		"target": 775,
 		"value": 0.19191329720716965,
@@ -170968,6 +172247,24 @@
 		}
 	},
 	{
+		"source": 26,
+		"target": 778,
+		"value": 0.2725302209253856,
+		"tokens": {
+			"virus": 503,
+			"cov": 538,
+			"mer": 440,
+			"infection": 337,
+			"coronavirus": 329,
+			"sars": 259,
+			"respiratory": 235,
+			"human": 196,
+			"disease": 167,
+			"middle": 137,
+			"east": 128
+		}
+	},
+	{
 		"source": 70,
 		"target": 778,
 		"value": 0.1704043351396415,
@@ -172257,6 +173554,24 @@
 			"vaccine": 154,
 			"middle": 126,
 			"east": 126
+		}
+	},
+	{
+		"source": 26,
+		"target": 779,
+		"value": 0.29387244685285535,
+		"tokens": {
+			"virus": 517,
+			"cov": 552,
+			"mhv": 415,
+			"mer": 495,
+			"infection": 327,
+			"coronavirus": 320,
+			"respiratory": 240,
+			"syndrome": 181,
+			"disease": 178,
+			"middle": 154,
+			"east": 146
 		}
 	},
 	{
@@ -179215,7 +180530,7 @@
 	{
 		"source": 18,
 		"target": 792,
-		"value": 0.28595248020008335,
+		"value": 0.2940391829929137,
 		"tokens": {
 			"mhv": 437,
 			"rna": 439,
@@ -179232,7 +180547,8 @@
 			"cleavage": 112,
 			"leader": 129,
 			"hepatitis": 110,
-			"gene": 90
+			"gene": 90,
+			"defective": 97
 		}
 	},
 	{
@@ -179297,7 +180613,7 @@
 	{
 		"source": 24,
 		"target": 792,
-		"value": 0.11187994997915798,
+		"value": 0.11671529804085036,
 		"tokens": {
 			"protein": 179,
 			"mhv": 182,
@@ -179310,7 +180626,8 @@
 			"mouse": 69,
 			"genome": 53,
 			"translation": 58,
-			"synthesis": 49
+			"synthesis": 49,
+			"defective": 58
 		}
 	},
 	{
@@ -180211,7 +181528,7 @@
 	{
 		"source": 18,
 		"target": 795,
-		"value": 0.3483951646519383,
+		"value": 0.3594831179658191,
 		"tokens": {
 			"mhv": 641,
 			"rna": 649,
@@ -180229,7 +181546,8 @@
 			"replication": 128,
 			"leader": 196,
 			"hepatitis": 128,
-			"genomic": 124
+			"genomic": 124,
+			"defective": 133
 		}
 	},
 	{
@@ -180287,6 +181605,24 @@
 			"strain": 169,
 			"replication": 164,
 			"rna": 418
+		}
+	},
+	{
+		"source": 24,
+		"target": 795,
+		"value": 0.13914130887869947,
+		"tokens": {
+			"mhv": 386,
+			"coronavirus": 115,
+			"virus": 156,
+			"rna": 381,
+			"a59": 124,
+			"hepatitis": 99,
+			"packaging": 107,
+			"mouse": 75,
+			"end": 57,
+			"synthesis": 75,
+			"defective": 94
 		}
 	},
 	{
@@ -180563,7 +181899,7 @@
 	{
 		"source": 10,
 		"target": 797,
-		"value": 0.38049187161317216,
+		"value": 0.37148812005002085,
 		"tokens": {
 			"cell": 499,
 			"mouse": 357,
@@ -180580,7 +181916,6 @@
 			"mrna": 196,
 			"rna": 269,
 			"hepatitis": 193,
-			"not": 108,
 			"infected": 107,
 			"specific": 124,
 			"a59": 146,
@@ -180590,7 +181925,7 @@
 	{
 		"source": 12,
 		"target": 797,
-		"value": 0.20250104210087536,
+		"value": 0.19749895789912464,
 		"tokens": {
 			"mhv": 485,
 			"protein": 178,
@@ -180604,8 +181939,7 @@
 			"hepatitis": 164,
 			"coronavirus": 85,
 			"murine": 76,
-			"genome": 65,
-			"not": 60
+			"genome": 65
 		}
 	},
 	{
@@ -180678,7 +182012,7 @@
 	{
 		"source": 18,
 		"target": 797,
-		"value": 0.2874531054606086,
+		"value": 0.28011671529804083,
 		"tokens": {
 			"mhv": 461,
 			"rna": 494,
@@ -180692,14 +182026,13 @@
 			"mouse": 194,
 			"leader": 184,
 			"hepatitis": 168,
-			"genomic": 89,
-			"not": 88
+			"genomic": 89
 		}
 	},
 	{
 		"source": 19,
 		"target": 797,
-		"value": 0.19758232596915382,
+		"value": 0.1913297207169654,
 		"tokens": {
 			"jhmv": 329,
 			"cell": 256,
@@ -180711,7 +182044,6 @@
 			"jhm": 173,
 			"coronavirus": 79,
 			"murine": 85,
-			"not": 75,
 			"hepatitis": 148,
 			"strain": 94
 		}
@@ -180759,7 +182091,7 @@
 	{
 		"source": 24,
 		"target": 797,
-		"value": 0.12746977907461443,
+		"value": 0.12355147978324302,
 		"tokens": {
 			"protein": 175,
 			"mhv": 206,
@@ -180771,8 +182103,7 @@
 			"hepatitis": 139,
 			"mouse": 135,
 			"genome": 52,
-			"end": 64,
-			"not": 47
+			"end": 64
 		}
 	},
 	{
@@ -180796,7 +182127,7 @@
 	{
 		"source": 26,
 		"target": 797,
-		"value": 0.44701959149645687,
+		"value": 0.43493122134222595,
 		"tokens": {
 			"mouse": 656,
 			"cell": 603,
@@ -180811,8 +182142,7 @@
 			"cd4": 195,
 			"specific": 166,
 			"antibody": 153,
-			"hepatitis": 222,
-			"not": 145
+			"hepatitis": 222
 		}
 	},
 	{
@@ -180838,7 +182168,7 @@
 	{
 		"source": 33,
 		"target": 797,
-		"value": 0.19649854105877448,
+		"value": 0.1904960400166736,
 		"tokens": {
 			"mhv": 437,
 			"virus": 258,
@@ -180851,7 +182181,6 @@
 			"infection": 88,
 			"hepatitis": 155,
 			"sequence": 103,
-			"not": 72,
 			"strain": 91,
 			"mrna": 130,
 			"murine": 70
@@ -180898,7 +182227,7 @@
 	{
 		"source": 267,
 		"target": 797,
-		"value": 0.22117548978741142,
+		"value": 0.21325552313463944,
 		"tokens": {
 			"cell": 488,
 			"demyelination": 265,
@@ -180910,8 +182239,7 @@
 			"central": 158,
 			"jhmv": 222,
 			"specific": 120,
-			"coronavirus": 96,
-			"not": 95
+			"coronavirus": 96
 		}
 	},
 	{
@@ -180992,7 +182320,7 @@
 	{
 		"source": 711,
 		"target": 797,
-		"value": 0.2098374322634431,
+		"value": 0.2031679866611088,
 		"tokens": {
 			"protein": 256,
 			"virus": 330,
@@ -181005,28 +182333,9 @@
 			"a59": 130,
 			"murine": 93,
 			"genome": 86,
-			"not": 80,
 			"antibody": 85,
 			"mouse": 159,
 			"recombination": 98
-		}
-	},
-	{
-		"source": 712,
-		"target": 797,
-		"value": 0.14631096290120885,
-		"tokens": {
-			"protein": 226,
-			"virus": 304,
-			"mhv": 251,
-			"coronavirus": 118,
-			"cell": 149,
-			"not": 81,
-			"infection": 77,
-			"rna": 214,
-			"hepatitis": 148,
-			"murine": 76,
-			"a59": 111
 		}
 	},
 	{
@@ -181184,7 +182493,7 @@
 	{
 		"source": 12,
 		"target": 798,
-		"value": 0.20858691121300543,
+		"value": 0.2028345143809921,
 		"tokens": {
 			"mhv": 726,
 			"protein": 188,
@@ -181196,14 +182505,13 @@
 			"hepatitis": 133,
 			"coronavirus": 110,
 			"murine": 113,
-			"binding": 80,
-			"not": 69
+			"binding": 80
 		}
 	},
 	{
 		"source": 19,
 		"target": 798,
-		"value": 0.26327636515214675,
+		"value": 0.2562734472696957,
 		"tokens": {
 			"cell": 341,
 			"mhvr": 548,
@@ -181216,7 +182524,6 @@
 			"bhk": 107,
 			"coronavirus": 104,
 			"murine": 122,
-			"not": 84,
 			"hepatitis": 117,
 			"sjl": 139
 		}
@@ -181237,24 +182544,6 @@
 			"coronavirus": 260,
 			"infection": 211,
 			"rna": 135
-		}
-	},
-	{
-		"source": 24,
-		"target": 798,
-		"value": 0.14956231763234681,
-		"tokens": {
-			"protein": 185,
-			"mhv": 447,
-			"coronavirus": 114,
-			"virus": 179,
-			"rna": 98,
-			"a59": 275,
-			"hepatitis": 108,
-			"virion": 99,
-			"mouse": 158,
-			"membrane": 75,
-			"not": 56
 		}
 	},
 	{
@@ -181280,7 +182569,7 @@
 	{
 		"source": 33,
 		"target": 798,
-		"value": 0.20466861192163402,
+		"value": 0.19791579824927052,
 		"tokens": {
 			"mhv": 678,
 			"virus": 230,
@@ -181292,7 +182581,6 @@
 			"rna": 105,
 			"infection": 110,
 			"hepatitis": 124,
-			"not": 81,
 			"murine": 107
 		}
 	},
@@ -181341,7 +182629,7 @@
 	{
 		"source": 711,
 		"target": 798,
-		"value": 0.25735723218007506,
+		"value": 0.24993747394747812,
 		"tokens": {
 			"protein": 266,
 			"virus": 302,
@@ -181355,7 +182643,6 @@
 			"a59": 287,
 			"murine": 130,
 			"domain": 106,
-			"not": 89,
 			"mouse": 182,
 			"receptor": 180
 		}
@@ -181363,7 +182650,7 @@
 	{
 		"source": 712,
 		"target": 798,
-		"value": 0.2264276781992497,
+		"value": 0.2189245518966236,
 		"tokens": {
 			"protein": 236,
 			"virus": 276,
@@ -181372,7 +182659,6 @@
 			"coronavirus": 143,
 			"receptor": 220,
 			"cell": 234,
-			"not": 90,
 			"membrane": 105,
 			"infection": 99,
 			"domain": 96,
@@ -181405,7 +182691,7 @@
 	{
 		"source": 797,
 		"target": 798,
-		"value": 0.19124635264693624,
+		"value": 0.1861609003751563,
 		"tokens": {
 			"rna": 208,
 			"virus": 262,
@@ -181417,7 +182703,6 @@
 			"protein": 100,
 			"murine": 103,
 			"coronavirus": 79,
-			"not": 61,
 			"infection": 72
 		}
 	},
@@ -181480,7 +182765,7 @@
 	{
 		"source": 18,
 		"target": 799,
-		"value": 0.21383909962484368,
+		"value": 0.2137557315548145,
 		"tokens": {
 			"rna": 402,
 			"protein": 336,
@@ -181493,7 +182778,7 @@
 			"sequence": 115,
 			"replication": 126,
 			"leader": 158,
-			"not": 81
+			"defective": 80
 		}
 	},
 	{
@@ -181532,24 +182817,6 @@
 			"strand": 181,
 			"leader": 176,
 			"cell": 114
-		}
-	},
-	{
-		"source": 33,
-		"target": 799,
-		"value": 0.09754064193413922,
-		"tokens": {
-			"virus": 157,
-			"cell": 114,
-			"protein": 113,
-			"coronavirus": 139,
-			"rna": 141,
-			"sequence": 69,
-			"bovine": 146,
-			"not": 65,
-			"mrna": 103,
-			"subgenomic": 71,
-			"interfering": 52
 		}
 	},
 	{
@@ -181667,24 +182934,6 @@
 			"coronavirus": 115,
 			"cell": 71,
 			"replication": 82
-		}
-	},
-	{
-		"source": 797,
-		"target": 799,
-		"value": 0.10345977490621092,
-		"tokens": {
-			"rna": 244,
-			"virus": 189,
-			"leader": 190,
-			"mrna": 155,
-			"cell": 86,
-			"sequence": 70,
-			"protein": 71,
-			"species": 52,
-			"genome": 50,
-			"coronavirus": 89,
-			"not": 45
 		}
 	},
 	{
@@ -181965,7 +183214,7 @@
 	{
 		"source": 277,
 		"target": 803,
-		"value": 0.11921634014172572,
+		"value": 0.12421842434347645,
 		"tokens": {
 			"ace2": 158,
 			"virus": 176,
@@ -181977,7 +183226,8 @@
 			"human": 110,
 			"infection": 95,
 			"viral": 70,
-			"coronavirus": 63
+			"coronavirus": 63,
+			"antibody": 60
 		}
 	},
 	{

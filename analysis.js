@@ -52,10 +52,11 @@ const analysis = authors => {
     const stopWords = ['not']
     authors.forEach((author, i) => {
         console.log('Cleaning author #', i)
-        author.tokens
+        author.tokens = sw.removeStopwords(author.tokens, sw.en.concat(stopWords))
             .filter(token => token.length > 2)
             .filter(token => !parseInt(token))
-        author.tokens = sw.removeStopwords(author.tokens, stopWords)
+
+            console.log(author.tokens)
     })
 
     // TF-IDF

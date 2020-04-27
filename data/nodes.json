@@ -2578,7 +2578,6 @@
 			"mmp": 93,
 			"microglia": 92,
 			"hepatitis": 90,
-			"not": 82,
 			"persistence": 82,
 			"accumulation": 81,
 			"infected": 81,
@@ -2590,10 +2589,11 @@
 			"a59": 76,
 			"coronavirus": 74,
 			"control": 73,
-			"pp60": 72
+			"pp60": 72,
+			"mmp9": 70
 		},
 		"id": 10,
-		"relevancy": 5462
+		"relevancy": 5450
 	},
 	{
 		"name": "Robert G. Webster",
@@ -2880,7 +2880,7 @@
 			"apoptosis": 35,
 			"secondary": 34,
 			"nucleotide": 34,
-			"not": 34
+			"cov": 34
 		},
 		"id": 12,
 		"relevancy": 2571
@@ -3819,14 +3819,14 @@
 			"hepatitis": 65,
 			"genomic": 65,
 			"gene": 63,
-			"not": 62,
 			"expression": 62,
 			"accumulation": 60,
 			"mer": 60,
-			"gp65": 58
+			"gp65": 58,
+			"defective": 58
 		},
 		"id": 18,
-		"relevancy": 4915
+		"relevancy": 4911
 	},
 	{
 		"name": "Fumihiro Taguchi",
@@ -3973,7 +3973,6 @@
 			"coronavirus": 52,
 			"murine": 52,
 			"surface": 50,
-			"not": 49,
 			"trypsin": 47,
 			"passaged": 46,
 			"brain": 46,
@@ -3990,10 +3989,11 @@
 			"cb61ba": 39,
 			"proteas": 39,
 			"endosomal": 38,
-			"neural": 38
+			"neural": 38,
+			"neonatal": 38
 		},
 		"id": 19,
-		"relevancy": 3182
+		"relevancy": 3171
 	},
 	{
 		"name": "Stuart G. Siddell",
@@ -4865,14 +4865,14 @@
 			"end": 22,
 			"role": 21,
 			"synthesis": 21,
-			"not": 21,
 			"crippled": 20,
 			"within": 20,
 			"helical": 20,
-			"mutant": 19
+			"mutant": 19,
+			"defective": 19
 		},
 		"id": 24,
-		"relevancy": 1547
+		"relevancy": 1545
 	},
 	{
 		"name": "Ralph S. Baric",
@@ -6138,17 +6138,17 @@
 			"result": 121,
 			"hepatitis": 119,
 			"brain": 119,
-			"not": 119,
 			"demyelinating": 119,
 			"middle": 117,
 			"response": 117,
 			"macrodomain": 113,
 			"macrophage": 112,
 			"neurotropic": 111,
-			"rsar": 108
+			"rsar": 108,
+			"east": 108
 		},
 		"id": 26,
-		"relevancy": 8555
+		"relevancy": 8544
 	},
 	{
 		"name": "Susan C. Baker",
@@ -7087,13 +7087,13 @@
 			"neuraminidase": 44,
 			"batfluav": 44,
 			"epithelial": 43,
-			"not": 42,
 			"muv": 42,
 			"agglutination": 41,
-			"destroying": 41
+			"destroying": 41,
+			"oviduct": 40
 		},
 		"id": 31,
-		"relevancy": 3041
+		"relevancy": 3039
 	},
 	{
 		"name": "Eric J. Snijder",
@@ -7604,7 +7604,6 @@
 			"expression": 49,
 			"speckle": 48,
 			"transcription": 47,
-			"not": 46,
 			"astrocyte": 45,
 			"cat": 43,
 			"viral": 43,
@@ -7620,10 +7619,11 @@
 			"pid": 36,
 			"gene": 35,
 			"penn": 34,
-			"interfering": 33
+			"interfering": 33,
+			"esterase": 33
 		},
 		"id": 33,
-		"relevancy": 2571
+		"relevancy": 2558
 	},
 	{
 		"name": "D.X. Liu",
@@ -10035,7 +10035,6 @@
 			"infectious": 35,
 			"node": 35,
 			"cell": 32,
-			"not": 30,
 			"lymphoid": 29,
 			"shelter": 29,
 			"helicobacter": 29,
@@ -10055,10 +10054,11 @@
 			"isolate": 22,
 			"study": 22,
 			"one": 22,
-			"type": 22
+			"type": 22,
+			"mesenteric": 21
 		},
 		"id": 49,
-		"relevancy": 2126
+		"relevancy": 2117
 	},
 	{
 		"name": "Diane E. Griffin",
@@ -12754,10 +12754,10 @@
 			"orf": 18,
 			"subgenomic": 17,
 			"freund": 17,
-			"not": 17
+			"mouse": 16
 		},
 		"id": 68,
-		"relevancy": 1785
+		"relevancy": 1784
 	},
 	{
 		"name": "Ziad A. Memish",
@@ -14926,16 +14926,16 @@
 			"hcov": 40,
 			"peptidase": 39,
 			"host": 38,
-			"not": 37,
 			"tract": 37,
 			"spike": 36,
 			"ali": 36,
 			"frcov": 34,
 			"entry": 33,
-			"nasal": 33
+			"nasal": 33,
+			"binding": 32
 		},
 		"id": 77,
-		"relevancy": 2951
+		"relevancy": 2946
 	},
 	{
 		"name": "Richard M. Ransohoff",
@@ -15577,13 +15577,13 @@
 			"filovirus": 19,
 			"survivor": 18,
 			"tmprss4": 18,
-			"not": 18,
 			"glycoprotein": 17,
 			"democratic": 17,
-			"trypsin": 17
+			"trypsin": 17,
+			"platelet": 17
 		},
 		"id": 81,
-		"relevancy": 1343
+		"relevancy": 1342
 	},
 	{
 		"name": "Stefan Pöhlmann",
@@ -15907,15 +15907,15 @@
 			"lectin": 90,
 			"hat": 89,
 			"coronavirus": 85,
-			"not": 82,
 			"mer": 82,
 			"siv": 82,
 			"rhifitm3": 81,
 			"serine": 80,
-			"cleavage": 80
+			"cleavage": 80,
+			"ebola": 80
 		},
 		"id": 82,
-		"relevancy": 5587
+		"relevancy": 5585
 	},
 	{
 		"name": "Kiira Ratia",
@@ -27951,11 +27951,11 @@
 			"vaccination": 21,
 			"etiology": 20,
 			"scfv": 20,
-			"not": 20,
-			"associated": 19
+			"associated": 19,
+			"culture": 19
 		},
 		"id": 141,
-		"relevancy": 1437
+		"relevancy": 1436
 	},
 	{
 		"name": "Joseph J.Y. Sung",
@@ -33717,7 +33717,6 @@
 			"protein": 31,
 			"neck": 28,
 			"marv": 28,
-			"not": 27,
 			"human": 27,
 			"coronavirus": 26,
 			"ligand": 23,
@@ -33733,10 +33732,11 @@
 			"repeat": 17,
 			"lacv": 17,
 			"proteas": 17,
-			"pseudotype": 16
+			"pseudotype": 16,
+			"spike": 15
 		},
 		"id": 167,
-		"relevancy": 1479
+		"relevancy": 1467
 	},
 	{
 		"name": "Andrea Marzi",
@@ -33917,7 +33917,6 @@
 			"glycoprotein": 43,
 			"sars": 43,
 			"tim": 43,
-			"not": 41,
 			"ace2": 39,
 			"vaccine": 38,
 			"catb": 38,
@@ -33936,10 +33935,11 @@
 			"species": 27,
 			"soiv": 26,
 			"expressing": 26,
-			"marburg": 26
+			"marburg": 26,
+			"tlr4": 26
 		},
 		"id": 168,
-		"relevancy": 2074
+		"relevancy": 2059
 	},
 	{
 		"name": "George F. Gao",
@@ -48613,11 +48613,11 @@
 			"lymphocyte": 18,
 			"kitten": 18,
 			"diagnosis": 17,
-			"not": 17,
-			"infection": 17
+			"infection": 17,
+			"protein": 16
 		},
 		"id": 251,
-		"relevancy": 2095
+		"relevancy": 2094
 	},
 	{
 		"name": "Eng Eong Ooi",
@@ -51365,17 +51365,17 @@
 			"induced": 71,
 			"mmp9": 70,
 			"coronavirus": 69,
-			"not": 69,
 			"recruitment": 69,
 			"expression": 67,
 			"bmdm": 65,
 			"mmp": 65,
 			"spinal": 65,
 			"myd88": 63,
-			"tdtomato": 63
+			"tdtomato": 63,
+			"igd": 63
 		},
 		"id": 267,
-		"relevancy": 5092
+		"relevancy": 5086
 	},
 	{
 		"name": "Gary P. Kobinger",
@@ -53827,7 +53827,7 @@
 			"pseudotyped": 36,
 			"domain": 36,
 			"snare": 36,
-			"not": 35
+			"antibody": 35
 		},
 		"id": 277,
 		"relevancy": 3047
@@ -102153,13 +102153,13 @@
 			"ebolavirus": 34,
 			"binding": 34,
 			"chikungunya": 32,
-			"not": 32,
 			"tmprss2": 32,
 			"ebov": 31,
-			"pseudovirion": 31
+			"pseudovirion": 31,
+			"neutralizing": 30
 		},
 		"id": 552,
-		"relevancy": 2178
+		"relevancy": 2176
 	},
 	{
 		"name": "Bruno Canard",
@@ -118837,7 +118837,6 @@
 			"membrane": 22,
 			"ccsp": 20,
 			"basolateral": 20,
-			"not": 20,
 			"reporter": 20,
 			"differentiated": 19,
 			"zikv": 19,
@@ -118847,10 +118846,11 @@
 			"particle": 18,
 			"targeting": 17,
 			"fetal": 16,
-			"culture": 16
+			"culture": 16,
+			"model": 16
 		},
 		"id": 656,
-		"relevancy": 1207
+		"relevancy": 1203
 	},
 	{
 		"name": "Michael S. Diamond",
@@ -123139,7 +123139,6 @@
 			"persistent": 14,
 			"reverse": 14,
 			"coronavirus": 14,
-			"not": 14,
 			"aetiologic": 13,
 			"transcription": 13,
 			"child": 13,
@@ -123149,10 +123148,11 @@
 			"bat": 13,
 			"symptomatology": 13,
 			"pathogen": 12,
-			"bni": 12
+			"bni": 12,
+			"tropic": 12
 		},
 		"id": 680,
-		"relevancy": 802
+		"relevancy": 800
 	},
 	{
 		"name": "Roberto Bruzzone",
@@ -129697,7 +129697,6 @@
 			"genome": 58,
 			"carboxy": 58,
 			"hr2": 57,
-			"not": 54,
 			"antibody": 53,
 			"peptide": 53,
 			"hr1": 53,
@@ -129709,10 +129708,11 @@
 			"proteasome": 48,
 			"segment": 47,
 			"receptor": 47,
-			"assembly": 46
+			"assembly": 46,
+			"cov": 43
 		},
 		"id": 711,
-		"relevancy": 3058
+		"relevancy": 3047
 	},
 	{
 		"name": "Cornelis A. M. de Haan",
@@ -129887,7 +129887,6 @@
 			"rsv": 61,
 			"cd200r": 59,
 			"site": 57,
-			"not": 55,
 			"membrane": 54,
 			"infection": 52,
 			"particle": 51,
@@ -129912,10 +129911,11 @@
 			"gene": 39,
 			"cd200": 39,
 			"dmv": 39,
-			"furin": 39
+			"furin": 39,
+			"human": 38
 		},
 		"id": 712,
-		"relevancy": 2645
+		"relevancy": 2628
 	},
 	{
 		"name": "Lisa E. Hensley",
@@ -137490,15 +137490,15 @@
 			"restrict": 28,
 			"bafa1": 27,
 			"hemifusion": 27,
-			"not": 27,
 			"infection": 27,
 			"pseudovirion": 27,
 			"ccr5": 26,
 			"retrovirus": 26,
-			"zikv": 25
+			"zikv": 25,
+			"dependent": 24
 		},
 		"id": 752,
-		"relevancy": 2270
+		"relevancy": 2267
 	},
 	{
 		"name": "Daniel R. Feikin",
@@ -139896,12 +139896,12 @@
 			"inoculation": 15,
 			"ferret": 15,
 			"h7n9": 15,
-			"not": 14,
 			"sign": 14,
-			"lung": 13
+			"lung": 13,
+			"expression": 13
 		},
 		"id": 767,
-		"relevancy": 1134
+		"relevancy": 1133
 	},
 	{
 		"name": "Eric H. Y. Lau",
@@ -144488,15 +144488,15 @@
 			"recombinant": 27,
 			"clearance": 26,
 			"infected": 26,
-			"not": 26,
 			"fingerprinting": 25,
 			"infection": 25,
 			"cd4": 24,
 			"genomic": 24,
-			"demyelination": 24
+			"demyelination": 24,
+			"subacute": 23
 		},
 		"id": 797,
-		"relevancy": 2209
+		"relevancy": 2206
 	},
 	{
 		"name": "K V Holmes",
@@ -144601,12 +144601,12 @@
 			"terminal": 38,
 			"balb": 38,
 			"dveksler": 37,
-			"not": 35,
 			"bgp": 35,
-			"dieffenbach": 34
+			"dieffenbach": 34,
+			"cardellichio": 34
 		},
 		"id": 798,
-		"relevancy": 3254
+		"relevancy": 3253
 	},
 	{
 		"name": "D A Brian",
@@ -144680,7 +144680,6 @@
 			"mebus": 20,
 			"transmissible": 19,
 			"molecular": 19,
-			"not": 19,
 			"interfering": 19,
 			"gastroenteritis": 19,
 			"nacl": 18,
@@ -144689,10 +144688,11 @@
 			"complementary": 17,
 			"isotopically": 17,
 			"helper": 17,
-			"rnase": 17
+			"rnase": 17,
+			"found": 16
 		},
 		"id": 799,
-		"relevancy": 1327
+		"relevancy": 1324
 	},
 	{
 		"name": "undefined Lei Liu",

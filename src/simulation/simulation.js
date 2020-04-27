@@ -13,7 +13,7 @@ export default () => {
 
     const simulation = d3.forceSimulation()
         .force('charge', reuse.forceManyBodyReuse()
-            .strength(-5)
+            .strength(-10)
         .distanceMin(s.distance)
             .distanceMax(10000)
         )
@@ -25,8 +25,8 @@ export default () => {
         .force('center', d3.forceCenter(s.screen.width / 2, s.screen.height / 2))
         .force('link', d3.forceLink()
             .id(d => d.id)
-            .strength(d => d.value * .1)
-            .iterations(20)
+            .strength(d => d.value)
+            // .iterations(20)
         )
 
     simulation.nodes(s.nodes)
