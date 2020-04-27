@@ -29,8 +29,7 @@ const parse = (records) => {
 
         record.authors = record.authors.split('; ').reduce((authors, author) => {
             let string = `${author.split(', ')[1]} ${author.split(', ')[0]}`
-            string = trimLeft(trimRight(string))
-            authors.push(string)
+            authors.push(trimLeft(trimRight(string)))
             return authors
         }, [])
         records.push(record)
@@ -39,15 +38,17 @@ const parse = (records) => {
 
     // Grouping by author
 
+    let counter = 0
+
     const authors = records
         // .slice(0, 1000) // Trim for testing
         .reduce((authors, record, i) => {
-
-            console.log('Grouping record #', i)
-
+            
+            console.log('Grouping record #', records.length - i)
+            
             const year = parseInt(record.publish_time.split('-')[0])
             const text = `${record.title.toLowerCase()} ${record.abstract.toLowerCase()} `
-
+            
             record.authors.forEach(name => {
 
                 if (name == 'undefined') return
@@ -70,12 +71,12 @@ const parse = (records) => {
                 // Update an author
                 else {
                     author.docs++
+                    author.text += text
                     if (author.years[year]) {
                         author.years[year]++
                     } else {
                         author.years[year] = 1
                     }
-                    author.text += text
                 }
 
             })
