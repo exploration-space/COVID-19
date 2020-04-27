@@ -18,7 +18,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const min = 30 // 15 is the limit
+    const min = 30 // 15 is a reasonable value
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
         if (author.docs >= min)
@@ -44,10 +44,7 @@ const analysis = authors => {
             if ((safeList.includes(t) && t.length > 3) || /us$/.test(t) || /is$/.test(t)) {
                 return t
             } else {
-                const newt = inflector.singularize(t)
-                // if (/.*(s)$/.test(t))
-                //     console.log(`Singularizing \t ${t} \t ${newt}`)
-                return newt
+                return inflector.singularize(t)
             }
         })
     })
@@ -74,15 +71,11 @@ const analysis = authors => {
     // Reduction and shaping
 
     const slice = 40
-    // const peaks = 1000
-    authors.forEach((item, i) => {
+    authors.forEach((author, i) => {
         console.log('Reducing for author #', i)
-        item.tokens = tokenFrequency.listTerms(i)
-            // .filter(el => el.tfidf > tfidfLimit) // Remove bottom
-            // .filter(el => el.tfidf < peaks) // Remove peaks
+        author.tokens = tokenFrequency.listTerms(i)
             .slice(0, slice) // Slice first x elements
             .reduce((obj, el) => {
-                // console.log(el)
                 obj[el.term] = Math.floor(el.tfidf)
                 return obj
             }, {})
@@ -147,8 +140,8 @@ const analysis = authors => {
 
     links.forEach(link => link.value = Math.floor(link.value))
     const maxLinkValue = links.reduce((max, link) => max > link.value ? max : link.value, 0)
-    const minLinkValue = links.reduce((min, link) => min < link.value ? min : link.value, 100000)
-    links.forEach(link => link.value = (link.value / maxLinkValue).toFixed(2))
+    const minLinkValue = links.reduce((min, link) => min < link.value ? min : link.value, Infinity)
+    links.forEach(link => link.value = link.value / maxLinkValue)
 
     // Cleaning nodes without relations
 

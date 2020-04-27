@@ -12,12 +12,9 @@ fs.createReadStream('./data/metadata.csv').pipe(csv())
 
 // Parsing
 
-const trimLeft = str => (!str) ? str : str.replace(/^\s+/g, '')
-const trimRight = str => (!str) ? str : str.replace(/\s+$/g, '')
-
 const parse = (records) => {
 
-    // cleaning of strings
+    // Cleaning of strings
 
     records = records.reduce((records, record) => {
 
@@ -29,7 +26,7 @@ const parse = (records) => {
 
         record.authors = record.authors.split('; ').reduce((authors, author) => {
             let string = `${author.split(', ')[1]} ${author.split(', ')[0]}`
-            authors.push(trimLeft(trimRight(string)))
+            authors.push(string.trim())
             return authors
         }, [])
         records.push(record)
