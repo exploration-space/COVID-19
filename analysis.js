@@ -1,12 +1,10 @@
 const fs = require('fs')
 const combinatorics = require('js-combinatorics')
 const natural = require('natural')
-const accents = require('remove-accents')
 const sw = require('stopword')
 
 // Load JSON
 
-const authors = []
 fs.readFile(__dirname + '/data/authors.json', (err, json) => {
     if (err) throw err
     analysis(JSON.parse(json))
@@ -18,7 +16,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const min = 30 // 15 is a reasonable value
+    const min = 15 // 15 is a reasonable value
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
         if (author.docs >= min)
@@ -51,13 +49,13 @@ const analysis = authors => {
 
     // Cleaning
 
-    // const stopWords = ['not', 'cn']
+    const stopWords = ['not']
     authors.forEach((author, i) => {
         console.log('Cleaning author #', i)
-        author.tokens = sw.removeStopwords(author.tokens)
+        author.tokens
             .filter(token => token.length > 2)
             .filter(token => !parseInt(token))
-        // .filter(token => !stopWords.includes(token))
+        author.tokens = sw.removeStopwords(author.tokens, stopWords)
     })
 
     // TF-IDF
@@ -146,8 +144,8 @@ const analysis = authors => {
     // Cleaning nodes without relations
 
     const connectedNodes = links.reduce((array, link) => {
-		if (!array.includes(link.source)) array.push(link.source)
-		if (!array.includes(link.target)) array.push(link.target)
+        if (!array.includes(link.source)) array.push(link.source)
+        if (!array.includes(link.target)) array.push(link.target)
         return array
     }, [])
 
