@@ -1,15 +1,10 @@
 export default () => {
 
-    // Variables for tokens
+    // Variables
 
-    // const max = 1
-    const rounding = 0
-    
-    // Not sure this Pytagora application is working
-
-    s.distanceExtension = {
-        min: Math.pow(s.distance, 2) - rounding,
-        max: Math.pow(s.distance * 2, 2) + rounding
+    s.ext.distance = {
+        min: Math.pow(s.distance * s.screen.density / 2, 2),
+        max: Math.pow(s.distance * s.screen.density, 2)
     }
 
     // let rectangles = []
@@ -41,15 +36,22 @@ export default () => {
         context.font = '40px Arial'
         context.textBaseline = 'middle'
         context.textAlign = 'center'
-        context.fillText(token, width / 2, height / 2)
+
+        const x = Math.floor(width / 2)
+        const y = Math.floor(height / 2)
+        context.fillText(token, x, y)
 
         s.tokens[token] = (x, y, value) => {
-            const scale = value / 2000
-            const scaledWidth = Math.floor(width * scale)
-            const scaledHeight = Math.floor(height * scale)
-            x = x - scaledWidth / 2
-            y = y - scaledHeight / 2
+
+            const scale = 2000
+            const scaledWidth = Math.floor(width * value / scale)
+            const scaledHeight = Math.floor(height * value / scale)
+
+            x = x - Math.floor(scaledWidth / 2)
+            y = y - Math.floor(scaledHeight / 2)
+
             s.context.drawImage(canvas, x, y, scaledWidth, scaledHeight)
+
         }
 
     })
