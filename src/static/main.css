@@ -51,7 +51,7 @@ a {
 	top: 10;
 }
 
-#focus .left, #focus .right {
+#focus .left, #focus .right, #focus .middle {
 	display: inline-block;
 }
 

@@ -38,7 +38,7 @@ const parse = (records) => {
 
     // Grouping by author
 
-    let counter = 0
+    let idCounter = 0
 
     const authors = records
         // .slice(0, 1000) // Trim for testing
@@ -58,6 +58,7 @@ const parse = (records) => {
                 // Create a new author
                 if (!author) {
                     const _author = {
+                        id: idCounter++,
                         name: name,
                         docs: 1,
                         years: {
@@ -89,6 +90,13 @@ const parse = (records) => {
             return authors
 
         }, [])
+
+    // Transform authors into ids
+
+    authors.forEach((author, i) => {
+        console.log('Setting ids for author', authors.length - i)
+        author.peers = author.peers.map(peer => authors.find(a => a.name == peer).id)
+    })
 
     // Write JSON
 

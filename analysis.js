@@ -82,9 +82,8 @@ const analysis = authors => {
 
     // Set nodes
 
-    let nodes = authors.reduce((array, author, i) => {
+    let nodes = authors.reduce((array, author) => {
         delete author.text
-        author.id = i
         author.relevancy = Math.floor(Object.values(author.tokens).reduce((a, b) => a + b))
         array.push(author)
         return array

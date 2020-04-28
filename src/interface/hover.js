@@ -1,4 +1,6 @@
 import * as d3 from 'd3'
+import background from '../draw/background'
+import ticked from '../simulation/ticked'
 
 export default () => {
 
@@ -10,6 +12,7 @@ export default () => {
         const y = s.zoomState.invertY(event.y) * s.screen.density
 
         const left = d3.select('#focus .left')
+        const middle = d3.select('#focus .middle')
         const right = d3.select('#focus .right')
         let hover = false
 
@@ -22,6 +25,9 @@ export default () => {
 
             // console.log(pythagoras)
             if (pythagoras) {
+
+                // This set hover element
+                s.node = node
 
                 hover = true
                 const space = '<tr style="height:10px"><td></td><td></td></tr>'
@@ -37,14 +43,25 @@ export default () => {
                 table += line
                 table += Object.entries(node.tokens).reduce((tokens, token, i) => {
                     // if (i < 20) {
-                        const repetition = token[1] / 10
-                        const blocks = block.repeat(repetition)
-                        tokens += `<tr><td style="text-align: right;">${token[0]}</td><td>${blocks}</td></tr>`
+                    const repetition = token[1] / 10
+                    const blocks = block.repeat(repetition)
+                    tokens += `<tr><td style="text-align: right;">${token[0]}</td><td>${blocks}</td></tr>`
                     // }
                     return tokens
                 }, [])
                 table += '</table>'
                 right.html(table)
+
+                table = '<table>'
+                table += '<tr><td style="text-align:center;">List of co-authors</td></tr>'
+                table += line
+                node.peers.forEach(id => {
+                    const peer = s.nodes.find(node => node.id == id)
+                    if (typeof peer != 'undefined')
+                        table += `<tr><td>${peer.name}</td></tr>`
+                })
+                table += '</table>'
+                middle.html(table)
 
                 table = '<table>'
                 table += `<tr><td style="width:20px"></td><td style="width:50px"></td></tr>`
@@ -62,10 +79,15 @@ export default () => {
             }
         })
 
-        // if (!hover) {
-        //     left.html('')
-        //     right.html('')
-        // }
+        background()
+        ticked()
+
+        if (!hover) {
+            left.html('')
+            middle.html('')
+            right.html('')
+            s.node = null
+        }
 
     }
 
