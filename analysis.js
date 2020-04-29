@@ -16,7 +16,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const min = 15 // 15 is a reasonable value
+    const min = 40 // 15 is a reasonable value
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
         if (author.docs >= min)

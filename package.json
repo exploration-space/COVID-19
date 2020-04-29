@@ -45,6 +45,8 @@
   "dependencies": {
     "d3": "^5.16.0",
     "d3-force-reuse": "^1.0.1",
-    "fps": "0.0.3"
+    "fps": "0.0.3",
+    "pixi-viewport": "^4.11.1",
+    "pixi.js": "^5.2.3"
   }
 }

@@ -47,9 +47,9 @@ export default () => {
     // Variables
 
     s.body = document.querySelector('body')
-    s.screen.width = s.body.clientWidth * s.screen.density
-    s.screen.height = s.body.clientHeight * s.screen.density
-    s.canvas = d3.select('#visualization')
-    s.context = document.querySelector('#visualization').getContext('2d')
+    // s.screen.width = s.body.clientWidth * s.screen.density
+    // s.screen.height = s.body.clientHeight * s.screen.density
+    // s.canvas = d3.select('#visualization')
+    // s.context = document.querySelector('#visualization').getContext('2d')
 
 }

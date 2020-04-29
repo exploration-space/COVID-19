@@ -34,9 +34,9 @@ Promise.all([
     initContours()
     initFps()
 
-    background()
+    // background()
     simulation()
-    hover()
-    search()
+    // hover()
+    // search()
 
 })
