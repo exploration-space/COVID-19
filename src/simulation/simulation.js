@@ -5,6 +5,7 @@ import { s } from '../settings'
 import background from '../draw/background'
 import * as PIXI from 'pixi.js'
 import { Viewport } from 'pixi-viewport'
+import tokens from '../draw/tokens'
 
 
 window.s = s
@@ -14,21 +15,63 @@ export default () => {
 
     // Pixi
 
-    let stage = new PIXI.Container()
-    let renderer = PIXI.autoDetectRenderer({
+    const app = new PIXI.Application({
         width: s.body.clientWidth,
         height: s.body.clientHeight,
         antialias: true,
         backgroundColor: 0x000000,
         resolution: 2,
         autoDensity: true,
+        autoResize: true,
     })
 
-    document.body.prepend(renderer.view)
+    document.body.prepend(app.renderer.view)
 
-    let links = new PIXI.Graphics()
+    const links = new PIXI.Graphics()
+    app.stage.addChild(links)
 
-    stage.addChild(links)
+    const style = new PIXI.TextStyle({
+        fontFamily: "Arial",
+        fontSize: 6,
+        fill: "white",
+    })
+
+    s.nodes.forEach(node => {
+        node.circle = new PIXI.Graphics()
+        node.circle.beginFill(0xFFFFFF)
+        node.circle.drawCircle(0, 0, 1)
+        app.stage.addChild(node.circle)
+        node.label = new PIXI.Text(node.name, style)
+        app.stage.addChild(node.label)
+    })
+
+
+
+    // Ticked
+
+    const ticked = () => {
+
+        s.nodes.forEach(node => {
+            const { x, y, circle, label } = node
+            circle.position = new PIXI.Point(x, y)
+            label.position.set(x, y)
+        })
+
+        links.clear()
+        links.alpha = 0.1
+
+        s.links.forEach(link => {
+            const { source, target, value } = link
+            links.lineStyle(value, 0xFFFFFF)
+            links.moveTo(source.x, source.y)
+            links.lineTo(target.x, target.y)
+        })
+
+    }
+
+
+
+    // Simulation
 
     const simulation = d3.forceSimulation()
         .force('collide', d3.forceCollide()
@@ -41,99 +84,7 @@ export default () => {
             .id(d => d.id)
             .strength(d => d.value * .8)
         )
-
-    s.nodes.forEach((node) => {
-        node.gfx = new PIXI.Graphics()
-        node.gfx.lineStyle(0)
-        node.gfx.beginFill(0xFFFFFF)
-        node.gfx.drawCircle(0, 0, 1)
-        stage.addChild(node.gfx)
-
-
-    })
-
-    d3.select(renderer.view)
-        .call(d3.drag()
-            .container(renderer.view)
-            .subject(() => {
-                // console.log('test')
-                simulation.find(d3.event.x, d3.event.y)
-            }))
-    // .on('start', dragstarted)
-    // .on('drag', dragged)
-    // .on('end', dragended)
-
-
-    // Simulation
-
-    simulation.nodes(s.nodes)
-    simulation.force('link').links(s.links)
-
-    simulation
-        .nodes(s.nodes)
-        .on('tick', ticked)
-
-    simulation.force('link')
-        .links(s.links)
-
-    function ticked() {
-
-        s.nodes.forEach((node) => {
-            let { x, y, gfx } = node
-            gfx.position = new PIXI.Point(x, y)
-        })
-
-        links.clear()
-        links.alpha = 0.6
-
-        s.links.forEach((link) => {
-            let { source, target } = link
-            links.lineStyle(Math.sqrt(link.value), 0x999999)
-            links.moveTo(source.x, source.y)
-            links.lineTo(target.x, target.y)
-        })
-
-        links.endFill()
-
-        renderer.render(stage)
-
-    }
-
-    // Simulation start
-
-    // const animation = true
-
-    // if (animation) {
-    //     simulation
-    //         .on('tick', ticked)
-    //         .on('end', () => {
-    //             s.end = true
-    //             ticked()
-    //         })
-
-    // } else {
-    //     simulation.stop()
-    //     simulation.tick(500)
-    //     s.end = true
-    // }
-
-    // // Refresh on resize
-
-    // window.onresize = function reportWindowSize() {
-    //     background()
-    //     ticked()
-    // }
-
-    // // Zoom
-
-    // s.zoom = d3.zoom().on('zoom', () => {
-    //     s.zoomState = d3.event.transform
-    //     ticked()
-    // })
-
-    // s.zoom.scaleExtent(s.zoomExtent)
-    // s.zoom.scaleTo(s.canvas, s.zoomExtent[0])
-
-    // s.canvas.call(s.zoom)
+        .nodes(s.nodes).on('tick', ticked)
+        .force('link').links(s.links)
 
 }
