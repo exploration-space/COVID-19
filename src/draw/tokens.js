@@ -1,6 +1,15 @@
 import { s } from '../settings'
+import * as PIXI from 'pixi.js'
 
 export default () => {
+
+    const style = new PIXI.TextStyle({
+        fontFamily: "Arial",
+        fontSize: 6,
+        fill: "white",
+    })
+
+    // s.stage.tokens.clean()
 
     s.links.forEach(link => {
 
@@ -15,8 +24,10 @@ export default () => {
 
             const token = Object.entries(link.tokens)[0]
 
-            if (typeof s.tokens[token[0]] == 'function')
-                s.tokens[token[0]](x, y, token[1])
+
+
+            // if (typeof s.tokens[token[0]] == 'function')
+            //     s.tokens[token[0]](x, y, token[1])
 
         }
 

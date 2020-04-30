@@ -5,7 +5,7 @@ import { s } from '../settings'
 import background from '../draw/background'
 import * as PIXI from 'pixi.js'
 import { Viewport } from 'pixi-viewport'
-import tokens from '../draw/tokens'
+// import tokens from '../draw/tokens'
 
 
 window.s = s
@@ -27,35 +27,65 @@ export default () => {
 
     document.body.prepend(app.renderer.view)
 
+    s.stage = app.stage
+
     const links = new PIXI.Graphics()
     app.stage.addChild(links)
 
-    const style = new PIXI.TextStyle({
+    //Nodes
+
+    const nodeStyle = new PIXI.TextStyle({
         fontFamily: "Arial",
         fontSize: 6,
         fill: "white",
     })
 
-    s.nodes.forEach(node => {
-        node.circle = new PIXI.Graphics()
-        node.circle.beginFill(0xFFFFFF)
-        node.circle.drawCircle(0, 0, 1)
-        app.stage.addChild(node.circle)
-        node.label = new PIXI.Text(node.name, style)
-        app.stage.addChild(node.label)
+    // s.nodes.forEach(node => {
+    //     node.circle = new PIXI.Graphics()
+    //     node.circle.beginFill(0xFFFFFF)
+    //     node.circle.drawCircle(0, 0, 1)
+    //     app.stage.addChild(node.circle)
+    //     node.label = new PIXI.Text(node.name, nodeStyle)
+    //     app.stage.addChild(node.label)
+    // })
+
+    // Tokens
+
+    const tokens = new PIXI.Graphics()
+    s.stage.addChild(tokens)
+
+
+    const tokenStyle = new PIXI.TextStyle({
+        fontFamily: "Arial",
+        fontSize: 12,
+        fill: "white",
     })
 
+    s.array.tokens.forEach(token => {
+        const temp = new PIXI.Text(token, tokenStyle)
+        s.tokens[token] = temp
+        app.stage.addChild(temp)
+    })
+
+    console.log(s.array.tokens)
+    console.log(s.tokens)
+    console.log(tokens)
+
+
+    // return
 
 
     // Ticked
 
+    const list = []
+
     const ticked = () => {
 
-        s.nodes.forEach(node => {
-            const { x, y, circle, label } = node
-            circle.position = new PIXI.Point(x, y)
-            label.position.set(x, y)
-        })
+        // s.nodes.forEach(node => {
+        //     const { x, y, circle, label } = node
+        //     circle.position = new PIXI.Point(x, y)
+        //     label.position.set(x, y)
+        // })
 
         links.clear()
         links.alpha = 0.1
@@ -65,6 +95,36 @@ export default () => {
             links.lineStyle(value, 0xFFFFFF)
             links.moveTo(source.x, source.y)
             links.lineTo(target.x, target.y)
+        })
+
+        tokens.clear()
+        
+        // list.forEach(el => tokens.removeChild(el))
+
+        s.links.forEach(link => {
+
+            const deltaX = Math.floor(Math.abs(link.source.x - link.target.x))
+            const deltaY = Math.floor(Math.abs(link.source.y - link.target.y))
+            const distance = Math.pow(deltaX, 2) + Math.pow(deltaY, 2)
+
+            if (s.ext.distance.min < distance && distance < s.ext.distance.max) {
+
+                const x = Math.floor(deltaX / 2 + (link.source.x < link.target.x ? link.source.x : link.target.x))
+                const y = Math.floor(deltaY / 2 + (link.source.y < link.target.y ? link.source.y : link.target.y))
+                const entry = Object.entries(link.tokens)[0]
+                const key = entry[0]
+                const value = entry[1]
+
+                if (typeof s.tokens[key] != 'undefined') {
+                    const texture = s.tokens[key].texture
+                    const label = new PIXI.Sprite(texture)
+                    label.position.set(x, y)
+                    tokens.addChild(label)
+                    list.push[label]
+                }
+
+            }
+
         })
 
     }

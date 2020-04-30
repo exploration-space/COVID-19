@@ -11,50 +11,51 @@ export default () => {
 
     // Canvas for tokens
 
-    const tokens = s.nodes.reduce((array, node) => {
+    s.array.tokens = s.nodes.reduce((array, node) => {
         let i = 0
+        const limit = 1
         for (let token in node.tokens) {
             if (!array.includes('token')) array.push(token)
-            if (++i == 3) break
+            if (++i == limit) break
         }
         return array
     }, [])
 
-    console.log(tokens)
+    // console.log(tokens)
 
-    tokens.forEach(token => {
+    // tokens.forEach(token => {
 
-        const width = 250
-        const height = 40
+    //     const width = 250
+    //     const height = 40
 
-        const canvas = document.createElement('canvas')
-        canvas.width = width
-        canvas.height = height
+    //     const canvas = document.createElement('canvas')
+    //     canvas.width = width
+    //     canvas.height = height
 
-        const context = canvas.getContext('2d')
-        context.fillStyle = s.colors.tokens
-        context.font = '40px Arial'
-        context.textBaseline = 'middle'
-        context.textAlign = 'center'
+    //     const context = canvas.getContext('2d')
+    //     context.fillStyle = s.colors.tokens
+    //     context.font = '40px Arial'
+    //     context.textBaseline = 'middle'
+    //     context.textAlign = 'center'
 
-        const x = Math.floor(width / 2)
-        const y = Math.floor(height / 2)
-        context.fillText(token, x, y)
+    //     const x = Math.floor(width / 2)
+    //     const y = Math.floor(height / 2)
+    //     context.fillText(token, x, y)
 
-        s.tokens[token] = (x, y, value) => {
+    //     s.tokens[token] = (x, y, value) => {
 
-            const scale = 2000
-            const scaledWidth = Math.floor(width * value / scale)
-            const scaledHeight = Math.floor(height * value / scale)
+    //         const scale = 2000
+    //         const scaledWidth = Math.floor(width * value / scale)
+    //         const scaledHeight = Math.floor(height * value / scale)
 
-            x = x - Math.floor(scaledWidth / 2)
-            y = y - Math.floor(scaledHeight / 2)
+    //         x = x - Math.floor(scaledWidth / 2)
+    //         y = y - Math.floor(scaledHeight / 2)
 
-            s.context.drawImage(canvas, x, y, scaledWidth, scaledHeight)
+    //         s.context.drawImage(canvas, x, y, scaledWidth, scaledHeight)
 
-        }
+    //     }
 
-    })
+    // })
 
     // Set keyword scale
 
