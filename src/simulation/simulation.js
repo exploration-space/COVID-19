@@ -40,52 +40,43 @@ export default () => {
         fill: "white",
     })
 
-    // s.nodes.forEach(node => {
-    //     node.circle = new PIXI.Graphics()
-    //     node.circle.beginFill(0xFFFFFF)
-    //     node.circle.drawCircle(0, 0, 1)
-    //     app.stage.addChild(node.circle)
-    //     node.label = new PIXI.Text(node.name, nodeStyle)
-    //     app.stage.addChild(node.label)
-    // })
+    s.nodes.forEach(node => {
+        node.circle = new PIXI.Graphics()
+        node.circle.beginFill(0xFFFFFF)
+        node.circle.drawCircle(0, 0, 1)
+        app.stage.addChild(node.circle)
+        // node.label = new PIXI.Text(node.name, nodeStyle)
+        // app.stage.addChild(node.label)
+    })
 
     // Tokens
-
-    const tokens = new PIXI.Graphics()
-    s.stage.addChild(tokens)
-
-
+    
     const tokenStyle = new PIXI.TextStyle({
         fontFamily: "Arial",
         fontSize: 12,
         fill: "white",
     })
 
-    s.array.tokens.forEach(token => {
-        const temp = new PIXI.Text(token, tokenStyle)
-        s.tokens[token] = temp
-        app.stage.addChild(temp)
+    s.links.forEach(link => {
+        const [ key, value ] = Object.entries(link.tokens)[0]
+        link.label = new PIXI.Text(key, tokenStyle)
+        link.label.scale.set(value/1000)
+        app.stage.addChild(link.label)
     })
-
-    console.log(s.array.tokens)
-    console.log(s.tokens)
-    console.log(tokens)
-
-
-    // return
-
 
     // Ticked
 
-    const list = []
-
     const ticked = () => {
 
-        // s.nodes.forEach(node => {
-        //     const { x, y, circle, label } = node
-        //     circle.position = new PIXI.Point(x, y)
-        //     label.position.set(x, y)
-        // })
+        // Nodes
+
+        s.nodes.forEach(node => {
+            const { x, y, circle, label } = node
+            circle.position = new PIXI.Point(x, y)
+            // label.position.set(x, y)
+        })
+
+        // Links
 
         links.clear()
         links.alpha = 0.1
@@ -97,32 +88,23 @@ export default () => {
             links.lineTo(target.x, target.y)
         })
 
-        tokens.clear()
-        
-        // list.forEach(el => tokens.removeChild(el))
+        // Tokens
 
         s.links.forEach(link => {
 
             const deltaX = Math.floor(Math.abs(link.source.x - link.target.x))
             const deltaY = Math.floor(Math.abs(link.source.y - link.target.y))
             const distance = Math.pow(deltaX, 2) + Math.pow(deltaY, 2)
+            const label = link.label
 
             if (s.ext.distance.min < distance && distance < s.ext.distance.max) {
 
                 const x = Math.floor(deltaX / 2 + (link.source.x < link.target.x ? link.source.x : link.target.x))
                 const y = Math.floor(deltaY / 2 + (link.source.y < link.target.y ? link.source.y : link.target.y))
-                const entry = Object.entries(link.tokens)[0]
-                const key = entry[0]
-                const value = entry[1]
+                label.position.set(x, y)
 
-                if (typeof s.tokens[key] != 'undefined') {
-                    const texture = s.tokens[key].texture
-                    const label = new PIXI.Sprite(texture)
-                    label.position.set(x, y)
-                    tokens.addChild(label)
-                    list.push[label]
-                }
-
+            } else {
+                label.position.set(-100, -100)
             }
 
         })

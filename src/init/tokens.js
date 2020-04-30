@@ -11,15 +11,15 @@ export default () => {
 
     // Canvas for tokens
 
-    s.array.tokens = s.nodes.reduce((array, node) => {
-        let i = 0
-        const limit = 1
-        for (let token in node.tokens) {
-            if (!array.includes('token')) array.push(token)
-            if (++i == limit) break
-        }
-        return array
-    }, [])
+    // s.array.tokens = s.nodes.reduce((array, node) => {
+    //     let i = 0
+    //     const limit = 1
+    //     for (let token in node.tokens) {
+    //         if (!array.includes('token')) array.push(token)
+    //         if (++i == limit) break
+    //     }
+    //     return array
+    // }, [])
 
     // console.log(tokens)
 
