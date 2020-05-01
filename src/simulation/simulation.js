@@ -32,6 +32,9 @@ export default () => {
     const links = new PIXI.Graphics()
     app.stage.addChild(links)
 
+    const contours = new PIXI.Graphics()
+    app.stage.addChild(contours)
+
     //Nodes
 
     const nodeStyle = new PIXI.TextStyle({
@@ -114,6 +117,90 @@ export default () => {
             }
 
         })
+
+        // Contours
+
+        contours.clear()
+        contours.alpha = 1
+
+        const extX = d3.extent(s.nodes, d => d.x)
+        const extY = d3.extent(s.nodes, d => d.y)
+        const width = extX[1] - extX[0]
+        const height = extY[1] - extY[0]
+
+        s.densityData = d3.contourDensity()
+            .x(d => d.x)
+            .y(d => d.y)
+            .weight(d => d.relevancy)
+            .size([width, height])
+            .cellSize(5)
+            .bandwidth(40)
+            .thresholds(15)
+            (s.nodes)
+
+
+
+
+        // const extX = d3.extent(s.nodes, d => d.x)
+        // const extY = d3.extent(s.nodes, d => d.y)
+        // const width = extX[1] - extX[0]
+        // const height = extY[1] - extY[0]
+        // const x = extX[0]
+        // const y = extY[0]
+
+        // s.densityData = d3.contourDensity()
+        //     .x(d => Math.floor(d.x) - x)
+        //     .y(d => Math.floor(d.y) - y)
+        //     // .weight(d => d.docs)
+        //     .weight(d => d.relevancy)
+        //     .size([width, height])
+        //     .cellSize(5)
+        //     .bandwidth(40)
+        //     .thresholds(15)
+        //     (s.nodes)
+
+
+        // s.densityData.forEach(d => d.coordinates = d.coordinates
+        //     .map(d => d.map(d => d.map(
+        //         d => {
+        //             return [d[0] + x, d[1] + y]
+        //         }
+        //     )))
+        // )
+
+
+        // const contourWidth = .8
+        // const step = contourWidth / s.densityData.length
+        // let count = 1
+
+
+        for (let i = s.densityData.length - 1; i >= 0; i--) {
+
+            contours.lineStyle(10, 0xFFFFFF)
+
+            s.densityData[i].coordinates.forEach(array => {
+                array.forEach(array => {
+                    array.forEach(array => {
+                        const [x, y] = array
+                        contours.moveTo(x, y)
+                        contours.lineTo(x, y)
+                    })
+                })
+            })
+
+            // links.
+            // links.lineTo(target.x, target.y)
+
+            // if (i = s.densityData.length) console.log(s.densityData)
+
+            // s.context.beginPath()
+            // s.context.strokeStyle = s.colors.contours
+            // s.geoPath(s.densityData[i])
+            // s.context.lineWidth = contourWidth - step * count
+            // count = count + 1
+            // s.context.stroke()
+
+        }
 
     }
 
