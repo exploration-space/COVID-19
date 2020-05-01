@@ -50,18 +50,21 @@ export default () => {
     })
 
     // Tokens
-    
+
     const tokenStyle = new PIXI.TextStyle({
         fontFamily: "Arial",
-        fontSize: 12,
+        fontSize: 24,
         fill: "white",
+        align: 'center'
     })
 
     s.links.forEach(link => {
-        const [ key, value ] = Object.entries(link.tokens)[0]
-        link.label = new PIXI.Text(key, tokenStyle)
-        link.label.scale.set(value/1000)
-        app.stage.addChild(link.label)
+        // if (link.value < .1) return
+        const [key, value] = Object.entries(link.tokens)[0]
+        const scale = value * .0005
+        link.gpu = new PIXI.Text(key, tokenStyle)
+        link.gpu.scale.set(scale)
+        app.stage.addChild(link.gpu)
     })
 
     // Ticked
@@ -92,19 +95,22 @@ export default () => {
 
         s.links.forEach(link => {
 
+            if (!link.gpu) return
+
             const deltaX = Math.floor(Math.abs(link.source.x - link.target.x))
             const deltaY = Math.floor(Math.abs(link.source.y - link.target.y))
             const distance = Math.pow(deltaX, 2) + Math.pow(deltaY, 2)
-            const label = link.label
+            const gpu = link.gpu
 
             if (s.ext.distance.min < distance && distance < s.ext.distance.max) {
 
                 const x = Math.floor(deltaX / 2 + (link.source.x < link.target.x ? link.source.x : link.target.x))
                 const y = Math.floor(deltaY / 2 + (link.source.y < link.target.y ? link.source.y : link.target.y))
-                label.position.set(x, y)
+                console.log()
+                gpu.position.set(x - gpu.width / 2, y - gpu.height / 2)
 
             } else {
-                label.position.set(-100, -100)
+                gpu.position.set(-100, -100)
             }
 
         })
@@ -118,7 +124,7 @@ export default () => {
     const simulation = d3.forceSimulation()
         .force('collide', d3.forceCollide()
             .radius(s.distance)
-            .strength(.1)
+            .strength(.5)
             .iterations(20)
         )
         .force('center', d3.forceCenter(s.body.clientWidth / 2, s.body.clientHeight / 2))
