@@ -9,9 +9,7 @@ import hover from './interface/hover'
 import search from './interface/search'
 import background from './draw/background'
 import initMain from './init/main.js'
-import initTokens from './init/tokens.js'
-import initNodes from './init/nodes.js'
-import initContours from './init/contours.js'
+import initPixi from './init/pixi.js'
 import initFps from './init/fps.js'
 
 window.d3 = d3
@@ -29,9 +27,7 @@ Promise.all([
     console.log('links', s.links.length)
 
     initMain()
-    initNodes()
-    initTokens()
-    initContours()
+    initPixi()
     initFps()
 
     // background()
