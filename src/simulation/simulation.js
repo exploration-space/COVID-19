@@ -47,6 +47,7 @@ export default () => {
         node.circle = new PIXI.Graphics()
         node.circle.beginFill(0xFFFFFF)
         node.circle.drawCircle(0, 0, 1)
+        node.circle.endFill()
         app.stage.addChild(node.circle)
         // node.label = new PIXI.Text(node.name, nodeStyle)
         // app.stage.addChild(node.label)
@@ -62,7 +63,7 @@ export default () => {
     })
 
     s.links.forEach(link => {
-        // if (link.value < .1) return
+        if (link.value < .1) return
         const [key, value] = Object.entries(link.tokens)[0]
         const scale = value * .0005
         link.gpu = new PIXI.Text(key, tokenStyle)
@@ -84,15 +85,15 @@ export default () => {
 
         // Links
 
-        links.clear()
-        links.alpha = 0.1
+        // links.clear()
+        // links.alpha = 0.1
 
-        s.links.forEach(link => {
-            const { source, target, value } = link
-            links.lineStyle(value, 0xFFFFFF)
-            links.moveTo(source.x, source.y)
-            links.lineTo(target.x, target.y)
-        })
+        // s.links.forEach(link => {
+        //     const { source, target, value } = link
+        //     links.lineStyle(value, 0xFFFFFF)
+        //     links.moveTo(source.x, source.y)
+        //     links.lineTo(target.x, target.y)
+        // })
 
         // Tokens
 
@@ -121,84 +122,37 @@ export default () => {
         // Contours
 
         contours.clear()
-        contours.alpha = 1
-
-        const extX = d3.extent(s.nodes, d => d.x)
-        const extY = d3.extent(s.nodes, d => d.y)
-        const width = extX[1] - extX[0]
-        const height = extY[1] - extY[0]
+        contours.alpha = .8
 
         s.densityData = d3.contourDensity()
             .x(d => d.x)
             .y(d => d.y)
             .weight(d => d.relevancy)
-            .size([width, height])
+            .size([s.body.clientWidth, s.body.clientHeight])
             .cellSize(5)
             .bandwidth(40)
             .thresholds(15)
             (s.nodes)
 
-
-
-
-        // const extX = d3.extent(s.nodes, d => d.x)
-        // const extY = d3.extent(s.nodes, d => d.y)
-        // const width = extX[1] - extX[0]
-        // const height = extY[1] - extY[0]
-        // const x = extX[0]
-        // const y = extY[0]
-
-        // s.densityData = d3.contourDensity()
-        //     .x(d => Math.floor(d.x) - x)
-        //     .y(d => Math.floor(d.y) - y)
-        //     // .weight(d => d.docs)
-        //     .weight(d => d.relevancy)
-        //     .size([width, height])
-        //     .cellSize(5)
-        //     .bandwidth(40)
-        //     .thresholds(15)
-        //     (s.nodes)
-
-
-        // s.densityData.forEach(d => d.coordinates = d.coordinates
-        //     .map(d => d.map(d => d.map(
-        //         d => {
-        //             return [d[0] + x, d[1] + y]
-        //         }
-        //     )))
-        // )
-
-
-        // const contourWidth = .8
-        // const step = contourWidth / s.densityData.length
-        // let count = 1
-
+        const contourWidth = .8
+        const step = contourWidth / s.densityData.length
+        let count = 1
 
         for (let i = s.densityData.length - 1; i >= 0; i--) {
 
-            contours.lineStyle(10, 0xFFFFFF)
+            const width = contourWidth - step * count
+            contours.lineStyle(width, 0xFFFFFF)
+            count = count + 1
 
             s.densityData[i].coordinates.forEach(array => {
                 array.forEach(array => {
-                    array.forEach(array => {
-                        const [x, y] = array
-                        contours.moveTo(x, y)
+                    array.forEach(([x, y], i) => {
+                        if (i == 0) contours.moveTo(x, y)
                         contours.lineTo(x, y)
                     })
                 })
+                contours.closePath()
             })
-
-            // links.
-            // links.lineTo(target.x, target.y)
-
-            // if (i = s.densityData.length) console.log(s.densityData)
-
-            // s.context.beginPath()
-            // s.context.strokeStyle = s.colors.contours
-            // s.geoPath(s.densityData[i])
-            // s.context.lineWidth = contourWidth - step * count
-            // count = count + 1
-            // s.context.stroke()
 
         }
 
