@@ -4,13 +4,19 @@ import * as d3 from 'd3'
 import { s } from './settings'
 import nodes from './static/nodes.json'
 import links from './static/links.json'
-import simulation from './simulation/simulation'
+import { simulation } from './elements/simulation'
 import hover from './interface/hover'
 import search from './interface/search'
-import background from './draw/background'
+// import background from './elements/background'
+
 import initMain from './init/main.js'
 import initPixi from './init/pixi.js'
 import initFps from './init/fps.js'
+
+import { initContours } from './elements/contours.js'
+import { initLinks } from './elements/links.js'
+import { initNodes } from './elements/nodes.js'
+import { initTokens } from './elements/tokens.js'
 
 window.d3 = d3
 window.s = s
@@ -29,6 +35,11 @@ Promise.all([
     initMain()
     initPixi()
     initFps()
+
+    initContours()
+    initLinks()
+    initNodes()
+    initTokens()
 
     // background()
     simulation()

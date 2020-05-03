@@ -1,9 +1,13 @@
 import * as d3 from 'd3'
 import * as reuse from 'd3-force-reuse'
 import { s } from '../settings'
-import ticked from './ticked'
 
-export default () => {
+import { drawContours } from './contours'
+import { drawLinks } from './links'
+import { drawNodes } from './nodes'
+import { drawTokens } from './tokens'
+
+export function simulation() {
 
     const simulation = d3.forceSimulation()
         .force('collide', d3.forceCollide()
@@ -18,5 +22,14 @@ export default () => {
         )
         .nodes(s.nodes).on('tick', ticked)
         .force('link').links(s.links)
+
+}
+
+export function ticked() {
+
+    drawContours()
+    drawLinks()
+    drawNodes()
+    drawTokens()
 
 }

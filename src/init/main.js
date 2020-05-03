@@ -4,21 +4,21 @@ export default () => {
 
     // Set extent
 
-    s.linkExtent = []
+    // s.linkExtent = []
 
-    s.linkExtent[0] = s.links.reduce((min, link) => {
-        const tokens = Object.entries(link.tokens)
-        for (const [key, value] of tokens) {
-            return min < value ? min : value
-        }
-    }, Infinity)
+    // s.linkExtent[0] = s.links.reduce((min, link) => {
+    //     const tokens = Object.entries(link.tokens)
+    //     for (const [key, value] of tokens) {
+    //         return min < value ? min : value
+    //     }
+    // }, Infinity)
 
-    s.linkExtent[1] = s.links.reduce((min, link) => {
-        const tokens = Object.entries(link.tokens)
-        for (const [key, value] of tokens) {
-            return min > value ? min : value
-        }
-    }, 0)
+    // s.linkExtent[1] = s.links.reduce((min, link) => {
+    //     const tokens = Object.entries(link.tokens)
+    //     for (const [key, value] of tokens) {
+    //         return min > value ? min : value
+    //     }
+    // }, 0)
 
     // Set extent for publications
 

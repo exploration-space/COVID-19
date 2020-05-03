@@ -1,6 +1,6 @@
 import * as d3 from 'd3'
-import background from '../draw/background'
-import ticked from '../simulation/ticked'
+// import background from '../elements/background'
+// import ticked from '../simulation/ticked'
 
 export default () => {
 
