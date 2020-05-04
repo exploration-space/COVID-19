@@ -26,9 +26,9 @@ export function initTokens() {
         if (link.value < .1) return
         const [key, value] = Object.entries(link.tokens)[0]
         const scale = value * .0005
-        link.gpu = new PIXI.Text(key, tokenStyle)
-        link.gpu.scale.set(scale)
-        stage.addChild(link.gpu)
+        link.txt = new PIXI.Text(key, tokenStyle)
+        link.txt.scale.set(scale)
+        stage.addChild(link.txt)
     })
 
 }
@@ -37,20 +37,20 @@ export function drawTokens() {
 
     s.links.forEach(link => {
 
-        if (!link.gpu) return
+        if (!link.txt) return
 
         const deltaX = Math.abs(link.source.x - link.target.x)
         const deltaY = Math.abs(link.source.y - link.target.y)
         const distance = Math.pow(deltaX, 2) + Math.pow(deltaY, 2)
-        const gpu = link.gpu
+        const txt = link.txt
 
         if (s.ext.distance.min < distance && distance < s.ext.distance.max) {
             const x = deltaX / 2 + (link.source.x < link.target.x ? link.source.x : link.target.x)
             const y = deltaY / 2 + (link.source.y < link.target.y ? link.source.y : link.target.y)
             console.log()
-            gpu.position.set(x - gpu.width / 2, y - gpu.height / 2)
+            txt.position.set(x - txt.width / 2, y - txt.height / 2)
         } else {
-            gpu.position.set(-100, -100)
+            txt.position.set(-100, -100)
         }
 
     })
