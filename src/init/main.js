@@ -52,4 +52,10 @@ export default () => {
     // s.canvas = d3.select('#visualization')
     // s.context = document.querySelector('#visualization').getContext('2d')
 
+    // Prevent pinch gesture in Chrome
+
+    window.addEventListener('wheel', e => {
+        e.preventDefault();
+    }, { passive: false });
+
 }
