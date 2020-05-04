@@ -1,6 +1,6 @@
 import * as d3 from 'd3'
 import * as reuse from 'd3-force-reuse'
-import { s } from '../settings'
+import { s } from '../init/settings'
 
 import { drawContours } from './contours'
 import { drawLinks } from './links'

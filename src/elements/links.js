@@ -1,4 +1,4 @@
-import { s } from '../settings'
+import { s } from '../init/settings'
 import * as PIXI from 'pixi.js'
 
 let stage

@@ -1,4 +1,4 @@
-import { s } from '../settings'
+import { s } from '../init/settings'
 import * as PIXI from 'pixi.js'
 
 let stage
@@ -20,8 +20,8 @@ export function initNodes() {
         node.gpx.drawCircle(0, 0, 1)
         node.gpx.endFill()
         nodes.addChild(node.gpx)
-        node.txt = new PIXI.Text(node.name, nodeStyle)
-        nodes.addChild(node.txt)
+        // node.txt = new PIXI.Text(node.name, nodeStyle)
+        // nodes.addChild(node.txt)
     })
 
 }

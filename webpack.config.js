@@ -51,7 +51,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: "./src/static/index.html",
+      template: "./src/interface/index.html",
       filename: "./index.html"
     }),
     new MiniCssExtractPlugin({

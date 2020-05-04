@@ -153,10 +153,10 @@ const analysis = authors => {
 
     // Writing files
 
-    fs.writeFile('./src/static/nodes.json', JSON.stringify(nodes), err => { if (err) throw err })
+    fs.writeFile('./src/data/nodes.json', JSON.stringify(nodes), err => { if (err) throw err })
     fs.writeFile('./data/nodes.json', JSON.stringify(nodes, null, '\t'), err => { if (err) throw err })
 
-    fs.writeFile('./src/static/links.json', JSON.stringify(links), err => { if (err) throw err })
+    fs.writeFile('./src/data/links.json', JSON.stringify(links), err => { if (err) throw err })
     fs.writeFile('./data/links.json', JSON.stringify(links, null, '\t'), err => { if (err) throw err })
 
     // Final report

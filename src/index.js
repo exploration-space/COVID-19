@@ -1,9 +1,9 @@
-import './static/main.css'
+import './interface/main.css'
 
 import * as d3 from 'd3'
-import { s } from './settings'
-import nodes from './static/nodes.json'
-import links from './static/links.json'
+import { s } from './init/settings'
+import nodes from './data/nodes.json'
+import links from './data/links.json'
 import { simulation } from './elements/simulation'
 import hover from './interface/hover'
 import search from './interface/search'
