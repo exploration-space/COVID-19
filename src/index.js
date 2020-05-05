@@ -5,7 +5,6 @@ import { s } from './init/settings'
 import nodes from './data/nodes.json'
 import links from './data/links.json'
 import { simulation } from './elements/simulation'
-import hover from './interface/hover'
 import search from './interface/search'
 // import background from './elements/background'
 
@@ -43,7 +42,6 @@ Promise.all([
 
     // background()
     simulation()
-    // hover()
     // search()
 
 })

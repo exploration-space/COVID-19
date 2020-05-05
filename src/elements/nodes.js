@@ -1,4 +1,5 @@
 import { s } from '../init/settings'
+import { mouseover, mouseout } from '../interface/mouseover'
 import * as PIXI from 'pixi.js'
 
 let stage
@@ -22,6 +23,14 @@ export function initNodes() {
         nodes.addChild(node.gpx)
         // node.txt = new PIXI.Text(node.name, nodeStyle)
         // nodes.addChild(node.txt)
+        node.gpx.interactive = true
+        node.gpx.hitArea = new PIXI.Circle(0, 0, 20)
+        node.gpx.mouseover = (mouseData) => {
+            mouseover(node)
+        }
+        node.gpx.mouseout = (mouseData) => {
+            mouseout()
+        }
     })
 
 }
