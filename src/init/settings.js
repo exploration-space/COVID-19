@@ -9,6 +9,7 @@ export let s = {
     screen: {},
 
     ext: {},
+    array: {},
 
     colors: {
         gradientA: d3.rgb(0, 0, 0),

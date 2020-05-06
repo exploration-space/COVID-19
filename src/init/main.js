@@ -4,21 +4,21 @@ export default () => {
 
     // Set extent
 
-    s.linkExtent = []
+    // s.linkExtent = []
 
-    s.linkExtent[0] = s.links.reduce((min, link) => {
-        const tokens = Object.entries(link.tokens)
-        for (const [key, value] of tokens) {
-            return min < value ? min : value
-        }
-    }, Infinity)
+    // s.linkExtent[0] = s.links.reduce((min, link) => {
+    //     const tokens = Object.entries(link.tokens)
+    //     for (const [key, value] of tokens) {
+    //         return min < value ? min : value
+    //     }
+    // }, Infinity)
 
-    s.linkExtent[1] = s.links.reduce((min, link) => {
-        const tokens = Object.entries(link.tokens)
-        for (const [key, value] of tokens) {
-            return min > value ? min : value
-        }
-    }, 0)
+    // s.linkExtent[1] = s.links.reduce((min, link) => {
+    //     const tokens = Object.entries(link.tokens)
+    //     for (const [key, value] of tokens) {
+    //         return min > value ? min : value
+    //     }
+    // }, 0)
 
     // Set extent for publications
 
@@ -47,9 +47,15 @@ export default () => {
     // Variables
 
     s.body = document.querySelector('body')
-    s.screen.width = s.body.clientWidth * s.screen.density
-    s.screen.height = s.body.clientHeight * s.screen.density
-    s.canvas = d3.select('#visualization')
-    s.context = document.querySelector('#visualization').getContext('2d')
+    // s.screen.width = s.body.clientWidth * s.screen.density
+    // s.screen.height = s.body.clientHeight * s.screen.density
+    // s.canvas = d3.select('#visualization')
+    // s.context = document.querySelector('#visualization').getContext('2d')
+
+    // Prevent pinch gesture in Chrome
+
+    window.addEventListener('wheel', e => {
+        e.preventDefault();
+    }, { passive: false });
 
 }

@@ -16,7 +16,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const min = 15 // 15 is a reasonable value
+    const min = 30 // 15 is a reasonable value
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
         if (author.docs >= min)
@@ -153,10 +153,10 @@ const analysis = authors => {
 
     // Writing files
 
-    fs.writeFile('./src/static/nodes.json', JSON.stringify(nodes), err => { if (err) throw err })
+    fs.writeFile('./src/data/nodes.json', JSON.stringify(nodes), err => { if (err) throw err })
     fs.writeFile('./data/nodes.json', JSON.stringify(nodes, null, '\t'), err => { if (err) throw err })
 
-    fs.writeFile('./src/static/links.json', JSON.stringify(links), err => { if (err) throw err })
+    fs.writeFile('./src/data/links.json', JSON.stringify(links), err => { if (err) throw err })
     fs.writeFile('./data/links.json', JSON.stringify(links, null, '\t'), err => { if (err) throw err })
 
     // Final report

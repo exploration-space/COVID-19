@@ -1,0 +1,24 @@
+import { s } from '../init/settings'
+import * as PIXI from 'pixi.js'
+
+let stage
+
+export function initLinks() {
+
+    const links = new PIXI.Graphics()
+    stage = s.pixi.addChild(links)
+
+}
+
+export function drawLinks() {
+
+    stage.clear()
+    stage.alpha = .2
+
+    s.links.forEach(({ source, target, value }) => {
+        stage.lineStyle(value, 0xFFFFFF)
+        stage.moveTo(source.x, source.y)
+        stage.lineTo(target.x, target.y)
+    })
+
+}

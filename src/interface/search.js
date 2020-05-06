@@ -1,5 +1,5 @@
 import * as d3 from 'd3'
-import { s } from '../settings'
+import { s } from '../init/settings'
 
 export default () => {
 
