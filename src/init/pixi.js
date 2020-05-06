@@ -8,7 +8,7 @@ export default () => {
         width: s.body.clientWidth,
         height: s.body.clientHeight,
         antialias: true,
-        backgroundColor: 0x000000,
+        transparent: true,
         resolution: 2,
         autoDensity: true,
         autoResize: true,

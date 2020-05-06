@@ -6,7 +6,7 @@ import nodes from './data/nodes.json'
 import links from './data/links.json'
 import { simulation } from './elements/simulation'
 import search from './interface/search'
-// import background from './elements/background'
+import background from './elements/background'
 
 import initMain from './init/main.js'
 import initPixi from './init/pixi.js'
@@ -40,7 +40,7 @@ Promise.all([
     initNodes()
     initTokens()
 
-    // background()
+    background()
     simulation()
     // search()
 
