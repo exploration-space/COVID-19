@@ -6,8 +6,6 @@ const block = '<span class="block"></span>'
 
 export function mouseover(node) {
 
-    console.log(node)
-
     const focus = document.createElement('div')
     focus.id = 'focus'
     const body = document.querySelector('body')
@@ -31,7 +29,7 @@ export function mouseover(node) {
     tokens += '<tr><td colspan="2" style="text-align:center;">Tokens by tf-idf</td></tr>'
     tokens += line
     tokens += Object.entries(node.tokens).reduce((tokens, token, i) => {
-        if (i < 20) {
+        if (i < 10) {
             const repetition = token[1] / 10
             const blocks = block.repeat(repetition)
             tokens += `<tr><td style="text-align: right;">${token[0]}</td><td>${blocks}</td></tr>`

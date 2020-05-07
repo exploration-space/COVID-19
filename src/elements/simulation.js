@@ -15,7 +15,7 @@ export function simulation() {
             .strength(.5)
             .iterations(20)
         )
-        .force('center', d3.forceCenter(s.body.clientWidth / 2, s.body.clientHeight / 2))
+        .force('center', d3.forceCenter(window.innerWidth / 2, window.innerHeight / 2))
         .force('link', d3.forceLink()
             .id(d => d.id)
             .strength(d => d.value * 1)
@@ -28,7 +28,7 @@ export function simulation() {
 export function ticked() {
 
     drawContours()
-    drawLinks()
+    // drawLinks()
     drawNodes()
     drawTokens()
 

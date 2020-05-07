@@ -8,7 +8,7 @@ import { simulation } from './elements/simulation'
 import search from './interface/search'
 import background from './elements/background'
 
-import initMain from './init/main.js'
+import init from './init/init.js'
 import initPixi from './init/pixi.js'
 import initFps from './init/fps.js'
 
@@ -31,7 +31,7 @@ Promise.all([
     console.log('nodes', s.nodes.length)
     console.log('links', s.links.length)
 
-    initMain()
+    init()
     initPixi()
     initFps()
 

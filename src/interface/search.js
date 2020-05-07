@@ -14,21 +14,24 @@ export default () => {
             console.log("matching", matchingNode)
             s.zoomTo = matchingNode
         })
-        .on("keypress", function () {
-            if (d3.event.keyCode === 32 || d3.event.keyCode === 13) {
 
-                const k = 8
-                const tx = (s.screen.width / 2 - s.zoomTo.x * k) / s.screen.density
-                const ty = (s.screen.height / 2 - s.zoomTo.y * k) / s.screen.density
+        // To check s.screen.density does not exist anymore
 
-                s.zoomState = d3.zoomIdentity
-                    .translate(tx, ty)
-                    .scale(k)
+        // .on("keypress", function () {
+        //     if (d3.event.keyCode === 32 || d3.event.keyCode === 13) {
 
-                s.canvas.transition()
-                    .duration(2000)
-                    .call(s.zoom.transform, s.zoomState);
+        //         const k = 8
+        //         const tx = (s.screen.width / 2 - s.zoomTo.x * k) / s.screen.density
+        //         const ty = (s.screen.height / 2 - s.zoomTo.y * k) / s.screen.density
 
-            }
-        })
+        //         s.zoomState = d3.zoomIdentity
+        //             .translate(tx, ty)
+        //             .scale(k)
+
+        //         s.canvas.transition()
+        //             .duration(2000)
+        //             .call(s.zoom.transform, s.zoomState);
+
+        //     }
+        // })
 }

@@ -5,8 +5,8 @@ import { Viewport } from 'pixi-viewport'
 export default () => {
 
     const app = new PIXI.Application({
-        width: s.body.clientWidth,
-        height: s.body.clientHeight,
+        width: window.innerWidth,
+        height: window.innerHeight,
         antialias: true,
         transparent: true,
         resolution: 2,

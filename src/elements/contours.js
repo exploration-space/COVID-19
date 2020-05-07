@@ -19,7 +19,7 @@ export function drawContours() {
         .x(d => d.x)
         .y(d => d.y)
         .weight(d => d.relevancy)
-        .size([s.body.clientWidth, s.body.clientHeight])
+        .size([window.innerWidth, window.innerHeight])
         .cellSize(5)
         .bandwidth(40)
         .thresholds(15)
