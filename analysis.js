@@ -56,7 +56,7 @@ const analysis = authors => {
             .filter(token => token.length > 2)
             .filter(token => !parseInt(token))
 
-            console.log(author.tokens)
+        console.log(author.tokens)
     })
 
     // TF-IDF
