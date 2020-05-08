@@ -1,6 +1,3 @@
-import * as d3 from 'd3'
-import { s } from '../init/settings'
-
 export default () => {
 
     d3.select("#searchField")

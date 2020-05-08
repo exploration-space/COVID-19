@@ -1,7 +1,6 @@
 import './interface/main.css'
 
 import * as d3 from 'd3'
-import { s } from './init/settings'
 import nodes from './data/nodes.json'
 import links from './data/links.json'
 import { simulation } from './elements/simulation'
@@ -17,7 +16,12 @@ import { initNodes } from './elements/nodes.js'
 import { initTokens } from './elements/tokens.js'
 
 window.d3 = d3
-window.s = s
+
+window.s = {
+    distance: 30,
+    links,
+    nodes,
+}
 
 Promise.all([
     d3.json(nodes),

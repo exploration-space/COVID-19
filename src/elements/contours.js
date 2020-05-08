@@ -1,4 +1,3 @@
-import { s } from '../init/settings'
 import * as PIXI from 'pixi.js'
 
 let stage
@@ -15,7 +14,7 @@ export function drawContours() {
     stage.clear()
     stage.alpha = .8
 
-    s.densityData = d3.contourDensity()
+    const density = d3.contourDensity()
         .x(d => d.x)
         .y(d => d.y)
         .weight(d => d.relevancy)
@@ -26,16 +25,16 @@ export function drawContours() {
         (s.nodes)
 
     const contourWidth = .8
-    const step = contourWidth / s.densityData.length
+    const step = contourWidth / density.length
     let count = 1
 
-    for (let i = s.densityData.length - 1; i >= 0; i--) {
+    for (let i = density.length - 1; i >= 0; i--) {
 
         const width = contourWidth - step * count
         stage.lineStyle(width, 0xFFFFFF)
         count = count + 1
 
-        s.densityData[i].coordinates.forEach(array => {
+        density[i].coordinates.forEach(array => {
             array.forEach(array => {
                 array.forEach(([x, y], i) => {
                     if (i == 0) stage.moveTo(x, y)

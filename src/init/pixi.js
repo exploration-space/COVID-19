@@ -1,4 +1,3 @@
-import { s } from './settings'
 import * as PIXI from 'pixi.js'
 import { Viewport } from 'pixi-viewport'
 

@@ -1,4 +1,3 @@
-import { s } from '../init/settings'
 import { mouseover, mouseout } from '../interface/mouseover'
 import * as PIXI from 'pixi.js'
 
