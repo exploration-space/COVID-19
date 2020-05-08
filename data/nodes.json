@@ -167,7 +167,9 @@
 			"benzoimidazol": 20,
 			"hydroxycoumarin": 20
 		},
-		"relevancy": 1517
+		"relevancy": 1517,
+		"ethnicity": "Flemish",
+		"ethnicityScore": "57.4594601165594"
 	},
 	{
 		"id": 69,
@@ -425,7 +427,9 @@
 			"lasv": 24,
 			"bundle": 23
 		},
-		"relevancy": 1700
+		"relevancy": 1700,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "47.957266588231"
 	},
 	{
 		"id": 151,
@@ -721,7 +725,9 @@
 			"binding": 45,
 			"replicative": 44
 		},
-		"relevancy": 3119
+		"relevancy": 3119,
+		"ethnicity": "Russian",
+		"ethnicityScore": "0.9207943427469277"
 	},
 	{
 		"id": 263,
@@ -901,7 +907,9 @@
 			"associated": 31,
 			"brain": 31
 		},
-		"relevancy": 2520
+		"relevancy": 2520,
+		"ethnicity": "French",
+		"ethnicityScore": "15.68862279988696"
 	},
 	{
 		"id": 265,
@@ -1108,7 +1116,9 @@
 			"cov": 27,
 			"respiratory": 26
 		},
-		"relevancy": 1837
+		"relevancy": 1837,
+		"ethnicity": "German",
+		"ethnicityScore": "5.7502222100716835"
 	},
 	{
 		"id": 298,
@@ -1563,7 +1573,9 @@
 			"typhimurium": 70,
 			"synthesis": 70
 		},
-		"relevancy": 5645
+		"relevancy": 5645,
+		"ethnicity": "Hispanic",
+		"ethnicityScore": "10.756032479320625"
 	},
 	{
 		"id": 329,
@@ -1710,7 +1722,9 @@
 			"protein": 40,
 			"uaa": 38
 		},
-		"relevancy": 3710
+		"relevancy": 3710,
+		"ethnicity": "British",
+		"ethnicityScore": "15.42942452270996"
 	},
 	{
 		"id": 354,
@@ -2051,7 +2065,9 @@
 			"hepatitis": 49,
 			"soluble": 47
 		},
-		"relevancy": 3918
+		"relevancy": 3918,
+		"ethnicity": "British",
+		"ethnicityScore": "6.443154931932864"
 	},
 	{
 		"id": 364,
@@ -2234,7 +2250,9 @@
 			"bmem": 61,
 			"brain": 57
 		},
-		"relevancy": 4737
+		"relevancy": 4737,
+		"ethnicity": "Dutch",
+		"ethnicityScore": "0.82040132297533"
 	},
 	{
 		"id": 526,
@@ -2372,7 +2390,9 @@
 			"sequence": 29,
 			"cov": 29
 		},
-		"relevancy": 2171
+		"relevancy": 2171,
+		"ethnicity": "Jewish",
+		"ethnicityScore": "19.168859394522492"
 	},
 	{
 		"id": 553,
@@ -2502,7 +2522,9 @@
 			"subgenomic": 32,
 			"helper": 32
 		},
-		"relevancy": 2406
+		"relevancy": 2406,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "9.728428187627902"
 	},
 	{
 		"id": 586,
@@ -2752,7 +2774,9 @@
 			"mer": 50,
 			"chikv": 50
 		},
-		"relevancy": 4228
+		"relevancy": 4228,
+		"ethnicity": "Japanese",
+		"ethnicityScore": "71.77190810286237"
 	},
 	{
 		"id": 587,
@@ -2919,7 +2943,9 @@
 			"s1n330": 33,
 			"pedv": 32
 		},
-		"relevancy": 2743
+		"relevancy": 2743,
+		"ethnicity": "Japanese",
+		"ethnicityScore": "88.58255301893104"
 	},
 	{
 		"id": 614,
@@ -3031,7 +3057,9 @@
 			"slvi": 33,
 			"frame": 32
 		},
-		"relevancy": 2222
+		"relevancy": 2222,
+		"ethnicity": "Ugandan",
+		"ethnicityScore": "0.07205706574234472"
 	},
 	{
 		"id": 639,
@@ -3391,7 +3419,9 @@
 			"induced": 80,
 			"glial": 79
 		},
-		"relevancy": 7344
+		"relevancy": 7344,
+		"ethnicity": "Jewish",
+		"ethnicityScore": "7.531901587398871"
 	},
 	{
 		"id": 650,
@@ -4081,7 +4111,9 @@
 			"nsp10": 76,
 			"vrp": 75
 		},
-		"relevancy": 6206
+		"relevancy": 6206,
+		"ethnicity": "Croat",
+		"ethnicityScore": "22.989502757701086"
 	},
 	{
 		"id": 661,
@@ -4667,7 +4699,9 @@
 			"respons": 93,
 			"macrodomain": 90
 		},
-		"relevancy": 7628
+		"relevancy": 7628,
+		"ethnicity": "Jewish",
+		"ethnicityScore": "31.13676941557853"
 	},
 	{
 		"id": 666,
@@ -4939,7 +4973,9 @@
 			"isg15": 50,
 			"murine": 49
 		},
-		"relevancy": 3785
+		"relevancy": 3785,
+		"ethnicity": "British",
+		"ethnicityScore": "4.458645958951637"
 	},
 	{
 		"id": 747,
@@ -5096,7 +5132,9 @@
 			"phev": 31,
 			"nucleolus": 30
 		},
-		"relevancy": 2451
+		"relevancy": 2451,
+		"ethnicity": "Korean",
+		"ethnicityScore": "36.85227763519956"
 	},
 	{
 		"id": 750,
@@ -5233,7 +5271,9 @@
 			"role": 28,
 			"assembled": 28
 		},
-		"relevancy": 2393
+		"relevancy": 2393,
+		"ethnicity": "Irish",
+		"ethnicityScore": "0.4131821855261388"
 	},
 	{
 		"id": 787,
@@ -5481,7 +5521,9 @@
 			"neu5": 36,
 			"batfluav": 36
 		},
-		"relevancy": 2665
+		"relevancy": 2665,
+		"ethnicity": "German",
+		"ethnicityScore": "4.031621364789407"
 	},
 	{
 		"id": 788,
@@ -5898,7 +5940,9 @@
 			"transcription": 75,
 			"complex": 75
 		},
-		"relevancy": 6216
+		"relevancy": 6216,
+		"ethnicity": "Dutch",
+		"ethnicityScore": "41.597235752440945"
 	},
 	{
 		"id": 819,
@@ -6011,7 +6055,9 @@
 			"mrna5": 27,
 			"penn": 27
 		},
-		"relevancy": 2195
+		"relevancy": 2195,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "87.34730293166506"
 	},
 	{
 		"id": 839,
@@ -6173,7 +6219,9 @@
 			"chicken": 33,
 			"spike": 33
 		},
-		"relevancy": 3332
+		"relevancy": 3332,
+		"ethnicity": "British",
+		"ethnicityScore": "9.72187041035357"
 	},
 	{
 		"id": 887,
@@ -6462,7 +6510,9 @@
 			"capture": 31,
 			"cat": 31
 		},
-		"relevancy": 2058
+		"relevancy": 2058,
+		"ethnicity": "Japanese",
+		"ethnicityScore": "79.57527420926448"
 	},
 	{
 		"id": 959,
@@ -6792,7 +6842,9 @@
 			"dmv": 67,
 			"complex": 66
 		},
-		"relevancy": 4878
+		"relevancy": 4878,
+		"ethnicity": "British",
+		"ethnicityScore": "6.842323783595419"
 	},
 	{
 		"id": 1464,
@@ -7083,7 +7135,9 @@
 			"nursing": 79,
 			"nov": 78
 		},
-		"relevancy": 5704
+		"relevancy": 5704,
+		"ethnicity": "Algerian",
+		"ethnicityScore": "0.36459913081483564"
 	},
 	{
 		"id": 1704,
@@ -7210,7 +7264,9 @@
 			"cord": 30,
 			"ribosyl": 27
 		},
-		"relevancy": 2288
+		"relevancy": 2288,
+		"ethnicity": "Irish",
+		"ethnicityScore": "13.515238174328886"
 	},
 	{
 		"id": 2714,
@@ -7599,7 +7655,9 @@
 			"cov": 38,
 			"lactobacillus": 38
 		},
-		"relevancy": 2444
+		"relevancy": 2444,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "40.18859251642679"
 	},
 	{
 		"id": 3065,
@@ -7848,7 +7906,9 @@
 			"france": 26,
 			"tre": 25
 		},
-		"relevancy": 1837
+		"relevancy": 1837,
+		"ethnicity": "French",
+		"ethnicityScore": "13.947518577070252"
 	},
 	{
 		"id": 3369,
@@ -8245,7 +8305,9 @@
 			"trial": 37,
 			"hospital": 36
 		},
-		"relevancy": 3586
+		"relevancy": 3586,
+		"ethnicity": "Palestinian",
+		"ethnicityScore": "11.091108234859526"
 	},
 	{
 		"id": 3501,
@@ -8520,7 +8582,9 @@
 			"visit": 31,
 			"wisconsin": 29
 		},
-		"relevancy": 2803
+		"relevancy": 2803,
+		"ethnicity": "Irish",
+		"ethnicityScore": "8.455981514021904"
 	},
 	{
 		"id": 3583,
@@ -9025,7 +9089,9 @@
 			"ifitm1": 22,
 			"genomic": 22
 		},
-		"relevancy": 1517
+		"relevancy": 1517,
+		"ethnicity": "Irish",
+		"ethnicityScore": "2.9594181653380525"
 	},
 	{
 		"id": 3730,
@@ -9226,7 +9292,9 @@
 			"aim2": 23,
 			"yersinia": 23
 		},
-		"relevancy": 1583
+		"relevancy": 1583,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "27.03641577437859"
 	},
 	{
 		"id": 3741,
@@ -9613,7 +9681,9 @@
 			"binding": 29,
 			"mva": 29
 		},
-		"relevancy": 2583
+		"relevancy": 2583,
+		"ethnicity": "Dutch",
+		"ethnicityScore": "13.245022314941506"
 	},
 	{
 		"id": 3869,
@@ -9954,7 +10024,9 @@
 			"hiv": 34,
 			"replication": 34
 		},
-		"relevancy": 2515
+		"relevancy": 2515,
+		"ethnicity": "Hispanic",
+		"ethnicityScore": "19.043833901132892"
 	},
 	{
 		"id": 3941,
@@ -10286,7 +10358,9 @@
 			"ebola": 69,
 			"platelet": 68
 		},
-		"relevancy": 4868
+		"relevancy": 4868,
+		"ethnicity": "German",
+		"ethnicityScore": "19.590642610123417"
 	},
 	{
 		"id": 4056,
@@ -10627,7 +10701,9 @@
 			"orf": 21,
 			"ire": 21
 		},
-		"relevancy": 1428
+		"relevancy": 1428,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "22.134456124709605"
 	},
 	{
 		"id": 4083,
@@ -10866,7 +10942,9 @@
 			"antibody": 22,
 			"receptor": 21
 		},
-		"relevancy": 1737
+		"relevancy": 1737,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "40.58763676509331"
 	},
 	{
 		"id": 4084,
@@ -11477,7 +11555,9 @@
 			"immune": 52,
 			"reovirus": 52
 		},
-		"relevancy": 4304
+		"relevancy": 4304,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "43.94474589162149"
 	},
 	{
 		"id": 4330,
@@ -11900,7 +11980,9 @@
 			"attenuated": 35,
 			"protection": 35
 		},
-		"relevancy": 2860
+		"relevancy": 2860,
+		"ethnicity": "Indian",
+		"ethnicityScore": "35.068663352635994"
 	},
 	{
 		"id": 4383,
@@ -12051,7 +12133,9 @@
 			"rate": 29,
 			"day": 29
 		},
-		"relevancy": 2627
+		"relevancy": 2627,
+		"ethnicity": "Iraqi",
+		"ethnicityScore": "7.97571009619413"
 	},
 	{
 		"id": 4632,
@@ -12298,7 +12382,9 @@
 			"btcov": 26,
 			"bnsp333": 25
 		},
-		"relevancy": 2196
+		"relevancy": 2196,
+		"ethnicity": "Jewish",
+		"ethnicityScore": "4.396566373305012"
 	},
 	{
 		"id": 4636,
@@ -12987,7 +13073,9 @@
 			"ev71": 85,
 			"east": 84
 		},
-		"relevancy": 6224
+		"relevancy": 6224,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "30.675827966132616"
 	},
 	{
 		"id": 4686,
@@ -13302,7 +13390,9 @@
 			"fly": 25,
 			"basv": 25
 		},
-		"relevancy": 1714
+		"relevancy": 1714,
+		"ethnicity": "German",
+		"ethnicityScore": "7.441797957123545"
 	},
 	{
 		"id": 4713,
@@ -13588,7 +13678,9 @@
 			"needle": 27,
 			"trial": 27
 		},
-		"relevancy": 1792
+		"relevancy": 1792,
+		"ethnicity": "Irish",
+		"ethnicityScore": "1.2990566614487153"
 	},
 	{
 		"id": 4921,
@@ -13794,7 +13886,9 @@
 			"respiratory": 21,
 			"syndrome": 21
 		},
-		"relevancy": 1724
+		"relevancy": 1724,
+		"ethnicity": "Austrian",
+		"ethnicityScore": "2.388447383056359"
 	},
 	{
 		"id": 5098,
@@ -13973,7 +14067,9 @@
 			"allogeneic": 40,
 			"hematologic": 40
 		},
-		"relevancy": 3184
+		"relevancy": 3184,
+		"ethnicity": "Swedish",
+		"ethnicityScore": "45.59718030833803"
 	},
 	{
 		"id": 5500,
@@ -14379,7 +14475,9 @@
 			"tlda": 25,
 			"case": 24
 		},
-		"relevancy": 1558
+		"relevancy": 1558,
+		"ethnicity": "Jewish",
+		"ethnicityScore": "3.642640756518423"
 	},
 	{
 		"id": 5691,
@@ -14597,7 +14695,9 @@
 			"rhinovirus": 27,
 			"geosentinel": 27
 		},
-		"relevancy": 2343
+		"relevancy": 2343,
+		"ethnicity": "French",
+		"ethnicityScore": "34.6927858377665"
 	},
 	{
 		"id": 5719,
@@ -14988,7 +15088,9 @@
 			"seasonal": 24,
 			"data": 24
 		},
-		"relevancy": 1826
+		"relevancy": 1826,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "25.031758200425525"
 	},
 	{
 		"id": 5802,
@@ -15219,7 +15321,9 @@
 			"central": 71,
 			"hepatitis": 71
 		},
-		"relevancy": 5122
+		"relevancy": 5122,
+		"ethnicity": "Irish",
+		"ethnicityScore": "6.785840515281081"
 	},
 	{
 		"id": 6078,
@@ -15432,7 +15536,9 @@
 			"clinical": 20,
 			"h1n1pdm09": 19
 		},
-		"relevancy": 1145
+		"relevancy": 1145,
+		"ethnicity": "Korean",
+		"ethnicityScore": "13.388829511583806"
 	},
 	{
 		"id": 6410,
@@ -15749,7 +15855,9 @@
 			"lactobacillus": 17,
 			"cfrb": 16
 		},
-		"relevancy": 1350
+		"relevancy": 1350,
+		"ethnicity": "British",
+		"ethnicityScore": "0.9834404784250858"
 	},
 	{
 		"id": 6546,
@@ -16141,7 +16249,9 @@
 			"rig": 20,
 			"platform": 19
 		},
-		"relevancy": 1274
+		"relevancy": 1274,
+		"ethnicity": "Jewish",
+		"ethnicityScore": "13.29960529698017"
 	},
 	{
 		"id": 7002,
@@ -16576,7 +16686,9 @@
 			"nasopharyngeal": 48,
 			"adenovirus": 48
 		},
-		"relevancy": 3185
+		"relevancy": 3185,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "12.725409996423885"
 	},
 	{
 		"id": 7135,
@@ -17036,7 +17148,9 @@
 			"reverse": 35,
 			"dmv": 35
 		},
-		"relevancy": 2907
+		"relevancy": 2907,
+		"ethnicity": "German",
+		"ethnicityScore": "16.849045404277305"
 	},
 	{
 		"id": 7211,
@@ -17888,7 +18002,9 @@
 			"assay": 37,
 			"using": 37
 		},
-		"relevancy": 2817
+		"relevancy": 2817,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "30.72931586926091"
 	},
 	{
 		"id": 7273,
@@ -18509,7 +18625,9 @@
 			"extract": 40,
 			"ifitm1": 40
 		},
-		"relevancy": 2729
+		"relevancy": 2729,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "41.839592553853855"
 	},
 	{
 		"id": 7333,
@@ -18738,7 +18856,9 @@
 			"severe": 24,
 			"adp": 24
 		},
-		"relevancy": 1787
+		"relevancy": 1787,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "16.469092726840415"
 	},
 	{
 		"id": 7350,
@@ -19056,7 +19176,9 @@
 			"macaque": 27,
 			"fecal": 26
 		},
-		"relevancy": 1875
+		"relevancy": 1875,
+		"ethnicity": "Japanese",
+		"ethnicityScore": "74.5614280271009"
 	},
 	{
 		"id": 7351,
@@ -19287,7 +19409,9 @@
 			"elisa": 32,
 			"lujpv": 32
 		},
-		"relevancy": 2097
+		"relevancy": 2097,
+		"ethnicity": "Japanese",
+		"ethnicityScore": "62.912588596545866"
 	},
 	{
 		"id": 7352,
@@ -19491,7 +19615,9 @@
 			"lujv": 27,
 			"severe": 27
 		},
-		"relevancy": 1862
+		"relevancy": 1862,
+		"ethnicity": "Japanese",
+		"ethnicityScore": "63.96803631575408"
 	},
 	{
 		"id": 7376,
@@ -20133,7 +20259,9 @@
 			"nectin": 53,
 			"viral": 53
 		},
-		"relevancy": 3463
+		"relevancy": 3463,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "17.44916797216336"
 	},
 	{
 		"id": 7394,
@@ -20513,7 +20641,9 @@
 			"thyroid": 29,
 			"gp90": 29
 		},
-		"relevancy": 2091
+		"relevancy": 2091,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "79.04688752857558"
 	},
 	{
 		"id": 7415,
@@ -20880,7 +21010,9 @@
 			"result": 29,
 			"antibody": 28
 		},
-		"relevancy": 1773
+		"relevancy": 1773,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "77.3384857841819"
 	},
 	{
 		"id": 7493,
@@ -21145,7 +21277,9 @@
 			"vitro": 23,
 			"cpe": 23
 		},
-		"relevancy": 1619
+		"relevancy": 1619,
+		"ethnicity": "Flemish",
+		"ethnicityScore": "25.179891809286314"
 	},
 	{
 		"id": 7528,
@@ -21291,7 +21425,9 @@
 			"infection": 24,
 			"hamster": 23
 		},
-		"relevancy": 1991
+		"relevancy": 1991,
+		"ethnicity": "Hispanic",
+		"ethnicityScore": "2.332146121022848"
 	},
 	{
 		"id": 7554,
@@ -21415,7 +21551,9 @@
 			"a76": 33,
 			"human": 32
 		},
-		"relevancy": 2503
+		"relevancy": 2503,
+		"ethnicity": "British",
+		"ethnicityScore": "11.714886500851396"
 	},
 	{
 		"id": 8103,
@@ -21709,7 +21847,9 @@
 			"rna": 34,
 			"immunochromatographic": 33
 		},
-		"relevancy": 2769
+		"relevancy": 2769,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "51.16399459917729"
 	},
 	{
 		"id": 8785,
@@ -21951,7 +22091,9 @@
 			"ahc": 29,
 			"specificity": 28
 		},
-		"relevancy": 2025
+		"relevancy": 2025,
+		"ethnicity": "Dutch",
+		"ethnicityScore": "22.96367088935123"
 	},
 	{
 		"id": 8847,
@@ -22194,7 +22336,9 @@
 			"surface": 24,
 			"species": 23
 		},
-		"relevancy": 1763
+		"relevancy": 1763,
+		"ethnicity": "Swiss",
+		"ethnicityScore": "2.6983350280055083"
 	},
 	{
 		"id": 8913,
@@ -22505,7 +22649,9 @@
 			"structure": 34,
 			"enzyme": 34
 		},
-		"relevancy": 2451
+		"relevancy": 2451,
+		"ethnicity": "German",
+		"ethnicityScore": "6.593301566846018"
 	},
 	{
 		"id": 8915,
@@ -22914,7 +23060,9 @@
 			"partridge": 25,
 			"detection": 24
 		},
-		"relevancy": 1749
+		"relevancy": 1749,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "27.312185285073078"
 	},
 	{
 		"id": 8984,
@@ -23384,7 +23532,9 @@
 			"hev": 25,
 			"patient": 25
 		},
-		"relevancy": 1491
+		"relevancy": 1491,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "31.222808646791915"
 	},
 	{
 		"id": 9753,
@@ -23509,7 +23659,9 @@
 			"ilt": 37,
 			"protein": 36
 		},
-		"relevancy": 2728
+		"relevancy": 2728,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "18.53873664445454"
 	},
 	{
 		"id": 9754,
@@ -23841,7 +23993,9 @@
 			"sequence": 29,
 			"protein": 29
 		},
-		"relevancy": 1951
+		"relevancy": 1951,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "63.39631823911253"
 	},
 	{
 		"id": 9756,
@@ -24034,7 +24188,9 @@
 			"pigeon": 39,
 			"avian": 39
 		},
-		"relevancy": 2965
+		"relevancy": 2965,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "47.35296538937695"
 	},
 	{
 		"id": 10110,
@@ -24251,7 +24407,9 @@
 			"rabies": 36,
 			"adaptor": 35
 		},
-		"relevancy": 2474
+		"relevancy": 2474,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "48.88346883277052"
 	},
 	{
 		"id": 10111,
@@ -24380,7 +24538,9 @@
 			"prrsv": 39,
 			"pancov": 38
 		},
-		"relevancy": 3025
+		"relevancy": 3025,
+		"ethnicity": "Korean",
+		"ethnicityScore": "35.184995653430036"
 	},
 	{
 		"id": 10144,
@@ -24646,7 +24806,9 @@
 			"gastroenteritis": 41,
 			"gene": 39
 		},
-		"relevancy": 3817
+		"relevancy": 3817,
+		"ethnicity": "Italian",
+		"ethnicityScore": "32.818319746048694"
 	},
 	{
 		"id": 10151,
@@ -24812,7 +24974,9 @@
 			"caninecv": 31,
 			"faecal": 30
 		},
-		"relevancy": 2698
+		"relevancy": 2698,
+		"ethnicity": "Hungarian",
+		"ethnicityScore": "7.61927369127706"
 	},
 	{
 		"id": 10154,
@@ -25049,7 +25213,9 @@
 			"sequence": 40,
 			"abstract": 39
 		},
-		"relevancy": 3164
+		"relevancy": 3164,
+		"ethnicity": "Italian",
+		"ethnicityScore": "39.927684506568255"
 	},
 	{
 		"id": 10155,
@@ -25268,7 +25434,9 @@
 			"detection": 42,
 			"genotype": 41
 		},
-		"relevancy": 3657
+		"relevancy": 3657,
+		"ethnicity": "Italian",
+		"ethnicityScore": "40.96407988053728"
 	},
 	{
 		"id": 10229,
@@ -25813,7 +25981,9 @@
 			"prrsv": 37,
 			"ang": 37
 		},
-		"relevancy": 2289
+		"relevancy": 2289,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "74.81759095270233"
 	},
 	{
 		"id": 10289,
@@ -26213,7 +26383,9 @@
 			"quinoxaline": 24,
 			"cinanserin": 24
 		},
-		"relevancy": 1524
+		"relevancy": 1524,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "53.63634609300896"
 	},
 	{
 		"id": 10341,
@@ -26442,7 +26614,9 @@
 			"antiviral": 40,
 			"p53": 40
 		},
-		"relevancy": 3360
+		"relevancy": 3360,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "42.00315037216525"
 	},
 	{
 		"id": 10412,
@@ -26588,7 +26762,9 @@
 			"enteric": 23,
 			"viral": 23
 		},
-		"relevancy": 2233
+		"relevancy": 2233,
+		"ethnicity": "Italian",
+		"ethnicityScore": "0.08204648411955495"
 	},
 	{
 		"id": 10441,
@@ -26925,7 +27101,9 @@
 			"viral": 30,
 			"virus": 28
 		},
-		"relevancy": 2063
+		"relevancy": 2063,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "13.533656943340052"
 	},
 	{
 		"id": 10739,
@@ -27208,7 +27386,9 @@
 			"arau": 44,
 			"gp120": 44
 		},
-		"relevancy": 2858
+		"relevancy": 2858,
+		"ethnicity": "Italian",
+		"ethnicityScore": "28.08607416579752"
 	},
 	{
 		"id": 10772,
@@ -27428,7 +27608,9 @@
 			"vacv": 38,
 			"series": 38
 		},
-		"relevancy": 2791
+		"relevancy": 2791,
+		"ethnicity": "Romanian",
+		"ethnicityScore": "8.245882609707014"
 	},
 	{
 		"id": 10774,
@@ -27612,7 +27794,9 @@
 			"methyl": 37,
 			"phosphonomethoxy": 35
 		},
-		"relevancy": 2726
+		"relevancy": 2726,
+		"ethnicity": "Flemish",
+		"ethnicityScore": "40.918608796266405"
 	},
 	{
 		"id": 10980,
@@ -27829,7 +28013,9 @@
 			"stress": 33,
 			"enteric": 33
 		},
-		"relevancy": 2534
+		"relevancy": 2534,
+		"ethnicity": "Portuguese",
+		"ethnicityScore": "2.2202764255326466"
 	},
 	{
 		"id": 11119,
@@ -27988,7 +28174,9 @@
 			"mediated": 54,
 			"infiltrating": 51
 		},
-		"relevancy": 4426
+		"relevancy": 4426,
+		"ethnicity": "German",
+		"ethnicityScore": "9.122060427117386"
 	},
 	{
 		"id": 11137,
@@ -28204,7 +28392,9 @@
 			"inactivated": 29,
 			"acute": 29
 		},
-		"relevancy": 2207
+		"relevancy": 2207,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "33.22030983106397"
 	},
 	{
 		"id": 11140,
@@ -28460,7 +28650,9 @@
 			"raav": 55,
 			"pseudovirus": 54
 		},
-		"relevancy": 4150
+		"relevancy": 4150,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "67.95507867734953"
 	},
 	{
 		"id": 11143,
@@ -28915,7 +29107,9 @@
 			"hr1": 91,
 			"safe": 90
 		},
-		"relevancy": 6946
+		"relevancy": 6946,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "16.124111731359132"
 	},
 	{
 		"id": 11177,
@@ -29124,7 +29318,9 @@
 			"result": 20,
 			"phev": 19
 		},
-		"relevancy": 1382
+		"relevancy": 1382,
+		"ethnicity": "Flemish",
+		"ethnicityScore": "30.924485951484897"
 	},
 	{
 		"id": 11188,
@@ -29510,7 +29706,9 @@
 			"sars": 25,
 			"membrane": 25
 		},
-		"relevancy": 1686
+		"relevancy": 1686,
+		"ethnicity": "Jewish",
+		"ethnicityScore": "6.45663389653141"
 	},
 	{
 		"id": 11195,
@@ -29795,7 +29993,9 @@
 			"iav": 30,
 			"respiratory": 29
 		},
-		"relevancy": 2647
+		"relevancy": 2647,
+		"ethnicity": "Iranian",
+		"ethnicityScore": "6.505921481291433"
 	},
 	{
 		"id": 11316,
@@ -30096,7 +30296,9 @@
 			"study": 71,
 			"asp": 69
 		},
-		"relevancy": 5375
+		"relevancy": 5375,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "19.20784594560653"
 	},
 	{
 		"id": 11324,
@@ -30415,7 +30617,9 @@
 			"binding": 35,
 			"cho": 35
 		},
-		"relevancy": 2520
+		"relevancy": 2520,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "59.88240944053313"
 	},
 	{
 		"id": 11337,
@@ -30603,7 +30807,9 @@
 			"hcv": 28,
 			"infected": 28
 		},
-		"relevancy": 2318
+		"relevancy": 2318,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "0.7777283596328134"
 	},
 	{
 		"id": 11361,
@@ -30921,7 +31127,9 @@
 			"hcov": 40,
 			"epitope": 40
 		},
-		"relevancy": 2923
+		"relevancy": 2923,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "74.32148497613632"
 	},
 	{
 		"id": 11366,
@@ -31281,7 +31489,9 @@
 			"recode": 33,
 			"kn2": 33
 		},
-		"relevancy": 1955
+		"relevancy": 1955,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "74.24743000997391"
 	},
 	{
 		"id": 11430,
@@ -31457,7 +31667,9 @@
 			"ddx1": 38,
 			"site": 38
 		},
-		"relevancy": 3037
+		"relevancy": 3037,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "65.0035125695501"
 	},
 	{
 		"id": 11461,
@@ -31896,7 +32108,9 @@
 			"viral": 47,
 			"mouse": 46
 		},
-		"relevancy": 3415
+		"relevancy": 3415,
+		"ethnicity": "German",
+		"ethnicityScore": "10.478092622528745"
 	},
 	{
 		"id": 11472,
@@ -32146,7 +32360,9 @@
 			"hela": 42,
 			"deltacoronavirus": 41
 		},
-		"relevancy": 3476
+		"relevancy": 3476,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "84.39751435179332"
 	},
 	{
 		"id": 11484,
@@ -32347,7 +32563,9 @@
 			"protease": 36,
 			"nsp11": 35
 		},
-		"relevancy": 2453
+		"relevancy": 2453,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "40.87569384134957"
 	},
 	{
 		"id": 11584,
@@ -32600,7 +32818,9 @@
 			"window": 24,
 			"tian": 24
 		},
-		"relevancy": 1506
+		"relevancy": 1506,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "38.24748833151053"
 	},
 	{
 		"id": 11594,
@@ -33640,7 +33860,9 @@
 			"ifn": 61,
 			"acute": 60
 		},
-		"relevancy": 5552
+		"relevancy": 5552,
+		"ethnicity": "Dutch",
+		"ethnicityScore": "6.818398580703252"
 	},
 	{
 		"id": 11652,
@@ -34055,7 +34277,9 @@
 			"attenuated": 30,
 			"porcine": 29
 		},
-		"relevancy": 1799
+		"relevancy": 1799,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "76.7584782406225"
 	},
 	{
 		"id": 11787,
@@ -34183,7 +34407,9 @@
 			"lithium": 23,
 			"based": 23
 		},
-		"relevancy": 2132
+		"relevancy": 2132,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "48.69022224611443"
 	},
 	{
 		"id": 12107,
@@ -34537,7 +34763,9 @@
 			"dsdna": 33,
 			"population": 32
 		},
-		"relevancy": 2140
+		"relevancy": 2140,
+		"ethnicity": "British",
+		"ethnicityScore": "6.099001112097663"
 	},
 	{
 		"id": 12153,
@@ -34718,7 +34946,9 @@
 			"swine": 44,
 			"stat2": 44
 		},
-		"relevancy": 3474
+		"relevancy": 3474,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "35.18747444096481"
 	},
 	{
 		"id": 12154,
@@ -34880,7 +35110,9 @@
 			"swine": 42,
 			"encoded": 42
 		},
-		"relevancy": 3135
+		"relevancy": 3135,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "36.52804590279704"
 	},
 	{
 		"id": 12159,
@@ -35072,7 +35304,9 @@
 			"respiratory": 48,
 			"papn": 47
 		},
-		"relevancy": 3659
+		"relevancy": 3659,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "61.71633267451535"
 	},
 	{
 		"id": 12268,
@@ -35307,7 +35541,9 @@
 			"histocompatibility": 32,
 			"class": 32
 		},
-		"relevancy": 2308
+		"relevancy": 2308,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "40.13589886065002"
 	},
 	{
 		"id": 12439,
@@ -35502,7 +35738,9 @@
 			"sheet": 26,
 			"form": 25
 		},
-		"relevancy": 1803
+		"relevancy": 1803,
+		"ethnicity": "Jewish",
+		"ethnicityScore": "12.523367026234359"
 	},
 	{
 		"id": 12548,
@@ -35656,7 +35894,9 @@
 			"gsjiii": 24,
 			"vaccine": 23
 		},
-		"relevancy": 1814
+		"relevancy": 1814,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "27.815224660345738"
 	},
 	{
 		"id": 12549,
@@ -35942,7 +36182,9 @@
 			"cva21": 27,
 			"outpatient": 27
 		},
-		"relevancy": 1791
+		"relevancy": 1791,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "80.42409003873252"
 	},
 	{
 		"id": 12558,
@@ -36414,7 +36656,9 @@
 			"tmev": 25,
 			"analysis": 25
 		},
-		"relevancy": 1428
+		"relevancy": 1428,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "36.23238440521505"
 	},
 	{
 		"id": 13259,
@@ -36748,7 +36992,9 @@
 			"syrian": 36,
 			"coronavirus": 36
 		},
-		"relevancy": 2494
+		"relevancy": 2494,
+		"ethnicity": "German",
+		"ethnicityScore": "5.281601894874619"
 	},
 	{
 		"id": 14022,
@@ -37120,7 +37366,9 @@
 			"compound": 24,
 			"lethal": 23
 		},
-		"relevancy": 1976
+		"relevancy": 1976,
+		"ethnicity": "Iranian",
+		"ethnicityScore": "16.390220213629906"
 	},
 	{
 		"id": 14491,
@@ -37355,7 +37603,9 @@
 			"disease": 24,
 			"superspreading": 24
 		},
-		"relevancy": 1452
+		"relevancy": 1452,
+		"ethnicity": "British",
+		"ethnicityScore": "10.397188695511346"
 	},
 	{
 		"id": 14814,
@@ -37808,7 +38058,9 @@
 			"transmission": 27,
 			"worker": 26
 		},
-		"relevancy": 2150
+		"relevancy": 2150,
+		"ethnicity": "Sri Lankan",
+		"ethnicityScore": "56.91652154088616"
 	},
 	{
 		"id": 14839,
@@ -38015,7 +38267,9 @@
 			"infectious": 18,
 			"communicable": 17
 		},
-		"relevancy": 1570
+		"relevancy": 1570,
+		"ethnicity": "Palestinian",
+		"ethnicityScore": "11.091108234859526"
 	},
 	{
 		"id": 15138,
@@ -38374,7 +38628,9 @@
 			"patient": 30,
 			"traveller": 30
 		},
-		"relevancy": 2223
+		"relevancy": 2223,
+		"ethnicity": "Palestinian",
+		"ethnicityScore": "-0.73319361508256"
 	},
 	{
 		"id": 15205,
@@ -38747,7 +39003,9 @@
 			"m826": 35,
 			"receptor": 35
 		},
-		"relevancy": 2547
+		"relevancy": 2547,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "23.309787848463944"
 	},
 	{
 		"id": 15527,
@@ -39064,7 +39322,9 @@
 			"recommendation": 19,
 			"smallpox": 18
 		},
-		"relevancy": 1237
+		"relevancy": 1237,
+		"ethnicity": "Italian",
+		"ethnicityScore": "76.4759365008256"
 	},
 	{
 		"id": 15910,
@@ -39415,7 +39675,9 @@
 			"structure": 26,
 			"influenza": 24
 		},
-		"relevancy": 1706
+		"relevancy": 1706,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "49.29030926028061"
 	},
 	{
 		"id": 16121,
@@ -39745,7 +40007,9 @@
 			"pig": 23,
 			"black": 23
 		},
-		"relevancy": 1748
+		"relevancy": 1748,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "70.75731667477163"
 	},
 	{
 		"id": 16946,
@@ -40081,7 +40345,9 @@
 			"enterovirus": 29,
 			"cap": 28
 		},
-		"relevancy": 2088
+		"relevancy": 2088,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "49.11756878379907"
 	},
 	{
 		"id": 17070,
@@ -40316,7 +40582,9 @@
 			"returning": 26,
 			"coronavirus": 26
 		},
-		"relevancy": 1905
+		"relevancy": 1905,
+		"ethnicity": "French",
+		"ethnicityScore": "40.400206740179215"
 	},
 	{
 		"id": 17106,
@@ -40632,7 +40900,9 @@
 			"m2e": 38,
 			"sars": 38
 		},
-		"relevancy": 2576
+		"relevancy": 2576,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "31.580868114853107"
 	},
 	{
 		"id": 17166,
@@ -41025,7 +41295,9 @@
 			"syndrome": 18,
 			"purified": 17
 		},
-		"relevancy": 1227
+		"relevancy": 1227,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "41.78659082996714"
 	},
 	{
 		"id": 17860,
@@ -41274,7 +41546,9 @@
 			"runx1": 34,
 			"activation": 33
 		},
-		"relevancy": 2374
+		"relevancy": 2374,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "51.700325520239744"
 	},
 	{
 		"id": 18638,
@@ -41556,7 +41830,9 @@
 			"pseudostratified": 21,
 			"study": 21
 		},
-		"relevancy": 2083
+		"relevancy": 2083,
+		"ethnicity": "Dutch",
+		"ethnicityScore": "56.526833048405635"
 	},
 	{
 		"id": 18640,
@@ -42031,7 +42307,9 @@
 			"cov": 25,
 			"sars": 24
 		},
-		"relevancy": 2572
+		"relevancy": 2572,
+		"ethnicity": "Dutch",
+		"ethnicityScore": "56.243334192096015"
 	},
 	{
 		"id": 18953,
@@ -42456,7 +42734,9 @@
 			"disease": 20,
 			"returning": 19
 		},
-		"relevancy": 1412
+		"relevancy": 1412,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "29.536115905747536"
 	},
 	{
 		"id": 19074,
@@ -42672,7 +42952,9 @@
 			"attachment": 20,
 			"hae": 20
 		},
-		"relevancy": 1991
+		"relevancy": 1991,
+		"ethnicity": "Polish",
+		"ethnicityScore": "36.883074348948"
 	},
 	{
 		"id": 19319,
@@ -42972,7 +43254,9 @@
 			"syndrome": 25,
 			"hiv": 25
 		},
-		"relevancy": 1704
+		"relevancy": 1704,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "43.33240049431173"
 	},
 	{
 		"id": 19620,
@@ -43137,7 +43421,9 @@
 			"pcr": 33,
 			"disinfectant": 33
 		},
-		"relevancy": 2759
+		"relevancy": 2759,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "44.94749409329683"
 	},
 	{
 		"id": 20211,
@@ -43388,7 +43674,9 @@
 			"protease": 27,
 			"pseudovirion": 27
 		},
-		"relevancy": 1908
+		"relevancy": 1908,
+		"ethnicity": "TrinidadTobago",
+		"ethnicityScore": "4.322504445553012"
 	},
 	{
 		"id": 20222,
@@ -43626,7 +43914,9 @@
 			"alphavirus": 35,
 			"capped": 34
 		},
-		"relevancy": 3101
+		"relevancy": 3101,
+		"ethnicity": "French",
+		"ethnicityScore": "23.776734531221035"
 	},
 	{
 		"id": 20281,
@@ -43900,7 +44190,9 @@
 			"complex": 25,
 			"ray": 25
 		},
-		"relevancy": 1821
+		"relevancy": 1821,
+		"ethnicity": "German",
+		"ethnicityScore": "22.828876875633988"
 	},
 	{
 		"id": 20434,
@@ -44226,7 +44518,9 @@
 			"novel": 27,
 			"neocov": 26
 		},
-		"relevancy": 2138
+		"relevancy": 2138,
+		"ethnicity": "Jewish",
+		"ethnicityScore": "2.1232227730792674"
 	},
 	{
 		"id": 20779,
@@ -44368,7 +44662,9 @@
 			"hrv": 28,
 			"d68": 28
 		},
-		"relevancy": 2115
+		"relevancy": 2115,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "2.136994897980658"
 	},
 	{
 		"id": 21015,
@@ -44689,7 +44985,9 @@
 			"mer": 25,
 			"somatic": 25
 		},
-		"relevancy": 1711
+		"relevancy": 1711,
+		"ethnicity": "Italian",
+		"ethnicityScore": "34.6704568485376"
 	},
 	{
 		"id": 21026,
@@ -44879,7 +45177,9 @@
 			"a59": 27,
 			"attenuated": 26
 		},
-		"relevancy": 1930
+		"relevancy": 1930,
+		"ethnicity": "British",
+		"ethnicityScore": "5.643417640769033"
 	},
 	{
 		"id": 21028,
@@ -45137,7 +45437,9 @@
 			"cleavage": 31,
 			"proteomic": 30
 		},
-		"relevancy": 2053
+		"relevancy": 2053,
+		"ethnicity": "HispanoLatino",
+		"ethnicityScore": "0.5692247170944804"
 	},
 	{
 		"id": 21055,
@@ -45299,7 +45601,9 @@
 			"deisg": 33,
 			"study": 33
 		},
-		"relevancy": 2869
+		"relevancy": 2869,
+		"ethnicity": "Slovanian",
+		"ethnicityScore": "6.129607275803455"
 	},
 	{
 		"id": 22326,
@@ -45732,7 +46036,9 @@
 			"entry": 30,
 			"rodent": 30
 		},
-		"relevancy": 2494
+		"relevancy": 2494,
+		"ethnicity": "South African",
+		"ethnicityScore": "7.704277132136385"
 	},
 	{
 		"id": 23452,
@@ -46120,7 +46426,9 @@
 			"middle": 22,
 			"host": 21
 		},
-		"relevancy": 1303
+		"relevancy": 1303,
+		"ethnicity": "French",
+		"ethnicityScore": "19.12835414001261"
 	},
 	{
 		"id": 23489,
@@ -46300,7 +46608,9 @@
 			"virus": 44,
 			"effectiveness": 44
 		},
-		"relevancy": 2801
+		"relevancy": 2801,
+		"ethnicity": "Japanese",
+		"ethnicityScore": "80.47063217690665"
 	},
 	{
 		"id": 25806,
@@ -46578,7 +46888,9 @@
 			"severity": 24,
 			"surveillance": 23
 		},
-		"relevancy": 1668
+		"relevancy": 1668,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "46.82079243367565"
 	},
 	{
 		"id": 27187,
@@ -46777,7 +47089,9 @@
 			"influenza": 38,
 			"transgenic": 37
 		},
-		"relevancy": 2990
+		"relevancy": 2990,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "80.86880508685883"
 	},
 	{
 		"id": 32470,
@@ -46958,7 +47272,9 @@
 			"associated": 44,
 			"daycare": 41
 		},
-		"relevancy": 3172
+		"relevancy": 3172,
+		"ethnicity": "Dutch",
+		"ethnicityScore": "5.248750730351277"
 	},
 	{
 		"id": 35511,
@@ -47187,7 +47503,9 @@
 			"syndrome": 35,
 			"us11": 33
 		},
-		"relevancy": 2277
+		"relevancy": 2277,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "23.189319774910985"
 	},
 	{
 		"id": 35868,
@@ -47585,7 +47903,9 @@
 			"reactive": 28,
 			"immune": 28
 		},
-		"relevancy": 1978
+		"relevancy": 1978,
+		"ethnicity": "Italian",
+		"ethnicityScore": "28.908985641300344"
 	},
 	{
 		"id": 37389,
@@ -47850,7 +48170,9 @@
 			"signaling": 34,
 			"neuronal": 34
 		},
-		"relevancy": 2668
+		"relevancy": 2668,
+		"ethnicity": "Jewish",
+		"ethnicityScore": "6.674867279174837"
 	},
 	{
 		"id": 37727,
@@ -48024,7 +48346,9 @@
 			"innate": 36,
 			"macrophage": 36
 		},
-		"relevancy": 3292
+		"relevancy": 3292,
+		"ethnicity": "Jewish",
+		"ethnicityScore": "12.25445779779524"
 	},
 	{
 		"id": 38364,
@@ -48268,7 +48592,9 @@
 			"henipavirus": 36,
 			"rbd": 35
 		},
-		"relevancy": 2396
+		"relevancy": 2396,
+		"ethnicity": "Bulgarian",
+		"ethnicityScore": "63.877967623886754"
 	},
 	{
 		"id": 38880,
@@ -48459,7 +48785,9 @@
 			"syncytial": 41,
 			"nasal": 41
 		},
-		"relevancy": 3725
+		"relevancy": 3725,
+		"ethnicity": "German",
+		"ethnicityScore": "16.100577063641456"
 	},
 	{
 		"id": 41062,
@@ -48620,7 +48948,9 @@
 			"case": 32,
 			"mathematical": 32
 		},
-		"relevancy": 2054
+		"relevancy": 2054,
+		"ethnicity": "HispanoLatino",
+		"ethnicityScore": "0.8132511900624594"
 	},
 	{
 		"id": 44162,
@@ -48965,7 +49295,9 @@
 			"live": 44,
 			"patient": 44
 		},
-		"relevancy": 2924
+		"relevancy": 2924,
+		"ethnicity": "Irish",
+		"ethnicityScore": "8.929491373082229"
 	},
 	{
 		"id": 47398,
@@ -49543,7 +49875,9 @@
 			"surveillance": 38,
 			"yunnan": 37
 		},
-		"relevancy": 2624
+		"relevancy": 2624,
+		"ethnicity": "Polish",
+		"ethnicityScore": "12.213164825373557"
 	},
 	{
 		"id": 49032,
@@ -49833,7 +50167,9 @@
 			"acute": 29,
 			"iar": 29
 		},
-		"relevancy": 1982
+		"relevancy": 1982,
+		"ethnicity": "Indian",
+		"ethnicityScore": "4.927957955896786"
 	},
 	{
 		"id": 49160,
@@ -50099,7 +50435,9 @@
 			"substrate": 30,
 			"cov": 30
 		},
-		"relevancy": 2172
+		"relevancy": 2172,
+		"ethnicity": "Dutch",
+		"ethnicityScore": "31.835241717267916"
 	},
 	{
 		"id": 49520,
@@ -50417,7 +50755,9 @@
 			"variant": 29,
 			"receptor": 29
 		},
-		"relevancy": 1844
+		"relevancy": 1844,
+		"ethnicity": "Croat",
+		"ethnicityScore": "22.989502757701086"
 	},
 	{
 		"id": 50266,
@@ -50683,7 +51023,9 @@
 			"related": 59,
 			"hku10": 58
 		},
-		"relevancy": 3728
+		"relevancy": 3728,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "12.99750804510391"
 	},
 	{
 		"id": 50267,
@@ -50973,7 +51315,9 @@
 			"rosavirus": 60,
 			"hku4": 59
 		},
-		"relevancy": 3888
+		"relevancy": 3888,
+		"ethnicity": "Korean",
+		"ethnicityScore": "5.903775239009637"
 	},
 	{
 		"id": 50578,
@@ -51207,7 +51551,9 @@
 			"atp1a1": 38,
 			"particle": 37
 		},
-		"relevancy": 2658
+		"relevancy": 2658,
+		"ethnicity": "Swiss",
+		"ethnicityScore": "1.221230050918766"
 	},
 	{
 		"id": 50579,
@@ -51410,7 +51756,9 @@
 			"dmv": 31,
 			"interaction": 31
 		},
-		"relevancy": 2286
+		"relevancy": 2286,
+		"ethnicity": "Dutch",
+		"ethnicityScore": "43.93378755218045"
 	},
 	{
 		"id": 51032,
@@ -51717,7 +52065,9 @@
 			"pathogenesis": 27,
 			"primate": 27
 		},
-		"relevancy": 2045
+		"relevancy": 2045,
+		"ethnicity": "German",
+		"ethnicityScore": "2.855472636697605"
 	},
 	{
 		"id": 51900,
@@ -51908,7 +52258,9 @@
 			"parainfluenza": 39,
 			"against": 39
 		},
-		"relevancy": 2974
+		"relevancy": 2974,
+		"ethnicity": "Irish",
+		"ethnicityScore": "5.301785811577433"
 	},
 	{
 		"id": 52230,
@@ -52200,7 +52552,9 @@
 			"animal": 25,
 			"pathogen": 25
 		},
-		"relevancy": 1804
+		"relevancy": 1804,
+		"ethnicity": "German",
+		"ethnicityScore": "19.624760297511834"
 	},
 	{
 		"id": 56305,
@@ -52452,7 +52806,9 @@
 			"epidemiologic": 27,
 			"laboratory": 26
 		},
-		"relevancy": 1913
+		"relevancy": 1913,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "46.57984404622693"
 	},
 	{
 		"id": 57111,
@@ -52848,7 +53204,9 @@
 			"disease": 27,
 			"photon": 26
 		},
-		"relevancy": 1837
+		"relevancy": 1837,
+		"ethnicity": "Japanese",
+		"ethnicityScore": "72.98903553814999"
 	},
 	{
 		"id": 58292,
@@ -53151,7 +53509,9 @@
 			"viral": 43,
 			"syndrome": 41
 		},
-		"relevancy": 3178
+		"relevancy": 3178,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "36.42026407755122"
 	},
 	{
 		"id": 62469,
@@ -53368,7 +53728,9 @@
 			"ebov": 22,
 			"receptor": 22
 		},
-		"relevancy": 1887
+		"relevancy": 1887,
+		"ethnicity": "German",
+		"ethnicityScore": "12.808154983372468"
 	},
 	{
 		"id": 67126,
@@ -53814,7 +54176,9 @@
 			"jordan": 26,
 			"rrt": 25
 		},
-		"relevancy": 1892
+		"relevancy": 1892,
+		"ethnicity": "Swiss",
+		"ethnicityScore": "6.9644957863098425"
 	},
 	{
 		"id": 75352,
@@ -54071,7 +54435,9 @@
 			"province": 30,
 			"wiv1": 30
 		},
-		"relevancy": 2094
+		"relevancy": 2094,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "37.87972617589883"
 	},
 	{
 		"id": 111698,
@@ -54186,6 +54552,8 @@
 			"cea": 40,
 			"mmcgm2": 38
 		},
-		"relevancy": 3683
+		"relevancy": 3683,
+		"ethnicity": "Chinese",
+		"ethnicityScore": "9.728428187627902"
 	}
 ]

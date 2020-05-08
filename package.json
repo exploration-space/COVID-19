@@ -1,7 +1,7 @@
 {
-  "name": "lexical-cartography",
+  "name": "lexical-cartography-of-covid-19",
   "version": "1.0.0",
-  "description": "This visualization represents a map of individuals starting from their documents. It is based on the idea that authors can be described using their documents and that the vocabulary that authors share is an efficient way to draw a space. Individuals that make use of the same terms are situated nearby, beyond any social distance. The result is a continuo lexical space composed of individuals and terms.",
+  "description": "This network visualization represents individuals through from their documents. It is based on the idea that authors can be described using their text and that shared vocabulary is an efficient way to draw a space. Individuals that make use of the same terms are situated nearby, beyond any social distance. The result is a lexical space composed of individuals and terms.",
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/rodighiero/COVID-19.git"
   },
-  "author": "",
+  "author": "Dario Rodighiero",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.9.6",
@@ -27,9 +27,6 @@
     "js-combinatorics": "^0.5.5",
     "mini-css-extract-plugin": "^0.9.0",
     "natural": "^2.1.3",
-    "remove-accents": "^0.4.2",
-    "request": "^2.88.2",
-    "request-promise": "^4.2.5",
     "stopword": "^1.0.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",

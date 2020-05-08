@@ -151,10 +151,28 @@ const analysis = authors => {
 
     nodes = nodes.filter(node => connectedNodes.includes(node.id))
 
-    // Writing files
+    // Ethnicity
 
-    fs.writeFile('./src/data/nodes.json', JSON.stringify(nodes), err => { if (err) throw err })
-    fs.writeFile('./data/nodes.json', JSON.stringify(nodes, null, '\t'), err => { if (err) throw err })
+    const csv = require('csv-parser')
+
+    fs.createReadStream('data/diaspora.csv')
+        .pipe(csv({ separator: '|' }))
+        .on('data', (row) => {
+            // console.log()
+            const name = row['#uid'].split('/')[1]
+            const node = nodes.find(node => node.name == name)
+            if (node) {
+                node.ethnicity = row['ethnicity']
+                node.ethnicityScore = row['ethnicityScore']
+            }
+        })
+        .on('end', () => {
+            console.log('CSV file successfully processed')
+            fs.writeFile('./src/data/nodes.json', JSON.stringify(nodes), err => { if (err) throw err })
+            fs.writeFile('./data/nodes.json', JSON.stringify(nodes, null, '\t'), err => { if (err) throw err })
+        })
+
+    // Writing files
 
     fs.writeFile('./src/data/links.json', JSON.stringify(links), err => { if (err) throw err })
     fs.writeFile('./data/links.json', JSON.stringify(links, null, '\t'), err => { if (err) throw err })
