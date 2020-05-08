@@ -6,6 +6,10 @@ const block = '<span class="block"></span>'
 
 export function mouseover(node) {
 
+    const yearsList = s.nodes.map(node => Object.keys(node.years).map(Number)).flat()
+    const min = Math.min(...yearsList)
+    const max = Math.max(...yearsList)
+
     const focus = document.createElement('div')
     focus.id = 'focus'
     const body = document.querySelector('body')
@@ -46,7 +50,7 @@ export function mouseover(node) {
     node.peers.forEach(id => {
         const peer = s.nodes.find(node => node.id == id)
         if (typeof peer != 'undefined')
-        peers += `<tr><td>${peer.name}</td></tr>`
+            peers += `<tr><td>${peer.name}</td></tr>`
     })
     peers += '</table>'
 
@@ -56,7 +60,7 @@ export function mouseover(node) {
     years += `<tr><td style="width:20px"></td><td style="width:50px"></td></tr>`
     years += '<tr><td colspan="2" style="text-align:center;">Publications by year</td></tr>'
     years += line
-    for (let year = s.ext.years.min; year <= s.ext.years.max; year++) {
+    for (let year = min; year <= max; year++) {
         const undefined = typeof node.years[year] == 'undefined'
         const repetition = undefined ? 0 : node.years[year] * 2
         const blocks = block.repeat(repetition)

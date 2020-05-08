@@ -40,4 +40,10 @@ export default () => {
         .wheel()
         .decelerate()
 
+    // Prevent pinch gesture in Chrome
+
+    window.addEventListener('wheel', e => {
+        e.preventDefault();
+    }, { passive: false });
+
 }
