@@ -16,7 +16,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const min = 30 // 15 is a reasonable value
+    const min = 20 // 15 is a reasonable value
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
         if (author.docs >= min)
@@ -160,8 +160,18 @@ const analysis = authors => {
         .on('data', (row) => {
             // console.log()
             const name = row['#uid'].split('/')[1]
+            const ethnicity = row['ethnicity']
             const node = nodes.find(node => node.name == name)
             if (node) {
+                const nodesWithId = nodes.filter(n => n.peers.includes(node.id))
+                nodesWithId.forEach(node => {
+                    if (!node.ethnicities) node.ethnicities = {}
+                    if (!node.ethnicities[ethnicity])
+                        node.ethnicities[ethnicity] = 1
+                    else
+                        node.ethnicities[ethnicity]++
+
+                })
                 node.ethnicity = row['ethnicity']
                 node.ethnicityScore = row['ethnicityScore']
             }
