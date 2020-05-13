@@ -151,7 +151,7 @@ const analysis = authors => {
 
     nodes = nodes.filter(node => connectedNodes.includes(node.id))
 
-    // Ethnicity
+    // Nationality
 
     const csv = require('csv-parser')
 
@@ -160,18 +160,18 @@ const analysis = authors => {
         .on('data', (row) => {
             // console.log()
             const name = row['#uid'].split('/')[1]
-            const ethnicity = row['ethnicity']
+            const nationality = row['ethnicity']
             const node = nodes.find(node => node.name == name)
             if (node) {
                 const nodesWithId = nodes.filter(n => n.peers.includes(node.id))
                 nodesWithId.forEach(node => {
-                    if (!node.ethnicities) node.ethnicities = {}
-                    node.ethnicities[ethnicity] = (node.ethnicities[ethnicity]) ?
-                        node.ethnicities[ethnicity]++ : 1
+                    if (!node.nationalities) node.nationalities = {}
+                    if (node.nationalities[nationality])
+                        node.nationalities[nationality]++
+                    else
+                        node.nationalities[nationality] = 1
 
                 })
-                node.ethnicity = row['ethnicity']
-                node.ethnicityScore = row['ethnicityScore']
             }
         })
         .on('end', () => {

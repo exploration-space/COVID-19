@@ -74,8 +74,10 @@ const parse = (records) => {
                 else {
                     author.docs++
                     author.text += text
-                    author.years[year] = (author.years[year]) ?
-                        author.years[year]++ : 1
+                    if (author.years[year])
+                        author.years[year]++
+                    else
+                        author.years[year] = 1
                 }
 
             })

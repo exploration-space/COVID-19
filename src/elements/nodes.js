@@ -26,34 +26,15 @@ export function initNodes() {
 
     s.nodes.forEach(node => {
 
-        node.mouseover = {
-            ethnicity: false,
-            peers: false,
-        }
+        node.visibility = true
 
-        // Central Circle
+        // Circle
 
-        node.gpxCentral = new PIXI.Graphics()
-        node.gpxCentral.beginFill(0xFFFFFF)
-        node.gpxCentral.drawCircle(0, 0, 1)
-        node.gpxCentral.endFill()
-        nodes.addChild(node.gpxCentral)
-
-        // Ethnicity Circle
-
-        node.gpxEthnicity = new PIXI.Graphics()
-        node.gpxEthnicity.lineStyle(.5, 0xFFFFFF)
-        node.gpxEthnicity.drawCircle(0, 0, 3)
-        node.gpxEthnicity.endFill()
-        nodes.addChild(node.gpxEthnicity)
-
-        // Peer Circle
-
-        node.gpxPeer = new PIXI.Graphics()
-        node.gpxPeer.lineStyle(.5, 0xFFFFFF)
-        node.gpxPeer.drawCircle(0, 0, 5)
-        node.gpxPeer.endFill()
-        nodes.addChild(node.gpxPeer)
+        node.gpxCircle = new PIXI.Graphics()
+        node.gpxCircle.beginFill(0xFFFFFF)
+        node.gpxCircle.drawCircle(0, 0, 1)
+        node.gpxCircle.endFill()
+        nodes.addChild(node.gpxCircle)
 
         // Label
 
@@ -65,28 +46,24 @@ export function initNodes() {
 
         // Interaction
 
-        node.gpxCentral.interactive = true
-        node.gpxCentral.hitArea = new PIXI.Circle(0, 0, 20)
+        node.gpxCircle.interactive = true
+        node.gpxCircle.hitArea = new PIXI.Circle(0, 0, 20)
 
         // Set information panel & set on circles
 
-        node.gpxCentral.mouseover = mouseData => {
+        node.gpxCircle.mouseover = mouseData => {
             mouseover(node)
-            const peers = s.nodes.filter(peer => node.peers.includes(peer.id))
-            peers.forEach(node => node.mouseover.peers = true )
-
-            const ethnicities = s.nodes.filter(author => author.ethnicity == node.ethnicity)
-            ethnicities.forEach(node => node.mouseover.ethnicity = true )
+            const exclude = s.nodes.filter(peer => !node.peers.includes(peer.id))
+            exclude.forEach(node => node.visibility = false)
 
             drawNodes()
         }
 
         // Clean information panel & set off circles
 
-        node.gpxCentral.mouseout = mouseData => {
+        node.gpxCircle.mouseout = mouseData => {
             mouseout(node)
-            s.nodes.forEach(node => node.mouseover.peers = false )
-            s.nodes.forEach(node => node.mouseover.ethnicity = false )
+            s.nodes.forEach(node => node.visibility = true)
         }
 
     })
@@ -100,12 +77,16 @@ export function drawNodes() {
     stage.clear()
 
     s.nodes.forEach(node => {
-        const { x, y, gpxCentral, gpxEthnicity, gpxPeer, gpxText } = node
-        const origin = new PIXI.Point(x, y)
-        gpxCentral.position = origin
-        gpxEthnicity.position = (node.mouseover.ethnicity) ? origin : infinity
-        gpxPeer.position = (node.mouseover.peers) ? origin : infinity
-        gpxText.position.set(x - gpxText.width / 2, y + 3)
+        const { x, y, gpxCircle, gpxPeer, gpxText, visibility } = node
+        if (visibility) {
+            const origin = new PIXI.Point(x, y)
+            gpxCircle.position = origin
+            gpxText.position.set(x - gpxText.width / 2, y + 3)
+        } else {
+            gpxCircle.position = infinity
+            gpxText.position = infinity
+        }
+       
     })
 
 }

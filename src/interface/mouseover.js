@@ -13,7 +13,6 @@ export function mouseover(node) {
 
     focus.append('h2').html(node.name)
     focus.append('h3').html(`${node.docs} Publications`)
-    focus.append('h3').html(`Ethnicity: ${node.ethnicity}`)
 
     // Tokens
 
@@ -27,12 +26,12 @@ export function mouseover(node) {
         }
     })
 
-    // Ethnicity
+    // Nationality
 
     focus.append('p').html(space)
-    focus.append('h3').html('Co-author Ethnicity')
+    focus.append('h3').html('Co-author Nationalities')
     focus.append('p').html(line)
-    Object.entries(node.ethnicities).sort().forEach(([key, value], i) => {
+    Object.entries(node.nationalities).sort().forEach(([key, value], i) => {
         const blocks = block.repeat(value * 4)
         focus.append('p').html(`${blocks} &nbsp; ${key}`)
     })
