@@ -14,7 +14,7 @@ export function initTokens() {
     const tokenStyle = new PIXI.TextStyle({
         fontFamily: "Arial",
         fontSize: 24,
-        fill: "white",
+        fill: 0x555555,
         align: 'center'
     })
 

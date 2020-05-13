@@ -55,7 +55,7 @@ export function initNodes() {
             mouseover(node)
             const exclude = s.nodes.filter(peer => !node.peers.includes(peer.id))
             exclude.forEach(node => node.visibility = false)
-
+            
             drawNodes()
         }
 
@@ -64,6 +64,7 @@ export function initNodes() {
         node.gpxCircle.mouseout = mouseData => {
             mouseout(node)
             s.nodes.forEach(node => node.visibility = true)
+            drawNodes()
         }
 
     })
@@ -77,16 +78,20 @@ export function drawNodes() {
     stage.clear()
 
     s.nodes.forEach(node => {
-        const { x, y, gpxCircle, gpxPeer, gpxText, visibility } = node
+        const { x, y, gpxCircle, gpxText, visibility } = node
+        const origin = new PIXI.Point(x, y)
+        gpxCircle.position = origin
+        gpxCircle.position = origin
+        gpxText.position.set(x - gpxText.width / 2, y + 3)
         if (visibility) {
-            const origin = new PIXI.Point(x, y)
-            gpxCircle.position = origin
-            gpxText.position.set(x - gpxText.width / 2, y + 3)
-        } else {
-            gpxCircle.position = infinity
-            gpxText.position = infinity
+            gpxCircle.tint = 0xFFFFFF
+            gpxText.tint = 0xFFFFFF
         }
-       
+        else {
+            gpxCircle.tint = 0x666666
+            gpxText.tint = 0x666666
+        }
+
     })
 
 }
