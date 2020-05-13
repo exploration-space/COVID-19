@@ -41,11 +41,11 @@ export function initNodes() {
 
         // Ethnicity Circle
 
-        // node.gpxEthnicity = new PIXI.Graphics()
-        // node.gpxEthnicity.lineStyle(.5, 0xFF00FF)
-        // node.gpxEthnicity.drawCircle(0, 0, 3)
-        // node.gpxEthnicity.endFill()
-        // nodes.addChild(node.gpxEthnicity)
+        node.gpxEthnicity = new PIXI.Graphics()
+        node.gpxEthnicity.lineStyle(.5, 0xFFFFFF)
+        node.gpxEthnicity.drawCircle(0, 0, 3)
+        node.gpxEthnicity.endFill()
+        nodes.addChild(node.gpxEthnicity)
 
         // Peer Circle
 
@@ -72,9 +72,13 @@ export function initNodes() {
 
         node.gpxCentral.mouseover = mouseData => {
             mouseover(node)
-            drawNodes()
             const peers = s.nodes.filter(peer => node.peers.includes(peer.id))
             peers.forEach(node => node.mouseover.peers = true )
+
+            const ethnicities = s.nodes.filter(author => author.ethnicity == node.ethnicity)
+            ethnicities.forEach(node => node.mouseover.ethnicity = true )
+
+            drawNodes()
         }
 
         // Clean information panel & set off circles
@@ -82,6 +86,7 @@ export function initNodes() {
         node.gpxCentral.mouseout = mouseData => {
             mouseout(node)
             s.nodes.forEach(node => node.mouseover.peers = false )
+            s.nodes.forEach(node => node.mouseover.ethnicity = false )
         }
 
     })
@@ -98,6 +103,7 @@ export function drawNodes() {
         const { x, y, gpxCentral, gpxEthnicity, gpxPeer, gpxText } = node
         const origin = new PIXI.Point(x, y)
         gpxCentral.position = origin
+        gpxEthnicity.position = (node.mouseover.ethnicity) ? origin : infinity
         gpxPeer.position = (node.mouseover.peers) ? origin : infinity
         gpxText.position.set(x - gpxText.width / 2, y + 3)
     })
