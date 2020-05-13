@@ -26,42 +26,80 @@ export function initNodes() {
 
     s.nodes.forEach(node => {
 
-        // Circle
+        node.mouseover = {
+            ethnicity: false,
+            peers: false,
+        }
 
-        node.gpx = new PIXI.Graphics()
-        node.gpx.beginFill(0xFFFFFF)
-        node.gpx.drawCircle(0, 0, 1)
-        node.gpx.endFill()
-        nodes.addChild(node.gpx)
+        // Central Circle
+
+        node.gpxCentral = new PIXI.Graphics()
+        node.gpxCentral.beginFill(0xFFFFFF)
+        node.gpxCentral.drawCircle(0, 0, 1)
+        node.gpxCentral.endFill()
+        nodes.addChild(node.gpxCentral)
+
+        // Ethnicity Circle
+
+        // node.gpxEthnicity = new PIXI.Graphics()
+        // node.gpxEthnicity.lineStyle(.5, 0xFF00FF)
+        // node.gpxEthnicity.drawCircle(0, 0, 3)
+        // node.gpxEthnicity.endFill()
+        // nodes.addChild(node.gpxEthnicity)
+
+        // Peer Circle
+
+        node.gpxPeer = new PIXI.Graphics()
+        node.gpxPeer.lineStyle(.5, 0xFFFFFF)
+        node.gpxPeer.drawCircle(0, 0, 5)
+        node.gpxPeer.endFill()
+        nodes.addChild(node.gpxPeer)
 
         // Label
 
         const [nA, nB] = splitInTwo(node.name)
-        node.txt = new PIXI.Text(`${nA}\n${nB}`, nodeStyle)
-        node.txt.scale.x = .5
-        node.txt.scale.y = .5
-        nodes.addChild(node.txt)
+        node.gpxText = new PIXI.Text(`${nA}\n${nB}`, nodeStyle)
+        node.gpxText.scale.x = .5
+        node.gpxText.scale.y = .5
+        nodes.addChild(node.gpxText)
 
         // Interaction
 
-        node.gpx.interactive = true
-        node.gpx.hitArea = new PIXI.Circle(0, 0, 20)
-        node.gpx.mouseover = mouseData => mouseover(node)
-        node.gpx.mouseout = mouseData => mouseout()
+        node.gpxCentral.interactive = true
+        node.gpxCentral.hitArea = new PIXI.Circle(0, 0, 20)
+
+        // Set information panel & set on circles
+
+        node.gpxCentral.mouseover = mouseData => {
+            mouseover(node)
+            drawNodes()
+            const peers = s.nodes.filter(peer => node.peers.includes(peer.id))
+            peers.forEach(node => node.mouseover.peers = true )
+        }
+
+        // Clean information panel & set off circles
+
+        node.gpxCentral.mouseout = mouseData => {
+            mouseout(node)
+            s.nodes.forEach(node => node.mouseover.peers = false )
+        }
 
     })
 
 }
 
+const infinity = new PIXI.Point(Infinity, Infinity)
+
 export function drawNodes() {
 
     stage.clear()
-    stage.alpha = .8
 
     s.nodes.forEach(node => {
-        const { x, y, gpx, txt } = node
-        gpx.position = new PIXI.Point(x, y)
-        txt.position.set(x - txt.width / 2, y + 3)
+        const { x, y, gpxCentral, gpxEthnicity, gpxPeer, gpxText } = node
+        const origin = new PIXI.Point(x, y)
+        gpxCentral.position = origin
+        gpxPeer.position = (node.mouseover.peers) ? origin : infinity
+        gpxText.position.set(x - gpxText.width / 2, y + 3)
     })
 
 }

@@ -166,10 +166,8 @@ const analysis = authors => {
                 const nodesWithId = nodes.filter(n => n.peers.includes(node.id))
                 nodesWithId.forEach(node => {
                     if (!node.ethnicities) node.ethnicities = {}
-                    if (!node.ethnicities[ethnicity])
-                        node.ethnicities[ethnicity] = 1
-                    else
-                        node.ethnicities[ethnicity]++
+                    node.ethnicities[ethnicity] = (node.ethnicities[ethnicity]) ?
+                        node.ethnicities[ethnicity]++ : 1
 
                 })
                 node.ethnicity = row['ethnicity']

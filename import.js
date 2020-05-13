@@ -41,7 +41,7 @@ const parse = (records) => {
     let idCounter = 0
 
     const authors = records
-        // .slice(0, 1000) // Trim for testing
+        // .slice(0, 10) // Trim for testing
         .reduce((authors, record, i) => {
 
             console.log('Grouping record #', records.length - i)
@@ -64,7 +64,7 @@ const parse = (records) => {
                         years: {
                             [year]: 1
                         },
-                        peers: record.authors.filter(n => n != name),
+                        peers: [],
                         text: text
                     }
                     authors.push(_author)
@@ -74,15 +74,8 @@ const parse = (records) => {
                 else {
                     author.docs++
                     author.text += text
-                    record.authors.filter(n => n != name).forEach(a => {
-                        if (!author.peers.includes(a))
-                            author.peers.push(a)
-                    })
-                    if (author.years[year]) {
-                        author.years[year]++
-                    } else {
-                        author.years[year] = 1
-                    }
+                    author.years[year] = (author.years[year]) ?
+                        author.years[year]++ : 1
                 }
 
             })
@@ -93,9 +86,18 @@ const parse = (records) => {
 
     // Transform authors into ids
 
-    authors.forEach((author, i) => {
-        console.log('Setting ids for author', authors.length - i)
-        author.peers = author.peers.map(peer => authors.find(a => a.name == peer).id)
+    records.forEach((record, i) => {
+        console.log('Setting peers for record #', records.length - i)
+        // console.log(record.authors)
+        const peers = authors.filter(author => record.authors.includes(author.name))
+        const ids = peers.map(author => author.id)
+
+        peers.forEach(peer => {
+            ids.forEach(id => {
+                if (!peer.peers.includes(id)) peer.peers.push(id)
+            })
+        })
+
     })
 
     // Write JSON
