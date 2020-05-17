@@ -60,7 +60,7 @@ a {
 #searchWrapper {
 	right: 0;
 	top: 10;
-	display: none;
+	width: 240px;
 }
 
 #warning {

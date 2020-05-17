@@ -1,4 +1,4 @@
-import './interface/main.css'
+import './index.css'
 
 import * as d3 from 'd3'
 import nodes from './data/nodes.json'
@@ -43,6 +43,6 @@ Promise.all([
 
     background()
     simulation()
-    // search()
+    search()
 
 })

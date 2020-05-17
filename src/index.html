@@ -9,11 +9,11 @@
 <body style='background-color: black;'>
 
     <canvas id='background'></canvas>
-    
+
     <div id='title'>
         <h1>Cartography of COVID-19</h1>
         <h2>by <a href='https://dariorodighiero.com'>Dario Rodighiero</a> (MIT/Harvard)
-        </br>with Elian Carsenat and Eveline Wandl-Vogt</h2>
+            </br>with Elian Carsenat and Eveline Wandl-Vogt</h2>
         <h3>Tested on Google Chrome – FPS <span id='fps'>0</span></h3>
         <!-- <p>
             This visualization shows the most active researchers interested on COVID&#8209;19,
@@ -29,10 +29,6 @@
             The code is open-source and available on <a href='https://github.com/rodighiero/COVID-19'>GitHub</a>.
         </p> -->
     </div>
-    
-    <div id='warning'>
-        
-    </div>
 
     <!-- <div id='searchWrapper'>
         <h2>Look for a scholar</h2>
@@ -40,6 +36,16 @@
         <div id='searchResults' type='text' />
     </div> -->
 
+    <div id='searchWrapper'>
+        <input id="autoComplete" type="text" tabindex="1">
+        <!-- <div class="mode">
+            <h4>mode</h4>
+            <div class="toggele">
+                <div class="toggeler">Strict</div>
+            </div>
+        </div>
+        <div class="selection"></div> -->
+    </div>
 </body>
 
 </html>
