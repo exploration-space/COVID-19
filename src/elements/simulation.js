@@ -13,7 +13,7 @@ export function simulation() {
             .strength(.5)
             .iterations(20)
         )
-        .force('center', d3.forceCenter(window.innerWidth / 2, window.innerHeight / 2))
+        .force('center', d3.forceCenter(0, 0))
         .force('link', d3.forceLink()
             .id(d => d.id)
             .strength(d => d.value * 1)

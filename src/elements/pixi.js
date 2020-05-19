@@ -7,7 +7,7 @@ import { Viewport } from 'pixi-viewport'
 export default () => {
 
     // Create and append PIXI
-    
+
     const app = new PIXI.Application({
         width: window.innerWidth,
         height: window.innerHeight,
@@ -40,11 +40,10 @@ export default () => {
         .wheel()
         .decelerate()
         .clampZoom({ minScale: .5, maxScale: 3 })
-        // .fitWidth(1500)
-        // .setZoom(.5)
-        // .fitWidth()
-        // .moveCenter()
-        // .moveCenter(0,0)
+        .setTransform(
+            (window.innerWidth - s.pixi.worldWidth) / 2,
+            (window.innerHeight - s.pixi.worldHeight) / 2,
+            .5, .5)
 
     // Prevent pinch gesture in Chrome
 
