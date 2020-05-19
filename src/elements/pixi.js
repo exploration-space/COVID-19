@@ -6,6 +6,8 @@ import { Viewport } from 'pixi-viewport'
 
 export default () => {
 
+    // Create and append PIXI
+    
     const app = new PIXI.Application({
         width: window.innerWidth,
         height: window.innerHeight,
@@ -14,11 +16,11 @@ export default () => {
         resolution: 2,
         autoDensity: true,
         autoResize: true,
+        resizeTo: window,
     })
-
     document.body.prepend(app.view)
 
-    // Create viewport
+    // Create and append viewport
 
     const viewport = new Viewport({
         screenWidth: window.innerWidth,
@@ -26,7 +28,6 @@ export default () => {
         interaction: app.renderer.plugins.interaction
     })
 
-    // Add the viewport to the stage
     app.stage.addChild(viewport)
 
     s.pixi = viewport
