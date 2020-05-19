@@ -1,4 +1,4 @@
-import { mouseover, mouseout } from '../interface/mouseover'
+import { mouseover, mouseout } from '../mouseover'
 import * as PIXI from 'pixi.js'
 
 const splitInTwo = string => {

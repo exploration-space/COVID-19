@@ -1,6 +1,9 @@
 import * as PIXI from 'pixi.js'
 import { Viewport } from 'pixi-viewport'
 
+// this.WIDTH = 5000
+// this.HEIGHT = 5000
+
 export default () => {
 
     const app = new PIXI.Application({
@@ -36,6 +39,11 @@ export default () => {
         .wheel()
         .decelerate()
         .clampZoom({ minScale: .5, maxScale: 3 })
+        .fitWidth(1500)
+        // .setZoom(.5)
+        // .fitWidth()
+        // .moveCenter()
+        // .moveCenter(0,0)
 
     // Prevent pinch gesture in Chrome
 

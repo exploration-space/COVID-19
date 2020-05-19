@@ -38,7 +38,7 @@ a {
 
 #focus,
 #title,
-#searchWrapper,
+#search,
 #warning {
 	background-color: rgba(0, 0, 0, .7);
 	position: absolute;
@@ -57,7 +57,7 @@ a {
 	width: 240px;
 }
 
-#searchWrapper {
+#search {
 	right: 0;
 	top: 10;
 	width: 240px;

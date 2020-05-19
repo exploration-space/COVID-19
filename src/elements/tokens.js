@@ -24,6 +24,7 @@ export function initTokens() {
         const scale = value * .0007
         link.txt = new PIXI.Text(key, tokenStyle)
         link.txt.scale.set(scale)
+        link.txt.position.set(Infinity, Infinity)
         stage.addChild(link.txt)
     })
 
