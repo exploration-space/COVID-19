@@ -58,6 +58,6 @@ Promise.all([
 
     background()
     simulation()
-    // search()
+    search()
 
 })

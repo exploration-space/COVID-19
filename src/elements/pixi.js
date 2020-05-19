@@ -1,9 +1,6 @@
 import * as PIXI from 'pixi.js'
 import { Viewport } from 'pixi-viewport'
 
-// this.WIDTH = 5000
-// this.HEIGHT = 5000
-
 export default () => {
 
     // Create and append PIXI
@@ -27,7 +24,6 @@ export default () => {
         screenHeight: window.innerHeight,
         interaction: app.renderer.plugins.interaction
     })
-
     app.stage.addChild(viewport)
 
     s.pixi = viewport
@@ -39,11 +35,8 @@ export default () => {
         .pinch()
         .wheel()
         .decelerate()
-        .clampZoom({ minScale: .5, maxScale: 3 })
-        .setTransform(
-            (window.innerWidth - s.pixi.worldWidth) / 2,
-            (window.innerHeight - s.pixi.worldHeight) / 2,
-            .5, .5)
+        .clampZoom({ minScale: .3, maxScale: 5 })
+        .setTransform( window.innerWidth / 2, window.innerHeight / 2, .3, .3)
 
     // Prevent pinch gesture in Chrome
 
