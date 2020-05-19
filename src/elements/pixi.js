@@ -40,7 +40,7 @@ export default () => {
         .wheel()
         .decelerate()
         .clampZoom({ minScale: .5, maxScale: 3 })
-        .fitWidth(1500)
+        // .fitWidth(1500)
         // .setZoom(.5)
         // .fitWidth()
         // .moveCenter()
