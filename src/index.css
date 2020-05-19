@@ -54,7 +54,7 @@ a {
 #title {
 	right: 0;
 	bottom: 10;
-	width: 240px;
+	/* width: 240px; */
 }
 
 #search {
@@ -69,13 +69,14 @@ a {
 }
 
 h1 {
-	font-size: 120%;
+	font-size: 100%;
 	margin: 5px 0;
 }
 
 h2 {
 	font-size: 70%;
 	margin: 5px 0;
+	font-weight: normal;
 }
 
 h3 {
@@ -99,4 +100,5 @@ p {
 .inverted {
 	background-color: white;
 	color: black;
+	white-space: nowrap;
 }
