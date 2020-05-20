@@ -39,6 +39,7 @@
     "fps": "0.0.3",
     "normalize.css": "^8.0.1",
     "pixi-viewport": "^4.11.1",
-    "pixi.js": "^5.2.4"
+    "pixi.js": "^5.2.4",
+    "remove-accents": "^0.4.2"
   }
 }

@@ -40,7 +40,7 @@ export function drawContours() {
     for (let i = density.length - 1; i >= 0; i--) {
 
         const width = contourWidth - step * count
-        stage.lineStyle(width, 0x888888)
+        stage.lineStyle(width, 0xBBBBB)
         count = count + 1
 
         density[i].coordinates.forEach(array => {
