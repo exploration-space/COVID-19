@@ -13,6 +13,7 @@ import nodes from './data/nodes.json'
 import links from './data/links.json'
 
 import search from './search'
+import stats from './stats'
 
 // Init
 
@@ -47,6 +48,8 @@ Promise.all([
     s.nodes = nodes
     console.log('nodes', s.nodes.length)
     console.log('links', s.links.length)
+
+    // stats();return
 
     initPixi()
     initFps()
