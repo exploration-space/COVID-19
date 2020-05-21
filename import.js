@@ -60,124 +60,151 @@ const parse = (records) => {
 
     // All authors
 
-    const names = records.reduce((a, record) => {
-        a.push(...record.authors)
-        return a
-    }, []).filter((v, i, a) => a.indexOf(v) === i)
+    // const names = records.reduce((a, record) => {
+    //     a.push(...record.authors)
+    //     return a
+    // }, []).filter((v, i, a) => a.indexOf(v) === i)
 
-    console.log(names.length)
+    // console.log(names.length)
 
-    // 115451
+    // // 115451
 
-    let authors = names.reduce((o, name, i) => {
-        
-        const same = o.find(el => el.name === name || el.variants.includes(name))
-        if (same) return o
-        
-        const similar = o.find(el => natural.DiceCoefficient(el.name, name) > .9)
-        if (similar)
-            similar.variants.push(name)
-        else {
-            o.push({
-                name: name,
-                variants: []
-            })
-        }
-        return o
-    }, [])
+    // let authors = names.reduce((o, name, i) => {
+
+    //     console.log(i)
+
+    //     const same = o.find(el => el.name === name || el.variants.includes(name))
+    //     if (same) return o
+
+    //     const similar = o.find(el => natural.DiceCoefficient(el.name, name) > .9)
+    //     if (similar)
+    //         similar.variants.push(name)
+    //     else {
+    //         o.push({
+    //             name: name,
+    //             variants: []
+    //         })
+    //     }
+    //     return o
+    // }, [])
 
 
     // Grouping by author
 
-    // let idCounter = 0
+    let idCounter = 0
 
-    // const authors = records
-    //     .slice(0, 500) // Trim for testing
-    //     .reduce((authors, record, i) => {
+    const authors = records
+        // .slice(0, 10000) // Trim for testing
+        .reduce((authors, record, i) => {
 
-    //         console.log('Grouping record #', records.length - i)
+            console.log('Grouping record #', records.length - i)
 
-    //         const year = parseInt(record.publish_time.split('-')[0])
-    //         const title = record.title.toLowerCase()
-    //         const abstract = record.abstract.toLowerCase()
-    //         const text = `${title} ${abstract} `
+            const year = parseInt(record.publish_time.split('-')[0])
+            const title = record.title.toLowerCase()
+            const abstract = record.abstract.toLowerCase()
+            const text = `${title} ${abstract} `
 
-    //         const update = author => {
-    //             author.docs++
-    //             author.text += text
-    //             if (author.years[year]) author.years[year]++
-    //             else author.years[year] = 1
-    //         }
+            const update = author => {
+                author.docs++
+                author.text += text
+                if (author.years[year]) author.years[year]++
+                else author.years[year] = 1
+            }
 
-    //         record.authors.forEach(name => {
+            record.authors.forEach(name => {
 
-    //             // Update same
+                // Update same
 
-    //             const same = authors.find(a => a.name === name || a.variants.includes(name))
-    //             if (same) {
-    //                 update(same)
-    //                 return
-    //             }
+                const same = authors.find(a =>
+                    a.name === name ||
+                    a.variants.includes(name))
+                if (same) {
+                    update(same)
+                    return
+                }
 
-    //             // Update similar
+                // Update similar
 
-    //             const similar = authors.find(a => natural.DiceCoefficient(a.name, name) > .9)
-    //             if (similar) {
-    //                 update(similar)
-    //                 return
-    //             }
+                const similar = authors.find(a => natural.DiceCoefficient(a.name, name) > .9)
+                if (similar) {
+                    // console.log('similar')
+                    if (!similar.variants.includes(similar.name)) similar.variants.push(similar.name)
+                    update(similar)
+                    return
+                }
 
-    //             // Create new
+                // Update equal (same without accents)
 
-    //             authors.push({
-    //                 id: idCounter++,
-    //                 name: name,
-    //                 docs: 1,
-    //                 years: {
-    //                     [year]: 1
-    //                 },
-    //                 peers: [],
-    //                 variants: [],
-    //                 text: text
-    //             })
+                const equal = authors.find(a => accents.remove(a.name) === accents.remove(name))
+                if (equal) {
+                    console.log('equal')
+                    if (!equal.variants.includes(equal.name)) equal.variants.push(equal.name)
+                    update(equal)
+                    return
+                }
 
-    //         })
+                // Create new
 
-    //         return authors
+                authors.push({
+                    id: idCounter++,
+                    name: name,
+                    docs: 1,
+                    years: {
+                        [year]: 1
+                    },
+                    peers: [],
+                    variants: [],
+                    text: text
+                })
 
-    //     }, [])
+            })
+
+            return authors
+
+        }, [])
 
     // Transform authors into ids
 
-    // records.forEach((record, i) => {
-    //     // console.log('Setting peers for record #', records.length - i)
-    //     // console.log(record.authors)
-    //     // To fix with variations
-    //     const peers = authors.filter(author => record.authors.includes(author.name))
-    //     const ids = peers.map(author => author.id)
+    records.forEach((record, i) => {
 
-    //     peers.forEach(peer => {
-    //         ids.forEach(id => {
-    //             if (!peer.peers.includes(id)) peer.peers.push(id)
-    //         })
-    //     })
+        console.log('Setting peers for record #', records.length - i)
 
-    // })
+        const peers = authors.filter(author => {
+            let flag = false
+
+            if (record.authors.includes(author.name)) flag = true
+
+            author.variants.forEach(variant => {
+                if (record.authors.includes(variant)) {
+                    flag = true
+                }
+            })
+
+            return flag
+        })
+
+        const ids = peers.map(author => author.id)
+
+        peers.forEach(peer => {
+            ids.forEach(id => {
+                if (!peer.peers.includes(id)) peer.peers.push(id)
+            })
+        })
+
+    })
 
     // Time end
 
     const end = Date.now()
     const d = new Date(end - start)
-    console.log(`Time computed ${d.getUTCMinutes()}m ${d.getUTCSeconds()}s ${d.getUTCMilliseconds()}ms`)
+    console.log(`Time computed ${d.getUTCMinutes()}m ${d.getUTCSeconds()}s`)
+    //  ${d.getUTCMilliseconds()}ms
 
     // Write JSON
 
     fs.writeFile('./data/authors.json', JSON.stringify(authors, null, '\t'), err => {
         if (err) throw err
     })
-
-
-
 
 
 
