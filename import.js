@@ -95,7 +95,7 @@ const parse = (records) => {
     let idCounter = 0
 
     const authors = records
-        .slice(0, 5000) // Trim for testing
+        // .slice(0, 1000) // Trim for testing
         .reduce((authors, record, i) => {
 
             if ((i % 1000) === 0)
@@ -114,10 +114,17 @@ const parse = (records) => {
 
                 // Update same
 
-                const same = authors.find(a => a.name === name || a.variants.includes(name))
+                const same = authors.find(a => a.name === name)
                 if (same) {
-                    // console.log('same')
                     update(same)
+                    return
+                }
+
+                // Update variant
+
+                const variant = authors.find(a => a.variants.includes(name))
+                if (variant) {
+                    update(variant)
                     return
                 }
 
@@ -126,25 +133,12 @@ const parse = (records) => {
                 // const similar = authors.find(a => natural.DiceCoefficient(a.name, name) > .9)
                 const similar = authors.find(a => dice(a.name, name) > .9) // Better with a lot of data
                 if (similar) {
-                    // console.log('similar')
                     if (!similar.variants.includes(similar.name)) similar.variants.push(similar.name)
                     update(similar)
                     return
                 }
 
-                // Update equal (same without accents)
-
-                // const equal = authors.find(a => accents.remove(a.name) === accents.remove(name))
-                // if (equal) {
-                //     // console.log('equal')
-                //     if (!equal.variants.includes(equal.name)) equal.variants.push(equal.name)
-                //     update(equal)
-                //     return
-                // }
-
                 // Create new
-
-                // console.log('new')
 
                 authors.push({
                     id: idCounter++,
