@@ -4,6 +4,7 @@ const fs = require('fs')
 const csv = require('csv-parser')
 const natural = require('natural')
 const accents = require('remove-accents')
+const dice = require('fast-dice-coefficient')
 
 // Time counter
 
@@ -94,38 +95,36 @@ const parse = (records) => {
     let idCounter = 0
 
     const authors = records
-        // .slice(0, 10000) // Trim for testing
+        .slice(0, 5000) // Trim for testing
         .reduce((authors, record, i) => {
 
-            console.log('Grouping record #', records.length - i)
+            if ((i % 1000) === 0)
+                console.log('Grouping record #', records.length - i)
 
             const year = parseInt(record.publish_time.split('-')[0])
-            const title = record.title.toLowerCase()
-            const abstract = record.abstract.toLowerCase()
-            const text = `${title} ${abstract} `
+            const text = `${record.title} ${record.abstract} `
 
             const update = author => {
                 author.docs++
                 author.text += text
-                if (author.years[year]) author.years[year]++
-                else author.years[year] = 1
+                author.years[year] = (author.years[year]) ? (author.years[year])++ : 1
             }
 
             record.authors.forEach(name => {
 
                 // Update same
 
-                const same = authors.find(a =>
-                    a.name === name ||
-                    a.variants.includes(name))
+                const same = authors.find(a => a.name === name || a.variants.includes(name))
                 if (same) {
+                    // console.log('same')
                     update(same)
                     return
                 }
 
                 // Update similar
 
-                const similar = authors.find(a => natural.DiceCoefficient(a.name, name) > .9)
+                // const similar = authors.find(a => natural.DiceCoefficient(a.name, name) > .9)
+                const similar = authors.find(a => dice(a.name, name) > .9) // Better with a lot of data
                 if (similar) {
                     // console.log('similar')
                     if (!similar.variants.includes(similar.name)) similar.variants.push(similar.name)
@@ -135,15 +134,17 @@ const parse = (records) => {
 
                 // Update equal (same without accents)
 
-                const equal = authors.find(a => accents.remove(a.name) === accents.remove(name))
-                if (equal) {
-                    console.log('equal')
-                    if (!equal.variants.includes(equal.name)) equal.variants.push(equal.name)
-                    update(equal)
-                    return
-                }
+                // const equal = authors.find(a => accents.remove(a.name) === accents.remove(name))
+                // if (equal) {
+                //     // console.log('equal')
+                //     if (!equal.variants.includes(equal.name)) equal.variants.push(equal.name)
+                //     update(equal)
+                //     return
+                // }
 
                 // Create new
+
+                // console.log('new')
 
                 authors.push({
                     id: idCounter++,
@@ -167,7 +168,8 @@ const parse = (records) => {
 
     records.forEach((record, i) => {
 
-        console.log('Setting peers for record #', records.length - i)
+        if ((i % 1000) === 0)
+            console.log('Setting peers for record #', records.length - i)
 
         const peers = authors.filter(author => {
             let flag = false
@@ -197,8 +199,7 @@ const parse = (records) => {
 
     const end = Date.now()
     const d = new Date(end - start)
-    console.log(`Time computed ${d.getUTCMinutes()}m ${d.getUTCSeconds()}s`)
-    //  ${d.getUTCMilliseconds()}ms
+    console.log(`Time computed ${d.getUTCMinutes()}m ${d.getUTCSeconds()}s ${d.getUTCMilliseconds()}ms`)
 
     // Write JSON
 
