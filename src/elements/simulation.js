@@ -16,7 +16,7 @@ export function simulation() {
         .force('center', d3.forceCenter(0, 0))
         .force('link', d3.forceLink()
             .id(d => d.id)
-            .strength(d => d.value * 1)
+            .strength(d => d.value)
         )
         .nodes(s.nodes).on('tick', ticked)
         .force('link').links(s.links)

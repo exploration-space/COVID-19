@@ -16,7 +16,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const min = 10 // 15 is a reasonable value
+    const min = 9
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
         if (author.docs >= min)
@@ -29,7 +29,7 @@ const analysis = authors => {
     const tokenizer = new natural.WordTokenizer()
     authors.forEach((author, i) => {
         console.log('Tokenizing author #', i)
-        author.tokens = tokenizer.tokenize(author.text)
+        author.tokens = tokenizer.tokenize(author.text.toLowerCase())
     })
 
     // Singularize

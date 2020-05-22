@@ -74,7 +74,7 @@ const infinity = new PIXI.Point(Infinity, Infinity)
 
 const color = {
     on: 0xFFFFFF,
-    off: 0x666666,
+    off: 0x777777,
 }
 
 export function drawNodes() {

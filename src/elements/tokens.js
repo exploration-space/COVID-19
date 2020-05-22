@@ -1,6 +1,7 @@
 import * as PIXI from 'pixi.js'
 
 let stage, min, max
+const color = 0x555555
 
 export function initTokens() {
 
@@ -14,7 +15,7 @@ export function initTokens() {
     const tokenStyle = new PIXI.TextStyle({
         fontFamily: "Arial",
         fontSize: 24,
-        fill: 0x555555,
+        fill: color,
         align: 'center'
     })
 
