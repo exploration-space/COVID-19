@@ -59,47 +59,13 @@ const parse = (records) => {
 
     }, [])
 
-    // All authors
-
-    // const names = records.reduce((a, record) => {
-    //     a.push(...record.authors)
-    //     return a
-    // }, []).filter((v, i, a) => a.indexOf(v) === i)
-
-    // console.log(names.length)
-
-    // // 115451
-
-    // let authors = names.reduce((o, name, i) => {
-
-    //     console.log(i)
-
-    //     const same = o.find(el => el.name === name || el.variants.includes(name))
-    //     if (same) return o
-
-    //     const similar = o.find(el => natural.DiceCoefficient(el.name, name) > .9)
-    //     if (similar)
-    //         similar.variants.push(name)
-    //     else {
-    //         o.push({
-    //             name: name,
-    //             variants: []
-    //         })
-    //     }
-    //     return o
-    // }, [])
-
-
     // Grouping by author
 
-    let idCounter = 0
-
     const authors = records
-        // .slice(0, 1000) // Trim for testing
+        // .slice(0, 100) // Trim for testing
         .reduce((authors, record, i) => {
 
-            if ((i % 1000) === 0)
-                console.log('Grouping record #', records.length - i)
+            if ((i % 1000) === 0) console.log('Grouping record #', records.length - i)
 
             const year = parseInt(record.publish_time.split('-')[0])
             const text = `${record.title} ${record.abstract} `
@@ -110,38 +76,8 @@ const parse = (records) => {
                 author.years[year] = (author.years[year]) ? (author.years[year])++ : 1
             }
 
-            record.authors.forEach(name => {
-
-                // Update same
-
-                const same = authors.find(a => a.name === name)
-                if (same) {
-                    update(same)
-                    return
-                }
-
-                // Update variant
-
-                const variant = authors.find(a => a.variants.includes(name))
-                if (variant) {
-                    update(variant)
-                    return
-                }
-
-                // Update similar
-
-                // const similar = authors.find(a => natural.DiceCoefficient(a.name, name) > .9)
-                const similar = authors.find(a => dice(a.name, name) > .9) // Better with a lot of data
-                if (similar) {
-                    if (!similar.variants.includes(similar.name)) similar.variants.push(similar.name)
-                    update(similar)
-                    return
-                }
-
-                // Create new
-
+            const add = name => {
                 authors.push({
-                    id: idCounter++,
                     name: name,
                     docs: 1,
                     years: {
@@ -151,12 +87,39 @@ const parse = (records) => {
                     variants: [],
                     text: text
                 })
+            }
+
+            record.authors.forEach(name => {
+
+                // Update same
+                const same = authors.find(a => a.name === name)
+                if (same) {
+                    update(same)
+                    return
+                }
+
+                // Update similar
+                const similar = authors.find(a => dice(a.name, name) > .9)
+                if (similar) {
+                    if (!similar.variants.includes(similar.name)) similar.variants.push(similar.name)
+                    update(similar)
+                    return
+                }
+
+                // Create new
+                add(name)
 
             })
 
             return authors
 
         }, [])
+
+    // Add ids
+
+    authors.forEach((author, i) => {
+        author.id = i
+    })
 
     // Transform authors into ids
 
@@ -178,6 +141,8 @@ const parse = (records) => {
 
             return flag
         })
+
+        // console.log(peers)
 
         const ids = peers.map(author => author.id)
 
