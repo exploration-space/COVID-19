@@ -1,3 +1,4 @@
+import * as PIXI from 'pixi.js'
 import autoComplete from '@tarekraafat/autocomplete.js'
 
 export default () => {
@@ -67,10 +68,22 @@ export default () => {
 
             const scale = 5
 
-            s.pixi.setTransform(
-                window.innerWidth / 2 - x * scale,
-                (window.innerHeight) / 2 - y * scale,
-                scale, scale)
+            const position = new PIXI.Point(x, y)
+
+            s.pixi.snapZoom({
+                width: 100,
+                height: 100,
+                time: 2000,
+                center: position,
+                ease: 'easeInOutSine',
+                forceStart: false,
+                removeOnComplete: true
+            })
+
+            // s.pixi.setTransform(
+            //     window.innerWidth / 2 - x * scale,
+            //     (window.innerHeight) / 2 - y * scale,
+            //     scale, scale)
 
         }
     })

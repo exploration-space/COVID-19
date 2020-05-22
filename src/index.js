@@ -63,4 +63,9 @@ Promise.all([
     simulation()
     search()
 
+    window.onresize = function () {
+        background()
+        s.pixi.resize()
+    }
+
 })

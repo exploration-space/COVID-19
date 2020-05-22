@@ -4,7 +4,7 @@ export default () => {
 
     console.log('TOP20 BY RELEVANCY')
     attr = 'relevancy'
-    s.nodes.filter(n => n[attr] > 4200)
+    s.nodes.filter(n => n[attr] > 4100)
         .sort((a, b) => {
             if (a[attr] > b[attr]) return -1
             return a[attr] < b[attr] ? 1 : 0
@@ -15,7 +15,7 @@ export default () => {
 
     console.log('TOP20 BY PUBLICATIONS')
     attr = 'docs'
-    s.nodes.filter(n => n[attr] > 68)
+    s.nodes.filter(n => n[attr] > 57)
         .sort((a, b) => {
             if (a[attr] > b[attr]) return -1
             return a[attr] < b[attr] ? 1 : 0
@@ -27,7 +27,7 @@ export default () => {
     console.log('TOP20 BY PEERS')
     attr = 'coauthors'
     s.nodes.forEach(node => node[attr] = node.peers.length)
-    s.nodes.filter(n => n[attr] > 380)
+    s.nodes.filter(n => n[attr] > 130)
         .sort((a, b) => {
             if (a[attr] > b[attr]) return -1
             return a[attr] < b[attr] ? 1 : 0
