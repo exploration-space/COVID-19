@@ -2,6 +2,8 @@ import * as PIXI from 'pixi.js'
 
 let stage
 
+const color = 0x666666
+
 export function initContours() {
 
     const contours = new PIXI.Graphics()
@@ -33,14 +35,14 @@ export function drawContours() {
     density.forEach(d => d.coordinates = d.coordinates
         .map(d => d.map(d => d.map(d => [d[0] + x, d[1] + y]))))
 
-    const contourWidth = 1
+    const contourWidth = 2
     const step = contourWidth / density.length
     let count = 1
 
     for (let i = density.length - 1; i >= 0; i--) {
 
         const width = contourWidth - step * count
-        stage.lineStyle(width, 0xBBBBB)
+        stage.lineStyle(width, color)
         count = count + 1
 
         density[i].coordinates.forEach(array => {

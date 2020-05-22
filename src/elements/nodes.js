@@ -23,15 +23,15 @@ export function initNodes() {
         fill: 'white',
         align: 'center',
     })
+    
 
     s.nodes.forEach(node => {
 
-        node.visibility = true
+        node.visibility = false
 
         // Circle
 
         node.gpxCircle = new PIXI.Graphics()
-        node.gpxCircle.beginFill(0xFFFFFF)
         node.gpxCircle.drawCircle(0, 0, 1)
         node.gpxCircle.endFill()
         nodes.addChild(node.gpxCircle)
@@ -53,9 +53,8 @@ export function initNodes() {
 
         node.gpxCircle.mouseover = mouseData => {
             mouseover(node)
-            const exclude = s.nodes.filter(peer => !node.peers.includes(peer.id))
-            exclude.forEach(node => node.visibility = false)
-            
+            const include = s.nodes.filter(peer => node.peers.includes(peer.id))
+            include.forEach(node => node.visibility = true)
             drawNodes()
         }
 
@@ -63,7 +62,7 @@ export function initNodes() {
 
         node.gpxCircle.mouseout = mouseData => {
             mouseout(node)
-            s.nodes.forEach(node => node.visibility = true)
+            s.nodes.forEach(node => node.visibility = false)
             drawNodes()
         }
 
@@ -72,6 +71,11 @@ export function initNodes() {
 }
 
 const infinity = new PIXI.Point(Infinity, Infinity)
+
+const color = {
+    on: 0xFFFFFF,
+    off: 0x666666,
+}
 
 export function drawNodes() {
 
@@ -84,12 +88,12 @@ export function drawNodes() {
         gpxCircle.position = origin
         gpxText.position.set(x - gpxText.width / 2, y + 3)
         if (visibility) {
-            gpxCircle.tint = 0xFFFFFF
-            gpxText.tint = 0xFFFFFF
+            gpxCircle.tint = color.on
+            gpxText.tint = color.on
         }
         else {
-            gpxCircle.tint = 0x666666
-            gpxText.tint = 0x666666
+            gpxCircle.tint = color.off
+            gpxText.tint = color.off
         }
 
     })

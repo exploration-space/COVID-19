@@ -73,7 +73,8 @@ const parse = (records) => {
             const update = author => {
                 author.docs++
                 author.text += text
-                author.years[year] = (author.years[year]) ? (author.years[year])++ : 1
+                if (author.years[year]) (author.years[year])++
+                else (author.years[year]) = 1
             }
 
             const add = name => {
@@ -158,7 +159,7 @@ const parse = (records) => {
 
     const end = Date.now()
     const d = new Date(end - start)
-    console.log(`Time computed ${d.getUTCMinutes()}m ${d.getUTCSeconds()}s ${d.getUTCMilliseconds()}ms`)
+    console.log(`Time computed ${d.getUTCHours()}h ${d.getUTCMinutes()}m ${d.getUTCSeconds()}s ${d.getUTCMilliseconds()}ms`)
 
     // Write JSON
 
