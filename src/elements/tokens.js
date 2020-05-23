@@ -1,7 +1,19 @@
 import * as PIXI from 'pixi.js'
 
 let stage, min, max
-const color = 0x555555
+let links = []
+
+const color = {
+    on: 0xFFFFFF,
+    off: 0x777777,
+}
+
+const tokenStyle = new PIXI.TextStyle({
+    fontFamily: "Arial",
+    fontSize: 24,
+    fill: color.on,
+    align: 'center'
+})
 
 export function initTokens() {
 
@@ -12,30 +24,26 @@ export function initTokens() {
     min = Math.pow(s.distance * 2 - gap, 2)
     max = Math.pow(s.distance * 2 + gap, 2)
 
-    const tokenStyle = new PIXI.TextStyle({
-        fontFamily: "Arial",
-        fontSize: 24,
-        fill: color,
-        align: 'center'
-    })
+    // Filter active tokens
+    
+    links = s.links.filter(l => l.value > .1)
 
-    s.links.forEach(link => {
-        if (link.value < .1) return
-        const [key, value] = Object.entries(link.tokens)[0]
-        const scale = value * .0007
-        link.txt = new PIXI.Text(key, tokenStyle)
-        link.txt.scale.set(scale)
-        link.txt.position.set(Infinity, Infinity)
-        stage.addChild(link.txt)
-    })
+    // Create PIXI.Text
+    
+    links.forEach(link => {
+            const [key, value] = Object.entries(link.tokens)[0]
+            const scale = value * .0007
+            link.txt = new PIXI.Text(key, tokenStyle)
+            link.txt.scale.set(scale)
+            link.txt.position.set(Infinity, Infinity)
+            stage.addChild(link.txt)
+        })
 
 }
 
 export function drawTokens() {
 
-    s.links.forEach(link => {
-
-        if (!link.txt) return
+    links.forEach(link => {
 
         const deltaX = Math.abs(link.source.x - link.target.x)
         const deltaY = Math.abs(link.source.y - link.target.y)
@@ -48,6 +56,13 @@ export function drawTokens() {
             txt.position.set(x - txt.width / 2, y - txt.height / 2)
         } else {
             txt.position.set(Infinity, Infinity)
+        }
+
+        if (s.tokens.includes(link.txt.text)) {
+            link.txt.tint = color.on
+        }
+        else {
+            link.txt.tint = color.off
         }
 
     })

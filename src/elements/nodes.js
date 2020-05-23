@@ -1,5 +1,7 @@
-import { mouseover, mouseout } from '../mouseover'
 import * as PIXI from 'pixi.js'
+
+import { mouseover, mouseout } from '../mouseover'
+import { drawTokens } from './tokens'
 
 const splitInTwo = string => {
     const middle = Math.round(string.length / 2)
@@ -12,6 +14,11 @@ const splitInTwo = string => {
 
 let stage
 
+const color = {
+    on: 0xFFFFFF,
+    off: 0x777777,
+}
+
 export function initNodes() {
 
     const nodes = new PIXI.Graphics()
@@ -20,10 +27,9 @@ export function initNodes() {
     const nodeStyle = new PIXI.TextStyle({
         fontFamily: 'Arial',
         fontSize: 5,
-        fill: 'white',
+        fill: color.on,
         align: 'center',
     })
-    
 
     s.nodes.forEach(node => {
 
@@ -56,6 +62,7 @@ export function initNodes() {
             const include = s.nodes.filter(peer => node.peers.includes(peer.id))
             include.forEach(node => node.visibility = true)
             drawNodes()
+            drawTokens()
         }
 
         // Clean information panel & set off circles
@@ -64,6 +71,7 @@ export function initNodes() {
             mouseout(node)
             s.nodes.forEach(node => node.visibility = false)
             drawNodes()
+            drawTokens()
         }
 
     })
@@ -71,11 +79,6 @@ export function initNodes() {
 }
 
 const infinity = new PIXI.Point(Infinity, Infinity)
-
-const color = {
-    on: 0xFFFFFF,
-    off: 0x777777,
-}
 
 export function drawNodes() {
 

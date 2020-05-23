@@ -30,7 +30,7 @@ const parse = (records) => {
         // Filter
 
         if (record.abstract.length > 3000) return records
-        if (record.authors.length > 10) return records
+        // if (record.authors.length > 10) return records
 
         // Clean authors
 

@@ -16,7 +16,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const min = 9
+    const min = 15 // Number of articles
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
         if (author.docs >= min)
@@ -49,7 +49,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['not']
+    const stopWords = ['not', 'virus', 'coronavirus']
     authors.forEach((author, i) => {
         console.log('Cleaning author #', i)
         author.tokens = sw.removeStopwords(author.tokens, sw.en.concat(stopWords))

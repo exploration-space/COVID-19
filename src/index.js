@@ -34,6 +34,7 @@ window.s = {
     distance: 30,
     links,
     nodes,
+    tokens: []
 }
 
 // Start
@@ -49,7 +50,7 @@ Promise.all([
     console.log('nodes', s.nodes.length)
     console.log('links', s.links.length)
 
-    // stats();return
+    stats();return
 
     initPixi()
     initFps()
