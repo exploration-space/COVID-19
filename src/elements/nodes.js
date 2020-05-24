@@ -53,7 +53,7 @@ export function initNodes() {
         // Interaction
 
         node.gpxCircle.interactive = true
-        node.gpxCircle.hitArea = new PIXI.Circle(0, 0, 20)
+        node.gpxCircle.hitArea = new PIXI.Circle(0, 0, s.distance)
 
         // Set information panel & set on circles
 

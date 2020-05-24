@@ -16,7 +16,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const min = 15 // Number of articles
+    const min = 10 // Min. number of articles
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
         if (author.docs >= min)
@@ -69,11 +69,11 @@ const analysis = authors => {
 
     // Reduction and shaping
 
-    const slice = 40
+    const max = 20
     authors.forEach((author, i) => {
         console.log('Reducing for author #', i)
         author.tokens = tokenFrequency.listTerms(i)
-            .slice(0, slice) // Slice first x elements
+            .filter((el, j) => j < max)
             .reduce((obj, el) => {
                 obj[el.term] = Math.floor(el.tfidf)
                 return obj
@@ -143,13 +143,13 @@ const analysis = authors => {
 
     // Cleaning nodes without relations
 
-    const connectedNodes = links.reduce((array, link) => {
-        if (!array.includes(link.source)) array.push(link.source)
-        if (!array.includes(link.target)) array.push(link.target)
-        return array
-    }, [])
+    // const connectedNodes = links.reduce((array, link) => {
+    //     if (!array.includes(link.source)) array.push(link.source)
+    //     if (!array.includes(link.target)) array.push(link.target)
+    //     return array
+    // }, [])
 
-    nodes = nodes.filter(node => connectedNodes.includes(node.id))
+    // nodes = nodes.filter(node => connectedNodes.includes(node.id))
 
     // Nationality
 
