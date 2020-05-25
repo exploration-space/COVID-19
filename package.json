@@ -39,7 +39,7 @@
     "d3-force-reuse": "^1.0.1",
     "fps": "0.0.3",
     "normalize.css": "^8.0.1",
-    "pixi-viewport": "^4.11.1",
+    "pixi-viewport": "^4.11.2",
     "pixi.js": "^5.2.4",
     "remove-accents": "^0.4.2"
   }

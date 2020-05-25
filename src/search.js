@@ -69,21 +69,37 @@ export default () => {
             const scale = 5
 
             const position = new PIXI.Point(x, y)
+            const origin = new PIXI.Point(0, 0)
+            const duration = 1000
 
-            s.pixi.snapZoom({
-                width: 100,
-                height: 100,
-                time: 2000,
-                center: position,
+            const zoomout = () => s.pixi.snapZoom({
+                width: 1000,
+                height: 1000,
+                time: duration,
+                center: origin,
                 ease: 'easeInOutSine',
-                forceStart: false,
+                forceStart: true,
                 removeOnComplete: true
             })
 
-            // s.pixi.setTransform(
-            //     window.innerWidth / 2 - x * scale,
-            //     (window.innerHeight) / 2 - y * scale,
-            //     scale, scale)
+            const zoomin = () => s.pixi.snapZoom({
+                width: 100,
+                height: 100,
+                time: duration,
+                center: position,
+                ease: 'easeInOutSine',
+                forceStart: true,
+                removeOnComplete: true
+            })
+
+            if (s.pixi.scale.x < 1) {
+                console.log('in')
+                zoomin()
+            } else {
+                console.log('out')
+                zoomout()
+                setTimeout(zoomin(), duration)
+            }
 
         }
     })
