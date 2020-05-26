@@ -109,40 +109,6 @@ export function simulation() {
         .tick() // Not clear what is this
         .on('tick', ticked)
 
-
-
-    // const simulation = d3.forceSimulation()
-    //     .force('charge', reuse.forceManyBodyReuse()
-    //         .strength(-15)
-    //         .distanceMin(s.distance * 2)
-    //         .distanceMax(s.distance * 50)
-    //         // This slows down updates with time
-    //         .update(() => {
-    //                 let next = 1
-    //                 return (i) =>  {
-    //                     const curr = Math.floor(4 * Math.log(i))
-    //                     if (curr !== next) {
-    //                         next = curr
-    //                         return true
-    //                     }
-    //                     return false
-    //                 }
-    //             }
-    //         )
-    //     )
-    //     .force('collide', d3.forceCollide()
-    //         .radius(s.distance)
-    //         .strength(.5)
-    //         .iterations(5)
-    //     )
-    //     .force('center', d3.forceCenter(0, 0))
-    //     .force('link', d3.forceLink()
-    //         .id(d => d.id)
-    //         .strength(d => d.value)
-    //     )
-    //     .nodes(s.nodes).on('tick', ticked)
-    //     .force('link').links(s.links)
-
 }
 
 export function ticked() {
@@ -195,9 +161,14 @@ export function ticked() {
         div.innerHTML = `<path d='${p}' />`
         const svg = new SVG(div);
 
-        s.pixi.addChild(svg);
+        s.pixi.addChild(svg)
 
-        // console.log(p)
+        console.log(p)
+        console.log(div)
+
+        // Example
+        // M477.96387673221784,249.8892818672256m0,13910.537730738572a13910.537730738572,13910.537730738572 0 1,1 0,-27821.075461477143a13910.537730738572,13910.537730738572 0 1,1 0,27821.075461477143z
+
     })
     // d.radius = (d.norm / 150) * 4;
     // const clip = projection.clipAngle();

@@ -33,46 +33,48 @@ export function initNodes() {
 
     s.nodes.forEach(node => {
 
-        node.visibility = false
 
-        // Circle
 
-        node.gpxCircle = new PIXI.Graphics()
-        node.gpxCircle.drawCircle(0, 0, 1)
-        node.gpxCircle.endFill()
-        nodes.addChild(node.gpxCircle)
+        //     node.visibility = false
 
-        // Label
+        //     // Circle
 
-        const [nA, nB] = splitInTwo(node.name)
-        node.gpxText = new PIXI.Text(`${nA}\n${nB}`, nodeStyle)
-        node.gpxText.scale.x = .5
-        node.gpxText.scale.y = .5
-        nodes.addChild(node.gpxText)
+        //     node.gpxCircle = new PIXI.Graphics()
+        //     node.gpxCircle.drawCircle(0, 0, 1)
+        //     node.gpxCircle.endFill()
+        //     nodes.addChild(node.gpxCircle)
 
-        // Interaction
+        //     // Label
 
-        node.gpxCircle.interactive = true
-        node.gpxCircle.hitArea = new PIXI.Circle(0, 0, s.distance)
+        //     const [nA, nB] = splitInTwo(node.name)
+        //     node.gpxText = new PIXI.Text(`${nA}\n${nB}`, nodeStyle)
+        //     node.gpxText.scale.x = .5
+        //     node.gpxText.scale.y = .5
+        //     nodes.addChild(node.gpxText)
 
-        // Set information panel & set on circles
+        //     // Interaction
 
-        node.gpxCircle.mouseover = mouseData => {
-            mouseover(node)
-            const include = s.nodes.filter(peer => node.peers.includes(peer.id))
-            include.forEach(node => node.visibility = true)
-            drawNodes()
-            drawTokens()
-        }
+        //     node.gpxCircle.interactive = true
+        //     node.gpxCircle.hitArea = new PIXI.Circle(0, 0, s.distance)
 
-        // Clean information panel & set off circles
+        //     // Set information panel & set on circles
 
-        node.gpxCircle.mouseout = mouseData => {
-            mouseout(node)
-            s.nodes.forEach(node => node.visibility = false)
-            drawNodes()
-            drawTokens()
-        }
+        //     node.gpxCircle.mouseover = mouseData => {
+        //         mouseover(node)
+        //         const include = s.nodes.filter(peer => node.peers.includes(peer.id))
+        //         include.forEach(node => node.visibility = true)
+        //         drawNodes()
+        //         drawTokens()
+        //     }
+
+        //     // Clean information panel & set off circles
+
+        //     node.gpxCircle.mouseout = mouseData => {
+        //         mouseout(node)
+        //         s.nodes.forEach(node => node.visibility = false)
+        //         drawNodes()
+        //         drawTokens()
+        //     }
 
     })
 
@@ -85,19 +87,46 @@ export function drawNodes() {
     stage.clear()
 
     s.nodes.forEach(node => {
-        const { x, y, gpxCircle, gpxText, visibility } = node
-        const origin = new PIXI.Point(x, y)
-        gpxCircle.position = origin
-        gpxCircle.position = origin
-        gpxText.position.set(x - gpxText.width / 2, y + 3)
-        if (visibility) {
-            gpxCircle.tint = color.on
-            gpxText.tint = color.on
-        }
-        else {
-            gpxCircle.tint = color.off
-            gpxText.tint = color.off
-        }
+
+        node.radius = (node.norm / 150) * 4
+        const clip = projection.clipAngle()
+        projection.clipAngle(179.99);
+        const p = path.pointRadius(node.radius)({
+            type: "Point",
+            coordinates: node.spherical
+        })
+        projection.clipAngle(clip)
+
+        let div = document.createElement('svg');
+        div.innerHTML = `<path d='${p}' />`
+        const svg = new SVG(div);
+
+        stage.addChild(svg)
+
+        console.log(p)
+        console.log(div)
+
+        // Example
+        // M477.96387673221784,249.8892818672256m0,13910.537730738572a13910.537730738572,13910.537730738572 0 1,1 0,-27821.075461477143a13910.537730738572,13910.537730738572 0 1,1 0,27821.075461477143z
+
+
+
+
+
+
+        // const { x, y, gpxCircle, gpxText, visibility } = node
+        // const origin = new PIXI.Point(x, y)
+        // gpxCircle.position = origin
+        // gpxCircle.position = origin
+        // gpxText.position.set(x - gpxText.width / 2, y + 3)
+        // if (visibility) {
+        //     gpxCircle.tint = color.on
+        //     gpxText.tint = color.on
+        // }
+        // else {
+        //     gpxCircle.tint = color.off
+        //     gpxText.tint = color.off
+        // }
 
     })
 
