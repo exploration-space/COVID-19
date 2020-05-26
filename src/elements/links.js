@@ -15,7 +15,7 @@ export function drawLinks() {
     stage.alpha = .2
 
     s.links.forEach(({ source, target, value }) => {
-        stage.lineStyle(value, 0xFFFFFF)
+        stage.lineStyle(value, 0xCCCCCC)
         stage.moveTo(source.x, source.y)
         stage.lineTo(target.x, target.y)
     })

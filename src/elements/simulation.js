@@ -9,27 +9,27 @@ export function simulation() {
 
     const simulation = d3.forceSimulation()
         .force('charge', reuse.forceManyBodyReuse()
-            .strength(-20)
-            .distanceMin(s.distance)
+            .strength(-15)
+            .distanceMin(s.distance * 2)
             .distanceMax(s.distance * 50)
-            .update(
-                function () {
-                    var next = 1;
-                    return function (i, nodes) {
-                        var curr = Math.floor(4 * Math.log(i));
+            // This slows down updates with time
+            .update(() => {
+                    let next = 1
+                    return (i) =>  {
+                        const curr = Math.floor(4 * Math.log(i))
                         if (curr !== next) {
-                            next = curr;
-                            return true;
+                            next = curr
+                            return true
                         }
-                        return false;
-                    };
+                        return false
+                    }
                 }
             )
         )
         .force('collide', d3.forceCollide()
             .radius(s.distance)
             .strength(.5)
-            .iterations(10)
+            .iterations(5)
         )
         .force('center', d3.forceCenter(0, 0))
         .force('link', d3.forceLink()
@@ -44,7 +44,7 @@ export function simulation() {
 export function ticked() {
 
     drawContours()
-    // drawLinks()
+    drawLinks()
     drawNodes()
     drawTokens()
 

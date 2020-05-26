@@ -25,8 +25,9 @@ export function initTokens() {
     max = Math.pow(s.distance * 2 + gap, 2)
 
     // Filter active tokens
-    
-    links = s.links.filter(l => l.value > .1)
+
+    const limit = .01
+    links = s.links.filter(l => l.value > limit)
 
     // Create PIXI.Text
     

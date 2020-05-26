@@ -55,8 +55,6 @@ const analysis = authors => {
         author.tokens = sw.removeStopwords(author.tokens, sw.en.concat(stopWords))
             .filter(token => token.length > 2)
             .filter(token => !parseInt(token))
-
-        console.log(author.tokens)
     })
 
     // TF-IDF
@@ -73,18 +71,15 @@ const analysis = authors => {
     authors.forEach((author, i) => {
         console.log('Reducing for author #', i)
         author.tokens = tokenFrequency.listTerms(i)
-            .filter((el, j) => j < max)
-            .reduce((obj, el) => {
-                obj[el.term] = Math.floor(el.tfidf)
-                return obj
-            }, {})
+            .slice(0, max)
     })
 
     // Set nodes
 
     let nodes = authors.reduce((array, author) => {
         delete author.text
-        author.relevancy = Math.floor(Object.values(author.tokens).reduce((a, b) => a + b))
+        author.relevancy = Math.floor(author.tokens.map(t => t.tfidf).reduce((a, b) => a + b))
+        // console.log(author.relevancy)
         array.push(author)
         return array
     }, [])
@@ -101,7 +96,7 @@ const analysis = authors => {
         const min = 10
         const p1 = pair[0], p2 = pair[1]
         const t1 = p1.tokens, t2 = p2.tokens
-        const tokens = Object.keys(p1.tokens).filter(n => Object.keys(p2.tokens).includes(n))
+        const tokens = t1.map(t => t.term).filter(term => t2.map(t => t.term).includes(term))
         i = i - 1
 
         if (tokens.length <= min)
@@ -115,7 +110,7 @@ const analysis = authors => {
         tokens.forEach(token => {
 
             const link = links.find(link => link.source === p1.id && link.target === p2.id)
-            const value = t1[token] + t2[token]
+            const value = t1.find(t => t.term == token).tfidf + t2.find(t => t.term == token).tfidf
 
             if (link) {
                 link.value += value
