@@ -117,12 +117,12 @@ export function ticked() {
 
     // drawContours()
     // drawLinks()
-    // drawNodes()
+    drawNodes()
     // drawTokens()
 
 
-    const projection = d3.geoMercator()
-    const path = d3.geoPath(projection)
+    // const projection = d3.geoMercator()
+    // const path = d3.geoPath(projection)
 
     // function update(node, link, label, path, projection) {
     //     //projection.rotate([Date.now() / 100, -20]);
@@ -147,29 +147,29 @@ export function ticked() {
     //     coordinates: d.spherical
     //   });
     //   if (!p && backface) {
-    s.nodes.forEach(node => {
-        node.radius = (node.norm / 150) * 4
-        const clip = projection.clipAngle()
-        projection.clipAngle(179.99);
-        const p = path.pointRadius(node.radius)({
-            type: "Point",
-            coordinates: node.spherical
-        })
-        projection.clipAngle(clip)
+    // s.nodes.forEach(node => {
+    //     node.radius = (node.norm / 150) * 4
+    //     const clip = projection.clipAngle()
+    //     projection.clipAngle(179.99);
+    //     const p = path.pointRadius(node.radius)({
+    //         type: "Point",
+    //         coordinates: node.spherical
+    //     })
+    //     projection.clipAngle(clip)
 
-        let div = document.createElement('svg');
-        div.innerHTML = `<path d='${p}' />`
-        const svg = new SVG(div);
+    //     let div = document.createElement('svg');
+    //     div.innerHTML = `<path d='${p}' />`
+    //     const svg = new SVG(div);
 
-        s.pixi.addChild(svg)
+    //     s.pixi.addChild(svg)
 
-        console.log(p)
-        console.log(div)
+    //     console.log(p)
+    //     console.log(div)
 
-        // Example
-        // M477.96387673221784,249.8892818672256m0,13910.537730738572a13910.537730738572,13910.537730738572 0 1,1 0,-27821.075461477143a13910.537730738572,13910.537730738572 0 1,1 0,27821.075461477143z
+    //     // Example
+    //     // M477.96387673221784,249.8892818672256m0,13910.537730738572a13910.537730738572,13910.537730738572 0 1,1 0,-27821.075461477143a13910.537730738572,13910.537730738572 0 1,1 0,27821.075461477143z
 
-    })
+    // })
     // d.radius = (d.norm / 150) * 4;
     // const clip = projection.clipAngle();
     // projection.clipAngle(179.99);

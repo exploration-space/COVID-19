@@ -1,5 +1,8 @@
 import * as PIXI from 'pixi.js'
 
+import * as d3 from 'd3'
+import { SVG } from 'pixi-svg'
+
 import { mouseover, mouseout } from '../mouseover'
 import { drawTokens } from './tokens'
 
@@ -81,6 +84,8 @@ export function initNodes() {
 }
 
 const infinity = new PIXI.Point(Infinity, Infinity)
+const projection = d3.geoMercator()
+const path = d3.geoPath(projection)
 
 export function drawNodes() {
 
@@ -99,12 +104,12 @@ export function drawNodes() {
 
         let div = document.createElement('svg');
         div.innerHTML = `<path d='${p}' />`
-        const svg = new SVG(div);
+        const svg = new SVG(div)
 
         stage.addChild(svg)
 
-        console.log(p)
-        console.log(div)
+        // console.log(p)
+        // console.log(div)
 
         // Example
         // M477.96387673221784,249.8892818672256m0,13910.537730738572a13910.537730738572,13910.537730738572 0 1,1 0,-27821.075461477143a13910.537730738572,13910.537730738572 0 1,1 0,27821.075461477143z
