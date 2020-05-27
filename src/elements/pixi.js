@@ -36,7 +36,8 @@ export default () => {
         .wheel()
         .decelerate()
         .clampZoom({ minScale: .3, maxScale: 5 })
-        .setTransform( window.innerWidth / 2, window.innerHeight / 2, .3, .3)
+        // .setTransform( window.innerWidth / 2, window.innerHeight / 2)
+        // .setTransform( window.innerWidth / 2, window.innerHeight / 2, .3, .3)
         
     // Prevent pinch gesture in Chrome
 

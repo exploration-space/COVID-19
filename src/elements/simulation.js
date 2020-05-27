@@ -37,9 +37,10 @@ export function simulation() {
     const simulation = force3D.forceSimulation()
         .numDimensions(3)
         .nodes(s.nodes)
-        .force("collide", d3.forceCollide().radius(30))
+        .force("collide", d3.forceCollide()
+            .radius(60))
         .force("charge", d3.forceManyBody()
-            // .strength(-manyBodyStrength)
+            .strength(-20)
         )
         .force("link",
             d3.forceLink(s.links)
@@ -58,20 +59,12 @@ export function simulation() {
             RR = R0
 
             for (const node of s.nodes) {
-                if (node.fx) {
-                    node.x = node.fx;
-                }
-                if (node.fy) {
-                    node.y = node.fy;
-                }
-                if (node.fz) {
-                    node.z = node.fz;
-                }
+                if (node.fx) node.x = node.fx
+                if (node.fy) node.y = node.fy
+                if (node.fz) node.z = node.fz
                 node.norm = Math.sqrt(node.x ** 2 + node.y ** 2 + node.z ** 2);
 
-                if (!node.norm) {
-                    node.norm = 1;
-                }
+                if (!node.norm) node.norm = 1
 
                 node.cartesian = [
                     node.x / node.norm,
@@ -83,7 +76,7 @@ export function simulation() {
                     node.x / node.norm,
                     node.y / node.norm,
                     node.z / node.norm
-                ]).map(d => (d * 180) / Math.PI);
+                ]).map(d => (d * 180) / Math.PI)
 
                 // forcibly move node towards the surface
                 {

@@ -16,7 +16,7 @@ const geoPath = d3.geoPath(projection)
 
 export function drawLinks() {
 
-    stage.clear()
+    stage.removeChildren().forEach(child => child.destroy())
 
     console.log('hey')
 
@@ -28,7 +28,8 @@ export function drawLinks() {
             coordinates: [link.source.spherical, link.target.spherical]
         })
 
-        let element = document.createElement('svg');
+        let element = document.createElement('svg')
+        element.style.width = '300'
         element.innerHTML = `<path stroke="black" stroke-width=".1" fill='none' d='${path}' />`
         const svg = new SVG(element)
 
