@@ -93,31 +93,20 @@ export function drawNodes() {
 
     s.nodes.forEach(node => {
 
-        node.radius = (node.norm / 150) * 4
-        const clip = projection.clipAngle()
-        projection.clipAngle(179.99);
-        const p = path.pointRadius(node.radius)({
-            type: "Point",
-            coordinates: node.spherical
-        })
-        projection.clipAngle(clip)
+        // node.radius = (node.norm / 150) * 4
+        // const clip = projection.clipAngle()
+        // projection.clipAngle(179.99);
+        // const p = path.pointRadius(node.radius)({
+        //     type: "Point",
+        //     coordinates: node.spherical
+        // })
+        // projection.clipAngle(clip)
 
-        let div = document.createElement('svg');
-        div.innerHTML = `<path d='${p}' />`
-        const svg = new SVG(div)
+        // let div = document.createElement('svg');
+        // div.innerHTML = `<path d='${p}' />`
+        // const svg = new SVG(div)
 
-        stage.addChild(svg)
-
-        // console.log(p)
-        // console.log(div)
-
-        // Example
-        // M477.96387673221784,249.8892818672256m0,13910.537730738572a13910.537730738572,13910.537730738572 0 1,1 0,-27821.075461477143a13910.537730738572,13910.537730738572 0 1,1 0,27821.075461477143z
-
-
-
-
-
+        // stage.addChild(svg)
 
         // const { x, y, gpxCircle, gpxText, visibility } = node
         // const origin = new PIXI.Point(x, y)

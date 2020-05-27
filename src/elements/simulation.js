@@ -113,11 +113,11 @@ export function simulation() {
 
 export function ticked() {
 
-    console.log('hey')
+    // console.log('hey')
 
     // drawContours()
-    // drawLinks()
-    drawNodes()
+    drawLinks()
+    // drawNodes()
     // drawTokens()
 
 
