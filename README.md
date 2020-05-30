@@ -1,4 +1,4 @@
-# Cartogrphy of COVID-19 Scientific Literature
+# Cartography of COVID-19 Scientific Literature
 
 Network visualizations are useuful instrument to have a distant view from a subject. This visualization was created to give an idea of the scientific community behind the COVID-19 subject. Who they are? When they began? With whom they work? Which are their specializationtions?
 
@@ -10,11 +10,11 @@ Using an open-source database called <a href='https://pages.semanticscholar.org/
 
 Open the cartography at this [URL](https://rodighiero.github.io/COVID-19/). After a few seconds for stabilizing forces, a network composed by the major authors working on the COVID-19 subject takes form. The elevation map in yellow points out as peaks the most active areas of research. When two close authors have a common keyword, that is visible between them with a font size that reflects the edge's weigth. By moving over an author, the relative network of peers is highlighted as well as the keywords that define his/her profile. The left panel shows a few author's information with the most relevant keywords, the nationality of his/her community, and the publication years. On the top right a search function to find a specific author.
 
-## Aknoledgements
+## Acknowledgements
 
 The project started during the Digital Humanities Conference 2019 with the spirit to create a cartography of the DH community. At that moment, it was priceless the contribution of Daniele Guido (University of Luxembourg), Philippe Rivière (Visiocarto), and Stephan Risi (MIT).
 
-This version has been improved thanks to Eveline Wandl-Vogt [from Austrian Academy of Sciences](https://www.oeaw.ac.at) and Elian Carsenat [NamSor](https://www.namsor.com). The data about nationality / country of origin / ethnicity or diaspora are  are generated through the NamSor algorithm (NamSorAPIv2.0.9B02) ; NamSor is not 100% accurate, and accuracy is in range 85%-95% so name origin inference introduces potential bias and error; for privacy reason, the data is presented at an aggregate level; also privacy-related, individuals can suggest corrections to inferred origin in diaspora.csv file, or out-out if they wish; although this inferred data is not perfect, both nationality and university affiliation is missing from the original CORD-19 data set and visualizing this data can give further insights on the literary production. 
+This version has been improved thanks to Eveline Wandl-Vogt [from Austrian Academy of Sciences](https://www.oeaw.ac.at) and Elian Carsenat [NamSor](https://www.namsor.com). The data about nationality / country of origin / ethnicity or diaspora are  are generated through the NamSor algorithm (NamSor API v2.0.9B02) ; NamSor is not 100% accurate, and accuracy is in range 85%-95% so name origin inference introduces potential bias and error; for privacy reason, the data is presented at an aggregate level; also privacy-related, individuals can suggest corrections to inferred origin in diaspora.csv file, or out-out if they wish; although this inferred data is not perfect, both nationality and university affiliation is missing from the original CORD-19 data set and visualizing this data can give further insights on the literary production. 
 
 
 ## Install the code and run your data
