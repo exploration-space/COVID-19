@@ -70,36 +70,48 @@ export default () => {
 
             const position = new PIXI.Point(x, y)
             const origin = new PIXI.Point(0, 0)
-            const duration = 1000
+            const duration = 3000
 
-            const zoomout = () => s.pixi.snapZoom({
-                width: 1000,
-                height: 1000,
-                time: duration,
-                center: origin,
-                ease: 'easeInOutSine',
-                forceStart: true,
-                removeOnComplete: true
-            })
-
-            const zoomin = () => s.pixi.snapZoom({
-                width: 100,
-                height: 100,
-                time: duration,
-                center: position,
-                ease: 'easeInOutSine',
-                forceStart: true,
-                removeOnComplete: true
-            })
-
-            if (s.pixi.scale.x < 1) {
-                console.log('in')
-                zoomin()
-            } else {
-                console.log('out')
-                zoomout()
-                setTimeout(zoomin(), duration)
+            const zoomin = () => {
+                s.pixi.snapZoom({
+                    width: 100,
+                    // height: 100,
+                    time: duration,
+                    center: position,
+                    ease: 'easeInSine',
+                    forceStart: true,
+                    removeOnComplete: true
+                })
             }
+
+            const zoomout = () => {
+                s.pixi.snapZoom({
+                    width: 1000,
+                    // height: 1000,
+                    time: duration,
+                    // center: origin,
+                    ease: 'easeOutSine',
+                    forceStart: true,
+                    removeOnComplete: true
+                })
+                setTimeout(() => {
+                    s.pixi.snapZoom({
+                        width: 100,
+                        height: 100,
+                        time: duration,
+                        center: position,
+                        ease: 'easeInSine',
+                        forceStart: true,
+                        removeOnComplete: true
+                    })
+                }, duration)
+
+            }
+
+            // Click
+
+            if (s.pixi.scale.x < 1) zoomin()
+            else zoomout()
 
         }
     })
