@@ -26,7 +26,18 @@ const analysis = authors => {
 
     // Tokenizer
 
+    function titleCase(str) {
+        if (str.length == 0) return str
+        return str.split(' ').map(function (word) {
+            // console.log(word)
+            if (word.length == 0) return word
+            return word.replace(word[0], word[0].toUpperCase())
+        }).join(' ')
+    }
+    // titleCase("I'm a little tea pot");
+
     const tokenizer = new natural.WordTokenizer()
+    // const tokenizer = new natural.TreebankWordTokenizer()
     authors.forEach((author, i) => {
         console.log('Tokenizing author #', i)
         author.tokens = tokenizer.tokenize(author.text.toLowerCase())
@@ -35,7 +46,7 @@ const analysis = authors => {
     // Singularize
 
     const inflector = new natural.NounInflector()
-    const safeList = ['sars', 'savs', 'trans', 'recsars', 'facs']
+    const safeList = ['sars', 'trans', 'recsars', 'facs', 'mers', 'aids']
     authors.forEach((author, i) => {
         console.log('Singularizing author #', i)
         author.tokens = author.tokens.map(t => {
@@ -53,6 +64,7 @@ const analysis = authors => {
     authors.forEach((author, i) => {
         console.log('Cleaning author #', i)
         author.tokens = sw.removeStopwords(author.tokens, sw.en.concat(stopWords))
+            // .map(token => token.replace(token[0], token[0].toUpperCase()))
             .filter(token => token.length > 2)
             .filter(token => !parseInt(token))
     })
@@ -79,7 +91,6 @@ const analysis = authors => {
     let nodes = authors.reduce((array, author) => {
         delete author.text
         author.relevancy = Math.floor(author.tokens.map(t => t.tfidf).reduce((a, b) => a + b))
-        // console.log(author.relevancy)
         array.push(author)
         return array
     }, [])
