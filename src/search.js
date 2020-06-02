@@ -66,43 +66,43 @@ export default () => {
 
             document.querySelector("#autoComplete").value = name
 
-            const scale = 5
-
-            const position = new PIXI.Point(x, y)
-            const origin = new PIXI.Point(0, 0)
             const duration = 3000
 
             const zoomin = () => {
+                s.pixi.snap(x, y, {
+                    time: duration,
+                    ease: 'easeOutSine',
+                    removeOnComplete: true,
+                })
                 s.pixi.snapZoom({
                     width: 100,
-                    // height: 100,
                     time: duration,
-                    center: position,
                     ease: 'easeInSine',
-                    forceStart: true,
-                    removeOnComplete: true
+                    removeOnComplete: true,
+                    noMove: true,
                 })
             }
 
             const zoomout = () => {
+                s.pixi.snap(x, y, {
+                    time: duration * 2,
+                    ease: 'easeOutSine',
+                    removeOnComplete: true,
+                })
                 s.pixi.snapZoom({
                     width: 1000,
-                    // height: 1000,
                     time: duration,
-                    // center: origin,
                     ease: 'easeOutSine',
-                    forceStart: true,
-                    removeOnComplete: true
+                    removeOnComplete: true,
+                    noMove: true,
                 })
                 setTimeout(() => {
                     s.pixi.snapZoom({
                         width: 100,
-                        height: 100,
                         time: duration,
-                        center: position,
                         ease: 'easeInSine',
-                        forceStart: true,
-                        removeOnComplete: true
+                        removeOnComplete: true,
+                        noMove: true,
                     })
                 }, duration)
 

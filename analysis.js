@@ -149,13 +149,13 @@ const analysis = authors => {
 
     // Cleaning nodes without relations
 
-    // const connectedNodes = links.reduce((array, link) => {
-    //     if (!array.includes(link.source)) array.push(link.source)
-    //     if (!array.includes(link.target)) array.push(link.target)
-    //     return array
-    // }, [])
+    const connectedNodes = links.reduce((array, link) => {
+        if (!array.includes(link.source)) array.push(link.source)
+        if (!array.includes(link.target)) array.push(link.target)
+        return array
+    }, [])
 
-    // nodes = nodes.filter(node => connectedNodes.includes(node.id))
+    nodes = nodes.filter(node => connectedNodes.includes(node.id))
 
     // Nationality
 
