@@ -38,7 +38,8 @@ module.exports = {
       },
       {
         type: 'javascript/auto',
-        test: /\.json$/,
+        test: /\.(json|png|fnt|xml)$/,
+        // test: /\.json$/,
         use: [{
           loader: 'file-loader',
           options: {

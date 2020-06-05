@@ -17,6 +17,8 @@ export default () => {
     })
     document.body.prepend(app.view)
 
+    s.app = app
+
     // Create and append viewport
 
     const viewport = new Viewport({

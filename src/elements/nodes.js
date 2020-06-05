@@ -2,6 +2,7 @@ import * as PIXI from 'pixi.js'
 
 import { mouseover, mouseout } from '../mouseover'
 import { drawTokens } from './tokens'
+// import links from '../arial.fnt'
 
 const splitInTwo = string => {
     const middle = Math.round(string.length / 2)
@@ -25,56 +26,60 @@ export function initNodes() {
     stage = s.pixi.addChild(nodes)
 
     const nodeStyle = new PIXI.TextStyle({
-        fontFamily: 'Arial',
-        fontSize: 5,
+        font: '5px Desyrel',
         fill: color.on,
         align: 'center',
     })
 
-    s.nodes.forEach(node => {
+    s.app.loader.add('desyrel', '/src/desyrel.xml')
+        .load(onAssetsLoaded)
 
-        node.visibility = false
+    function onAssetsLoaded() {
 
-        // Circle
+        s.nodes.forEach(node => {
 
-        node.gpxCircle = new PIXI.Graphics()
-        node.gpxCircle.drawCircle(0, 0, 1)
-        node.gpxCircle.endFill()
-        nodes.addChild(node.gpxCircle)
+            node.visibility = false
 
-        // Label
+            // Circle
 
-        const [nA, nB] = splitInTwo(node.name)
-        node.gpxText = new PIXI.Text(`${nA}\n${nB}`, nodeStyle)
-        node.gpxText.scale.x = .5
-        node.gpxText.scale.y = .5
-        nodes.addChild(node.gpxText)
+            node.gpxCircle = new PIXI.Graphics()
+            node.gpxCircle.drawCircle(0, 0, 1)
+            node.gpxCircle.endFill()
+            nodes.addChild(node.gpxCircle)
 
-        // Interaction
+            // Label
 
-        node.gpxCircle.interactive = true
-        node.gpxCircle.hitArea = new PIXI.Circle(0, 0, s.distance)
+            const [nA, nB] = splitInTwo(node.name)
+            node.gpxText = new PIXI.BitmapText(`${nA}\n${nB}`, nodeStyle)
+            nodes.addChild(node.gpxText)
 
-        // Set information panel & set on circles
+            // Interaction
 
-        node.gpxCircle.mouseover = mouseData => {
-            mouseover(node)
-            const include = s.nodes.filter(peer => node.peers.includes(peer.id))
-            include.forEach(node => node.visibility = true)
-            drawNodes()
-            drawTokens()
-        }
+            node.gpxCircle.interactive = true
+            node.gpxCircle.hitArea = new PIXI.Circle(0, 0, s.distance)
 
-        // Clean information panel & set off circles
+            // Set information panel & set on circles
 
-        node.gpxCircle.mouseout = mouseData => {
-            mouseout(node)
-            s.nodes.forEach(node => node.visibility = false)
-            drawNodes()
-            drawTokens()
-        }
+            node.gpxCircle.mouseover = mouseData => {
+                mouseover(node)
+                const include = s.nodes.filter(peer => node.peers.includes(peer.id))
+                include.forEach(node => node.visibility = true)
+                drawNodes()
+                drawTokens()
+            }
 
-    })
+            // Clean information panel & set off circles
+
+            node.gpxCircle.mouseout = mouseData => {
+                mouseout(node)
+                s.nodes.forEach(node => node.visibility = false)
+                drawNodes()
+                drawTokens()
+            }
+
+        })
+
+    }
 
 }
 
@@ -85,11 +90,13 @@ export function drawNodes() {
     stage.clear()
 
     s.nodes.forEach(node => {
+        
         const { x, y, gpxCircle, gpxText, visibility } = node
-        const origin = new PIXI.Point(x, y)
-        gpxCircle.position = origin
-        gpxCircle.position = origin
+        if (!gpxText) return
+        
+        gpxCircle.position = new PIXI.Point(x, y)
         gpxText.position.set(x - gpxText.width / 2, y + 3)
+        
         if (visibility) {
             gpxCircle.tint = color.on
             gpxText.tint = color.on
