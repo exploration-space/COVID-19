@@ -26,7 +26,7 @@ export function initNodes() {
     stage = s.pixi.addChild(nodes)
 
     const nodeStyle = new PIXI.TextStyle({
-        font: '5px Desyrel',
+        font: '3px Arial',
         fill: color.on,
         align: 'center',
     })
@@ -38,6 +38,7 @@ export function initNodes() {
         // Circle
 
         node.gpxCircle = new PIXI.Graphics()
+        node.gpxCircle.beginFill(0xFFFFFF, 1)
         node.gpxCircle.drawCircle(0, 0, 1)
         node.gpxCircle.endFill()
         nodes.addChild(node.gpxCircle)
@@ -85,7 +86,6 @@ export function drawNodes() {
     s.nodes.forEach(node => {
 
         const { x, y, gpxCircle, gpxText, visibility } = node
-        if (!gpxText) return
 
         gpxCircle.position = new PIXI.Point(x, y)
         gpxText.position.set(x - gpxText.width / 2, y + 3)

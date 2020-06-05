@@ -20,7 +20,7 @@
     "@babel/preset-env": "^7.10.2",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
-    "csv-parser": "^2.3.2",
+    "csv-parser": "^2.3.3",
     "fast-dice-coefficient": "^1.0.3",
     "file-loader": "^6.0.0",
     "html-loader": "^1.1.0",

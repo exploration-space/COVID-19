@@ -9,7 +9,7 @@ const color = {
 }
 
 const tokenStyle = new PIXI.TextStyle({
-    font: '24px Desyrel',
+    font: '24px Arial',
     fill: color.on,
     align: 'center',
 })

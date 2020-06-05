@@ -6,6 +6,7 @@ import './index.css'
 // Libraries
 
 import * as d3 from 'd3'
+import * as PIXI from 'pixi.js'
 
 // Data
 
@@ -54,7 +55,8 @@ Promise.all([
 
     initPixi()
 
-    s.app.loader.add('desyrel', '/src/desyrel.xml')
+    s.app.loader
+        .add('Arial', '/src/arial.xml')
         .load(onAssetsLoaded)
 
     function onAssetsLoaded() {

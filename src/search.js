@@ -66,52 +66,58 @@ export default () => {
 
             document.querySelector("#autoComplete").value = name
 
-            const duration = 3000
+            const scale = 5
 
-            const zoomin = () => {
-                s.pixi.snap(x, y, {
-                    time: duration,
-                    ease: 'easeOutSine',
-                    removeOnComplete: true,
-                })
-                s.pixi.snapZoom({
-                    width: 100,
-                    time: duration,
-                    ease: 'easeInSine',
-                    removeOnComplete: true,
-                    noMove: true,
-                })
-            }
+            s.pixi.setTransform(
+                window.innerWidth / 2 - x * scale,
+                (window.innerHeight) / 2 - y * scale,
+                scale, scale)
 
-            const zoomout = () => {
-                s.pixi.snap(x, y, {
-                    time: duration * 2,
-                    ease: 'easeOutSine',
-                    removeOnComplete: true,
-                })
-                s.pixi.snapZoom({
-                    width: 1000,
-                    time: duration,
-                    ease: 'easeOutSine',
-                    removeOnComplete: true,
-                    noMove: true,
-                })
-                setTimeout(() => {
-                    s.pixi.snapZoom({
-                        width: 100,
-                        time: duration,
-                        ease: 'easeInSine',
-                        removeOnComplete: true,
-                        noMove: true,
-                    })
-                }, duration)
+            // const duration = 3000
 
-            }
+            // const zoomin = () => {
+            //     s.pixi.snap(x, y, {
+            //         time: duration,
+            //         ease: 'easeOutSine',
+            //         removeOnComplete: true,
+            //     })
+            //     s.pixi.snapZoom({
+            //         width: 100,
+            //         time: duration,
+            //         ease: 'easeInSine',
+            //         removeOnComplete: true,
+            //         noMove: true,
+            //     })
+            // }
+
+            // const zoomout = () => {
+            //     s.pixi.snap(x, y, {
+            //         time: duration * 2,
+            //         ease: 'easeOutSine',
+            //         removeOnComplete: true,
+            //     })
+            //     s.pixi.snapZoom({
+            //         width: 1000,
+            //         time: duration,
+            //         ease: 'easeOutSine',
+            //         removeOnComplete: true,
+            //         noMove: true,
+            //     })
+            //     setTimeout(() => {
+            //         s.pixi.snapZoom({
+            //             width: 100,
+            //             time: duration,
+            //             ease: 'easeInSine',
+            //             removeOnComplete: true,
+            //             noMove: true,
+            //         })
+            //     }, duration)
+            // }
 
             // Click
 
-            if (s.pixi.scale.x < 1) zoomin()
-            else zoomout()
+            // if (s.pixi.scale.x < 1) zoomin()
+            // else zoomout()
 
         }
     })
