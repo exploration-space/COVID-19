@@ -53,20 +53,28 @@ Promise.all([
     // stats();return
 
     initPixi()
-    initFps()
 
-    initContours()
-    initLinks()
-    initNodes()
-    initTokens()
+    s.app.loader.add('desyrel', '/src/desyrel.xml')
+        .load(onAssetsLoaded)
 
-    background()
-    simulation()
-    search()
+    function onAssetsLoaded() {
 
-    window.onresize = function () {
+        initFps()
+
+        initContours()
+        initLinks()
+        initNodes()
+        initTokens()
+
         background()
-        s.pixi.resize()
+        simulation()
+        search()
+
+        window.onresize = function () {
+            background()
+            s.pixi.resize()
+        }
+
     }
 
 })

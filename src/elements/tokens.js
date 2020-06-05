@@ -9,10 +9,9 @@ const color = {
 }
 
 const tokenStyle = new PIXI.TextStyle({
-    fontFamily: "Arial",
-    fontSize: 24,
+    font: '24px Desyrel',
     fill: color.on,
-    align: 'center'
+    align: 'center',
 })
 
 export function initTokens() {
@@ -34,7 +33,7 @@ export function initTokens() {
     links.forEach(link => {
             const [key, value] = Object.entries(link.tokens)[0]
             const scale = value * .0007
-            link.txt = new PIXI.Text(key, tokenStyle)
+            link.txt = new PIXI.BitmapText(key, tokenStyle)
             link.txt.scale.set(scale)
             link.txt.position.set(Infinity, Infinity)
             stage.addChild(link.txt)

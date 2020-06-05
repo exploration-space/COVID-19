@@ -31,55 +31,48 @@ export function initNodes() {
         align: 'center',
     })
 
-    s.app.loader.add('desyrel', '/src/desyrel.xml')
-        .load(onAssetsLoaded)
+    s.nodes.forEach(node => {
 
-    function onAssetsLoaded() {
+        node.visibility = false
 
-        s.nodes.forEach(node => {
+        // Circle
 
-            node.visibility = false
+        node.gpxCircle = new PIXI.Graphics()
+        node.gpxCircle.drawCircle(0, 0, 1)
+        node.gpxCircle.endFill()
+        nodes.addChild(node.gpxCircle)
 
-            // Circle
+        // Label
 
-            node.gpxCircle = new PIXI.Graphics()
-            node.gpxCircle.drawCircle(0, 0, 1)
-            node.gpxCircle.endFill()
-            nodes.addChild(node.gpxCircle)
+        const [nA, nB] = splitInTwo(node.name)
+        node.gpxText = new PIXI.BitmapText(`${nA}\n${nB}`, nodeStyle)
+        nodes.addChild(node.gpxText)
 
-            // Label
+        // Interaction
 
-            const [nA, nB] = splitInTwo(node.name)
-            node.gpxText = new PIXI.BitmapText(`${nA}\n${nB}`, nodeStyle)
-            nodes.addChild(node.gpxText)
+        node.gpxCircle.interactive = true
+        node.gpxCircle.hitArea = new PIXI.Circle(0, 0, s.distance)
 
-            // Interaction
+        // Set information panel & set on circles
 
-            node.gpxCircle.interactive = true
-            node.gpxCircle.hitArea = new PIXI.Circle(0, 0, s.distance)
+        node.gpxCircle.mouseover = mouseData => {
+            mouseover(node)
+            const include = s.nodes.filter(peer => node.peers.includes(peer.id))
+            include.forEach(node => node.visibility = true)
+            drawNodes()
+            drawTokens()
+        }
 
-            // Set information panel & set on circles
+        // Clean information panel & set off circles
 
-            node.gpxCircle.mouseover = mouseData => {
-                mouseover(node)
-                const include = s.nodes.filter(peer => node.peers.includes(peer.id))
-                include.forEach(node => node.visibility = true)
-                drawNodes()
-                drawTokens()
-            }
+        node.gpxCircle.mouseout = mouseData => {
+            mouseout(node)
+            s.nodes.forEach(node => node.visibility = false)
+            drawNodes()
+            drawTokens()
+        }
 
-            // Clean information panel & set off circles
-
-            node.gpxCircle.mouseout = mouseData => {
-                mouseout(node)
-                s.nodes.forEach(node => node.visibility = false)
-                drawNodes()
-                drawTokens()
-            }
-
-        })
-
-    }
+    })
 
 }
 
@@ -90,13 +83,13 @@ export function drawNodes() {
     stage.clear()
 
     s.nodes.forEach(node => {
-        
+
         const { x, y, gpxCircle, gpxText, visibility } = node
         if (!gpxText) return
-        
+
         gpxCircle.position = new PIXI.Point(x, y)
         gpxText.position.set(x - gpxText.width / 2, y + 3)
-        
+
         if (visibility) {
             gpxCircle.tint = color.on
             gpxText.tint = color.on
