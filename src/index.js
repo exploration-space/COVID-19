@@ -12,6 +12,8 @@ import * as PIXI from 'pixi.js'
 
 import nodes from './data/nodes.json'
 import links from './data/links.json'
+import arialXML from './arial.xml'
+import arialPNG from './arial.png'
 
 import search from './search'
 import stats from './stats'
@@ -42,24 +44,37 @@ window.s = {
 
 Promise.all([
     d3.json(nodes),
-    d3.json(links)
+    d3.json(links),
+    // d3.text(arialPNG),
+    d3.xml(arialXML)
 
-]).then(([nodes, links]) => {
+]).then(([nodes, links, arialXML]) => {
 
     s.links = links
     s.nodes = nodes
     console.log('nodes', s.nodes.length)
     console.log('links', s.links.length)
-
-    // stats();return
-
+    
     initPixi()
 
-    s.app.loader
-        .add('Arial', '/src/arial.xml')
-        .load(onAssetsLoaded)
+    s.arialXML = arialXML
 
-    function onAssetsLoaded() {
+    console.log(s.arialXML)
+
+    s.arialPNG = PIXI.Texture.from(arialPNG)
+
+    console.log(s.arialPNG)
+
+    const arial = PIXI.BitmapText.registerFont(s.arialXML, s.arialPNG)
+
+    console.log(arial)
+
+
+
+
+    // return
+
+    // function onAssetsLoaded() {
 
         initFps()
 
@@ -77,6 +92,6 @@ Promise.all([
             s.pixi.resize()
         }
 
-    }
+    // }
 
 })

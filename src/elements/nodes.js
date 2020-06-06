@@ -45,8 +45,12 @@ export function initNodes() {
 
         // Label
 
+        // s.BitmapText = PIXI.BitmapText
+
         const [nA, nB] = splitInTwo(node.name)
+        // .registerFont(s.arialXML, s.arialPNG)
         node.gpxText = new PIXI.BitmapText(`${nA}\n${nB}`, nodeStyle)
+        // node.gpxText = new PIXI.BitmapText()
         nodes.addChild(node.gpxText)
 
         // Interaction

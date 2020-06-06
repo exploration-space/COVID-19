@@ -19,6 +19,9 @@ export default () => {
 
     s.app = app
 
+    // arial = new s.pixi.BitmapFont.install(arialXML, arialPNG)
+
+
     // Create and append viewport
 
     const viewport = new Viewport({
