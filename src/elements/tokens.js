@@ -17,6 +17,7 @@ const tokenStyle = new PIXI.TextStyle({
 export function initTokens() {
 
     const tokens = new PIXI.Graphics()
+    tokens.interactiveChildren = false
     stage = s.pixi.addChild(tokens)
 
     const gap = 2

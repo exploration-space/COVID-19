@@ -5,6 +5,7 @@ let stage
 export function initLinks() {
 
     const links = new PIXI.Graphics()
+    links.interactiveChildren = false
     stage = s.pixi.addChild(links)
 
 }

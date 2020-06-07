@@ -7,6 +7,7 @@ const color = 0x8a8201
 export function initContours() {
 
     const contours = new PIXI.Graphics()
+    contours.interactiveChildren = false
     stage = s.pixi.addChild(contours)
 
 }
