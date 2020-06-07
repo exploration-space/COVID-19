@@ -12,8 +12,8 @@ import * as PIXI from 'pixi.js'
 
 import nodes from './data/nodes.json'
 import links from './data/links.json'
-import arialXML from './arial.xml'
-import arialPNG from './arial.png'
+import arialDataXML from './arial.xml'
+import arialDataPNG from './arial.png'
 
 import search from './search'
 import stats from './stats'
@@ -45,8 +45,7 @@ window.s = {
 Promise.all([
     d3.json(nodes),
     d3.json(links),
-    // d3.text(arialPNG),
-    d3.xml(arialXML)
+    d3.xml(arialDataXML)
 
 ]).then(([nodes, links, arialXML]) => {
 
@@ -54,43 +53,27 @@ Promise.all([
     s.nodes = nodes
     console.log('nodes', s.nodes.length)
     console.log('links', s.links.length)
-    
+
     initPixi()
 
-    s.arialXML = arialXML
+    const arialPNG = PIXI.Texture.from(arialDataPNG)
+    const arial = PIXI.BitmapText.registerFont(arialXML, arialPNG)
 
-    console.log(s.arialXML)
+    initFps()
 
-    s.arialPNG = PIXI.Texture.from(arialPNG)
+    initContours()
+    initLinks()
+    initNodes()
+    initTokens()
 
-    console.log(s.arialPNG)
+    background()
+    simulation()
+    search()
 
-    const arial = PIXI.BitmapText.registerFont(s.arialXML, s.arialPNG)
-
-    console.log(arial)
-
-
-
-
-    // return
-
-    // function onAssetsLoaded() {
-
-        initFps()
-
-        initContours()
-        initLinks()
-        initNodes()
-        initTokens()
-
+    window.onresize = function () {
         background()
-        simulation()
-        search()
-
-        window.onresize = function () {
-            background()
-            s.pixi.resize()
-        }
+        s.pixi.resize()
+    }
 
     // }
 
