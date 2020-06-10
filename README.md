@@ -4,7 +4,7 @@ Network visualizations are useful instrument to have a distant view from a subje
 
 ## Method
 
-Using the open-source database <a href='https://pages.semanticscholar.org/coronavirus-research'>COVID&#8209;19 Open Research Dataset (CORD&#8209;19)</a> provided by the <a href='https://allenai.org/'>Allen Institute for AI</a>, scientific articles are grouped by authors and analyzed with methods of Natural Language Processing. The result is a metric of lexical similarity between authors, which enabled to space out the scientific community as a network where two authors that use the same vocabulary are next to each other. (More information about the method on this article titled [Mapping as a Contemporary Instrument for Orientation in Conferences](https://doi.org/10.5281/zenodo.3611341)).
+Using the open-source database <a href='https://pages.semanticscholar.org/coronavirus-research'>COVID&#8209;19 Open Research Dataset (CORD&#8209;19)</a> released on April 3 2020 by the <a href='https://allenai.org/'>Allen Institute for AI</a>, scientific articles are grouped by authors and analyzed with methods of Natural Language Processing. The result is a metric of lexical similarity between authors, which enabled to space out the scientific community as a network where two authors that use the same vocabulary are next to each other. (More information about the method on this article titled [Mapping as a Contemporary Instrument for Orientation in Conferences](https://doi.org/10.5281/zenodo.3611341)).
 
 ## Use
 
