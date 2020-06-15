@@ -1,6 +1,6 @@
 # Cartography of COVID-19 Scientific Literature
 
-Network visualizations are useful instrument to have a distant view from a subject. This visualization was created to see the scientific community behind the COVID-19. Who are they? When did they begin to being involved? With whom do they work? Which are their specializationtions?
+Network visualizations are useful instrument to have a distant view from a subject. This visualization was created to see the scientific community behind the COVID-19. Who are they? When did they begin to being involved? With whom do they work? Which are their specializations?
 
 ## Method
 
