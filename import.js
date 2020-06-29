@@ -29,8 +29,12 @@ const parse = (records) => {
 
         // Filter
 
+        const year = parseInt(record.publish_time.split('-')[0])
+
+        if (year > 2019) return records
         if (record.abstract.length > 3000) return records
-        // if (record.authors.length > 10) return records
+        if (record.abstract.includes('COVID-19')) return records
+        if (record.title.includes('COVID-19')) return records
 
         // Clean authors
 
