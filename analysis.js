@@ -16,7 +16,9 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const min = 10 // Min. number of articles
+    // console.log(authors.filter(a => a.docs > 7).length)
+
+    const min = 8 // Min. number of articles
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
         if (author.docs >= min)
@@ -104,13 +106,13 @@ const analysis = authors => {
 
     pairs.forEach(pair => {
 
-        const min = 10
+        const min = 7
         const p1 = pair[0], p2 = pair[1]
         const t1 = p1.tokens, t2 = p2.tokens
         const tokens = t1.map(t => t.term).filter(term => t2.map(t => t.term).includes(term))
         i = i - 1
 
-        if (tokens.length <= min)
+        if (tokens.length <= min - 1)
             return
 
         if (tokens.length > maxCommonTokens)
@@ -149,13 +151,13 @@ const analysis = authors => {
 
     // Cleaning nodes without relations
 
-    const connectedNodes = links.reduce((array, link) => {
-        if (!array.includes(link.source)) array.push(link.source)
-        if (!array.includes(link.target)) array.push(link.target)
-        return array
-    }, [])
+    // const connectedNodes = links.reduce((array, link) => {
+    //     if (!array.includes(link.source)) array.push(link.source)
+    //     if (!array.includes(link.target)) array.push(link.target)
+    //     return array
+    // }, [])
 
-    nodes = nodes.filter(node => connectedNodes.includes(node.id))
+    // nodes = nodes.filter(node => connectedNodes.includes(node.id))
 
     // Nationality
 

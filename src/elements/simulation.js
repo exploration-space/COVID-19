@@ -9,7 +9,7 @@ export function simulation() {
 
     const simulation = d3.forceSimulation()
         .force('charge', reuse.forceManyBodyReuse()
-            .strength(-15)
+            .strength(-10)
             .distanceMin(s.distance * 2)
             .distanceMax(s.distance * 50)
             // This slows down updates with time
@@ -44,7 +44,7 @@ export function simulation() {
 export function ticked() {
 
     drawContours()
-    drawLinks()
+    // drawLinks()
     drawNodes()
     drawTokens()
 

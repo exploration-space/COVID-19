@@ -2,7 +2,7 @@ import * as PIXI from 'pixi.js'
 
 let stage
 
-const color = 0x8a8201
+const color = 0x33415F
 
 export function initContours() {
 
@@ -28,15 +28,15 @@ export function drawContours() {
         .y(d => d.y - y)
         .weight(d => d.relevancy)
         .size([width, height])
-        .cellSize(10)
-        .bandwidth(40)
-        .thresholds(15)
+        .cellSize(5)
+        .bandwidth(50)
+        .thresholds(10)
         (s.nodes)
 
     density.forEach(d => d.coordinates = d.coordinates
         .map(d => d.map(d => d.map(d => [d[0] + x, d[1] + y]))))
 
-    const contourWidth = 2
+    const contourWidth = 10
     const step = contourWidth / density.length
     let count = 1
 
