@@ -1,7 +1,6 @@
 {
   "name": "cartography-of-covid-19",
   "version": "1.0.0",
-  "description": "This network visualization represents individuals through from their documents. It is based on the idea that authors can be described using their text and that shared vocabulary is an efficient way to draw a space. Individuals that make use of the same terms are situated nearby, beyond any social distance. The result is a lexical space composed of individuals and terms.",
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
