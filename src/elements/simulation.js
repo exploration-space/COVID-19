@@ -44,7 +44,7 @@ export function simulation() {
 export function ticked() {
 
     drawContours()
-    // drawLinks()
+    drawLinks()
     drawNodes()
     drawTokens()
 

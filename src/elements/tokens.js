@@ -10,7 +10,7 @@ const color = {
 
 const tokenStyle = new PIXI.TextStyle({
     font: '24px Arial',
-    fill: color.on,
+    // fill: color.off,
     align: 'center',
 })
 
@@ -37,6 +37,7 @@ export function initTokens() {
             link.txt = new PIXI.BitmapText(key, tokenStyle)
             link.txt.scale.set(scale)
             link.txt.position.set(Infinity, Infinity)
+            link.txt.tint = color.off
             stage.addChild(link.txt)
         })
 
@@ -59,12 +60,12 @@ export function drawTokens() {
             txt.position.set(Infinity, Infinity)
         }
 
-        if (s.tokens.includes(link.txt.text)) {
-            link.txt.tint = color.on
-        }
-        else {
-            link.txt.tint = color.off
-        }
+        // if (s.tokens.includes(link.txt.text)) {
+        //     link.txt.tint = color.on
+        // }
+        // else {
+        //     link.txt.tint = color.off
+        // }
 
     })
 

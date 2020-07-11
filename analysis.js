@@ -18,7 +18,7 @@ const analysis = authors => {
 
     // console.log(authors.filter(a => a.docs > 7).length)
 
-    const min = 8 // Min. number of articles
+    const min = 15 // 8 articles corresponds to around 1,000 individuals
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
         if (author.docs >= min)
@@ -62,7 +62,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['not', 'virus', 'coronavirus']
+    const stopWords = ['not', 'virus', 'coronavirus', 'covid', 'patient']
     authors.forEach((author, i) => {
         console.log('Cleaning author #', i)
         author.tokens = sw.removeStopwords(author.tokens, sw.en.concat(stopWords))

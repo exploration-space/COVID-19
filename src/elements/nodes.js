@@ -39,7 +39,7 @@ export function initNodes() {
 
         node.gpxCircle = new PIXI.Graphics()
         node.gpxCircle.beginFill(0xFFFFFF, 1)
-        node.gpxCircle.drawCircle(0, 0, 1)
+        node.gpxCircle.drawCircle(0, 0, 2)
         node.gpxCircle.endFill()
         nodes.addChild(node.gpxCircle)
 
