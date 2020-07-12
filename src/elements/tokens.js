@@ -6,13 +6,16 @@ let links = []
 
 const body = document.getElementsByTagName('body')[0]
 
+const spriteSize = 20
+
 const options = {
-    gridSize: 2,
-    weightFactor: .1,
+    gridSize: 10,
+    weightFactor: .2,
     fontFamily: 'Arial, sans-serif',
-    color: '#FFF',
+    color: '#444',
     backgroundColor: 'transparent',
     rotateRatio: 0,
+    // ellipticity: 2,
     // shape: 'diamond',
 }
 
@@ -37,19 +40,19 @@ export function initTokens() {
 
         const canvas = document.createElement('canvas')
         const context = canvas.getContext('2d');
-        canvas.width = 200
-        canvas.height = 200
-        const list = Object.entries(link.tokens)
+        canvas.width = 100
+        canvas.height = 100
+        let list = Object.entries(link.tokens)
 
-        options.list = list
+        options.list = list.slice(0, 7)
         WordCloud(canvas, options)
 
         canvas.addEventListener('wordcloudstop', obj => {
             const canvas = obj.path[0]
             let texture = PIXI.Texture.from(canvas)
             let sprite = new PIXI.Sprite(texture)
-            sprite.width = 30
-            sprite.height = 30
+            sprite.width = spriteSize
+            sprite.height = spriteSize
             sprite.x = Infinity
             sprite.y = Infinity
             link.tokens = sprite
@@ -72,7 +75,7 @@ export function drawTokens() {
         if (min < distance && distance < max) {
             const x = deltaX / 2 + Math.min(link.source.x, link.target.x)
             const y = deltaY / 2 + Math.min(link.source.y, link.target.y)
-            link.tokens.position = new PIXI.Point(x - 15, y - 15)
+            link.tokens.position = new PIXI.Point(x - spriteSize/2, y - spriteSize/2)
         } else {
             link.tokens.position = new PIXI.Point(Infinity, Infinity)
         }

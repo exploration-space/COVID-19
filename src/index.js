@@ -66,7 +66,7 @@ Promise.all([
     initNodes()
     initTokens()
 
-    background()
+    // background()
     simulation()
     search()
 
