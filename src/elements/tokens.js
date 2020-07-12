@@ -1,18 +1,20 @@
 import * as PIXI from 'pixi.js'
+import * as WordCloud from 'wordcloud'
 
 let stage, min, max
 let links = []
 
-const color = {
-    on: 0xFFFFFF,
-    off: 0x777777,
-}
+const body = document.getElementsByTagName('body')[0]
 
-const tokenStyle = new PIXI.TextStyle({
-    font: '24px Arial',
-    // fill: color.off,
-    align: 'center',
-})
+const options = {
+    gridSize: 2,
+    weightFactor: .1,
+    fontFamily: 'Arial, sans-serif',
+    color: '#FFF',
+    backgroundColor: 'transparent',
+    rotateRatio: 0,
+    // shape: 'diamond',
+}
 
 export function initTokens() {
 
@@ -29,17 +31,32 @@ export function initTokens() {
     const limit = .01
     links = s.links.filter(l => l.value > limit)
 
-    // Create PIXI.Text
-    
-    links.forEach(link => {
-            const [key, value] = Object.entries(link.tokens)[0]
-            const scale = value * .001
-            link.txt = new PIXI.BitmapText(key, tokenStyle)
-            link.txt.scale.set(scale)
-            link.txt.position.set(Infinity, Infinity)
-            link.txt.tint = color.off
-            stage.addChild(link.txt)
+    // Create PIXI.Cloud
+
+    links.forEach((link, i) => {
+
+        const canvas = document.createElement('canvas')
+        const context = canvas.getContext('2d');
+        canvas.width = 200
+        canvas.height = 200
+        const list = Object.entries(link.tokens)
+
+        options.list = list
+        WordCloud(canvas, options)
+
+        canvas.addEventListener('wordcloudstop', obj => {
+            const canvas = obj.path[0]
+            let texture = PIXI.Texture.from(canvas)
+            let sprite = new PIXI.Sprite(texture)
+            sprite.width = 30
+            sprite.height = 30
+            sprite.x = Infinity
+            sprite.y = Infinity
+            link.tokens = sprite
+            tokens.addChild(link.tokens)
         })
+
+    })
 
 }
 
@@ -55,17 +72,10 @@ export function drawTokens() {
         if (min < distance && distance < max) {
             const x = deltaX / 2 + Math.min(link.source.x, link.target.x)
             const y = deltaY / 2 + Math.min(link.source.y, link.target.y)
-            txt.position.set(x - txt.width / 2, y - txt.height / 2)
+            link.tokens.position = new PIXI.Point(x - 15, y - 15)
         } else {
-            txt.position.set(Infinity, Infinity)
+            link.tokens.position = new PIXI.Point(Infinity, Infinity)
         }
-
-        // if (s.tokens.includes(link.txt.text)) {
-        //     link.txt.tint = color.on
-        // }
-        // else {
-        //     link.txt.tint = color.off
-        // }
 
     })
 
