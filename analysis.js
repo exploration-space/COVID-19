@@ -52,7 +52,7 @@ const analysis = authors => {
     authors.forEach((author, i) => {
         console.log('Singularizing author #', i)
         author.tokens = author.tokens.map(t => {
-            if ((safeList.includes(t) && t.length > 3) || /us$/.test(t) || /is$/.test(t)) {
+            if ((safeList.includes(t) && t.length > 4) || /us$/.test(t) || /is$/.test(t)) {
                 return t
             } else {
                 return inflector.singularize(t)
@@ -67,7 +67,7 @@ const analysis = authors => {
         console.log('Cleaning author #', i)
         author.tokens = sw.removeStopwords(author.tokens, sw.en.concat(stopWords))
             // .map(token => token.replace(token[0], token[0].toUpperCase()))
-            .filter(token => token.length > 2)
+            .filter(token => token.length > 4)
             .filter(token => !parseInt(token))
     })
 
@@ -81,7 +81,7 @@ const analysis = authors => {
 
     // Reduction and shaping
 
-    const max = 20
+    const max = 40
     authors.forEach((author, i) => {
         console.log('Reducing for author #', i)
         author.tokens = tokenFrequency.listTerms(i)
@@ -106,7 +106,7 @@ const analysis = authors => {
 
     pairs.forEach(pair => {
 
-        const min = 7
+        const min = 10
         const p1 = pair[0], p2 = pair[1]
         const t1 = p1.tokens, t2 = p2.tokens
         const tokens = t1.map(t => t.term).filter(term => t2.map(t => t.term).includes(term))

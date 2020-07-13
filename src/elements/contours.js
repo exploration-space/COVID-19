@@ -28,15 +28,15 @@ export function drawContours() {
         .y(d => d.y - y)
         .weight(d => d.relevancy)
         .size([width, height])
-        .cellSize(5)
-        .bandwidth(40)
-        .thresholds(15)
+        .cellSize(8)
+        .bandwidth(30)
+        .thresholds(12)
         (s.nodes)
 
     density.forEach(d => d.coordinates = d.coordinates
         .map(d => d.map(d => d.map(d => [d[0] + x, d[1] + y]))))
 
-    const contourWidth = .5
+    const contourWidth = 2
     const step = contourWidth / density.length
     let count = 1
 

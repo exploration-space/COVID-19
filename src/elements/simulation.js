@@ -14,16 +14,16 @@ export function simulation() {
             .distanceMax(s.distance * 50)
             // This slows down updates with time
             .update(() => {
-                    let next = 1
-                    return (i) =>  {
-                        const curr = Math.floor(4 * Math.log(i))
-                        if (curr !== next) {
-                            next = curr
-                            return true
-                        }
-                        return false
+                let next = 1
+                return (i) => {
+                    const curr = Math.floor(4 * Math.log(i))
+                    if (curr !== next) {
+                        next = curr
+                        return true
                     }
+                    return false
                 }
+            }
             )
         )
         .force('collide', d3.forceCollide()
@@ -38,13 +38,16 @@ export function simulation() {
         )
         .nodes(s.nodes).on('tick', ticked)
         .force('link').links(s.links)
+        .on('end', () => {
+            console.log('Simulation ended')
+        })
 
 }
 
 export function ticked() {
 
     drawContours()
-    drawLinks()
+    // drawLinks()
     drawNodes()
     // drawTokens()
 

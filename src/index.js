@@ -71,7 +71,7 @@ Promise.all([
     search()
 
     window.onresize = function () {
-        background()
+        // background()
         s.pixi.resize()
     }
 

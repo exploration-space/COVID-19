@@ -12,7 +12,7 @@ const options = {
     gridSize: 10,
     weightFactor: .2,
     fontFamily: 'Arial, sans-serif',
-    color: '#444',
+    color: '#666',
     backgroundColor: 'transparent',
     rotateRatio: 0,
     // ellipticity: 2,
@@ -31,8 +31,9 @@ export function initTokens() {
 
     // Filter active tokens
 
-    const limit = .01
-    links = s.links.filter(l => l.value > limit)
+    // const limit = .001
+    // links = s.links.filter(l => l.value > limit)
+    links = s.links
 
     // Create PIXI.Cloud
 
@@ -44,7 +45,8 @@ export function initTokens() {
         canvas.height = 100
         let list = Object.entries(link.tokens)
 
-        options.list = list.slice(0, 7)
+        // options.list = list.slice(0, 7)
+        options.list = list
         WordCloud(canvas, options)
 
         canvas.addEventListener('wordcloudstop', obj => {
