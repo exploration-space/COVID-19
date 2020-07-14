@@ -35,14 +35,15 @@ export default () => {
 
     // Activate plugins
 
+    const zoom = .5
+
     viewport
         .drag()
         .pinch()
         .wheel()
         .decelerate()
         .clampZoom({ minScale: .1, maxScale: 5 })
-        .setTransform( window.innerWidth / 2, window.innerHeight / 2, 1, 1)
-        // .setZoom(4, true)
+        .setTransform( window.innerWidth / 2, window.innerHeight / 2, zoom, zoom)
         
     // Prevent pinch gesture in Chrome
 

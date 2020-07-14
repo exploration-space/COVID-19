@@ -20,7 +20,7 @@ export default () => {
         .y(d => d.y - y)
         .weight(d => d.relevancy)
         .size([width, height])
-        .cellSize(1)
+        .cellSize(5)
         .bandwidth(25)
         .thresholds(30)
         (s.nodes)

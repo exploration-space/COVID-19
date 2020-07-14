@@ -29,10 +29,6 @@ const parse = (records) => {
 
         // Filter
 
-        // const year = parseInt(record.publish_time.split('-')[0])
-
-        // if (year > 2019) return records
-        // if (record.abstract.length > 3000) return records
         if (!record.abstract.includes('COVID-19') || !record.title.includes('COVID-19')) return records
 
         // Clean authors
@@ -45,8 +41,15 @@ const parse = (records) => {
             string = accents.remove(string)
             string = string.replace(/\s\s+/g, ' ') // Replace multiple spaces
             string = string.replace('undefined ', '') // Clean names already switched
-            if (string == 'undefined') return authors
             // string = string.replace(/\./g, '') // remove dots
+            
+            // filter
+            if (string == 'undefined') return authors
+            if (string.includes('039')) {
+                console.log(string, 'removed')
+                return authors
+            }
+            
             authors.push(string)
             return authors
         }, [])
