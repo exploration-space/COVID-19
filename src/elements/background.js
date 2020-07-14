@@ -3,14 +3,16 @@ import * as PIXI from 'pixi.js'
 
 export default () => {
 
+    const size = window.innerWidth > window.innerHeight ? window.innerWidth : window.innerHeight
+
     const canvas = document.createElement('canvas')
-    const context = canvas.getContext('2d');
-    canvas.width = window.innerWidth
-    canvas.height = window.innerHeight
+    const context = canvas.getContext('2d')
+    canvas.width = size
+    canvas.height = size
 
     const gradient = context.createRadialGradient(
-        canvas.width / 2, canvas.height / 2, 0,
-        canvas.width / 2, canvas.height / 2, canvas.width / 2
+        size / 2, size / 2, 0,
+        size / 2, size / 2, size / 2
     )
 
     gradient.addColorStop(1, d3.rgb(0, 0, 0))
@@ -21,9 +23,9 @@ export default () => {
 
     let texture = PIXI.Texture.from(canvas)
     let sprite = new PIXI.Sprite(texture)
-    sprite.width = window.innerWidth
-    sprite.height = window.innerHeight
-    sprite.position = new PIXI.Point(-window.innerWidth / 2, -window.innerHeight / 2)
+    sprite.width = size
+    sprite.height = size
+    sprite.position = new PIXI.Point(-size / 2, -size / 2)
     // link.tokens = sprite
 
     // const background = new PIXI.Graphics()

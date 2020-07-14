@@ -9,7 +9,7 @@ export default () => {
 
     s.links.forEach(({ source, target, value }) => {
 
-        stage.lineStyle(value, 0xCCCCCC)
+        stage.lineStyle(value, 0x444444)
         stage.moveTo(source.x, source.y)
         stage.lineTo(target.x, target.y)
 

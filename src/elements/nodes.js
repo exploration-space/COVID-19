@@ -35,9 +35,11 @@ export default () => {
 
         // Circle
 
+        const size = node.docs * .1
+
         node.circle = new PIXI.Graphics()
         node.circle.beginFill(0xFFFFFF, 1)
-        node.circle.drawCircle(0, 0, 1)
+        node.circle.drawCircle(0, 0, size)
         node.circle.endFill()
         node.circle.tint = color.off
         node.circle.position = new PIXI.Point(node.x, node.y)
@@ -50,7 +52,7 @@ export default () => {
         const [nA, nB] = splitInTwo(node.name)
         node.text = new PIXI.BitmapText(`${nA}\n${nB}`, nodeStyle)
         node.text.tint = color.off
-        node.text.position.set(node.x - node.text.width / 2, node.y + 3)
+        node.text.position.set(node.x - node.text.width / 2, node.y + size + 3)
         nodes.addChild(node.text)
 
         // Set information panel & set on circles

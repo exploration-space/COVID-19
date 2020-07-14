@@ -6,6 +6,10 @@ const sw = require('stopword')
 const reuse = require('d3-force-reuse')
 const d3 = require('d3')
 
+// Time counter
+
+const start = Date.now()
+
 // Load JSON
 
 fs.readFile(__dirname + '/data/authors.json', (err, json) => {
@@ -21,7 +25,7 @@ const analysis = authors => {
 
     // console.log(authors.filter(a => a.docs > 7).length)
 
-    const min = 20 // 8 articles corresponds to around 1,000 individuals
+    const min = 10 // 8 articles corresponds to around 1,000 individuals
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
         if (author.docs >= min)
@@ -164,7 +168,7 @@ const analysis = authors => {
 
     // Nationality
 
-    console.log('Ethnicity Dataset')
+    console.log('\nEthnicity Dataset')
 
     const csv = require('csv-parser')
 
@@ -241,5 +245,12 @@ const analysis = authors => {
         console.log(`   maxLinkValue : ${maxLinkValue}`)
         console.log(`   minLinkValue : ${minLinkValue}`)
         console.log(`maxCommonTokens : ${maxCommonTokens}`)
+
+        // Time end
+
+        const end = Date.now()
+        const d = new Date(end - start)
+        console.log(`\nTime computed ${d.getUTCHours()}h ${d.getUTCMinutes()}m ${d.getUTCSeconds()}s ${d.getUTCMilliseconds()}ms`)
+
     }
 }
