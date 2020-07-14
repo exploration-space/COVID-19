@@ -19,7 +19,7 @@ const options = {
     // shape: 'diamond',
 }
 
-export function initTokens() {
+export default () => {
 
     const tokens = new PIXI.Graphics()
     tokens.interactiveChildren = false
@@ -29,45 +29,7 @@ export function initTokens() {
     min = Math.pow(s.distance * 2 - gap, 2)
     max = Math.pow(s.distance * 2 + gap, 2)
 
-    // Filter active tokens
-
-    // const limit = .001
-    // links = s.links.filter(l => l.value > limit)
-    links = s.links
-
-    // Create PIXI.Cloud
-
-    links.forEach((link, i) => {
-
-        const canvas = document.createElement('canvas')
-        const context = canvas.getContext('2d');
-        canvas.width = 100
-        canvas.height = 100
-        let list = Object.entries(link.tokens)
-
-        // options.list = list.slice(0, 7)
-        options.list = list
-        WordCloud(canvas, options)
-
-        canvas.addEventListener('wordcloudstop', obj => {
-            const canvas = obj.path[0]
-            let texture = PIXI.Texture.from(canvas)
-            let sprite = new PIXI.Sprite(texture)
-            sprite.width = spriteSize
-            sprite.height = spriteSize
-            sprite.x = Infinity
-            sprite.y = Infinity
-            link.tokens = sprite
-            tokens.addChild(link.tokens)
-        })
-
-    })
-
-}
-
-export function drawTokens() {
-
-    links.forEach(link => {
+    s.links.forEach(link => {
 
         const deltaX = Math.abs(link.source.x - link.target.x)
         const deltaY = Math.abs(link.source.y - link.target.y)
@@ -75,11 +37,31 @@ export function drawTokens() {
         const txt = link.txt
 
         if (min < distance && distance < max) {
-            const x = deltaX / 2 + Math.min(link.source.x, link.target.x)
-            const y = deltaY / 2 + Math.min(link.source.y, link.target.y)
-            link.tokens.position = new PIXI.Point(x - spriteSize/2, y - spriteSize/2)
-        } else {
-            link.tokens.position = new PIXI.Point(Infinity, Infinity)
+
+            const canvas = document.createElement('canvas')
+            const context = canvas.getContext('2d');
+            canvas.width = 100
+            canvas.height = 100
+            let list = Object.entries(link.tokens)
+
+            // options.list = list.slice(0, 7)
+            options.list = list
+            WordCloud(canvas, options)
+
+            canvas.addEventListener('wordcloudstop', obj => {
+                const x = deltaX / 2 + Math.min(link.source.x, link.target.x)
+                const y = deltaY / 2 + Math.min(link.source.y, link.target.y)
+                // link.tokens.position = new PIXI.Point(x - spriteSize / 2, y - spriteSize / 2)
+                const canvas = obj.path[0]
+                let texture = PIXI.Texture.from(canvas)
+                let sprite = new PIXI.Sprite(texture)
+                sprite.width = spriteSize
+                sprite.height = spriteSize
+                sprite.position = new PIXI.Point(x - spriteSize / 2, y - spriteSize / 2)
+                link.tokens = sprite
+                tokens.addChild(link.tokens)
+            })
+
         }
 
     })

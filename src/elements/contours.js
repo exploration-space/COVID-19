@@ -1,20 +1,13 @@
 import * as PIXI from 'pixi.js'
 
-let stage
-
 const color = 0x61531B
 
-export function initContours() {
+export default () => {
 
     const contours = new PIXI.Graphics()
     contours.interactiveChildren = false
-    stage = s.pixi.addChild(contours)
+    const stage = s.pixi.addChild(contours)
 
-}
-
-export function drawContours() {
-
-    stage.clear()
     const extX = d3.extent(s.nodes, d => d.x)
     const extY = d3.extent(s.nodes, d => d.y)
     const width = extX[1] - extX[0]
@@ -22,21 +15,20 @@ export function drawContours() {
     const x = extX[0]
     const y = extY[0]
 
-
     const density = d3.contourDensity()
         .x(d => d.x - x)
         .y(d => d.y - y)
         .weight(d => d.relevancy)
         .size([width, height])
-        .cellSize(8)
-        .bandwidth(30)
-        .thresholds(12)
+        .cellSize(1)
+        .bandwidth(25)
+        .thresholds(30)
         (s.nodes)
 
     density.forEach(d => d.coordinates = d.coordinates
         .map(d => d.map(d => d.map(d => [d[0] + x, d[1] + y]))))
 
-    const contourWidth = 2
+    const contourWidth = 1
     const step = contourWidth / density.length
     let count = 1
 

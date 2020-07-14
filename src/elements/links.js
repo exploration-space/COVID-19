@@ -1,16 +1,10 @@
 import * as PIXI from 'pixi.js'
 
-let stage
-
-export function initLinks() {
+export default () => {
     const links = new PIXI.Graphics()
     links.interactiveChildren = false
-    stage = s.pixi.addChild(links)
-}
+    const stage = s.pixi.addChild(links)
 
-export function drawLinks() {
-
-    stage.clear()
     stage.alpha = .2
 
     s.links.forEach(({ source, target, value }) => {

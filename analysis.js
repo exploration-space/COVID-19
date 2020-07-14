@@ -3,6 +3,9 @@ const combinatorics = require('js-combinatorics')
 const natural = require('natural')
 const sw = require('stopword')
 
+const reuse = require('d3-force-reuse')
+const d3 = require('d3')
+
 // Load JSON
 
 fs.readFile(__dirname + '/data/authors.json', (err, json) => {
@@ -18,7 +21,7 @@ const analysis = authors => {
 
     // console.log(authors.filter(a => a.docs > 7).length)
 
-    const min = 15 // 8 articles corresponds to around 1,000 individuals
+    const min = 20 // 8 articles corresponds to around 1,000 individuals
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
         if (author.docs >= min)
@@ -36,7 +39,7 @@ const analysis = authors => {
             return word.replace(word[0], word[0].toUpperCase())
         }).join(' ')
     }
-    // titleCase("I'm a little tea pot");
+    // titleCase('I'm a little tea pot');
 
     const tokenizer = new natural.WordTokenizer()
     // const tokenizer = new natural.TreebankWordTokenizer()
@@ -161,12 +164,13 @@ const analysis = authors => {
 
     // Nationality
 
+    console.log('Ethnicity Dataset')
+
     const csv = require('csv-parser')
 
     fs.createReadStream('data/diaspora.csv')
         .pipe(csv({ separator: '|' }))
         .on('data', (row) => {
-            // console.log()
             const name = row['#uid'].split('/')[1]
             const nationality = row['ethnicity']
             const node = nodes.find(node => node.name == name)
@@ -183,23 +187,59 @@ const analysis = authors => {
             }
         })
         .on('end', () => {
-            console.log('CSV file successfully processed')
-            fs.writeFile('./src/data/nodes.json', JSON.stringify(nodes), err => { if (err) throw err })
-            fs.writeFile('./data/nodes.json', JSON.stringify(nodes, null, '\t'), err => { if (err) throw err })
+            network(nodes, links)
         })
 
-    // Writing files
 
-    fs.writeFile('./src/data/links.json', JSON.stringify(links), err => { if (err) throw err })
-    fs.writeFile('./data/links.json', JSON.stringify(links, null, '\t'), err => { if (err) throw err })
+    const network = (nodes, links) => {
 
-    // Final report
+        console.log('\nSimulation starts\n')
 
-    const format = x => JSON.stringify(x).length.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
-    console.log(`     nodes.json : ${format(nodes)}kb for ${nodes.length} authors`)
-    console.log(`     links.json : ${format(links)}kb for ${links.length} links`)
-    console.log(`   maxLinkValue : ${maxLinkValue}`)
-    console.log(`   minLinkValue : ${minLinkValue}`)
-    console.log(`maxCommonTokens : ${maxCommonTokens}`)
+        const simulation = d3.forceSimulation()
 
+        simulation
+            .force('charge', reuse.forceManyBodyReuse()
+                .strength(10)
+            )
+            .force('collide', d3.forceCollide()
+                .radius(30)
+                .strength(.5)
+                .iterations(5)
+            )
+            .force('center', d3.forceCenter(0, 0))
+
+        simulation
+            .nodes(nodes)
+            .force('link', d3.forceLink()
+                .id(d => d.id)
+                .strength(d => d.value)
+            )
+            .force('link').links(links)
+
+        simulation
+            .on('end', () => {
+                writing(nodes, links)
+            })
+
+    }
+
+    const writing = (nodes, links) => {
+
+        // Writing files
+
+        fs.writeFile('./src/data/nodes.json', JSON.stringify(nodes), err => { if (err) throw err })
+        fs.writeFile('./data/nodes.json', JSON.stringify(nodes, null, '\t'), err => { if (err) throw err })
+        fs.writeFile('./src/data/links.json', JSON.stringify(links), err => { if (err) throw err })
+        fs.writeFile('./data/links.json', JSON.stringify(links, null, '\t'), err => { if (err) throw err })
+
+        // Final report
+
+        const format = x => JSON.stringify(x).length.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+        console.log('\n')
+        console.log(`     nodes.json : ${format(nodes)}kb for ${nodes.length} authors`)
+        console.log(`     links.json : ${format(links)}kb for ${links.length} links`)
+        console.log(`   maxLinkValue : ${maxLinkValue}`)
+        console.log(`   minLinkValue : ${minLinkValue}`)
+        console.log(`maxCommonTokens : ${maxCommonTokens}`)
+    }
 }

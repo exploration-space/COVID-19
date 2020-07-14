@@ -10,9 +10,9 @@ import * as PIXI from 'pixi.js'
 
 // Data
 
-import nodes from './data/nodes.json'
-import links from './data/links.json'
-import arialDataXML from './arial.xml'
+import nodesJSON from './data/nodes.json'
+import linksJSON from './data/links.json'
+import arialXML from './arial.xml'
 import arialDataPNG from './arial.png'
 
 import search from './search'
@@ -20,14 +20,14 @@ import stats from './stats'
 
 // Init
 
-import initPixi from './elements/pixi.js'
-import initFps from './elements/fps.js'
-import { initContours } from './elements/contours.js'
-import { initLinks } from './elements/links.js'
-import { initNodes } from './elements/nodes.js'
-import { initTokens } from './elements/tokens.js'
+import pixi from './elements/pixi.js'
+import fps from './elements/fps.js'
+
 import background from './elements/background'
-import { simulation } from './elements/simulation'
+import contours from './elements/contours.js'
+import links from './elements/links.js'
+import nodes from './elements/nodes.js'
+import tokens from './elements/tokens.js'
 
 // Global variables
 
@@ -43,35 +43,33 @@ window.s = {
 // Start
 
 Promise.all([
-    d3.json(nodes),
-    d3.json(links),
-    d3.xml(arialDataXML)
+    d3.json(nodesJSON),
+    d3.json(linksJSON),
+    d3.xml(arialXML)
 
-]).then(([nodes, links, arialXML]) => {
+]).then(([nodesData, linksData, arialXML]) => {
 
-    s.links = links
-    s.nodes = nodes
+    s.links = linksData
+    s.nodes = nodesData
     console.log('nodes', s.nodes.length)
     console.log('links', s.links.length)
 
-    initPixi()
+    pixi()
 
     const arialPNG = PIXI.Texture.from(arialDataPNG)
     const arial = PIXI.BitmapText.registerFont(arialXML, arialPNG)
 
-    initFps()
+    fps()
 
-    initContours()
-    initLinks()
-    initNodes()
-    initTokens()
+    background()
+    links()
+    contours()
+    tokens()
+    nodes()
 
-    // background()
-    simulation()
     search()
 
     window.onresize = function () {
-        // background()
         s.pixi.resize()
     }
 
