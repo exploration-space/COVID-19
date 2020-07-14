@@ -20,9 +20,9 @@ export default () => {
         .y(d => d.y - y)
         .weight(d => d.relevancy)
         .size([width, height])
-        .cellSize(5)
+        .cellSize(10)
         .bandwidth(25)
-        .thresholds(30)
+        .thresholds(20)
         (s.nodes)
 
     density.forEach(d => d.coordinates = d.coordinates
