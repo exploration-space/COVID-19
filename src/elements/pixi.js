@@ -35,20 +35,37 @@ export default () => {
 
     // Activate plugins
 
-    const zoom = .5
+    const zoomMin = .5
+    const zoomMax = 5
 
     viewport
         .drag()
         .pinch()
         .wheel()
         .decelerate()
-        .clampZoom({ minScale: .1, maxScale: 5 })
-        .setTransform( window.innerWidth / 2, window.innerHeight / 2, zoom, zoom)
-        
+        .clampZoom({ minScale: zoomMin, zoomMax: zoomMax })
+        .setTransform(window.innerWidth / 2, window.innerHeight / 2, zoomMin, zoomMin)
+
+    // Transparency on zoom
+
+    const zoomOut = d3.scaleLinear()
+        .domain([zoomMin, 2]).range([1, 0])
+
+    const zoomIn = d3.scaleLinear()
+        .domain([zoomMin, 2]).range([0, 1])
+
+    viewport.on('zoomed', e => {
+        const scale = e.viewport.lastViewport.scaleX
+        // 0. Background 1. Links 2. Contours 3. Keywords 4. Nodes 5. Wordclouds
+        e.viewport.children[2].alpha = zoomOut(scale)
+        e.viewport.children[3].alpha = zoomOut(scale)
+        e.viewport.children[5].alpha = zoomIn(scale)
+    })
+
     // Prevent pinch gesture in Chrome
 
     window.addEventListener('wheel', e => {
         e.preventDefault()
     }, { passive: false })
-        
+
 }

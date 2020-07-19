@@ -15,7 +15,16 @@ export default () => {
     const autoCompletejs = new autoComplete({
         data: {
             src: async () => {
-                return s.nodes
+                return s.nodes.reduce((array, { name, x, y }) => {
+
+                    array.push({
+                        name: name,
+                        x: x,
+                        y: y
+                    })
+
+                    return array
+                }, [])
             },
             key: ["name"],
             // key: ["food", "cities", "animals"],
@@ -72,6 +81,17 @@ export default () => {
                 window.innerWidth / 2 - x * scale,
                 (window.innerHeight) / 2 - y * scale,
                 scale, scale)
+
+
+            // Transparency on zoom
+
+            const zoomMin = .3
+            const zoomIn = d3.scaleLinear().domain([zoomMin, 2]).range([0, 1])
+            // 0. Background 1. Links 2. Contours 3. Keywords 4. Nodes 5. Wordclouds
+            s.pixi.children[2].alpha = 0
+            s.pixi.children[3].alpha = 0
+            s.pixi.children[5].alpha = zoomIn(scale)
+
 
             // const duration = 3000
 

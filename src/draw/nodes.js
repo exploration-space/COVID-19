@@ -1,8 +1,6 @@
 import * as PIXI from 'pixi.js'
 
-import { mouseover, mouseout } from '../mouseover'
-import { drawTokens } from './tokens'
-// import links from '../arial.fnt'
+import { mouseover, mouseout } from '../elements/mouseover'
 
 const splitInTwo = string => {
     const middle = Math.round(string.length / 2)
@@ -14,8 +12,8 @@ const splitInTwo = string => {
 }
 
 const color = {
-    on: 0xFFFFFF,
-    off: 0x777777,
+    on: 0xFEDD00,
+    off: 0xc7d1c2,
 }
 
 export default () => {
@@ -24,7 +22,7 @@ export default () => {
     const stage = s.pixi.addChild(nodes)
 
     const nodeStyle = new PIXI.TextStyle({
-        font: '2px Arial',
+        font: '4px Arial',
         fill: color.on,
         align: 'center',
     })
@@ -38,7 +36,7 @@ export default () => {
         const size = node.docs * .1
 
         node.circle = new PIXI.Graphics()
-        node.circle.beginFill(0xFFFFFF, 1)
+        node.circle.beginFill(color.off, 1)
         node.circle.drawCircle(0, 0, size)
         node.circle.endFill()
         node.circle.tint = color.off
@@ -52,7 +50,7 @@ export default () => {
         const [nA, nB] = splitInTwo(node.name)
         node.text = new PIXI.BitmapText(`${nA}\n${nB}`, nodeStyle)
         node.text.tint = color.off
-        node.text.position.set(node.x - node.text.width / 2, node.y + size + 3)
+        node.text.position.set(node.x - node.text.width / 2, node.y + size + 2)
         nodes.addChild(node.text)
 
         // Set information panel & set on circles
@@ -70,8 +68,7 @@ export default () => {
 
         node.circle.mouseout = mouseData => {
             mouseout(node)
-            s.nodes
-                .forEach(node => {
+            s.nodes.forEach(node => {
                     node.circle.tint = color.off
                     node.text.tint = color.off
                 })

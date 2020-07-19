@@ -1,6 +1,10 @@
 import * as PIXI from 'pixi.js'
 
-const color = 0x61531B
+const color = 0xFEDD00
+const contourWidth = 3
+const cellSize = 15
+const bandwidth = 50
+const thresholds = 20
 
 export default () => {
 
@@ -20,15 +24,15 @@ export default () => {
         .y(d => d.y - y)
         .weight(d => d.relevancy)
         .size([width, height])
-        .cellSize(10)
-        .bandwidth(25)
-        .thresholds(20)
+        .cellSize(cellSize)
+        .bandwidth(bandwidth)
+        .thresholds(thresholds)
         (s.nodes)
 
     density.forEach(d => d.coordinates = d.coordinates
         .map(d => d.map(d => d.map(d => [d[0] + x, d[1] + y]))))
 
-    const contourWidth = 1
+
     const step = contourWidth / density.length
     let count = 1
 

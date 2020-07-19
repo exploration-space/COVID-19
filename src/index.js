@@ -1,7 +1,7 @@
 // CSS
 
 import '../node_modules/normalize.css/normalize.css'
-import './index.css'
+import './constant/index.css'
 
 // Libraries
 
@@ -12,22 +12,24 @@ import * as PIXI from 'pixi.js'
 
 import nodesJSON from './data/nodes.json'
 import linksJSON from './data/links.json'
-import arialXML from './arial.xml'
-import arialDataPNG from './arial.png'
+import tripletsJSON from './data/triplets.json'
+import arialXML from './constant/arial.xml'
+import arialDataPNG from './constant/arial.png'
 
-import search from './search'
-import stats from './stats'
+import search from './elements/search'
+import stats from './elements/stats'
 
 // Init
 
 import pixi from './elements/pixi.js'
 import fps from './elements/fps.js'
 
-import background from './elements/background'
-import contours from './elements/contours.js'
-import links from './elements/links.js'
-import nodes from './elements/nodes.js'
-import tokens from './elements/tokens.js'
+import background from './draw/background'
+import contours from './draw/contours.js'
+import keywords from './draw/keywords.js'
+import links from './draw/links.js'
+import nodes from './draw/nodes.js'
+import wordclouds from './draw/wordclouds.js'
 
 // Global variables
 
@@ -45,14 +47,17 @@ window.s = {
 Promise.all([
     d3.json(nodesJSON),
     d3.json(linksJSON),
+    d3.json(tripletsJSON),
     d3.xml(arialXML)
 
-]).then(([nodesData, linksData, arialXML]) => {
+]).then(([nodesData, linksData, tripletsData, arialXML]) => {
 
     s.links = linksData
     s.nodes = nodesData
+    s.triplets = tripletsData
     console.log('nodes', s.nodes.length)
     console.log('links', s.links.length)
+    console.log('triplets', s.triplets.length)
 
     pixi()
 
@@ -64,8 +69,9 @@ Promise.all([
     background()
     links()
     contours()
-    tokens()
+    keywords()
     nodes()
+    wordclouds()
 
     search()
 
