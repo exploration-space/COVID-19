@@ -15,7 +15,7 @@ export default () => {
     tokens.interactiveChildren = false
     stage = s.pixi.addChild(tokens)
 
-    const gap = 2
+    const gap = 10
     min = Math.pow(s.distance * 2 - gap, 2)
     max = Math.pow(s.distance * 2 + gap, 2)
 
@@ -30,7 +30,7 @@ export default () => {
         if (min < distance && distance < max) {
 
             const [key, value] = Object.entries(link.tokens)[0]
-            const scale = Math.log(value) * .3
+            const scale = Math.log(value) * .2
             const x = deltaX / 2 + Math.min(link.source.x, link.target.x)
             const y = deltaY / 2 + Math.min(link.source.y, link.target.y)
 

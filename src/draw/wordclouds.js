@@ -32,11 +32,11 @@ export default () => {
         tokens.forEach( ([key, value], i) => {
 
             // const scale = Math.log(value) * .07
-            const scale = 1.4
+            const scale = 1
             const text = new PIXI.BitmapText(key, tokenStyle)
             text.tint = color
             text.scale.set(scale)
-            text.position.set(x - text.width / 2, y - text.height / 2 + i * 6 - 3)
+            text.position.set(x - text.width / 2, y + i * 4 - 4)
             stage.addChild(text)
             
         })

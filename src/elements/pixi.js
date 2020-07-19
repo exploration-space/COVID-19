@@ -35,7 +35,7 @@ export default () => {
 
     // Activate plugins
 
-    const zoomMin = .5
+    const zoomMin = .4
     const zoomMax = 5
 
     viewport

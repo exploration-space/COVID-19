@@ -1,7 +1,8 @@
 import * as PIXI from 'pixi.js'
 
-const color = 0xFEDD00
-const contourWidth = 3
+// const color = 0xFEDD00 // Yellow
+const color = 0x999999
+const contourWidth = 2
 const cellSize = 15
 const bandwidth = 50
 const thresholds = 20

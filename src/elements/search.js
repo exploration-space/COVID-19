@@ -84,13 +84,10 @@ export default () => {
 
 
             // Transparency on zoom
-
-            const zoomMin = .3
-            const zoomIn = d3.scaleLinear().domain([zoomMin, 2]).range([0, 1])
             // 0. Background 1. Links 2. Contours 3. Keywords 4. Nodes 5. Wordclouds
             s.pixi.children[2].alpha = 0
             s.pixi.children[3].alpha = 0
-            s.pixi.children[5].alpha = zoomIn(scale)
+            s.pixi.children[5].alpha = 1
 
 
             // const duration = 3000

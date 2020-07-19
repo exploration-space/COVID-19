@@ -25,7 +25,7 @@ const analysis = authors => {
 
     // console.log(authors.filter(a => a.docs > 7).length)
 
-    const min = 10 // 8 articles corresponds to around 1,000 individuals
+    const min = 8 // 8 articles corresponds to around 1,000 individuals
     authors = authors.reduce((array, author, i) => {
         console.log('Filtering author #', i)
         if (author.docs >= min)
