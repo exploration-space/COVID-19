@@ -44,8 +44,12 @@ const parse = (records) => {
             // string = string.replace(/\./g, '') // remove dots
             
             // filter
-            if (string == 'undefined') return authors
-            if (string.includes('039')) {
+            if (
+                string.includes('039') ||
+                string.includes('Direccion') ||
+                string.includes('Ministerio') ||
+                string == 'undefined'
+            ) {
                 console.log(string, 'removed')
                 return authors
             }
