@@ -85,9 +85,9 @@ const analysis = authors => {
     const max = 40
 
     nodes.forEach((node, i) => {
-        
+
         console.log('Reducing for author #', i)
-        
+
         node.tokens = frequency.listTerms(i)
             .slice(0, max)
             .reduce((tokens, token) => {
@@ -100,60 +100,69 @@ const analysis = authors => {
 
     // Set links
 
-    const pairs = combinatorics.bigCombination(authors, 2)
     const links = []
-    let maxCommonTokens = 0
-    let i = pairs.length
+    const minCommonTokens = 10
 
-    pairs.forEach(pair => {
+    for (let i1 = 0; i1 < nodes.length; i1++) {
 
-        const min = 10
-        const p1 = pair[0], p2 = pair[1]
-        const t1 = p1.tokens, t2 = p2.tokens
-        const tokens = t1.map(t => t.term).filter(term => t2.map(t => t.term).includes(term))
-        i = i - 1
+        const n1 = nodes[i1]
+        const t1 = Object.keys(n1.tokens)
 
-        if (tokens.length <= min - 1)
-            return
+        for (let i2 = i1 + 1; i2 < nodes.length; i2++) {
 
-        if (tokens.length > maxCommonTokens)
-            maxCommonTokens = tokens.length
+            const n2 = nodes[i2]
+            const t2 = Object.keys(n2.tokens)
 
-        console.log('#', i, '|', tokens.length, 'terms between', p2.name, 'and', p1.name)
+            const tokens = t1.filter(term => t2.includes(term))
 
-        tokens.forEach(token => {
+            if (tokens.length <= minCommonTokens - 1)
+                continue
 
-            const link = links.find(link => link.source === p1.id && link.target === p2.id)
-            const value = t1.find(t => t.term == token).tfidf + t2.find(t => t.term == token).tfidf
+            console.log('|', tokens.length, 'terms between', n1.name, 'and', n2.name)
 
-            if (link) {
-                link.value += value
-                link.tokens[token] = value
-            } else {
-                const link = {
-                    source: p1.id,
-                    target: p2.id,
-                    value: value,
-                    tokens: {
-                        [token]: value,
+            let link = links.find(link => link.source === n1.id && link.target === n2.id)
+
+            tokens.forEach(token => {
+
+                if (!link) link = links.find(link => link.source === n1.id && link.target === n2.id)
+
+                const value = n1.tokens[token] + n2.tokens[token] / 2
+                // console.log(value)
+
+                if (link) {
+                    link.value += value
+                    link.tokens[token] = value
+                } else {
+                    const link = {
+                        source: n1.id,
+                        target: n2.id,
+                        value: value,
+                        tokens: {
+                            [token]: value,
+                        }
                     }
+
+                    links.push(link)
+
                 }
-                links.push(link)
-            }
-        })
-    })
+            })
 
-    console.log(links)
+            const tokensSorted = Object.entries(link.tokens).sort((a, b) => b[1] - a[1])
+            link.tokens = Object.fromEntries(tokensSorted)
+
+        }
+
+    }
+
     
-    return
-
     // Normalization
-
+    
     links.forEach(link => link.value = Math.floor(link.value))
     const maxLinkValue = links.reduce((max, link) => max > link.value ? max : link.value, 0)
     const minLinkValue = links.reduce((min, link) => min < link.value ? min : link.value, Infinity)
+    const maxCommonTokens = links.reduce((max, link) => max > link.tokens.length ? max : link.tokens.length, 0)
     links.forEach(link => link.value = link.value / maxLinkValue)
-
+        
     // Cleaning nodes without relations
 
     // const connectedNodes = links.reduce((array, link) => {
@@ -163,7 +172,7 @@ const analysis = authors => {
     // }, [])
     // nodes = nodes.filter(node => connectedNodes.includes(node.id))
 
-    // Nationality
+    // Ethnicity
 
     console.log('\nEthnicity Dataset')
 
@@ -241,10 +250,6 @@ const analysis = authors => {
             return (min < distance && distance < max)
         }
 
-        const intersection = (a, b) => {
-            return a.filter(t => b.includes(t))
-        }
-
         let counter = 0
         let triplets = []
 
@@ -258,9 +263,9 @@ const analysis = authors => {
 
                 if (!proximity(n1, n2)) continue
 
-                const l1 = n1.tokens.map(token => token.term)
-                const l2 = n2.tokens.map(token => token.term)
-                const l12 = intersection(l1, l2)
+                const l1 = Object.keys(n1.tokens)
+                const l2 = Object.keys(n2.tokens)
+                const l12 = l1.filter(t => l2.includes(t))
                 if (l12.length == 0) continue
 
                 for (let i3 = i2 + 1; i3 < nodes.length; i3++) {
@@ -270,17 +275,17 @@ const analysis = authors => {
                     if (!proximity(n2, n3)) continue
                     if (!proximity(n3, n1)) continue
 
-                    const l3 = n3.tokens.map(token => token.term)
-                    let list = intersection(l12, l3)
+                    const l3 = Object.keys(n3.tokens)
+                    let list = l12.filter(t => l3.includes(t))
                     if (list.length == 0) continue
 
                     const x = (n1.x + n2.x + n3.x) / 3
                     const y = (n1.y + n2.y + n3.y) / 3
 
                     list = list.map(token => {
-                        const v1 = (n1.tokens.find(t => t.term == token).tfidf)
-                        const v2 = (n2.tokens.find(t => t.term == token).tfidf)
-                        const v3 = (n3.tokens.find(t => t.term == token).tfidf)
+                        const v1 = (n1.tokens[token])
+                        const v2 = (n2.tokens[token])
+                        const v3 = (n3.tokens[token])
                         return [token, v1 + v2 + v3]
                     })
 

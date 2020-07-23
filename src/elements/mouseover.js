@@ -16,17 +16,18 @@ export function mouseover(node) {
 
     // Set tokens keys
 
-    s.tokens = node.tokens.slice(0, 3).map(token => token.term)
+    // s.tokens = node.tokens.slice(0, 3).map(token => token.term)
 
     // Tokens
 
     focus.append('p').html(space)
     focus.append('h3').html('Tokens by tf-idf')
     focus.append('p').html(line)
-    node.tokens.slice(0, 10).forEach(token => {
-        const blocks = block.repeat(token.tfidf / 10)
-        focus.append('p').html(`${blocks} &nbsp; ${token.term}`)
-    })
+    Object.entries(node.tokens)
+        .slice(0, 10).forEach(([key, value]) => {
+            const blocks = block.repeat(value / 10)
+            focus.append('p').html(`${blocks} &nbsp; ${key}`)
+        })
 
     // Nationality
 
