@@ -107,4 +107,5 @@ dist
 data/authors.json
 data/links.json
 data/metadata.csv
+data/nodes.json
 data/triplets.json
