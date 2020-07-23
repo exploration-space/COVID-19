@@ -208,7 +208,7 @@ const analysis = authors => {
 
         simulation
             .force('charge', reuse.forceManyBodyReuse()
-                .strength(10)
+                .strength(-10)
             )
             .force('collide', d3.forceCollide()
                 .radius(30)
@@ -239,7 +239,7 @@ const analysis = authors => {
         console.log('Triplets')
 
         const distance = 30
-        const gap = 10
+        const gap = 15
         const min = Math.pow(distance * 2 - gap, 2)
         const max = Math.pow(distance * 2 + gap, 2)
         const proximity = (a, b) => {
@@ -301,9 +301,23 @@ const analysis = authors => {
         }
 
         writing(nodes, links, triplets)
+
     }
 
     const writing = (nodes, links, triplets) => {
+
+        // Clean links
+
+        links = links.reduce((links, link) => {
+            links.push({
+                index: link.index,
+                value: link.value,
+                source: { x: link.source.x, y: link.source.y },
+                target: { x: link.target.x, y: link.target.y },
+                tokens: link.tokens,
+            })
+            return links
+        }, [])
 
         // Writing files
 
