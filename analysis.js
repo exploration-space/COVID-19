@@ -23,15 +23,17 @@ const analysis = authors => {
 
     // Reduce authors
 
-    // console.log(authors.filter(a => a.docs > 7).length)
+    authors = authors.filter(a => a.docs >= 20)
 
-    const min = 8 // 8 articles corresponds to around 1,000 individuals
-    authors = authors.reduce((array, author, i) => {
-        console.log('Filtering author #', i)
-        if (author.docs >= min)
-            array.push(author)
-        return array
-    }, [])
+    // a.docs >= 4
+
+    //     nodes.json : 21,776,903kb for 6023 authors
+    //      links.json : 280,582,249kb for 34329 links
+    //    maxLinkValue : 5557
+    //    minLinkValue : 206
+    // maxCommonTokens : 40
+
+    // Time computed 0h 13m 18s 252ms
 
     // Tokenizer
 
@@ -69,7 +71,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['not', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe']
+    const stopWords = ['not', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate']
     authors.forEach((author, i) => {
         console.log('Cleaning author #', i)
         author.tokens = sw.removeStopwords(author.tokens, sw.en.concat(stopWords))
@@ -163,7 +165,6 @@ const analysis = authors => {
     //     if (!array.includes(link.target)) array.push(link.target)
     //     return array
     // }, [])
-
     // nodes = nodes.filter(node => connectedNodes.includes(node.id))
 
     // Nationality
@@ -222,12 +223,87 @@ const analysis = authors => {
 
         simulation
             .on('end', () => {
-                writing(nodes, links)
+                triplets(nodes, links)
             })
 
     }
 
-    const writing = (nodes, links) => {
+    // Triplets
+
+    const triplets = (nodes, links) => {
+
+        console.log('Triplets')
+
+        const distance = 30
+        const gap = 10
+        const min = Math.pow(distance * 2 - gap, 2)
+        const max = Math.pow(distance * 2 + gap, 2)
+        const proximity = (a, b) => {
+            const deltaX = Math.abs(a.x - b.x)
+            const deltaY = Math.abs(a.y - b.y)
+            const distance = Math.pow(deltaX, 2) + Math.pow(deltaY, 2)
+            return (min < distance && distance < max)
+        }
+
+        const intersection = (a, b) => {
+            return a.filter(t => b.includes(t))
+        }
+
+        let counter = 0
+        let triplets = []
+
+        for (let i1 = 0; i1 < nodes.length; i1++) {
+
+            const n1 = nodes[i1]
+
+            for (let i2 = i1 + 1; i2 < nodes.length; i2++) {
+
+                const n2 = nodes[i2]
+
+                if (!proximity(n1, n2)) continue
+
+                const l1 = n1.tokens.map(token => token.term)
+                const l2 = n2.tokens.map(token => token.term)
+                const l12 = intersection(l1, l2)
+                if (l12.length == 0) continue
+
+                for (let i3 = i2 + 1; i3 < nodes.length; i3++) {
+
+                    const n3 = nodes[i3]
+
+                    if (!proximity(n2, n3)) continue
+                    if (!proximity(n3, n1)) continue
+
+                    const l3 = n3.tokens.map(token => token.term)
+                    let list = intersection(l12, l3)
+                    if (list.length == 0) continue
+
+                    const x = (n1.x + n2.x + n3.x) / 3
+                    const y = (n1.y + n2.y + n3.y) / 3
+
+                    list = list.map(token => {
+                        const v1 = (n1.tokens.find(t => t.term == token).tfidf)
+                        const v2 = (n2.tokens.find(t => t.term == token).tfidf)
+                        const v3 = (n3.tokens.find(t => t.term == token).tfidf)
+                        return [token, v1 + v2 + v3]
+                    })
+
+                    triplets.push({
+                        position: [x, y],
+                        tokens: list.sort((a, b) => a - b)
+                    })
+
+                    counter += 1
+                    console.log(counter)
+
+                }
+            }
+        }
+
+        writing(nodes, links, triplets)
+    }
+
+    const writing = (nodes, links, triplets) => {
 
         // Writing files
 
@@ -235,6 +311,8 @@ const analysis = authors => {
         fs.writeFile('./data/nodes.json', JSON.stringify(nodes, null, '\t'), err => { if (err) throw err })
         fs.writeFile('./src/data/links.json', JSON.stringify(links), err => { if (err) throw err })
         fs.writeFile('./data/links.json', JSON.stringify(links, null, '\t'), err => { if (err) throw err })
+        fs.writeFile('./src/data/triplets.json', JSON.stringify(triplets), err => { if (err) throw err })
+        fs.writeFile('./data/triplets.json', JSON.stringify(triplets, null, '\t'), err => { if (err) throw err })
 
         // Final report
 
@@ -253,4 +331,6 @@ const analysis = authors => {
         console.log(`\nTime computed ${d.getUTCHours()}h ${d.getUTCMinutes()}m ${d.getUTCSeconds()}s ${d.getUTCMilliseconds()}ms`)
 
     }
+
 }
+
