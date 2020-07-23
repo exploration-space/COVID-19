@@ -1,7 +1,9 @@
 import * as PIXI from 'pixi.js'
 import { Viewport } from 'pixi-viewport'
+import arialDataPNG from '../constant/arial.png'
 
-export default () => {
+
+export default (arialXML) => {
 
     // Create and append PIXI
 
@@ -19,8 +21,8 @@ export default () => {
 
     s.app = app
 
-    arial = new s.pixi.BitmapFont.install(arialXML, arialPNG)
-
+    const arialPNG = PIXI.Texture.from(arialDataPNG)
+    const arial = PIXI.BitmapFont.install(arialXML, arialPNG)
 
     // Create and append viewport
 

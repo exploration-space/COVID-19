@@ -3,11 +3,11 @@ import * as PIXI from 'pixi.js'
 let stage, min, max
 let links = []
 
-const tokenStyle = new PIXI.TextStyle({
-    font: '24px Arial',
-    align: 'center',
+PIXI.BitmapFont.from('KeywordFont', {
+    fontFamily: 'Arial',
+    fontSize: 72,
+    fill: 0xc7d1c2,
 })
-const color = 0xc7d1c2
 
 export default () => {
 
@@ -31,12 +31,12 @@ export default () => {
 
             const [key, value] = Object.entries(link.tokens)[0]
             // const scale = Math.log(value) * .5
-            const scale = value * .005
+            const scale = value * .002
             const x = deltaX / 2 + Math.min(link.source.x, link.target.x)
             const y = deltaY / 2 + Math.min(link.source.y, link.target.y)
 
-            link.txt = new PIXI.BitmapText(key, tokenStyle)
-            link.txt.tint = color
+            link.txt = new PIXI.BitmapText(key, { fontName: 'KeywordFont' })
+            
             link.txt.scale.set(scale)
             link.txt.position.set(x - link.txt.width / 2, y - link.txt.height / 2)
 

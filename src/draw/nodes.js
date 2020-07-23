@@ -21,10 +21,10 @@ export default () => {
     const nodes = new PIXI.Graphics()
     const stage = s.pixi.addChild(nodes)
 
-    const nodeStyle = new PIXI.TextStyle({
-        font: '4px Arial',
-        fill: color.on,
-        align: 'center',
+    PIXI.BitmapFont.from('NodeFont', {
+        fontFamily: 'Arial',
+        fontSize: 24,
+        fill: color.off,
     })
 
     s.nodes.forEach(node => {
@@ -47,9 +47,11 @@ export default () => {
 
         // Label
 
+        const scale = .2
         const [nA, nB] = splitInTwo(node.name)
-        node.text = new PIXI.BitmapText(`${nA}\n${nB}`, nodeStyle)
-        node.text.tint = color.off
+        node.text = new PIXI.BitmapText(`${nA}\n${nB}`, { fontName: 'NodeFont' })
+        node.text.scale.set(scale)
+        node.text.align = 'center'
         node.text.position.set(node.x - node.text.width / 2, node.y + size + 2)
         nodes.addChild(node.text)
 

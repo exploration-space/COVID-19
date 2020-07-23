@@ -14,7 +14,6 @@ import nodesJSON from './data/nodes.json'
 import linksJSON from './data/links.json'
 import tripletsJSON from './data/triplets.json'
 import arialXML from './constant/arial.xml'
-import arialDataPNG from './constant/arial.png'
 
 import search from './elements/search'
 import stats from './elements/stats'
@@ -59,20 +58,17 @@ Promise.all([
     console.log('links', s.links.length)
     console.log('triplets', s.triplets.length)
 
-    pixi()
-
-    const arialPNG = PIXI.Texture.from(arialDataPNG)
-    const arial = PIXI.BitmapText.registerFont(arialXML, arialPNG)
-
-    fps()
-
+    
+    pixi(arialXML)
+    
     background()
     links()
     contours()
     keywords()
     nodes()
     wordclouds()
-
+    
+    fps()
     search()
 
     window.onresize = function () {
