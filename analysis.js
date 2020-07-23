@@ -23,16 +23,23 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const nodes = authors.filter(a => a.docs >= 4)
+    const nodes = authors.filter(a => a.docs >= 3)
 
     // a.docs >= 4
-
-    //     nodes.json : 10,190,830kb for 6023 authors
-    //     links.json : 148,409,538kb for 34356 links
+    //     nodes.json : 10,200,672kb for 6023 authors
+    //     links.json : 28,693,329kb for 34356 links
     //   maxLinkValue : 4161
     //   minLinkValue : 154
+    // Time computed 0h 4m 16s 891ms
 
-    // Time computed 0h 4m 54s 356ms
+    // a.docs >= 4
+    // nodes.json : 19,142,495kb for 11530 authors
+    // links.json : 70,488,335kb for 78992 links
+    // maxLinkValue : 4418
+    // minLinkValue : 92
+    // Time computed 0h 14m 6s 118ms
+
+
 
     // Tokenizer
 
