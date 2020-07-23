@@ -23,7 +23,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    authors = authors.filter(a => a.docs >= 20)
+    const nodes = authors.filter(a => a.docs >= 20)
 
     // a.docs >= 4
 
@@ -37,74 +37,66 @@ const analysis = authors => {
 
     // Tokenizer
 
-    function titleCase(str) {
-        if (str.length == 0) return str
-        return str.split(' ').map(function (word) {
-            // console.log(word)
-            if (word.length == 0) return word
-            return word.replace(word[0], word[0].toUpperCase())
-        }).join(' ')
-    }
-    // titleCase('I'm a little tea pot');
-
     const tokenizer = new natural.WordTokenizer()
-    // const tokenizer = new natural.TreebankWordTokenizer()
-    authors.forEach((author, i) => {
+
+    nodes.forEach((node, i) => {
         console.log('Tokenizing author #', i)
-        author.tokens = tokenizer.tokenize(author.text.toLowerCase())
+        node.tokens = tokenizer.tokenize(node.text.toLowerCase())
+        delete node.text
     })
 
     // Singularize
 
     const inflector = new natural.NounInflector()
     const safeList = ['sars', 'trans', 'recsars', 'facs', 'mers', 'aids']
-    authors.forEach((author, i) => {
+
+    nodes.forEach((node, i) => {
         console.log('Singularizing author #', i)
-        author.tokens = author.tokens.map(t => {
-            if ((safeList.includes(t) && t.length > 4) || /us$/.test(t) || /is$/.test(t)) {
+        node.tokens = node.tokens.map(t => {
+            if ((safeList.includes(t) && t.length > 4) || /us$/.test(t) || /is$/.test(t))
                 return t
-            } else {
+            else
                 return inflector.singularize(t)
-            }
         })
     })
 
     // Cleaning
 
     const stopWords = ['not', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate']
-    authors.forEach((author, i) => {
+
+    nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)
-        author.tokens = sw.removeStopwords(author.tokens, sw.en.concat(stopWords))
-            // .map(token => token.replace(token[0], token[0].toUpperCase()))
+        node.tokens = sw.removeStopwords(node.tokens, sw.en.concat(stopWords))
             .filter(token => token.length > 4)
             .filter(token => !parseInt(token))
     })
 
     // TF-IDF
 
-    const tokenFrequency = new natural.TfIdf()
-    authors.forEach((author, i) => {
-        console.log('Frequencing for author #', i)
-        tokenFrequency.addDocument(author.tokens)
+    const frequency = new natural.TfIdf()
+
+    nodes.forEach((node, i) => {
+        console.log('Frequency for author #', i)
+        frequency.addDocument(node.tokens)
     })
 
-    // Reduction and shaping
+    // Set Tokens and Relevancy
 
     const max = 40
-    authors.forEach((author, i) => {
+
+    nodes.forEach((node, i) => {
+        
         console.log('Reducing for author #', i)
-        author.tokens = tokenFrequency.listTerms(i)
+        
+        node.tokens = frequency.listTerms(i)
             .slice(0, max)
+            .reduce((tokens, token) => {
+                tokens[token.term] = token.tfidf
+                return tokens
+            }, {})
+
+        node.relevancy = Object.values(node.tokens).reduce((a, b) => a + b)
     })
-
-    // Set nodes
-
-    let nodes = authors.reduce((array, author) => {
-        delete author.text
-        author.relevancy = Math.floor(author.tokens.map(t => t.tfidf).reduce((a, b) => a + b))
-        array.push(author)
-        return array
-    }, [])
 
     // Set links
 
@@ -150,6 +142,10 @@ const analysis = authors => {
             }
         })
     })
+
+    console.log(links)
+    
+    return
 
     // Normalization
 
