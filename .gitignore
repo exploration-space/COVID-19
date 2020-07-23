@@ -104,4 +104,7 @@ dist
 .tern-port
 
 # Data
-data/
+data/authors.json
+data/links.json
+data/metadata.csv
+data/triplets.json
