@@ -23,17 +23,16 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const nodes = authors.filter(a => a.docs >= 20)
+    const nodes = authors.filter(a => a.docs >= 4)
 
     // a.docs >= 4
 
-    //     nodes.json : 21,776,903kb for 6023 authors
-    //      links.json : 280,582,249kb for 34329 links
-    //    maxLinkValue : 5557
-    //    minLinkValue : 206
-    // maxCommonTokens : 40
+    //     nodes.json : 10,190,830kb for 6023 authors
+    //     links.json : 148,409,538kb for 34356 links
+    //   maxLinkValue : 4161
+    //   minLinkValue : 154
 
-    // Time computed 0h 13m 18s 252ms
+    // Time computed 0h 4m 54s 356ms
 
     // Tokenizer
 
@@ -62,7 +61,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['not', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate']
+    const stopWords = ['not', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate', 'professional']
 
     nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)
@@ -154,15 +153,15 @@ const analysis = authors => {
 
     }
 
-    
+
     // Normalization
-    
+
     links.forEach(link => link.value = Math.floor(link.value))
     const maxLinkValue = links.reduce((max, link) => max > link.value ? max : link.value, 0)
     const minLinkValue = links.reduce((min, link) => min < link.value ? min : link.value, Infinity)
     const maxCommonTokens = links.reduce((max, link) => max > link.tokens.length ? max : link.tokens.length, 0)
     links.forEach(link => link.value = link.value / maxLinkValue)
-        
+
     // Cleaning nodes without relations
 
     // const connectedNodes = links.reduce((array, link) => {
@@ -323,13 +322,12 @@ const analysis = authors => {
         console.log(`     links.json : ${format(links)}kb for ${links.length} links`)
         console.log(`   maxLinkValue : ${maxLinkValue}`)
         console.log(`   minLinkValue : ${minLinkValue}`)
-        console.log(`maxCommonTokens : ${maxCommonTokens}`)
 
         // Time end
 
         const end = Date.now()
         const d = new Date(end - start)
-        console.log(`\nTime computed ${d.getUTCHours()}h ${d.getUTCMinutes()}m ${d.getUTCSeconds()}s ${d.getUTCMilliseconds()}ms`)
+        console.log(`\nTime computed ${d.getUTCHours()}h ${d.getUTCMinutes()}m ${d.getUTCSeconds()}s ${d.getUTCMilliseconds()}ms\n`)
 
     }
 
