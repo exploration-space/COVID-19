@@ -5,7 +5,7 @@ export default () => {
 
     // const size = window.innerWidth > window.innerHeight ? window.innerWidth : window.innerHeight
 
-    // const canvas = document.createElement('canvas')
+    const canvas = document.createElement('canvas')
     // const context = canvas.getContext('2d')
     // canvas.width = size
     // canvas.height = size
@@ -21,12 +21,12 @@ export default () => {
     // context.fillStyle = gradient
     // context.fillRect(0, 0, canvas.width, canvas.height)
 
-    // let texture = PIXI.Texture.from(canvas)
-    // let sprite = new PIXI.Sprite(texture)
+    let texture = PIXI.Texture.from(canvas)
+    let sprite = new PIXI.Sprite(texture)
     // sprite.width = size
     // sprite.height = size
     // sprite.position = new PIXI.Point(-size / 2, -size / 2)
 
-    // const stage = s.pixi.addChild(sprite)
+    const stage = s.pixi.addChild(sprite)
 
 }

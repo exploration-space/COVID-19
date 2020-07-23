@@ -88,7 +88,7 @@ const analysis = authors => {
 
     // Set Tokens and Relevancy
 
-    const max = 40
+    const max = 30
 
     nodes.forEach((node, i) => {
 
@@ -153,7 +153,9 @@ const analysis = authors => {
                 }
             })
 
-            const tokensSorted = Object.entries(link.tokens).sort((a, b) => b[1] - a[1])
+            const tokensSorted = Object.entries(link.tokens)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 3)
             link.tokens = Object.fromEntries(tokensSorted)
 
         }
