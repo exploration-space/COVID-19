@@ -44,8 +44,7 @@ export default () => {
 
             let overlapping = false
 
-            s.links.filter(l => l.txt).forEach(link2 => {
-                if (link.index == link2.index) return
+            s.links.filter(l => l.txt && (l.index != link.index)).forEach(link2 => {
                 const l1 = link.txt
                 const l2 = link2.txt
                 if (!(l2.x > l1.x + l1.width || l2.x + l2.width < l1.x || l2.y > l1.y + l1.height || l2.y + l2.height < l1.y))
