@@ -127,12 +127,12 @@ const analysis = authors => {
 
             const tokens = t1.filter(term => t2.includes(term))
 
-            if (tokens.length < minCommonTokens)
+            if (tokens.length <= minCommonTokens)
                 continue
 
-            // console.log('|', tokens.length, 'terms between', n1.name, 'and', n2.name)
+            console.log('|', tokens.length, 'terms between', n1.name, 'and', n2.name)
 
-            let link = links.find(link => link.source === n1.id && link.target === n2.id)
+            let link
 
             tokens.forEach(token => {
 
