@@ -23,7 +23,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const nodes = authors.filter(a => a.docs >= 10)
+    const nodes = authors.filter(a => a.docs >= 5)
 
     // a.docs >= 4
     //     nodes.json : 10,200,672kb for 6023 authors
