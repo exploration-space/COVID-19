@@ -23,7 +23,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const nodes = authors.filter(a => a.docs >= 3)
+    const nodes = authors.filter(a => a.docs >= 1)
 
     // a.docs >= 4
     //     nodes.json : 10,200,672kb for 6023 authors
@@ -32,12 +32,19 @@ const analysis = authors => {
     //   minLinkValue : 154
     // Time computed 0h 4m 16s 891ms
 
-    // a.docs >= 4
+    // a.docs >= 3
     // nodes.json : 19,142,495kb for 11530 authors
     // links.json : 70,488,335kb for 78992 links
     // maxLinkValue : 4418
     // minLinkValue : 92
     // Time computed 0h 14m 6s 118ms
+
+    // a.docs >= 1
+    //     nodes.json : 60,501,825kb for 81459 authors
+    //     links.json : 100,121,619kb for 629052 links
+    //   maxLinkValue : 11488
+    //   minLinkValue : 66
+    // Time computed 8h 32m 25s 533ms
 
 
 
@@ -68,7 +75,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['not', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate', 'professional']
+    const stopWords = ['not', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate', 'professional', 'serevice', 'opportunity', 'service', 'topic', 'theme', 'expression', 'driven', 'keyword']
 
     nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)
@@ -97,7 +104,7 @@ const analysis = authors => {
         node.tokens = frequency.listTerms(i)
             .slice(0, max)
             .reduce((tokens, token) => {
-                tokens[token.term] = token.tfidf
+                tokens[token.term] = Math.round(token.tfidf)
                 return tokens
             }, {})
 
@@ -132,7 +139,7 @@ const analysis = authors => {
 
                 if (!link) link = links.find(link => link.source === n1.id && link.target === n2.id)
 
-                const value = n1.tokens[token] + n2.tokens[token] / 2
+                const value = n1.tokens[token] + n2.tokens[token]
                 // console.log(value)
 
                 if (link) {
@@ -165,7 +172,6 @@ const analysis = authors => {
 
     // Normalization
 
-    links.forEach(link => link.value = Math.floor(link.value))
     const maxLinkValue = links.reduce((max, link) => max > link.value ? max : link.value, 0)
     const minLinkValue = links.reduce((min, link) => min < link.value ? min : link.value, Infinity)
     const maxCommonTokens = links.reduce((max, link) => max > link.tokens.length ? max : link.tokens.length, 0)
@@ -298,7 +304,7 @@ const analysis = authors => {
                     })
 
                     triplets.push({
-                        position: [x, y],
+                        position: [Math.round(x), Math.round(y)],
                         tokens: list.sort((a, b) => a - b)
                     })
 
@@ -315,18 +321,30 @@ const analysis = authors => {
 
     const writing = (nodes, links, triplets) => {
 
-        // Clean links
+        // Clean links and nodes
 
         links = links.reduce((links, link) => {
             links.push({
                 index: link.index,
                 value: link.value,
-                source: { x: link.source.x, y: link.source.y },
-                target: { x: link.target.x, y: link.target.y },
+                source: {
+                    x: Math.round(link.source.x),
+                    y: Math.round(link.source.y)
+                },
+                target: {
+                    x: Math.round(link.target.x),
+                    y: Math.round(link.target.y)
+                },
                 tokens: link.tokens,
             })
             return links
         }, [])
+
+        nodes.forEach(node => {
+            node.x = Math.round(node.x)
+            node.y = Math.round(node.y)
+            delete node.vx; delete node.vy
+        })
 
         // Writing files
 
