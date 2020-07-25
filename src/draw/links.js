@@ -3,7 +3,7 @@ import * as PIXI from 'pixi.js'
 export default () => {
     const links = new PIXI.Graphics()
     links.interactiveChildren = false
-    links.alpha = .03
+    links.alpha = .1
     const stage = s.pixi.addChild(links)
 
     s.links.forEach(({ source, target, value }) => {

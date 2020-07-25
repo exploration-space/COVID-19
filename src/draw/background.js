@@ -3,7 +3,7 @@ import * as PIXI from 'pixi.js'
 
 export default () => {
 
-    const size = 15000
+    const size = 5000
 
     const canvas = document.createElement('canvas')
     const context = canvas.getContext('2d')
@@ -16,7 +16,7 @@ export default () => {
     )
 
     gradient.addColorStop(1, d3.rgb(0, 0, 0))
-    gradient.addColorStop(0, d3.rgb(50, 50, 50))
+    gradient.addColorStop(0, d3.rgb(30, 30, 30))
 
     context.fillStyle = gradient
     context.fillRect(0, 0, canvas.width, canvas.height)
