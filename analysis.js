@@ -1,5 +1,4 @@
 const fs = require('fs')
-const combinatorics = require('js-combinatorics')
 const natural = require('natural')
 const sw = require('stopword')
 
