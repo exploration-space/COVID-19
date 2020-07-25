@@ -37,7 +37,7 @@ export default (arialXML) => {
 
     // Activate plugins
 
-    const zoomMin = .1
+    const zoomMin = .02
     const zoomMax = 5
 
     viewport
