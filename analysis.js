@@ -74,7 +74,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['not', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate', 'professional', 'serevice', 'opportunity', 'service', 'topic', 'theme', 'expression', 'driven', 'keyword']
+    const stopWords = ['not', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate', 'professional', 'serevice', 'opportunity', 'service', 'topic', 'theme', 'expression', 'driven', 'keyword', 'phase', 'group', 'target', 'critically', 'fellow', 'worsening', 'count']
 
     nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)
