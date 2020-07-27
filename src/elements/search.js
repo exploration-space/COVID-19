@@ -1,12 +1,11 @@
-import * as PIXI from 'pixi.js'
 import autoComplete from '@tarekraafat/autocomplete.js'
 
 export default () => {
 
     // Listner
-    document.querySelector("#autoComplete").addEventListener("autoComplete", event => {
-        console.log(event)
-    })
+    // document.querySelector("#autoComplete").addEventListener("autoComplete", event => {
+    //     console.log(event)
+    // })
 
     const placeholder = 'Search'
 

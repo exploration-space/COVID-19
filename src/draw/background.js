@@ -15,8 +15,8 @@ export default () => {
         size / 2, size / 2, size / 2
     )
 
-    gradient.addColorStop(1, d3.rgb(0, 0, 0))
-    gradient.addColorStop(0, d3.rgb(30, 30, 30))
+    gradient.addColorStop(1, '#000000')
+    gradient.addColorStop(0, '#333333')
 
     context.fillStyle = gradient
     context.fillRect(0, 0, canvas.width, canvas.height)
