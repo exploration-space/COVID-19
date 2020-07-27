@@ -25,10 +25,10 @@ import fps from './elements/fps.js'
 
 import background from './draw/background'
 import contours from './draw/contours.js'
-import keywords from './draw/keywords.js'
+import couples from './draw/couples.js'
 import links from './draw/links.js'
 import nodes from './draw/nodes.js'
-import wordclouds from './draw/wordclouds.js'
+import triplets from './draw/triplets.js'
 
 // Global variables
 
@@ -57,16 +57,15 @@ Promise.all([
     console.log('nodes', s.nodes.length)
     console.log('links', s.links.length)
     console.log('triplets', s.triplets.length)
-
     
     pixi(arialXML)
     
     background()
     links()
     contours()
-    keywords()
+    couples()
     nodes()
-    wordclouds()
+    triplets()
     
     fps()
     search()
@@ -74,7 +73,5 @@ Promise.all([
     window.onresize = function () {
         s.pixi.resize()
     }
-
-    // }
 
 })

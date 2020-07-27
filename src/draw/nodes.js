@@ -23,7 +23,7 @@ export default () => {
 
     PIXI.BitmapFont.from('NodeFont', {
         fontFamily: 'Arial',
-        fontSize: 24,
+        fontSize: 21,
         fill: color.off,
     })
 

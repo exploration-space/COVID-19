@@ -15,7 +15,7 @@ export default () => {
     tokens.interactiveChildren = false
     stage = s.pixi.addChild(tokens)
 
-    const gap = 10
+    const gap = 2
     min = Math.pow(s.distance * 2 - gap, 2)
     max = Math.pow(s.distance * 2 + gap, 2)
 
