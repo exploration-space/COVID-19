@@ -1,6 +1,7 @@
 import * as PIXI from 'pixi.js'
 import { Viewport } from 'pixi-viewport'
 import arialDataPNG from '../constant/arial.png'
+import { scaleLinear } from 'd3-scale'
 
 
 export default (arialXML) => {
@@ -50,10 +51,10 @@ export default (arialXML) => {
 
     // Transparency on zoom
 
-    const zoomOut = d3.scaleLinear()
+    const zoomOut = scaleLinear()
         .domain([zoomMin, 2]).range([1, 0])
 
-    const zoomIn = d3.scaleLinear()
+    const zoomIn = scaleLinear()
         .domain([zoomMin, 2]).range([0, 1])
 
     viewport.on('zoomed', e => {

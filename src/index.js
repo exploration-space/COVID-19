@@ -5,8 +5,9 @@ import './constant/index.css'
 
 // Libraries
 
-import * as d3 from 'd3'
 import * as PIXI from 'pixi.js'
+import { json, xml } from 'd3-fetch'
+
 
 // Data
 
@@ -32,8 +33,6 @@ import triplets from './draw/triplets.js'
 
 // Global variables
 
-window.d3 = d3
-
 window.s = {
     distance: 30,
     links,
@@ -44,10 +43,10 @@ window.s = {
 // Start
 
 Promise.all([
-    d3.json(nodesJSON),
-    d3.json(linksJSON),
-    d3.json(tripletsJSON),
-    d3.xml(arialXML)
+    json(nodesJSON),
+    json(linksJSON),
+    json(tripletsJSON),
+    xml(arialXML)
 
 ]).then(([nodesData, linksData, tripletsData, arialXML]) => {
 

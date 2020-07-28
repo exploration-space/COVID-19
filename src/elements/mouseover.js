@@ -1,4 +1,4 @@
-import * as d3 from 'd3'
+import { select } from "d3-selection"
 
 const space = '&nbsp;'
 const line = '—————————————'
@@ -7,7 +7,7 @@ const block = '<span class="block"></span>'
 
 export function mouseover(node) {
 
-    const focus = d3.select('body').append('div').attr('id', 'focus')
+    const focus = select('body').append('div').attr('id', 'focus')
 
     // Heading
 
@@ -50,7 +50,7 @@ export function mouseover(node) {
 
 export function mouseout() {
 
-    d3.select('#focus').remove()
+    select('#focus').remove()
     s.tokens = []
 
 }

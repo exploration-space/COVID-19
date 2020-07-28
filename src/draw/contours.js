@@ -1,4 +1,6 @@
 import * as PIXI from 'pixi.js'
+import { extent } from "d3-array"
+import { contourDensity } from "d3-contour"
 
 // const color = 0xFEDD00 // Yellow
 const color = 0x999999
@@ -13,14 +15,14 @@ export default () => {
     contours.interactiveChildren = false
     const stage = s.pixi.addChild(contours)
 
-    const extX = d3.extent(s.nodes, d => d.x)
-    const extY = d3.extent(s.nodes, d => d.y)
+    const extX = extent(s.nodes, d => d.x)
+    const extY = extent(s.nodes, d => d.y)
     const width = extX[1] - extX[0]
     const height = extY[1] - extY[0]
     const x = extX[0]
     const y = extY[0]
 
-    const density = d3.contourDensity()
+    const density = contourDensity()
         .x(d => d.x - x)
         .y(d => d.y - y)
         .weight(d => d.relevancy)
