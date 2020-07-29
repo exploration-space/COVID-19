@@ -2,7 +2,6 @@ import * as PIXI from 'pixi.js'
 import { extent } from "d3-array"
 import { contourDensity } from "d3-contour"
 
-// const color = 0xFEDD00 // Yellow
 const color = 0x999999
 const contourWidth = 3
 const cellSize = 15
@@ -11,9 +10,10 @@ const thresholds = 30
 
 export default () => {
 
-    const contours = new PIXI.Graphics()
-    contours.interactiveChildren = false
-    const stage = s.pixi.addChild(contours)
+    const stage = new PIXI.Graphics()
+    s.pixi.addChild(stage)
+    
+    stage.interactiveChildren = false
 
     const extX = extent(s.nodes, d => d.x)
     const extY = extent(s.nodes, d => d.y)

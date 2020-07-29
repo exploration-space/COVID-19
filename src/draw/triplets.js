@@ -8,10 +8,10 @@ PIXI.BitmapFont.from('TripletFont', {
 
 export default () => {
 
-    const graphic = new PIXI.Graphics()
-    graphic.alpha = 0
-    graphic.interactiveChildren = false
-    const stage = s.pixi.addChild(graphic)
+    const stage = new PIXI.Graphics()
+    stage.alpha = 0
+    stage.interactiveChildren = false
+    s.pixi.addChild(stage)
 
     const lineHeight = 5
     const items = 3

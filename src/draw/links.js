@@ -1,10 +1,11 @@
 import * as PIXI from 'pixi.js'
 
 export default () => {
-    const links = new PIXI.Graphics()
-    links.interactiveChildren = false
-    links.alpha = .1
-    const stage = s.pixi.addChild(links)
+    
+    const stage = new PIXI.Graphics()
+    stage.interactiveChildren = false
+    stage.alpha = .1
+    s.pixi.addChild(stage)
 
     s.links.forEach(({ source, target, value }) => {
 

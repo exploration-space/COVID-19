@@ -28,6 +28,6 @@ export default () => {
     sprite.position = new PIXI.Point(-size / 2, -size / 2)
     sprite.interactiveChildren = false
 
-    const stage = s.pixi.addChild(sprite)
+    s.pixi.addChild(sprite)
 
 }
