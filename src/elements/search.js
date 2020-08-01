@@ -1,11 +1,12 @@
+import * as PIXI from 'pixi.js'
 import autoComplete from '@tarekraafat/autocomplete.js'
 
 export default () => {
 
     // Listner
-    // document.querySelector("#autoComplete").addEventListener("autoComplete", event => {
-    //     console.log(event)
-    // })
+    document.querySelector("#autoComplete").addEventListener("autoComplete", event => {
+        console.log(event)
+    })
 
     const placeholder = 'Search'
 
@@ -74,66 +75,41 @@ export default () => {
 
             document.querySelector("#autoComplete").value = name
 
-            const scale = 5
+            const zoomMin = .3
+            const zoomMax = 5
 
-            s.pixi.setTransform(
-                window.innerWidth / 2 - x * scale,
-                (window.innerHeight) / 2 - y * scale,
-                scale, scale)
+            const zoomIn = () => s.pixi.animate({
+                scale: zoomMax,
+                position: new PIXI.Point(x, y),
+                time: 2000,
+                ease: 'easeInOutSine',
+            })
 
+            const center = {
+                x: s.pixi.center.x,
+                y: s.pixi.center.y
+            }
 
-            // Transparency on zoom
-            // 0. Background 1. Links 2. Contours 3. Keywords 4. Nodes 5. Wordclouds
-            s.pixi.children[2].alpha = 0
-            s.pixi.children[3].alpha = 0
-            s.pixi.children[5].alpha = 1
+            const zoomOutIn = () => s.pixi.animate({
+                scale: zoomMin,
+                position: new PIXI.Point((x + center.x) / 2, (y + center.y) / 2),
+                time: 2000,
+                ease: 'easeInOutSine',
+                callbackOnComplete: () => {
+                    s.pixi.animate({
+                        scale: zoomMax,
+                        position: new PIXI.Point(x, y),
+                        time: 2000,
+                        ease: 'easeInOutSine',
+                    })
+                }
+            })
 
+            if (s.pixi.scale.x < 1)
+                zoomIn()
+            else
+                zoomOutIn()
 
-            // const duration = 3000
-
-            // const zoomin = () => {
-            //     s.pixi.snap(x, y, {
-            //         time: duration,
-            //         ease: 'easeOutSine',
-            //         removeOnComplete: true,
-            //     })
-            //     s.pixi.snapZoom({
-            //         width: 100,
-            //         time: duration,
-            //         ease: 'easeInSine',
-            //         removeOnComplete: true,
-            //         noMove: true,
-            //     })
-            // }
-
-            // const zoomout = () => {
-            //     s.pixi.snap(x, y, {
-            //         time: duration * 2,
-            //         ease: 'easeOutSine',
-            //         removeOnComplete: true,
-            //     })
-            //     s.pixi.snapZoom({
-            //         width: 1000,
-            //         time: duration,
-            //         ease: 'easeOutSine',
-            //         removeOnComplete: true,
-            //         noMove: true,
-            //     })
-            //     setTimeout(() => {
-            //         s.pixi.snapZoom({
-            //             width: 100,
-            //             time: duration,
-            //             ease: 'easeInSine',
-            //             removeOnComplete: true,
-            //             noMove: true,
-            //         })
-            //     }, duration)
-            // }
-
-            // Click
-
-            // if (s.pixi.scale.x < 1) zoomin()
-            // else zoomout()
 
         }
     })
