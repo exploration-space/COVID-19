@@ -14,8 +14,7 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-body,
-html {
+body, html {
 	color: #c7d1c2;
 	overflow: hidden;
 	margin: 0;
@@ -36,10 +35,7 @@ a {
 	 * Containers		
 ******************************************************************************/
 
-#focus,
-#title,
-#search,
-#warning {
+#focus, #title, #search, #warning {
 	background-color: rgba(0, 0, 0, .7);
 	position: absolute;
 	border: none;
@@ -74,6 +70,14 @@ input {
 	font-weight: normal;
 	background-color: #333;
 	border: 0;
+}
+
+input, input:before, input:after {
+	-webkit-user-select: initial;
+	-khtml-user-select: initial;
+	-moz-user-select: initial;
+	-ms-user-select: initial;
+	user-select: initial;
 }
 
 li {
