@@ -1,1 +1,2 @@
 data/authors.json filter=lfs diff=lfs merge=lfs -text
+data/metadata.json filter=lfs diff=lfs merge=lfs -text
