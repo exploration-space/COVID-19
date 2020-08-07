@@ -1,9 +1,11 @@
+const skmeans = require("skmeans");
 const fs = require('fs')
 const natural = require('natural')
 const sw = require('stopword')
 
 const reuse = require('d3-force-reuse')
 const d3 = require('d3')
+
 
 // Time counter
 
@@ -22,7 +24,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const nodes = authors.filter(a => a.docs >= 5)
+    const nodes = authors.filter(a => a.docs >= 15)
 
 
     // a.docs >= 4
@@ -191,6 +193,7 @@ const analysis = authors => {
             const nationality = row['ethnicity']
             const node = nodes.find(node => node.name == name)
             if (node) {
+                node.nationality = nationality
                 const nodesWithId = nodes.filter(n => n.peers.includes(node.id))
                 nodesWithId.forEach(node => {
                     if (!node.nationalities) node.nationalities = {}
@@ -234,14 +237,33 @@ const analysis = authors => {
 
         simulation
             .on('end', () => {
-                triplets(nodes, links)
+                afterSimulation(nodes, links)
             })
 
     }
 
-    // Triplets
+    const afterSimulation = (nodes, links) => {
 
-    const triplets = (nodes, links) => {
+        // K-Means
+
+        const clustering = skmeans(
+            nodes.map(n => [n.x, n.y]),
+            30
+        )
+        
+        let millefeuille1 = []
+        let millefeuille2 = []
+        
+        nodes.forEach( (node, i) => {
+            node.clusterid = clustering.idxs[i]
+            millefeuille1.push([node.clusterid, node.nationality, 1])
+            for (var key in node.nationalities) {
+                var counts = node.nationalities[key]
+                millefeuille2.push([node.clusterid, node.nationality, key, counts])
+            }
+        })
+
+        // Triplets
 
         console.log('Triplets')
 
@@ -301,17 +323,17 @@ const analysis = authors => {
                     })
 
                     counter += 1
-                    console.log(counter)
 
                 }
             }
         }
 
-        writing(nodes, links, triplets)
+
+        writing(nodes, links, triplets, millefeuille1, millefeuille2)
 
     }
 
-    const writing = (nodes, links, triplets) => {
+    const writing = (nodes, links, triplets, millefeuille1, millefeuille2) => {
 
         // Clean links and nodes
 
@@ -346,6 +368,8 @@ const analysis = authors => {
         fs.writeFile('./data/links.json', JSON.stringify(links, null, '\t'), err => { if (err) throw err })
         fs.writeFile('./src/data/triplets.json', JSON.stringify(triplets), err => { if (err) throw err })
         fs.writeFile('./data/triplets.json', JSON.stringify(triplets, null, '\t'), err => { if (err) throw err })
+        fs.writeFile('./data/millefeuille1.json', JSON.stringify(millefeuille1, null, '\t'), err => { if (err) throw err })
+        fs.writeFile('./data/millefeuille2.json', JSON.stringify(millefeuille2, null, '\t'), err => { if (err) throw err })
 
         // Final report
 

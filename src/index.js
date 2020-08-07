@@ -25,6 +25,7 @@ import pixi from './elements/pixi.js'
 import fps from './elements/fps.js'
 
 import background from './draw/background'
+import clusters from './draw/clusters.js'
 import contours from './draw/contours.js'
 import couples from './draw/couples.js'
 import links from './draw/links.js'
@@ -65,6 +66,7 @@ Promise.all([
     couples()
     nodes()
     triplets()
+    clusters()
     
     fps()
     search()
