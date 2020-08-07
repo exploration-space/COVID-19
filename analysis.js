@@ -4,7 +4,8 @@ const natural = require('natural')
 const sw = require('stopword')
 
 const reuse = require('d3-force-reuse')
-const d3 = require('d3')
+const d3 = require('d3');
+const { cluster } = require("d3");
 
 
 // Time counter
@@ -24,7 +25,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const nodes = authors.filter(a => a.docs >= 15)
+    const nodes = authors.filter(a => a.docs >= 5)
 
 
     // a.docs >= 4
@@ -218,7 +219,7 @@ const analysis = authors => {
 
         simulation
             .force('charge', reuse.forceManyBodyReuse()
-                .strength(-10)
+                .strength(-50)
             )
             .force('collide', d3.forceCollide()
                 .radius(30)
@@ -250,12 +251,14 @@ const analysis = authors => {
             nodes.map(n => [n.x, n.y]),
             30
         )
+
+        console.log(cluster)
         
         let millefeuille1 = []
         let millefeuille2 = []
         
         nodes.forEach( (node, i) => {
-            node.clusterid = clustering.idxs[i]
+            node.cluster = clustering.idxs[i]
             millefeuille1.push([node.clusterid, node.nationality, 1])
             for (var key in node.nationalities) {
                 var counts = node.nationalities[key]
