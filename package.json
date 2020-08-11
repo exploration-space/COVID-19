@@ -26,7 +26,7 @@
     "file-loader": "^6.0.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
-    "mini-css-extract-plugin": "^0.9.0",
+    "mini-css-extract-plugin": "^0.10.0",
     "natural": "^2.1.5",
     "remove-accents": "^0.4.2",
     "skmeans": "^0.11.3",
