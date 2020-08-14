@@ -19,7 +19,7 @@ export default (arialXML) => {
         autoResize: true,
         resizeTo: window,
     })
-    document.body.append(app.view)
+    document.body.prepend(app.view)
 
     // Font
 
