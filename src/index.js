@@ -5,7 +5,6 @@ import './constant/index.css'
 
 // Libraries
 
-import * as PIXI from 'pixi.js'
 import { json, xml } from 'd3-fetch'
 
 
