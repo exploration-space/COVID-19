@@ -1,6 +1,6 @@
-# Cartography of COVID-19 Scientific Literature
+# Cartography of COVID-19
 
-Network visualizations are useful instrument to have a distant view from a subject. This visualization was created to see the scientific community behind the COVID-19. Who are they? When did they begin to being involved? With whom do they work? Which are their specializations?
+Network visualizations are instruments for distant reading, a visual approach to explore large phenomena. The Cartography of COVID-19 is about the scientific literature that has been produced in the last months to understand how the coronavirus affects society. The work has no pretense to explain the phenomena but rather to make visible the effort of scientists through their scientific production, totaling 170,000 articles on July 1, 2020.
 
 ## Method
 
