@@ -21,6 +21,8 @@ export default (arialXML) => {
     })
     document.body.prepend(app.view)
 
+    s.app = app
+
     // Font
 
     const arialPNG = PIXI.Texture.from(arialDataPNG)
@@ -43,11 +45,16 @@ export default (arialXML) => {
     const height = extY[1] - extY[0]
     const scaleX = window.innerWidth / width
     const scaleY = window.innerHeight / height
-    const scale = scaleX < scaleY ? scaleX : scaleY
+
+    const printing = false // costant for export canvas
+    let scale = scaleX < scaleY ? scaleX : scaleY
+    scale = printing ? scale * 10 : scale
+
     const zoomMin = scale
     const zoomMax = 3
 
     // Set vieport
+
 
     s.pixi
         .drag()
@@ -75,5 +82,19 @@ export default (arialXML) => {
     window.addEventListener('wheel', e => {
         e.preventDefault()
     }, { passive: false })
+
+    // Export PNG
+
+    // s.app.renderer.extract.canvas(s.app.stage).toBlob((b) => {
+    //     const a = document.createElement('a')
+    //     document.body.append(a)
+    //     a.download = 'screenshot'
+    //     a.href = URL.createObjectURL(b)
+    //     a.click()
+    //     a.remove()
+    // }, 'image/png')
+
+
+
 
 }
