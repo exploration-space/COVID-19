@@ -25,7 +25,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const maxDocs = 5
+    const maxDocs = 4
     const nodes = authors.filter(a => a.docs >= maxDocs)
 
 
@@ -35,6 +35,13 @@ const analysis = authors => {
     //   maxLinkValue : 4311
     //   minLinkValue : 277
     // Time computed 0h 1m 25s 18ms
+
+    // a.docs >= 4
+    //     nodes.json : 5,261,134kb for 6023 authors
+    //     links.json : 17,977,092kb for 63447 links
+    //   maxLinkValue : 4779
+    //   minLinkValue : 128
+    // Time computed 0h 5m 59s 518ms
 
     // a.docs >= 1
     //     nodes.json : 60,501,825kb for 81459 authors
@@ -71,7 +78,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['technology', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate', 'professional', 'serevice', 'opportunity', 'service', 'topic', 'theme', 'expression', 'driven', 'keyword', 'phase', 'group', 'target', 'critically', 'fellow', 'worsening', 'count']
+    const stopWords = ['technology', 'proper', 'fulfil', 'application', 'percentage', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate', 'professional', 'serevice', 'opportunity', 'service', 'topic', 'theme', 'expression', 'driven', 'keyword', 'phase', 'group', 'target', 'critically', 'fellow', 'worsening', 'count']
 
     nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)
@@ -110,7 +117,7 @@ const analysis = authors => {
     // Set links
 
     const links = []
-    const minCommonTokens = 10
+    const minCommonTokens = 7
 
     for (let i1 = 0; i1 < nodes.length; i1++) {
 

@@ -25,7 +25,7 @@ export default () => {
 
         // tokens.forEach(([key, value], i) => {
 
-        const scale = .007
+        const scale = .01
         const text = new PIXI.BitmapText(token[0][0], { fontName: 'KeywordFont' })
         text.align = 'center'
         text.scale.set(scale * token[0][1])
