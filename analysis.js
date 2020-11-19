@@ -25,10 +25,11 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const nodes = authors.filter(a => a.docs >= 8)
+    const maxDocs = 5
+    const nodes = authors.filter(a => a.docs >= maxDocs)
 
 
-    // a.docs >= 4
+    // a.docs >= 5
     //     nodes.json : 2,640,649kb for 2995 authors
     //     links.json : 1,258,690kb for 8080 links
     //   maxLinkValue : 4311
@@ -165,6 +166,16 @@ const analysis = authors => {
         }
 
     }
+
+    const compare = (a, b) => {
+        valueA = Object.values(a.tokens)[0]
+        valueB = Object.values(b.tokens)[0]
+        if (valueA > valueB) return -1
+        if (valueB > valueA) return 1
+        return 0
+    }
+
+    links.sort(compare)
 
 
     // Normalization

@@ -50,7 +50,7 @@ export default (arialXML) => {
     let scale = scaleX < scaleY ? scaleX : scaleY
     scale = printing ? scale * 10 : scale
 
-    const zoomMin = scale
+    const zoomMin = scale * .9
     const zoomMax = 3
 
     // Set vieport
