@@ -16,76 +16,6 @@
 	],
 	[
 		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -162,31 +92,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Dutch",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Iraqi",
 		1
 	],
 	[
@@ -197,16 +102,6 @@
 	[
 		null,
 		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -231,51 +126,6 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
 		"Pakistanese",
 		1
 	],
@@ -291,16 +141,6 @@
 	],
 	[
 		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
 		"Jewish",
 		1
 	],
@@ -312,76 +152,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Malays",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
 		1
 	],
 	[
@@ -392,26 +162,6 @@
 	[
 		null,
 		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -436,31 +186,6 @@
 	],
 	[
 		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -492,11 +217,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Jordanian",
 		1
 	],
 	[
@@ -512,91 +232,11 @@
 	[
 		null,
 		"Indian",
-		1
-	],
-	[
-		null,
-		"Armenian",
 		1
 	],
 	[
 		null,
 		"Austrian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Turkish",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Swedish",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"South African",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Swedish",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"Romanian",
 		1
 	],
 	[
@@ -636,37 +276,12 @@
 	],
 	[
 		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"French",
 		1
 	],
 	[
 		null,
 		"French",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Polish",
 		1
 	],
 	[
@@ -681,32 +296,47 @@
 	],
 	[
 		null,
-		"Italian",
+		"Chinese",
 		1
 	],
 	[
 		null,
-		"Italian",
+		"Austrian",
 		1
 	],
 	[
 		null,
-		"Italian",
+		"Chinese",
 		1
 	],
 	[
 		null,
-		"Italian",
+		"Chinese",
 		1
 	],
 	[
 		null,
-		"Italian",
+		"Chinese",
 		1
 	],
 	[
 		null,
-		"Italian",
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
 		1
 	],
 	[
@@ -721,52 +351,27 @@
 	],
 	[
 		null,
-		"British",
+		"Chinese",
 		1
 	],
 	[
 		null,
-		"Austrian",
+		"Chinese",
 		1
 	],
 	[
 		null,
-		"Turkish",
+		"Chinese",
 		1
 	],
 	[
 		null,
-		"Irish",
+		"Chinese",
 		1
 	],
 	[
 		null,
-		"Algerian",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Jewish",
+		"Chinese",
 		1
 	],
 	[
@@ -782,251 +387,11 @@
 	[
 		null,
 		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
 		null,
 		"British",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Bangladeshi",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Malays",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Dutch",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Dutch",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -1037,21 +402,6 @@
 	[
 		null,
 		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Iranian",
 		1
 	],
 	[
@@ -1091,51 +441,6 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Jewish",
 		1
 	],
@@ -1146,16 +451,6 @@
 	],
 	[
 		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"HispanoLatino",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -1167,51 +462,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Cambodian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Greek",
 		1
 	],
 	[
@@ -1231,27 +481,7 @@
 	],
 	[
 		null,
-		"British",
-		1
-	],
-	[
-		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Jewish",
 		1
 	],
 	[
@@ -1266,62 +496,7 @@
 	],
 	[
 		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Bangladeshi",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Jordanian",
-		1
-	],
-	[
-		null,
-		"Jordanian",
-		1
-	],
-	[
-		null,
-		"Sri Lankan",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Polish",
 		1
 	],
 	[
@@ -1336,47 +511,7 @@
 	],
 	[
 		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
 		1
 	],
 	[
@@ -1446,62 +581,12 @@
 	],
 	[
 		null,
-		"Hungarian",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
 	[
 		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Flemish",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"British",
 		1
 	],
 	[
@@ -1531,16 +616,6 @@
 	],
 	[
 		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Flemish",
-		1
-	],
-	[
-		null,
 		"British",
 		1
 	],
@@ -1561,31 +636,6 @@
 	],
 	[
 		null,
-		"Sudanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Swiss",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Italian",
 		1
 	],
@@ -1596,81 +646,11 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
 		"Jewish",
 		1
 	],
 	[
 		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Nigerian",
-		1
-	],
-	[
-		null,
-		"Nigerian",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -1692,56 +672,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
 		1
 	],
 	[
@@ -1757,11 +687,6 @@
 	[
 		null,
 		"Palestinian",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -1786,46 +711,6 @@
 	],
 	[
 		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Jewish",
 		1
 	],
@@ -1842,56 +727,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Italian",
 		1
 	],
 	[
@@ -1921,42 +756,17 @@
 	],
 	[
 		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Indian",
 		1
 	],
 	[
 		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
 		"French",
 		1
 	],
 	[
 		null,
-		"British",
-		1
-	],
-	[
-		null,
 		"Jewish",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
 		1
 	],
 	[
@@ -1977,21 +787,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Bangladeshi",
 		1
 	],
 	[
@@ -2051,102 +846,17 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Jewish",
 		1
 	],
 	[
 		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"Danish",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
 		"Greek",
 		1
 	],
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
 		1
 	],
 	[
@@ -2162,11 +872,6 @@
 	[
 		null,
 		"Indian",
-		1
-	],
-	[
-		null,
-		"Jewish",
 		1
 	],
 	[
@@ -2176,22 +881,7 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Jewish",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -2231,102 +921,7 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Korean",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -2371,41 +966,6 @@
 	],
 	[
 		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -2427,46 +987,6 @@
 	[
 		null,
 		"Irish",
-		1
-	],
-	[
-		null,
-		"HispanoLatino",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"British",
 		1
 	],
 	[
@@ -2481,51 +1001,6 @@
 	],
 	[
 		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Icelander",
-		1
-	],
-	[
-		null,
-		"Danish",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Swedish",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"Danish",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -2537,21 +1012,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Polish",
 		1
 	],
 	[
@@ -2576,72 +1036,7 @@
 	],
 	[
 		null,
-		"Serbian",
-		1
-	],
-	[
-		null,
-		"Serbian",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Swedish",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Turkish",
 		1
 	],
 	[
@@ -2667,91 +1062,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Malays",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"Swedish",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Hungarian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Saudi",
 		1
 	],
 	[
@@ -2766,37 +1076,12 @@
 	],
 	[
 		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Nigerian",
-		1
-	],
-	[
-		null,
-		"Lebanese",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
 		"Jewish",
 		1
 	],
 	[
 		null,
 		"French",
-		1
-	],
-	[
-		null,
-		"Moroccan",
 		1
 	],
 	[
@@ -2831,107 +1116,12 @@
 	],
 	[
 		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Portuguese",
 		1
 	],
 	[
 		null,
 		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Sudanese",
-		1
-	],
-	[
-		null,
-		"Tunisian",
-		1
-	],
-	[
-		null,
-		"Saudi",
-		1
-	],
-	[
-		null,
-		"Congolese (Kinshasa)",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"German",
 		1
 	],
 	[
@@ -2946,42 +1136,7 @@
 	],
 	[
 		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"Korean",
 		1
 	],
 	[
@@ -3011,21 +1166,6 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Italian",
 		1
 	],
@@ -3036,56 +1176,6 @@
 	],
 	[
 		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Sri Lankan",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Dutch",
-		1
-	],
-	[
-		null,
-		"Hungarian",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -3101,37 +1191,7 @@
 	],
 	[
 		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"AfricanAmerican",
-		1
-	],
-	[
-		null,
-		"Ukrainian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
 		1
 	],
 	[
@@ -3152,16 +1212,6 @@
 	[
 		null,
 		"Indian",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Hispanic",
 		1
 	],
 	[
@@ -3176,46 +1226,6 @@
 	],
 	[
 		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
 		"Portuguese",
 		1
 	],
@@ -3226,46 +1236,6 @@
 	],
 	[
 		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Egyptian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -3277,81 +1247,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Norwegian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Liberia",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"French",
 		1
 	],
 	[
@@ -3397,196 +1292,11 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"German",
 		1
 	],
 	[
 		null,
 		"Bangladeshi",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Hungarian",
-		1
-	],
-	[
-		null,
-		"Hungarian",
-		1
-	],
-	[
-		null,
-		"Hungarian",
-		1
-	],
-	[
-		null,
-		"Hungarian",
-		1
-	],
-	[
-		null,
-		"Hungarian",
-		1
-	],
-	[
-		null,
-		"Hungarian",
-		1
-	],
-	[
-		null,
-		"Hungarian",
-		1
-	],
-	[
-		null,
-		"Hungarian",
-		1
-	],
-	[
-		null,
-		"Lebanese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -3611,32 +1321,17 @@
 	],
 	[
 		null,
-		"Italian",
+		"Chinese",
 		1
 	],
 	[
 		null,
-		"Italian",
+		"Chinese",
 		1
 	],
 	[
 		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Russian",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Norwegian",
+		"Chinese",
 		1
 	],
 	[
@@ -3652,116 +1347,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Swedish",
-		1
-	],
-	[
-		null,
-		"Italian",
 		1
 	],
 	[
@@ -3781,87 +1366,7 @@
 	],
 	[
 		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"Swedish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Iranian",
 		1
 	],
 	[
@@ -3876,67 +1381,12 @@
 	],
 	[
 		null,
-		"Swedish",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"HispanoLatino",
-		1
-	],
-	[
-		null,
-		"AfricanAmerican",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Indian",
 		1
 	],
 	[
@@ -3971,62 +1421,7 @@
 	],
 	[
 		null,
-		"Turkish",
-		1
-	],
-	[
-		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
 		1
 	],
 	[
@@ -4046,47 +1441,7 @@
 	],
 	[
 		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Somalia",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
 		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -4126,52 +1481,7 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Jewish",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Turkish",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
 		1
 	],
 	[
@@ -4181,17 +1491,7 @@
 	],
 	[
 		null,
-		"British",
-		1
-	],
-	[
-		null,
 		"Indian",
-		1
-	],
-	[
-		null,
-		"Hispanic",
 		1
 	],
 	[
@@ -4227,51 +1527,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"Indian",
 		1
 	],
 	[
@@ -4301,82 +1556,12 @@
 	],
 	[
 		null,
-		"Iraqi",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
 		1
 	],
 	[
@@ -4421,67 +1606,12 @@
 	],
 	[
 		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
 	[
 		null,
 		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -4507,71 +1637,6 @@
 	[
 		null,
 		"Irish",
-		1
-	],
-	[
-		null,
-		"Malays",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"HispanoLatino",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Bangladeshi",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"British",
 		1
 	],
 	[
@@ -4591,36 +1656,11 @@
 	],
 	[
 		null,
-		"Indian",
-		1
-	],
-	[
-		null,
 		"AfricanAmerican",
 		1
 	],
 	[
 		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -4647,126 +1687,11 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Hungarian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Swiss",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
 		1
 	],
 	[
 		null,
 		"Indian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -4797,36 +1722,6 @@
 	[
 		null,
 		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Congolese (Kinshasa)",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"HispanoLatino",
-		1
-	],
-	[
-		null,
-		"Italian",
 		1
 	],
 	[
@@ -4861,21 +1756,6 @@
 	],
 	[
 		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -4887,96 +1767,11 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Swedish",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"South African",
-		1
-	],
-	[
-		null,
-		"German",
 		1
 	],
 	[
 		null,
 		"Jewish",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Turkish",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
 		1
 	],
 	[
@@ -5011,11 +1806,6 @@
 	],
 	[
 		null,
-		"Indian",
-		1
-	],
-	[
-		null,
 		"Italian",
 		1
 	],
@@ -5037,11 +1827,6 @@
 	[
 		null,
 		"Italian",
-		1
-	],
-	[
-		null,
-		"Indian",
 		1
 	],
 	[
@@ -5052,121 +1837,6 @@
 	[
 		null,
 		"Irish",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Bangladeshi",
-		1
-	],
-	[
-		null,
-		"Bangladeshi",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -5226,67 +1896,7 @@
 	],
 	[
 		null,
-		"Bangladeshi",
-		1
-	],
-	[
-		null,
 		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Cambodian",
 		1
 	],
 	[
@@ -5316,36 +1926,6 @@
 	],
 	[
 		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -5357,36 +1937,6 @@
 	[
 		null,
 		"Iranian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
 		1
 	],
 	[
@@ -5421,182 +1971,12 @@
 	],
 	[
 		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"HispanoLatino",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Swiss",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Turkish",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Iranian",
 		1
 	],
 	[
 		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Vietnamese",
-		1
-	],
-	[
-		null,
 		"British",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -5617,26 +1997,6 @@
 	[
 		null,
 		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -5692,36 +2052,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Danish",
-		1
-	],
-	[
-		null,
-		"Tanzanian",
-		1
-	],
-	[
-		null,
-		"Serbian",
-		1
-	],
-	[
-		null,
-		"Jordanian",
 		1
 	],
 	[
@@ -5731,377 +2061,77 @@
 	],
 	[
 		null,
-		"Jewish",
+		"Italian",
+		1
+	],
+	[
+		null,
+		"Italian",
+		1
+	],
+	[
+		null,
+		"French",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"French",
+		1
+	],
+	[
+		null,
+		"Italian",
+		1
+	],
+	[
+		null,
+		"Hispanic",
 		1
 	],
 	[
 		null,
 		"Flemish",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"South African",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"NativeHawaiian",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Swedish",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Danish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"NativeHawaiian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Lebanese",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Flemish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -6131,21 +2161,6 @@
 	],
 	[
 		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
 		"Indian",
 		1
 	],
@@ -6171,137 +2186,7 @@
 	],
 	[
 		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Dutch",
-		1
-	],
-	[
-		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"NativeHawaiian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Flemish",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Portuguese",
 		1
 	],
 	[
@@ -6336,112 +2221,7 @@
 	],
 	[
 		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"AfricanAmerican",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Turkish",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
 		1
 	],
 	[
@@ -6461,46 +2241,6 @@
 	],
 	[
 		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"British",
 		1
 	],
@@ -6551,152 +2291,7 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
 		"Indian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Swiss",
-		1
-	],
-	[
-		null,
-		"Hungarian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -6752,41 +2347,6 @@
 	[
 		null,
 		"Malays",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"NativeHawaiian",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Guinean",
-		1
-	],
-	[
-		null,
-		"Oman",
 		1
 	],
 	[
@@ -6806,17 +2366,7 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"British",
-		1
-	],
-	[
-		null,
-		"Malays",
 		1
 	],
 	[
@@ -6861,26 +2411,6 @@
 	],
 	[
 		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -6906,76 +2436,6 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Norwegian",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Egyptian",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Sudanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Indian",
 		1
 	],
@@ -6986,37 +2446,7 @@
 	],
 	[
 		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"French",
 		1
 	],
 	[
@@ -7027,11 +2457,6 @@
 	[
 		null,
 		"German",
-		1
-	],
-	[
-		null,
-		"Italian",
 		1
 	],
 	[
@@ -7046,36 +2471,6 @@
 	],
 	[
 		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -7097,61 +2492,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"German",
 		1
 	],
 	[
@@ -7181,126 +2521,6 @@
 	],
 	[
 		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Danish",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Danish",
-		1
-	],
-	[
-		null,
-		"Swedish",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"Slovanian",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -7326,57 +2546,7 @@
 	],
 	[
 		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Swiss",
-		1
-	],
-	[
-		null,
-		"Indian",
 		1
 	],
 	[
@@ -7412,91 +2582,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Cambodian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Nepalese",
-		1
-	],
-	[
-		null,
-		"Jewish",
 		1
 	],
 	[
@@ -7511,82 +2596,17 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Italian",
 		1
 	],
 	[
 		null,
 		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Japanese",
 		1
 	],
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
 		1
 	],
 	[
@@ -7617,26 +2637,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Thai",
 		1
 	],
 	[
@@ -7646,41 +2646,6 @@
 	],
 	[
 		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Lebanese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Jewish",
 		1
 	],
@@ -7696,21 +2661,6 @@
 	],
 	[
 		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -7732,131 +2682,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"HispanoLatino",
 		1
 	],
 	[
@@ -7866,22 +2691,7 @@
 	],
 	[
 		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
 		"HispanoLatino",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"British",
 		1
 	],
 	[
@@ -7896,11 +2706,6 @@
 	],
 	[
 		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -7917,51 +2722,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Italian",
 		1
 	],
 	[
@@ -8021,11 +2781,6 @@
 	],
 	[
 		null,
-		"British",
-		1
-	],
-	[
-		null,
 		"German",
 		1
 	],
@@ -8046,21 +2801,6 @@
 	],
 	[
 		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"British",
 		1
 	],
@@ -8091,91 +2831,11 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Indian",
 		1
 	],
 	[
 		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -8197,26 +2857,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Jewish",
 		1
 	],
 	[
@@ -8227,51 +2867,11 @@
 	[
 		null,
 		"French",
-		1
-	],
-	[
-		null,
-		"Korean",
 		1
 	],
 	[
 		null,
 		"Japanese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Indian",
 		1
 	],
 	[
@@ -8386,86 +2986,6 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Dutch",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"French",
 		1
 	],
@@ -8522,6 +3042,61 @@
 	[
 		null,
 		"Chinese",
+		1
+	],
+	[
+		null,
+		"Indian",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Japanese",
+		1
+	],
+	[
+		null,
+		"Korean",
+		1
+	],
+	[
+		null,
+		"Korean",
 		1
 	],
 	[
@@ -8591,21 +3166,6 @@
 	],
 	[
 		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -8642,286 +3202,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Nigerian",
-		1
-	],
-	[
-		null,
-		"Nigerian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Algerian",
-		1
-	],
-	[
-		null,
-		"Dutch",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"AfricanAmerican",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Italian",
 		1
 	],
 	[
@@ -8971,26 +3251,6 @@
 	],
 	[
 		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
 		"Italian",
 		1
 	],
@@ -9021,56 +3281,6 @@
 	],
 	[
 		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -9117,176 +3327,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
 		1
 	],
 	[
@@ -9306,436 +3346,6 @@
 	],
 	[
 		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Finnish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Hungarian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Bangladeshi",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Malays",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Nigerian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Danish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Swiss",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Bangladeshi",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Bangladeshi",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Vietnamese",
-		1
-	],
-	[
-		null,
-		"Vietnamese",
-		1
-	],
-	[
-		null,
-		"Vietnamese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -9781,7 +3391,17 @@
 	],
 	[
 		null,
-		"Hispanic",
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
 		1
 	],
 	[
@@ -9801,11 +3421,6 @@
 	],
 	[
 		null,
-		"Korean",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -9816,7 +3431,12 @@
 	],
 	[
 		null,
-		"Japanese",
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
 		1
 	],
 	[
@@ -9856,122 +3476,12 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Italian",
 		1
 	],
 	[
 		null,
 		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -9981,72 +3491,7 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
 		"French",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Jewish",
 		1
 	],
 	[
@@ -10061,67 +3506,7 @@
 	],
 	[
 		null,
-		"Dutch",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Japanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Korean",
 		1
 	],
 	[
@@ -10146,47 +3531,7 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"AfricanAmerican",
 		1
 	],
 	[
@@ -10217,71 +3562,6 @@
 	[
 		null,
 		"Flemish",
-		1
-	],
-	[
-		null,
-		"Flemish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -10321,82 +3601,7 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Swedish",
-		1
-	],
-	[
-		null,
 		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -10432,46 +3637,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Korean",
 		1
 	],
 	[
@@ -10491,6 +3656,26 @@
 	],
 	[
 		null,
+		"Japanese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Chinese",
+		1
+	],
+	[
+		null,
 		"Chinese",
 		1
 	],
@@ -10502,346 +3687,6 @@
 	[
 		null,
 		"Italian",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Saudi",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Bangladeshi",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Dutch",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Nepalese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -10886,71 +3731,6 @@
 	],
 	[
 		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Russian",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -10972,56 +3752,6 @@
 	[
 		null,
 		"Iranian",
-		1
-	],
-	[
-		null,
-		"Senegalese",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -11031,86 +3761,6 @@
 	],
 	[
 		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Cambodian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Swiss",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Swiss",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Hispanic",
 		1
 	],
@@ -11126,51 +3776,6 @@
 	],
 	[
 		null,
-		"Malays",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -11217,81 +3822,6 @@
 	[
 		null,
 		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Tunisian",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Indonesian",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -11307,161 +3837,6 @@
 	[
 		null,
 		"French",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Egyptian",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Romanian",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"NativeHawaiian",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Ivoirien",
-		1
-	],
-	[
-		null,
-		"Hispanic",
 		1
 	],
 	[
@@ -11491,147 +3866,12 @@
 	],
 	[
 		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
 		"Italian",
 		1
 	],
 	[
 		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"British",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Dutch",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"NativeHawaiian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Nepalese",
 		1
 	],
 	[
@@ -11642,16 +3882,6 @@
 	[
 		null,
 		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -11686,67 +3916,7 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
 		1
 	],
 	[
@@ -11761,51 +3931,6 @@
 	],
 	[
 		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"Saudi",
-		1
-	],
-	[
-		null,
-		"Emirati",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Dutch",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Irish",
 		1
 	],
@@ -11826,36 +3951,6 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Czech",
-		1
-	],
-	[
-		null,
 		"Italian",
 		1
 	],
@@ -11866,97 +3961,12 @@
 	],
 	[
 		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
 	[
 		null,
 		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"NativeHawaiian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -11977,196 +3987,6 @@
 	[
 		null,
 		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Algerian",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Malays",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Malays",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Malays",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Egyptian",
-		1
-	],
-	[
-		null,
-		"Jewish",
 		1
 	],
 	[
@@ -12181,7 +4001,12 @@
 	],
 	[
 		null,
-		"Portuguese",
+		"Chinese",
+		1
+	],
+	[
+		null,
+		"Italian",
 		1
 	],
 	[
@@ -12192,11 +4017,6 @@
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
 		1
 	],
 	[
@@ -12211,132 +4031,7 @@
 	],
 	[
 		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"South African",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Flemish",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
 		"Indian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"French",
 		1
 	],
 	[
@@ -12347,11 +4042,6 @@
 	[
 		null,
 		"Indian",
-		1
-	],
-	[
-		null,
-		"Vietnamese",
 		1
 	],
 	[
@@ -12396,136 +4086,6 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Flemish",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
 		"Italian",
 		1
 	],
@@ -12536,82 +4096,7 @@
 	],
 	[
 		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"British",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -12631,97 +4116,7 @@
 	],
 	[
 		null,
-		"Swiss",
-		1
-	],
-	[
-		null,
 		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Thai",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Malays",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Malays",
 		1
 	],
 	[
@@ -12746,72 +4141,12 @@
 	],
 	[
 		null,
-		"Vietnamese",
-		1
-	],
-	[
-		null,
-		"Vietnamese",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
 		1
 	],
 	[
@@ -12827,51 +4162,6 @@
 	[
 		null,
 		"Italian",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"South African",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -12911,27 +4201,7 @@
 	],
 	[
 		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Dutch",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
 		"British",
-		1
-	],
-	[
-		null,
-		"Irish",
 		1
 	],
 	[
@@ -12941,161 +4211,6 @@
 	],
 	[
 		null,
-		"Vietnamese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Dutch",
-		1
-	],
-	[
-		null,
-		"Vietnamese",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Haitian",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -13111,21 +4226,6 @@
 	],
 	[
 		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Turkish",
-		1
-	],
-	[
-		null,
-		"Romanian",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
@@ -13136,12 +4236,7 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
+		"Italian",
 		1
 	],
 	[
@@ -13152,111 +4247,6 @@
 	[
 		null,
 		"Indian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Algerian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Swedish",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"Czech",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -13266,112 +4256,12 @@
 	],
 	[
 		null,
-		"Vietnamese",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Lebanese",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"NativeHawaiian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
 		1
 	],
 	[
@@ -13406,242 +4296,12 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Japanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Egyptian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"British",
 		1
 	],
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Namibian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Vietnamese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Indonesian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Haitian",
 		1
 	],
 	[
@@ -13681,32 +4341,7 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"French",
+		"Indian",
 		1
 	],
 	[
@@ -13721,372 +4356,12 @@
 	],
 	[
 		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Czech",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Nepalese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Cambodian",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Egyptian",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Lebanese",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Lebanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
 	[
 		null,
 		"Indian",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Swedish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Indonesian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Niger",
-		1
-	],
-	[
-		null,
-		"Swiss",
-		1
-	],
-	[
-		null,
-		"Estonian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Czech",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
 		1
 	],
 	[
@@ -14101,267 +4376,12 @@
 	],
 	[
 		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
 		"Italian",
 		1
 	],
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Tunisian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Quatari",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Pakistanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Lebanese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Flemish",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Emirati",
 		1
 	],
 	[
@@ -14376,42 +4396,12 @@
 	],
 	[
 		null,
-		"British",
-		1
-	],
-	[
-		null,
 		"Chinese",
 		1
 	],
 	[
 		null,
 		"Chinese",
-		1
-	],
-	[
-		null,
-		"Dutch",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Jewish",
 		1
 	],
 	[
@@ -14421,557 +4411,17 @@
 	],
 	[
 		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Latvian",
-		1
-	],
-	[
-		null,
-		"Burmese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Slovanian",
+		"British",
 		1
 	],
 	[
 		null,
 		"Italian",
-		1
-	],
-	[
-		null,
-		"Portuguese",
 		1
 	],
 	[
 		null,
 		"Greek",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Armenian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Flemish",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Swiss",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"Korean",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Egyptian",
-		1
-	],
-	[
-		null,
-		"Palestinian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Austrian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Portuguese",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"German",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Malays",
-		1
-	],
-	[
-		null,
-		"Ghanaian",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Polish",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Hispanic",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Iranian",
-		1
-	],
-	[
-		null,
-		"Irish",
-		1
-	],
-	[
-		null,
-		"Italian",
-		1
-	],
-	[
-		null,
-		"Indian",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Swiss",
-		1
-	],
-	[
-		null,
-		"Greek",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"British",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Jewish",
-		1
-	],
-	[
-		null,
-		"Chinese",
-		1
-	],
-	[
-		null,
-		"French",
-		1
-	],
-	[
-		null,
-		"Palestinian",
-		1
-	],
-	[
-		null,
-		"German",
 		1
 	]
 ]

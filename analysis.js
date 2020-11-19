@@ -25,7 +25,7 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const nodes = authors.filter(a => a.docs >= 5)
+    const nodes = authors.filter(a => a.docs >= 8)
 
 
     // a.docs >= 4
@@ -141,6 +141,7 @@ const analysis = authors => {
                     link.value += value
                     link.tokens[token] = value
                 } else {
+                    // console.log(n1.name)
                     const link = {
                         source: n1.id,
                         target: n2.id,
@@ -157,7 +158,8 @@ const analysis = authors => {
 
             const tokensSorted = Object.entries(link.tokens)
                 .sort((a, b) => b[1] - a[1])
-                .slice(0, 3)
+            // .slice(0, 3)
+
             link.tokens = Object.fromEntries(tokensSorted)
 
         }
@@ -253,11 +255,11 @@ const analysis = authors => {
         )
 
         console.log(cluster)
-        
+
         let millefeuille1 = []
         let millefeuille2 = []
-        
-        nodes.forEach( (node, i) => {
+
+        nodes.forEach((node, i) => {
             node.cluster = clustering.idxs[i]
             millefeuille1.push([node.clusterid, node.nationality, 1])
             for (var key in node.nationalities) {
@@ -360,7 +362,8 @@ const analysis = authors => {
         nodes.forEach(node => {
             node.x = Math.round(node.x)
             node.y = Math.round(node.y)
-            delete node.vx; delete node.vy
+            delete node.vx;
+            delete node.vy
         })
 
         // Writing files
