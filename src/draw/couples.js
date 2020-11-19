@@ -15,63 +15,61 @@ export default () => {
     tokens.interactiveChildren = false
     stage = s.pixi.addChild(tokens)
 
-    max = Math.pow(s.distance * 3, 2)
+    s.triplets.forEach(triplet => {
 
-    // Create PIXI.Text
+        const token = triplet.tokens.slice(0, 1)
+        // console.log(token[0][1])
+        // const offsetY = lineHeight * tokens.length / 2
+        const x = triplet.position[0]
+        const y = triplet.position[1]
 
-    s.links.forEach(link => {
+        // tokens.forEach(([key, value], i) => {
 
-        const deltaX = Math.abs(link.source.x - link.target.x)
-        const deltaY = Math.abs(link.source.y - link.target.y)
-        const distance = Math.pow(deltaX, 2) + Math.pow(deltaY, 2)
+        const scale = .007
+        const text = new PIXI.BitmapText(token[0][0], { fontName: 'KeywordFont' })
+        text.align = 'center'
+        text.scale.set(scale * token[0][1])
+        text.position.set(x - text.width / 2, y - text.height / 2)
 
-        if (distance < max) {
+        // Check overlapping
 
-            const [key, value] = Object.entries(link.tokens)[0]
-            const scale = value * .005
-            // const scale = .2
-            const x = deltaX / 2 + Math.min(link.source.x, link.target.x)
-            const y = deltaY / 2 + Math.min(link.source.y, link.target.y)
+        let overlapping = false
 
-            link.txt = new PIXI.BitmapText(key, { fontName: 'KeywordFont' })
+        for (var i = 0; i < index.length; i++) {
 
-            link.txt.scale.set(scale)
-            link.txt.position.set(x - link.txt.width / 2, y - link.txt.height / 2)
+            // console.log(index[i].index, triplet.index)
 
-            // Check overlapping
+            // if (index[i].index == triplet.index) continue
 
-            let overlapping = false
+            const l1 = index[i]
+            const l2 = text
 
-            for (var i = 0; i < index.length; i++) {
+            // console.log(l1.width, l2.width)
 
-                if (index[i].index == link.index) continue
-
-                const l1 = index[i].txt
-                const l2 = link.txt
-
-                if (!(l2.x > l1.x + l1.width
-                    || l2.x + l2.width < l1.x
-                    || l2.y > l1.y + l1.height
-                    || l2.y + l2.height < l1.y)) {
-                    overlapping = true
-                    break
-                }
-
+            if (!(l2.x > l1.x + l1.width
+                || l2.x + l2.width < l1.x
+                || l2.y > l1.y + l1.height
+                || l2.y + l2.height < l1.y)) {
+                overlapping = true
+                break
             }
 
-            if (!overlapping) {
-                stage.addChild(link.txt)
-                index.push(link)
-
-                // draw a rounded rectangle
-                // const graphics = new PIXI.Graphics();
-                // graphics.lineStyle(2, 0xFF00FF, 1)
-                // graphics.beginFill(0x650A5A, 0.25)
-                // graphics.drawRoundedRect(link.txt.x, link.txt.y, link.txt.width, link.txt.height, 5)
-                // graphics.endFill()
-                // stage.addChild(graphics)
-            }
         }
+
+        if (!overlapping) {
+            stage.addChild(text)
+            index.push(text)
+
+            // draw a rounded rectangle
+            // const graphics = new PIXI.Graphics();
+            // graphics.lineStyle(2, 0xFF00FF, 1)
+            // graphics.beginFill(0x650A5A, 0.25)
+            // graphics.drawRoundedRect(link.txt.x, link.txt.y, link.txt.width, link.txt.height, 5)
+            // graphics.endFill()
+            // stage.addChild(graphics)
+        }
+
+        // })
 
     })
 

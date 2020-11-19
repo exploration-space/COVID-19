@@ -71,7 +71,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['not', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate', 'professional', 'serevice', 'opportunity', 'service', 'topic', 'theme', 'expression', 'driven', 'keyword', 'phase', 'group', 'target', 'critically', 'fellow', 'worsening', 'count']
+    const stopWords = ['technology', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate', 'professional', 'serevice', 'opportunity', 'service', 'topic', 'theme', 'expression', 'driven', 'keyword', 'phase', 'group', 'target', 'critically', 'fellow', 'worsening', 'count']
 
     nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)
@@ -167,6 +167,8 @@ const analysis = authors => {
 
     }
 
+    // Sort links by value
+
     const compare = (a, b) => {
         valueA = Object.values(a.tokens)[0]
         valueB = Object.values(b.tokens)[0]
@@ -237,7 +239,7 @@ const analysis = authors => {
             .force('collide', d3.forceCollide()
                 .radius(30)
                 .strength(.5)
-                .iterations(5)
+                .iterations(10)
             )
             .force('center', d3.forceCenter(0, 0))
 
@@ -331,11 +333,12 @@ const analysis = authors => {
                         const v2 = (n2.tokens[token])
                         const v3 = (n3.tokens[token])
                         return [token, v1 + v2 + v3]
-                    })
+                    }).sort((a, b) => b[1] - a[1])
 
                     triplets.push({
+                        index: triplets.length,
                         position: [Math.round(x), Math.round(y)],
-                        tokens: list.sort((a, b) => a - b)
+                        tokens: list
                     })
 
                     counter += 1
