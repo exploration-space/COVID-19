@@ -366,7 +366,7 @@ const analysis = authors => {
         links = links.reduce((links, link) => {
             links.push({
                 // index: link.index,
-                // value: link.value,
+                value: link.value,
                 source: {
                     x: Math.round(link.source.x),
                     y: Math.round(link.source.y)
