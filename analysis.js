@@ -78,7 +78,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['technology', 'proper', 'fulfil', 'application', 'percentage', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate', 'professional', 'serevice', 'opportunity', 'service', 'topic', 'theme', 'expression', 'driven', 'keyword', 'phase', 'group', 'target', 'critically', 'fellow', 'worsening', 'count']
+    const stopWords = ['clinical', 'technology', 'proper', 'fulfil', 'application', 'percentage', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate', 'professional', 'serevice', 'opportunity', 'service', 'topic', 'theme', 'expression', 'driven', 'keyword', 'phase', 'group', 'target', 'critically', 'fellow', 'worsening', 'count']
 
     nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)
@@ -365,8 +365,8 @@ const analysis = authors => {
 
         links = links.reduce((links, link) => {
             links.push({
-                index: link.index,
-                value: link.value,
+                // index: link.index,
+                // value: link.value,
                 source: {
                     x: Math.round(link.source.x),
                     y: Math.round(link.source.y)
@@ -375,7 +375,7 @@ const analysis = authors => {
                     x: Math.round(link.target.x),
                     y: Math.round(link.target.y)
                 },
-                tokens: link.tokens,
+                // tokens: link.tokens,
             })
             return links
         }, [])
