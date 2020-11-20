@@ -65,16 +65,17 @@ export default (arialXML) => {
         .setTransform(window.innerWidth / 2, window.innerHeight / 2, scale, scale)
 
     // Transparency on zoom
-    // 0. Background 1. Links 2. Contours 3. Keywords 4. Nodes 5. Wordclouds
+    // 0. Background 1. Links 2. Contours 3. Nodes 4. Close Keywords 5. Distant Keywords
 
     const zoomOut = scaleLinear().domain([zoomMin, 2]).range([1, 0])
     const zoomIn = scaleLinear().domain([zoomMin, 2]).range([0, 1])
 
     s.pixi.on('zoomed', e => {
         const scale = e.viewport.lastViewport.scaleX
-        e.viewport.children[2].alpha = zoomOut(scale)
-        e.viewport.children[3].alpha = zoomOut(scale)
-        e.viewport.children[5].alpha = zoomIn(scale)
+        e.viewport.children[2].alpha = zoomOut(scale) // Contours
+        // e.viewport.children[3].alpha = zoomIn(scale) // Nodes
+        e.viewport.children[4].alpha = zoomIn(scale) // Close Keywords
+        e.viewport.children[5].alpha = zoomOut(scale) // Distant Keywords
     })
 
     // Prevent pinch gesture in Chrome

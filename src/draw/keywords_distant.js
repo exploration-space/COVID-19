@@ -18,12 +18,8 @@ export default () => {
     s.triplets.forEach(triplet => {
 
         const token = triplet.tokens.slice(0, 1)
-        // console.log(token[0][1])
-        // const offsetY = lineHeight * tokens.length / 2
         const x = triplet.position[0]
         const y = triplet.position[1]
-
-        // tokens.forEach(([key, value], i) => {
 
         const scale = .003
         const text = new PIXI.BitmapText(token[0][0], { fontName: 'KeywordFont' })
@@ -37,14 +33,8 @@ export default () => {
 
         for (var i = 0; i < index.length; i++) {
 
-            // console.log(index[i].index, triplet.index)
-
-            // if (index[i].index == triplet.index) continue
-
             const l1 = index[i]
             const l2 = text
-
-            // console.log(l1.width, l2.width)
 
             if (!(l2.x > l1.x + l1.width
                 || l2.x + l2.width < l1.x
@@ -68,8 +58,6 @@ export default () => {
             // graphics.endFill()
             // stage.addChild(graphics)
         }
-
-        // })
 
     })
 

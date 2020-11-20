@@ -26,10 +26,10 @@ import fps from './elements/fps.js'
 import background from './draw/background'
 import clusters from './draw/clusters.js'
 import contours from './draw/contours.js'
-import couples from './draw/couples.js'
 import links from './draw/links.js'
+import keywords_close from './draw/keywords_close.js'
+import keywords_distant from './draw/keywords_distant.js'
 import nodes from './draw/nodes.js'
-import triplets from './draw/triplets.js'
 
 // Global variables
 
@@ -62,9 +62,9 @@ Promise.all([
     background()
     links()
     contours()
-    couples()
     nodes()
-    triplets()
+    keywords_close()
+    keywords_distant()
     // clusters()
     
     fps()
