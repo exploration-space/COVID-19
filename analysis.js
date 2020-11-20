@@ -269,12 +269,9 @@ const analysis = authors => {
 
         // K-Means
 
-        const clustering = skmeans(
-            nodes.map(n => [n.x, n.y]),
-            30
-        )
+        console.log('Clustering')
 
-        console.log(cluster)
+        const clustering = skmeans(nodes.map(n => [n.x, n.y]), 30)
 
         let millefeuille1 = []
         let millefeuille2 = []
@@ -282,10 +279,8 @@ const analysis = authors => {
         nodes.forEach((node, i) => {
             node.cluster = clustering.idxs[i]
             millefeuille1.push([node.clusterid, node.nationality, 1])
-            for (var key in node.nationalities) {
-                var counts = node.nationalities[key]
-                millefeuille2.push([node.clusterid, node.nationality, key, counts])
-            }
+            for (var key in node.nationalities)
+                millefeuille2.push([node.clusterid, node.nationality, key, node.nationalities[key]])
         })
 
         // Triplets
@@ -367,14 +362,8 @@ const analysis = authors => {
             links.push({
                 // index: link.index,
                 value: link.value,
-                source: {
-                    x: Math.round(link.source.x),
-                    y: Math.round(link.source.y)
-                },
-                target: {
-                    x: Math.round(link.target.x),
-                    y: Math.round(link.target.y)
-                },
+                source: { x: Math.round(link.source.x), y: Math.round(link.source.y) },
+                target: { x: Math.round(link.target.x), y: Math.round(link.target.y) },
                 // tokens: link.tokens,
             })
             return links
@@ -383,8 +372,9 @@ const analysis = authors => {
         nodes.forEach(node => {
             node.x = Math.round(node.x)
             node.y = Math.round(node.y)
-            delete node.vx;
+            delete node.vx
             delete node.vy
+            delete node.id
         })
 
         // Writing files
