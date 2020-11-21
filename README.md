@@ -57,10 +57,12 @@ Using the open-source database COVID‑19 Open Research Dataset (CORD‑19) rele
 
 The data is taken from millefeuille1.json, converted to millefeuille1.CSV and summarized into pivot table 20200806_Millefeuilles_SVG.txt
 The pivot table 20200806_Millefeuilles_SVG.txt is then made into a SVG canvas using Gabriel Carsenat's open source script (https://github.com/namsor/namsor-diversity-viz).
+![Chinese sea, Elian Carsenat, 08-2020](img/20200806_Millefeuilles_A0v001_170DPI.png?raw=true "Chinese sea")
 
 The canvas shows the pre-eminence of Chinese names across all 30 subject clusters. Their overall share in production of science is the large blue 'sea' making about a third of the canvas.
 Apart from China, most countries have worked in silos and focused their effort on one single subject. So their combined production of science looks like a mountainous shore.
 
 This work was first presented at Ars Electronica 2020.
 From it were made 15 original and unique prints on A0 foamboard (1189mm X 841mm) with Certificate of Authenticity.
+
 
