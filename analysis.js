@@ -25,15 +25,23 @@ const analysis = authors => {
 
     // Reduce authors
 
-    const nodes = authors.filter(a => a.docs >= 5)
+    const maxDocs = 4
+    const nodes = authors.filter(a => a.docs >= maxDocs)
 
 
-    // a.docs >= 4
+    // a.docs >= 5
     //     nodes.json : 2,640,649kb for 2995 authors
     //     links.json : 1,258,690kb for 8080 links
     //   maxLinkValue : 4311
     //   minLinkValue : 277
     // Time computed 0h 1m 25s 18ms
+
+    // a.docs >= 4
+    //     nodes.json : 5,261,134kb for 6023 authors
+    //     links.json : 17,977,092kb for 63447 links
+    //   maxLinkValue : 4779
+    //   minLinkValue : 128
+    // Time computed 0h 5m 59s 518ms
 
     // a.docs >= 1
     //     nodes.json : 60,501,825kb for 81459 authors
@@ -70,7 +78,7 @@ const analysis = authors => {
 
     // Cleaning
 
-    const stopWords = ['not', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate', 'professional', 'serevice', 'opportunity', 'service', 'topic', 'theme', 'expression', 'driven', 'keyword', 'phase', 'group', 'target', 'critically', 'fellow', 'worsening', 'count']
+    const stopWords = ['clinical', 'technology', 'proper', 'fulfil', 'application', 'percentage', 'virus', 'coronavirus', 'covid', 'patient', 'republic', 'study', 'disiase', 'severe', 'balance', 'probable', 'feature', 'model', 'estimate', 'professional', 'serevice', 'opportunity', 'service', 'topic', 'theme', 'expression', 'driven', 'keyword', 'phase', 'group', 'target', 'critically', 'fellow', 'worsening', 'count']
 
     nodes.forEach((node, i) => {
         console.log('Cleaning author #', i)
@@ -109,7 +117,7 @@ const analysis = authors => {
     // Set links
 
     const links = []
-    const minCommonTokens = 10
+    const minCommonTokens = 7
 
     for (let i1 = 0; i1 < nodes.length; i1++) {
 
@@ -141,6 +149,7 @@ const analysis = authors => {
                     link.value += value
                     link.tokens[token] = value
                 } else {
+                    // console.log(n1.name)
                     const link = {
                         source: n1.id,
                         target: n2.id,
@@ -157,12 +166,25 @@ const analysis = authors => {
 
             const tokensSorted = Object.entries(link.tokens)
                 .sort((a, b) => b[1] - a[1])
-                .slice(0, 3)
+            // .slice(0, 3)
+
             link.tokens = Object.fromEntries(tokensSorted)
 
         }
 
     }
+
+    // Sort links by value
+
+    const compare = (a, b) => {
+        valueA = Object.values(a.tokens)[0]
+        valueB = Object.values(b.tokens)[0]
+        if (valueA > valueB) return -1
+        if (valueB > valueA) return 1
+        return 0
+    }
+
+    links.sort(compare)
 
 
     // Normalization
@@ -224,7 +246,7 @@ const analysis = authors => {
             .force('collide', d3.forceCollide()
                 .radius(30)
                 .strength(.5)
-                .iterations(5)
+                .iterations(10)
             )
             .force('center', d3.forceCenter(0, 0))
 
@@ -247,23 +269,18 @@ const analysis = authors => {
 
         // K-Means
 
-        const clustering = skmeans(
-            nodes.map(n => [n.x, n.y]),
-            30
-        )
+        console.log('Clustering')
 
-        console.log(cluster)
-        
+        const clustering = skmeans(nodes.map(n => [n.x, n.y]), 30)
+
         let millefeuille1 = []
         let millefeuille2 = []
-        
-        nodes.forEach( (node, i) => {
+
+        nodes.forEach((node, i) => {
             node.cluster = clustering.idxs[i]
             millefeuille1.push([node.clusterid, node.nationality, 1])
-            for (var key in node.nationalities) {
-                var counts = node.nationalities[key]
-                millefeuille2.push([node.clusterid, node.nationality, key, counts])
-            }
+            for (var key in node.nationalities)
+                millefeuille2.push([node.clusterid, node.nationality, key, node.nationalities[key]])
         })
 
         // Triplets
@@ -318,11 +335,12 @@ const analysis = authors => {
                         const v2 = (n2.tokens[token])
                         const v3 = (n3.tokens[token])
                         return [token, v1 + v2 + v3]
-                    })
+                    }).sort((a, b) => b[1] - a[1])
 
                     triplets.push({
+                        index: triplets.length,
                         position: [Math.round(x), Math.round(y)],
-                        tokens: list.sort((a, b) => a - b)
+                        tokens: list
                     })
 
                     counter += 1
@@ -342,17 +360,11 @@ const analysis = authors => {
 
         links = links.reduce((links, link) => {
             links.push({
-                index: link.index,
+                // index: link.index,
                 value: link.value,
-                source: {
-                    x: Math.round(link.source.x),
-                    y: Math.round(link.source.y)
-                },
-                target: {
-                    x: Math.round(link.target.x),
-                    y: Math.round(link.target.y)
-                },
-                tokens: link.tokens,
+                source: { x: Math.round(link.source.x), y: Math.round(link.source.y) },
+                target: { x: Math.round(link.target.x), y: Math.round(link.target.y) },
+                // tokens: link.tokens,
             })
             return links
         }, [])
@@ -360,7 +372,9 @@ const analysis = authors => {
         nodes.forEach(node => {
             node.x = Math.round(node.x)
             node.y = Math.round(node.y)
-            delete node.vx; delete node.vy
+            delete node.vx
+            delete node.vy
+            delete node.id
         })
 
         // Writing files

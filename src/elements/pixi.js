@@ -21,6 +21,8 @@ export default (arialXML) => {
     })
     document.body.prepend(app.view)
 
+    s.app = app
+
     // Font
 
     const arialPNG = PIXI.Texture.from(arialDataPNG)
@@ -43,11 +45,16 @@ export default (arialXML) => {
     const height = extY[1] - extY[0]
     const scaleX = window.innerWidth / width
     const scaleY = window.innerHeight / height
-    const scale = scaleX < scaleY ? scaleX : scaleY
-    const zoomMin = scale
+
+    const printing = false // costant for export canvas
+    let scale = scaleX < scaleY ? scaleX : scaleY
+    scale = printing ? scale * 10 : scale
+
+    const zoomMin = scale * .9
     const zoomMax = 3
 
     // Set vieport
+
 
     s.pixi
         .drag()
@@ -58,16 +65,17 @@ export default (arialXML) => {
         .setTransform(window.innerWidth / 2, window.innerHeight / 2, scale, scale)
 
     // Transparency on zoom
-    // 0. Background 1. Links 2. Contours 3. Keywords 4. Nodes 5. Wordclouds
+    // 0. Background 1. Links 2. Contours 3. Nodes 4. Close Keywords 5. Distant Keywords
 
     const zoomOut = scaleLinear().domain([zoomMin, 2]).range([1, 0])
     const zoomIn = scaleLinear().domain([zoomMin, 2]).range([0, 1])
 
     s.pixi.on('zoomed', e => {
         const scale = e.viewport.lastViewport.scaleX
-        e.viewport.children[2].alpha = zoomOut(scale)
-        e.viewport.children[3].alpha = zoomOut(scale)
-        e.viewport.children[5].alpha = zoomIn(scale)
+        e.viewport.children[2].alpha = zoomOut(scale) // Contours
+        // e.viewport.children[3].alpha = zoomIn(scale) // Nodes
+        e.viewport.children[4].alpha = zoomIn(scale) // Close Keywords
+        e.viewport.children[5].alpha = zoomOut(scale) // Distant Keywords
     })
 
     // Prevent pinch gesture in Chrome
@@ -75,5 +83,19 @@ export default (arialXML) => {
     window.addEventListener('wheel', e => {
         e.preventDefault()
     }, { passive: false })
+
+    // Export PNG
+
+    // s.app.renderer.extract.canvas(s.app.stage).toBlob((b) => {
+    //     const a = document.createElement('a')
+    //     document.body.append(a)
+    //     a.download = 'screenshot'
+    //     a.href = URL.createObjectURL(b)
+    //     a.click()
+    //     a.remove()
+    // }, 'image/png')
+
+
+
 
 }

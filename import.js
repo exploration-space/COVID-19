@@ -2,7 +2,6 @@
 
 const fs = require('fs')
 const csv = require('csv-parser')
-const natural = require('natural')
 const accents = require('remove-accents')
 const dice = require('fast-dice-coefficient')
 
